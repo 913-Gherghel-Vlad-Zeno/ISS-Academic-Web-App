@@ -16,6 +16,7 @@ A website made in the same style as academic info.
   - [Class diagrams](https://github.com/Gherghel-Vlad/ISS-Academic-Web-App/tree/main/Diagrams/Class-Diagram)
   - [Database diagrams](https://github.com/Gherghel-Vlad/ISS-Academic-Web-App/tree/main/Diagrams/DB-Diagram)
   - [Use cases diagrams](https://github.com/Gherghel-Vlad/ISS-Academic-Web-App/tree/main/Diagrams/UC-Diagram)
+  - [Application flow charts](https://github.com/Gherghel-Vlad/ISS-Academic-Web-App/tree/main/Diagrams/Flow%20Chart)
   
 ## Tehnologies
 
