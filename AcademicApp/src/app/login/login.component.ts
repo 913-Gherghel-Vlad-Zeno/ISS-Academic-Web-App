@@ -20,16 +20,68 @@ export class LoginComponent implements OnInit {
     })
   }
 
-  login() { 
+  async login() { 
     const typeUser = ["student", "teacher", "admin"];
     var found = false;
+    //var str = this.http.get<any> ("http://localhost:8080/user/a").subscribe(res=>{alert(res);})
+    //var f = fetch("http://localhost:8080/user/a");
+   // console.log(f);
+   let newUser;
+   /*var account = async() => await fetch(`http://localhost:8080/user/${this.loginForm.value.username}`).then(res=>res.json()).then(res=>{return res as User})
+   account.then(users=>{
+     console.log(users.role.toString())
+   });*/
+  /* var user = fetch(`http://localhost:8080/user/${this.loginForm.value.username}`).then(res=>res.json()).then(res=>{return res as User})
+    var user2 = user.then(users=>{
+    console.log(users.role.toString())
+  });*/
+
+
+  this.http.get<IUser>(`http://localhost:8080/user/${this.loginForm.value.username}`)
+        .subscribe((v:IUser) => {
+          if (v.role == "null") {
+            alert("Login failed");
+          }
+          else {
+            alert(`login as ${v.role} success`);
+            this.loginForm.reset();
+            //this.router.navigate([${v.role}-dashboard]);
+          }
+        })
+
+
+  /*var response = await http(`http://localhost:8080/user/${this.loginForm.value.username}`);
+  console.log(response.role);
+  response = response.replace(/\n/g, "\n")
+               .replace(/\'/g, "\'")
+               .replace(/\"/g, '\"')
+               .replace(/\&/g, "\&")
+               .replace(/\r/g, "\r")
+               .replace(/\t/g, "\t")
+               .replace(/\b/g, "\b")
+               .replace(/\f/g, "\f");
+// remove non-printable and other non-valid JSON chars
+response = response.replace(/[\u0000-\u0019]+/g,"");
+  let obj : User = JSON.parse(response);
+  console.log(obj.role);*/
+  
+
+
+  //console.log(account);
+  //console.log(newUser);
+
+    /*getUsers().then(users=>{
+      console.log(users.role.toString())
+    });*/
+    
     /*for (const type of typeUser) {
         console.log(type);*/
         //var string = this.http.get<any>(`http://localhost:8080/user/a`).subscribe(res=>{alert(res)});
        // console.log(string);
-        setTimeout(() =>
+        /*setTimeout(() =>
         {var f = fetch("http://localhost:8080/user/a");
-        console.log(f);}, 5000)
+        console.log(f);}, 5000)*/
+      
        // var g = f.json();
         
         /*.subscribe(res=>{
@@ -64,3 +116,30 @@ export class LoginComponent implements OnInit {
   }
 
 }
+
+/*type User = {
+  role: string;
+}*/
+
+/*function getUsers() : Promise<User> {
+  return fetch(`http://localhost:8080/user/${loginForm.value.username}`).then(res=>res.json()).then(res=>{return res as User})
+}*/
+
+export default interface IUser {
+  role: string
+}
+
+export async function http(
+  request: RequestInfo
+): Promise<any> {
+  const response = await fetch(request);
+  const body = await response.json();
+  return body;
+}
+/*
+// example consuming code
+const data = await http(
+  "https://jsonplaceholder.typicode.com/todos"
+);*/
+
+
