@@ -17,13 +17,13 @@ public class UserController {
 
     @CrossOrigin(origins = "http://localhost:4200/")
     @GetMapping("/user/{username}")
-    public ResponseEntity<String> getUser(@PathVariable("username") String username){
+    public UserEntity getUser(@PathVariable("username") String username){
 
         if(usersRepo.existsById(username)){
-            return new ResponseEntity<String>(usersRepo.getById(username).getRole().toString(), HttpStatus.OK);
+            return new UserEntity(usersRepo.getById(username).getRole().toString());
         }
         else{
-            return new ResponseEntity<String>("null", HttpStatus.OK);
+            return new UserEntity("null");
         }
 
     }
