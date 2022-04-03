@@ -1,0 +1,27 @@
+server:
+  port: 8080
+
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        default_schema: public
+        dialect: org.hibernate.dialect.PostgreSQL82Dialect
+        jdbc:
+          time_zone: UTC
+    open-in-view: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ISS2
+    username: postgres
+    password: admin
+    platform: postgres
+    hikari:
+      max-lifetime: 300000
+      idle-timeout: 300000
+      connection-timeout: 30000
+    dbcp2:
+      test-while-idle: true
+      test-on-borrow: true
