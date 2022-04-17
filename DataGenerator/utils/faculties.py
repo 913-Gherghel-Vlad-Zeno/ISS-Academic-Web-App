@@ -1,4 +1,8 @@
 
+noSections = 9
+
+noGroupsPerSection = 5
+
 faculties = {
     "Mathematics and Informatics": {
         "Informatica": [
@@ -9,7 +13,7 @@ faculties = {
             ("Structuri de date si algoritmi", 1, 2),
             ("Geometrie", 1, 2),
             ("Sisteme dinamice", 1, 2),
-            ("Metode avansate de rezolvare a problemelor de matematică şi informatică", 3, 2),
+            ("Metode avansate de rezolvare a problemelor de matematica şi informatica", 3, 2),
             ("Metode avansate de programare", 1, 3),
             ("Retele de calculatoare", 1, 3),
             ("Baze de date", 1, 3),
@@ -33,13 +37,13 @@ faculties = {
         ],
         "Matematica": [
             ("Algebra 1", 1, 1),
-            ("Algoritmi și programare", 1, 1),
+            ("Algoritmi si programare", 1, 1),
             ("Analiza 1", 1, 1),
             ("Matematica de baza", 3, 1),
             ("Algebra 2", 1, 2),
             ("Analiza 2", 1, 2),
             ("OOP", 1, 2),
-            ("Metode avansate de rezolvare a problemelor de matematică şi informatică", 3, 2),
+            ("Metode avansate de rezolvare a problemelor de matematica şi informatica", 3, 2),
             ("Topologie", 1, 3),
             ("Geometrie 3", 1, 3),
             ("Ecuatii diferentiale", 1, 3),
@@ -51,8 +55,8 @@ faculties = {
             ("Astronomie", 1, 5),
             ("Analiza functionala", 1, 5),
             ("Matematica operatiunilor financiare", 2, 5),
-            ("Metode numerice cu aplicații", 2, 5),
-            ("Metode numerice in mecanică", 2, 5),
+            ("Metode numerice cu aplicatii", 2, 5),
+            ("Metode numerice in mecanica", 2, 5),
             ("Complemente de algebra", 2, 5),
             ("Teoria numerelor", 1, 6),
             ("Complemente de mecanica si astronomie", 2, 6),
@@ -60,13 +64,13 @@ faculties = {
         ],
         "Matematica Informatica": [
             ("Algebra 1", 1, 1),
-            ("Algoritmi și programare", 1, 1),
+            ("Algoritmi si programare", 1, 1),
             ("Fundamentele programarii", 1, 1),
             ("Matematica de baza", 3, 1),
             ("Algebra 2", 1, 2),
             ("Structuri de date si algoritmi", 1, 2),
             ("OOP", 1, 2),
-            ("Metode avansate de rezolvare a problemelor de matematică şi informatică", 3, 2),
+            ("Metode avansate de rezolvare a problemelor de matematica şi informatica", 3, 2),
             ("Topologie", 1, 3),
             ("Baze de date", 1, 3),
             ("Ecuatii diferentiale", 1, 3),
@@ -77,7 +81,7 @@ faculties = {
             ("Analiza functionala", 1, 5),
             ("Matematica operatiunilor financiare", 2, 5),
             ("Protocoale specializate in retele de calculatoare", 2, 5),
-            ("Metode numerice in mecanică", 2, 5),
+            ("Metode numerice in mecanica", 2, 5),
             ("Complemente de algebra", 2, 5),
             ("Verificarea si validarea sistemelor soft", 1, 6),
             ("Complemente de mecanica si astronomie", 2, 6),
@@ -148,24 +152,24 @@ faculties = {
     },
     "History and Philosophy": {
         "Istorie": [
-            ("Introducere în istoria veche universală", 1, 1),
-            ("Introducere în istoria veche a României", 1, 1),
-            ("Științele auxiliare ale istoriei", 3, 1),
-            ("Introducere în istoria medie universală", 1, 2),
-            ("Istoria Bizanțului", 1, 2),
-            ("Introducere în metodologia cercetării științifice", 3, 2),
-            ("Introducere în istoria modernă universală", 1, 3),
-            ("Relaţii internaţionale în secolele XVIII-XIX", 1, 3),
-            ("Istoria mentalităţilor colective", 3, 3),
-            ("Introducere în istoria contemporană universală", 1, 4),
-            ("Introducere în istoria contemporană a României", 1, 4),
-            ("Istoria integrării europene", 3, 4),
-            ("Istoria și teoria artei", 1, 5),
+            ("Introducere in istoria veche universala", 1, 1),
+            ("Introducere in istoria veche a României", 1, 1),
+            ("stiintele auxiliare ale istoriei", 3, 1),
+            ("Introducere in istoria medie universala", 1, 2),
+            ("Istoria Bizantului", 1, 2),
+            ("Introducere in metodologia cercetarii stiintifice", 3, 2),
+            ("Introducere in istoria moderna universala", 1, 3),
+            ("Relaţii internaţionale in secolele XVIII-XIX", 1, 3),
+            ("Istoria mentalitaţilor colective", 3, 3),
+            ("Introducere in istoria contemporana universala", 1, 4),
+            ("Introducere in istoria contemporana a României", 1, 4),
+            ("Istoria integrarii europene", 3, 4),
+            ("Istoria si teoria artei", 1, 5),
             ("Paleografii 1", 1, 5),
             ("Curs special 1", 2, 5),
-            ("Introducere în teoria istoriei", 1, 6),
+            ("Introducere in teoria istoriei", 1, 6),
             ("Paleografii 2", 1, 6),
-            ("Curs opțional 2: Limba izvoarelor II - latină", 2, 6)
+            ("Curs optional 2: Limba izvoarelor II - latina", 2, 6)
         ]
     },
     "Geography": {
@@ -197,17 +201,17 @@ faculties = {
             ("Arhitectura in turism", 1, 2),
             ("Fundamente de antreprenoriat 2", 3, 2),
             ("Geografia turismului in Romania", 1, 3),
-            ("Organizarea întreprinderilor și serviciilor în turism", 1, 3),
+            ("Organizarea intreprinderilor si serviciilor in turism", 1, 3),
             ("Cultura si civilizatie britanica", 3, 3),
             ("Management turistic", 1, 4),
             ("Comunicare si imagine in turism", 1, 4),
             ("Istoria turismului", 2, 4),
-            ("Prospectare și strategii de dezvoltare turistică", 1, 5),
-            ("Ecoturism şi dezvoltare durabilă", 1, 5),
+            ("Prospectare si strategii de dezvoltare turistica", 1, 5),
+            ("Ecoturism şi dezvoltare durabila", 1, 5),
             ("Turism rural", 2, 5),
-            ("Geografie economică", 1, 6),
-            ("Economia turismului şi întreprinderii de turism", 2, 6),
-            ("Geografie socială", 2, 6)
+            ("Geografie economica", 1, 6),
+            ("Economia turismului şi intreprinderii de turism", 2, 6),
+            ("Geografie sociala", 2, 6)
         ]
     }
 }
