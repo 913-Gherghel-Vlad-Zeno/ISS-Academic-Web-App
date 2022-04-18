@@ -8,6 +8,7 @@ import net.bytebuddy.asm.Advice;
 import net.bytebuddy.implementation.bind.annotation.Origin;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
@@ -63,6 +64,14 @@ public class StudentController {
     public String getStudentByName(@PathVariable("name") String name)
     {
         return studentRepo.findByName(name).toString();
+    }
+
+    @PostMapping(value = "/student/add",
+            consumes = MediaType.APPLICATION_JSON_VALUE)
+    public Student addStudent(@RequestBody Student student)
+    {
+        studentRepo.save(student);
+        return student;
     }
 
     public String sayHello(UserEntity user)
