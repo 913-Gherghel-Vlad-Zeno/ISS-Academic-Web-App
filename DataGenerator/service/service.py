@@ -97,6 +97,8 @@ class Service:
 
             group1 = random.choice(self.__groups)
             group2 = random.choice(self.__groups)
+            while group2.id == group1.id or (group2.facultyId == group1.facultyId and group2.year == group1.year):
+                group2 = random.choice(self.__groups)
 
             prob = random.uniform(0, 1)
 
@@ -147,7 +149,7 @@ class Service:
                 if group.id == gr1Id:
                     enr = StudentEnrollment(student.username, group.facultyId, group.year)
                     self.__studentEnrollments.append(enr)
-                if gr2Id != None and group.id == gr2Id:
+                elif gr2Id != None and group.id == gr2Id:
                     enr = StudentEnrollment(student.username, group.facultyId, group.year)
                     self.__studentEnrollments.append(enr)
 
@@ -162,22 +164,19 @@ class Service:
             if enrollment.year == 1:
                 continue
 
-            for _ in range(r):
-                cid = random.choice([optional[0] for optional in self.__optionalCourses])
+            cids = random.sample([optional[0] for optional in self.__optionalCourses], r)
 
+            for cid in cids:
                 opEnr = OptionalEnrollment(enrollment.username, cid)
                 self.__optionalEnrollments.append(opEnr)
 
     def __generateGrades(self):
         for enrollment in self.__studentEnrollments:
             for course in self.__courses:
-                if enrollment.fid == course.fid:
-                    nrGr = random.randint(0, 5)
+                if enrollment.fid == course.fid and enrollment.year == course.year:
+                    grade = Grade(random.randint(1, 10), enrollment.username, course.id)
 
-                    for _ in range(nrGr):
-                        grade = Grade(random.randint(1, 10), enrollment.username, course.id)
-
-                        self.__grades.append(grade)
+                    self.__grades.append(grade)
 
     def getGrades(self):
         return self.__grades

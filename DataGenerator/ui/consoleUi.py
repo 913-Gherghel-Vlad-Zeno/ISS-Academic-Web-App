@@ -35,7 +35,7 @@ class ConsoleUi:
         usersString = ''
 
         for u in users:
-            usersString += 'INSERT INTO "user"(username, password, role) VALUES (' + str(u) + ')'
+            usersString += 'INSERT INTO "user"(username, password, role) VALUES (' + str(u) + ');'
             usersString += '\n'
 
         return usersString
@@ -46,7 +46,7 @@ class ConsoleUi:
         staffString = ''
 
         for s in staff:
-            staffString += 'INSERT INTO "staff"(username, name) VALUES (' + str(s) + ')'
+            staffString += 'INSERT INTO "staff"(username, name) VALUES (' + str(s) + ');'
             staffString += "\n"
 
         return staffString
@@ -57,7 +57,7 @@ class ConsoleUi:
         teacherString = ''
 
         for t in teachers:
-            teacherString += 'INSERT INTO "teacher"(username, name) VALUES (' + str(t) + ')'
+            teacherString += 'INSERT INTO "teacher"(username, name) VALUES (' + str(t) + ');'
             teacherString += "\n"
 
         return teacherString
@@ -68,7 +68,7 @@ class ConsoleUi:
         facultiesString = ''
 
         for f in fac:
-            facultiesString += 'INSERT INTO "faculty"(fid, name, noyears, chief) VALUES (' + str(f) + ')'
+            facultiesString += 'INSERT INTO "faculty"(fid, name, noyears, chief) VALUES (' + str(f) + ');'
             facultiesString += "\n"
 
         return facultiesString
@@ -79,7 +79,7 @@ class ConsoleUi:
         groupString = ''
 
         for f in groups:
-            groupString += 'INSERT INTO "group"(gid, faculty, year) VALUES (' + str(f) + ')'
+            groupString += 'INSERT INTO "group"(gid, faculty, year) VALUES (' + str(f) + ');'
             groupString += "\n"
 
         return groupString
@@ -91,9 +91,9 @@ class ConsoleUi:
 
         for f in students:
             if f.group2 == None:
-                studentString += 'INSERT INTO "student"(name, username, group1) VALUES (' + str(f) + ')'
+                studentString += 'INSERT INTO "student"(name, username, group1) VALUES (' + str(f) + ');'
             else:
-                studentString += 'INSERT INTO "student"(name, username, group1, group2) VALUES (' + str(f) + ')'
+                studentString += 'INSERT INTO "student"(name, username, group1, group2) VALUES (' + str(f) + ');'
             studentString += "\n"
 
         return studentString
@@ -101,7 +101,7 @@ class ConsoleUi:
     def __coursePrioritiesString(self):
         coursePriorityString = ''
         for c in coursePriorities:
-            coursePriorityString += 'INSERT INTO "course priority"(pid, priority) VALUES (' + str(c[0]) + ", '" + c[1] + "')"
+            coursePriorityString += 'INSERT INTO "course priority"(pid, priority) VALUES (' + str(c[0]) + ", '" + c[1] + "');"
             coursePriorityString += '\n'
 
         return coursePriorityString
@@ -112,7 +112,7 @@ class ConsoleUi:
         courseString = ''
 
         for f in courses:
-            courseString += 'INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (' + str(f) + ')'
+            courseString += 'INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (' + str(f) + ');'
             courseString += "\n"
 
         return courseString
@@ -123,7 +123,7 @@ class ConsoleUi:
         optionalsString = ''
 
         for o in optionals:
-            optionalsString += 'INSERT INTO "optional course"(cid, username) VALUES (' + str(o[0]) + ", '" + o[1] + "')"
+            optionalsString += 'INSERT INTO "optional course"(cid, username) VALUES (' + str(o[0]) + ", '" + o[1] + "');"
             optionalsString += '\n'
 
         return optionalsString
@@ -134,7 +134,7 @@ class ConsoleUi:
         enrollmentsString = ''
 
         for o in enrollments:
-            enrollmentsString += 'INSERT INTO "studentenrollment"(username, fid, year) VALUES (' + str(o) + ")"
+            enrollmentsString += 'INSERT INTO "studentenrollment"(username, fid, year) VALUES (' + str(o) + ");"
             enrollmentsString += '\n'
 
         return enrollmentsString
@@ -145,7 +145,7 @@ class ConsoleUi:
         optEnrollString = ''
 
         for o in optEnroll:
-            optEnrollString += 'INSERT INTO "optional course enrollment"(username, cid) VALUES (' + str(o) + ")"
+            optEnrollString += 'INSERT INTO "optional course enrollment"(username, cid) VALUES (' + str(o) + ");"
             optEnrollString += '\n'
 
         return optEnrollString
@@ -156,7 +156,7 @@ class ConsoleUi:
         gradeString = ''
 
         for g in grades:
-            gradeString += 'INSERT INTO "grade"(gradevalue, username, cid) VALUES (' + str(g) + ")"
+            gradeString += 'INSERT INTO "grade"(gradevalue, username, cid) VALUES (' + str(g) + ");"
             gradeString += '\n'
 
         return gradeString

@@ -1,2975 +1,1101 @@
-INSERT INTO "user"(username, password, role) VALUES ('waltercaldwell', 'WX8X2X47', 'staff')
-INSERT INTO "user"(username, password, role) VALUES ('reneeramirez', '1HTAG7THLWX', 'staff')
-INSERT INTO "user"(username, password, role) VALUES ('janetchristensen', 'UKB33RJ8X9', 'staff')
-INSERT INTO "user"(username, password, role) VALUES ('robertrustrian', 'APSDX81K', 'staff')
-INSERT INTO "user"(username, password, role) VALUES ('normasullivan', 'Y4BCXUMVOD38', 'staff')
-INSERT INTO "user"(username, password, role) VALUES ('vincentarriaga', '59W2WJ6VAS4H', 'staff')
-INSERT INTO "user"(username, password, role) VALUES ('sherypyanowski', 'AXW8EZYAF', 'staff')
-INSERT INTO "user"(username, password, role) VALUES ('inezgarcia', '98XR7V6X87I', 'staff')
-INSERT INTO "user"(username, password, role) VALUES ('doylemeeks', 'H74HO2U43', 'staff')
-INSERT INTO "user"(username, password, role) VALUES ('wilburmyers', 'IRKNTOLMT', 'staff')
-INSERT INTO "user"(username, password, role) VALUES ('bettycoffman', 'N6107GLP7', 'staff')
-INSERT INTO "user"(username, password, role) VALUES ('ronaldkressler', 'TD67ITH22', 'staff')
-INSERT INTO "user"(username, password, role) VALUES ('cesaralva', 'FIF457UH', 'staff')
-INSERT INTO "user"(username, password, role) VALUES ('audreyjarvis', 'QDXUJOCR', 'staff')
-INSERT INTO "user"(username, password, role) VALUES ('michelechen', '96HPPD3H', 'staff')
-INSERT INTO "user"(username, password, role) VALUES ('karenanderson', '5BTAC1NTORG', 'staff')
-INSERT INTO "user"(username, password, role) VALUES ('ryanpoole', 'X97MT062I', 'staff')
-INSERT INTO "user"(username, password, role) VALUES ('coryho', 'YKHWGO0LEZ', 'staff')
-INSERT INTO "user"(username, password, role) VALUES ('jamesvogler', '7V00UE0M4KUO', 'staff')
-INSERT INTO "user"(username, password, role) VALUES ('irisstemm', '1QT5LNEF', 'staff')
-INSERT INTO "user"(username, password, role) VALUES ('nathanaustin', 'NA97JIW9', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('tracyleach', 'ZZ018W9YC', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('marycurry', '697893E7HONB', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('candicescott', '1NMG6M798F', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('kimberlyjohnston', '9DHF4H4BQ7P2', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('michaelparker', '86S8XLAZ', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('donaldmorris', '5VF9XX82V', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('craigjensen', 'EZW3TPPZZS', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('lanalee', '677UJ6OE', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('mikeschmidt', '8VDU8QKFIS', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('claramartinez', 'LPI8D4AQS', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('lauravalley', '9JBGCZ69CH', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('alfredohelmick', 'ATWAF6QPZY1Q', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('darlenethompson', 'SLR3JBQT1Z9', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('brucemoran', '6ZSW9KQ9CWR', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('markdome', 'R37IJOOYJ1H', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('williamchristian', 'D0X49JGB', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('teresabarnes', '7MHUFOCXQ', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('jordanburton', '7JSJBYOZ', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('michaeltaggart', 'DMCPPCJAE1VR', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('alexandriabourbon', 'HIZM6D9JUZ', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('josephthomas', 'PD5ADH6J4W', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('juliusonusko', '208G4PA0P', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('libbydevoe', 'TJGDS6E5I3O', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('delbertmartin', 'Q6KC8FLE7', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('shellyspencer', 'BRCWA7STE', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('kellycovert', 'DLZ9BQIYIZKL', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('davidhastie', 'OU68XWD0W', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('bettyowens', 'C2AZX2SY', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('deniseluna', 'LZF6I3TV98', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('phyllisblecha', '4DTWUNC3QN', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('staceycarver', 'OT0BCDXIOBR', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('charleshoupe', '0W613A6M4Z', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('ryanmalcolm', 'JPVM60PRHXHU', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('robyndavis', 'CZQD1VTSK', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('karenmontgomery', 'GTFDD514', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('jamessimmons', 'HTL1YKGOQSNW', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('charlesosburn', 'VI03L883EG4', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('laurenbowen', 'BE4G8GQ9P', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('johntew', 'UVGO1M5FPR9K', 'teacher')
-INSERT INTO "user"(username, password, role) VALUES ('terriherndon', 'XCW4XGVJ7ST', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('carloswhittemore', 'O5TZ8ZHG6FZ', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('gloriabanville', '220Q955BG5F', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('johnwilliams', 'X886L5JYTK', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('jamesmagnall', 'Z02RKT40', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('elliscain', 'XJ8D2B9SU', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('lewisporter', '91B4TOSNY', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('johnnyarchie', 'X7POMAVBB9NZ', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('haroldgowins', 'SIWOPMNK', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('robertbowser', 'X4XDBQKU6FP0', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('philipstanton', '7RA7EDYRVUZ', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('brunoterkelsen', 'J6D3S8X8O', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('winonamynatt', '6UPKOD5I', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('heatherbatchelor', 'Y29TUKZ1', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('emilyhuie', 'WCQ8PSLX', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('angelicaday', 'RJI9QCRHJRJN', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('jakehaas', '5P1JNI5N1B5', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('curtiscrowder', 'XYQR7ZMZG', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('mildredfuller', '4OZ926N0HI', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('jamesbabcock', 'KLA0CAMMG7O', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('johnwinter', 'G5HT1HHR', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('teresanewell', 'A6XGTOKSTDK', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('kathywilliams', 'WVV89ZOBUN7', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('kennethbanta', 'P7C8QXJ2D2', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('leomosher', 'DTOSKGC63S', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('jamesheideman', 'UO2XNRHGBTZB', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('kaylaseaman', '17Q6EGHS6R7L', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('desireesullivan', '04PZD6DRE', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('timothymclain', 'V7EW4F93GAMD', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('catalinalane', '7THRX8PG', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('jamesreed', '3G8RJ2NCS', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('jamescampbell', 'OJ64VDABV7', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('beverlycruz', 'TJ7MRF0R2R', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('paulinewashington', '9FOFB7X17W9A', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('sandradodd', '3QF557Z9N', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('thomasnolazco', 'AVBGJ5MW0D', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('vickieboling', '4L4U5GLKOTFA', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('jenniferwheeler', '5QJDCBH54', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('chriswilliams', '6A1HVSIF7', 'student')
-INSERT INTO "user"(username, password, role) VALUES ('scottrasor', '1MY3VQZ25WYI', 'student')
+INSERT INTO "user"(username, password, role) VALUES ('derekknapchuck', '04FP2F1ANA', 'staff');
+INSERT INTO "user"(username, password, role) VALUES ('ruthlovell', '1QDJ8EQGNU', 'staff');
+INSERT INTO "user"(username, password, role) VALUES ('rogerwiley', 'IJYF8E2KEA', 'staff');
+INSERT INTO "user"(username, password, role) VALUES ('nikkihenderson', '9DA0DMOIZ', 'staff');
+INSERT INTO "user"(username, password, role) VALUES ('jeremydraper', '7332Y9GJ5BD6', 'staff');
+INSERT INTO "user"(username, password, role) VALUES ('annettehernandez', 'DNR9ZM3OBF2', 'staff');
+INSERT INTO "user"(username, password, role) VALUES ('haroldgreb', 'DX3DJU9L', 'staff');
+INSERT INTO "user"(username, password, role) VALUES ('thomaslarson', 'LSB92EY9', 'staff');
+INSERT INTO "user"(username, password, role) VALUES ('williammcallister', 'P1HOFC258W', 'staff');
+INSERT INTO "user"(username, password, role) VALUES ('robertleech', '2MBHV1JLE', 'staff');
+INSERT INTO "user"(username, password, role) VALUES ('ahmaddouglas', '5RJ811CNQHN', 'staff');
+INSERT INTO "user"(username, password, role) VALUES ('ericayoung', 'G9UDBEVY', 'staff');
+INSERT INTO "user"(username, password, role) VALUES ('johnhartsell', 'NDHKJY4FTZGD', 'staff');
+INSERT INTO "user"(username, password, role) VALUES ('joebatte', '0Y6DWY0V', 'staff');
+INSERT INTO "user"(username, password, role) VALUES ('bethpowers', '8UY9VMUTSK', 'staff');
+INSERT INTO "user"(username, password, role) VALUES ('jeffreycrawford', '6H434OAN79PX', 'staff');
+INSERT INTO "user"(username, password, role) VALUES ('juanitawashington', 'XDMTDDKT2', 'staff');
+INSERT INTO "user"(username, password, role) VALUES ('lancecover', 'QXF3MQO3H2', 'staff');
+INSERT INTO "user"(username, password, role) VALUES ('edwardturner', 'P926KN8NH1CR', 'staff');
+INSERT INTO "user"(username, password, role) VALUES ('ronaldflannery', 'BOQMR3D5D20', 'staff');
+INSERT INTO "user"(username, password, role) VALUES ('josephhale', '5A8S7VJH', 'staff');
+INSERT INTO "user"(username, password, role) VALUES ('williebrown', 'Q4G8PMO9WXB', 'staff');
+INSERT INTO "user"(username, password, role) VALUES ('justindavis', '7UG3JC50A', 'staff');
+INSERT INTO "user"(username, password, role) VALUES ('timothyfay', 'FB1MIEQE6GL', 'staff');
+INSERT INTO "user"(username, password, role) VALUES ('jonathanmcmillan', 'BPX3GWSHVD', 'staff');
+INSERT INTO "user"(username, password, role) VALUES ('harrietanderson', 'C0MFZ6CAQ', 'staff');
+INSERT INTO "user"(username, password, role) VALUES ('patriciahardage', '7LAHRA8CA0', 'staff');
+INSERT INTO "user"(username, password, role) VALUES ('ericawildey', 'A2Y30TL9SB', 'staff');
+INSERT INTO "user"(username, password, role) VALUES ('gordonpetty', 'DEWF93JW9', 'staff');
+INSERT INTO "user"(username, password, role) VALUES ('melindabrough', '7HSA1RA9KV', 'staff');
+INSERT INTO "user"(username, password, role) VALUES ('charlespress', '1FQ9PX9ZXAF0', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('kathleenjohnson', 'X9RY7YMR', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('lindaparish', '7ZELTEIAGBJ', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('maryschober', '7VVLOXN2', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('ashleyortega', 'LWI1VPLCNR', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('chrisjean', 'D50KZMJQJO9', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('marieprice', 'BAPQ89S14', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('jenniferlamb', 'DI0IOH3CZ', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('jeffreyseidman', 'F7G6ETWYW', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('nancygood', 'X0KQTOBCA', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('teresabutts', 'EMLDE0N12', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('eliahorn', '3RS6FGVYG', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('rickeymercado', 'VZGW7WJ6S83Y', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('jarvisdifranco', 'FFN84Z0E7', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('paulsteele', 'SY0QK3OJTR6G', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('nataliemessenger', '3N483V1KBZUB', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('reginacastle', 'YGA220Y4Y', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('christiankleinpeter', '9MVC9KVCAWBS', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('markwillie', 'YIQDFNI6X4I8', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('johnavila', 'CDCT07R5J', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('majorstokes', '5H40V46EE', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('lilliansmith', 'KV85P6PY', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('donnaduvall', 'J98EYW6SBMTU', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('miguelroberts', 'HK6LVTZUD', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('jeffcooper', 'GYPCXJTO9N', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('rafaelparton', '0RKTE91NL', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('richardgosnell', '6E6MO2HZ', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('aliceward', 'ZM83MLBMFQXL', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('michaelgarver', '7YWR4ULRC', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('davidgouldman', 'P1YR6AB5N9UB', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('charlesmcbride', 'YPAG8FD4OSHG', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('jantotten', 'QE8XXLFH0', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('ruthballard', '5U90S0GAAY', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('jennyneidig', '7D2R3YQJC', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('silviapuente', 'TYOTOJRR', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('matthewhippen', 'U4QS4NLM', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('williambrandon', 'K7Q0K26J', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('frankboggan', 'IVOQUU2FC', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('robertford', '5P1PKEPV8JOS', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('johnrodriguez', 'MCXELK6M', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('daviddailey', 'CBP8ZCA1', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('louishaskins', 'L5TCE3W8XO5', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('jeremydiller', 'EBBJMSCQ', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('davidmartin', '148W4V3XNDZJ', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('jasonackland', 'GZH1Y559TH0', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('rhondalyles', 'R4DC8SVZS', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('helensees', 'HAO4Y47Z5A', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('jackthomas', 'QD4VUS4HPFK', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('dianestoner', '7IO08TVCXU5', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('leonorton', 'IXZU1C3DJZYU', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('wendygibbs', '77AZQHRIUZ', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('generaver', 'MHTVNJK7Z7', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('anthonystemple', 'P7487QVIVD9', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('susiehiggins', 'V7DQW4TSXGP', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('herbertdenault', 'INICH5RK', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('josephcruz', 'TBGZ27K8XMY1', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('caseyblue', 'BWLI1PZ6QN', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('elmerhayes', 'NWS0YSJPISG', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('davidwixon', 'AWKL7XTJZOW', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('melvinkautz', 'S2QJ3NLD', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('sonjasievers', 'V3BRIIBVNUW', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('adelinafultz', '345Y24ZEVTH', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('jamesholman', 'WTW3FTUZ', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('earnestinesuarez', '8G7F9MWV', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('geraldshamapande', 'WSNA71P7GB', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('rogerdawson', 'GJ0U4IVE', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('terrawelch', 'SZ71KAVF85', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('rodbain', 'VH9CAKE1MOBA', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('kristophernasuti', 'TP5UGPTWKB1', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('michaeloatney', 'JQVCZ1KY8O', 'teacher');
+INSERT INTO "user"(username, password, role) VALUES ('margaretwalker', 'LN6YXKPE3UO9', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('robertferenz', 'XEIHWKW6HM', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('annafisher', 'Q0GEXUU5X5', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('debraharrington', 'TIEM95C7O', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('jasonbrady', 'CXOKAWMM', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('phillipworkman', 'H4SBTDOM4I5', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('josephdamian', 'GO23RKS8A', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('kevindegroot', 'KSKV1YJA', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('gwenndickerson', 'GNM6NUSZI', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('emilylozano', 'TAY7SJ0V', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('michaelhaag', 'ECSA4FUEY08', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('markfigueroa', '18U45Z18', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('joseruzich', 'U4MWPVCM39', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('marygillan', 'US3FYJFJCV', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('minniehamlin', 'E8BRN2OT250Y', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('wendellhelm', 'S7NAI11GWS', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('kirksnow', 'BEPDDRCZYO1', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('evelyncurry', '94JU16ER831', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('tracybell', 'DJC59K6Y', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('hollysower', 'RGDDB2ZJ4ZRE', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('michaelgranby', '4ZBNH0VC5V', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('dawnwilliams', '946JLQDWDWL9', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('alfredweinhold', 'N0HBCH3IAFAE', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('tonylee', 'LQIIBFNQ', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('caridaddicks', 'Z7VBQSWG1XTU', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('charlessantarelli', '4BHJI0N73P', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('evatrujillo', 'ZRK6YLZK', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('evahall', '5J4I4SJ7OM', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('jessicanolder', 'QB3I0F7R5', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('rickycelis', '3ZC7MVFODXTH', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('hattiefowler', '5NMT3NVG8VIC', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('larryruth', 'RXY5U82XIQV', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('constanceculbertson', 'DURNCEM32', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('laurarauch', '9AOHPCTUHD', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('bertaguilar', 'C2NM74FRLAE', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('dianaedwards', 'OD1CDW2W', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('ellenbiros', '8XG9MEXSQ', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('scottcooper', 'CLEVM3ZX0K', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('suzannelinahan', 'AADUJRTANQ', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('susanvargas', 'J1HQHKQV', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('edithbrooks', 'ELQ5Z76LLU4U', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('rhondaelwell', 'NFBAUT6J', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('lovegardiner', 'DTODQIQYNQ', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('rexpenderel', '7FF7P7XO3T', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('dedraserviss', 'HZLOM6SR7G', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('randyschneider', 'NXP8DSE3', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('kevincastro', 'JSCMTZ7Y6OM', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('billiearagon', '2GKJHNKDI2JQ', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('garydavidson', '3W0DWSN480', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('maryhancock', 'NDH7ZDUIT41P', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('shaunaward', 'SFKKNAOI4', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('brandytaylor', 'PDWQOI21F0V', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('patsycaudillo', 'WNFCHVUI', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('youngschweitzer', '6B687P6QF', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('christopherparker', '4FDWF5STED9S', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('jackowen', 'BIYYND6P3', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('mariacatron', 'Q5X9TUHDD', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('sophiavaldes', 'HLSB7EYIUNRL', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('deanfitzgerald', 'G9KQ6P64HQ5X', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('williamgilliland', 'Q7K7SP6TPRD', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('anthonyfiore', 'C6ZVNQJ9A', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('kathleenchisholm', '8D9SKHBOQ2F', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('marybergen', 'R7UDXNK7MZGI', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('eldonhammond', 'FKN7F5EJYJ', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('robertobeeson', 'DNZKYMXMUM', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('monicajones', 'SFLN5WC2C5', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('jeankelso', '5BQGEHBFT', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('lauralarue', 'MHBZLQLX', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('elizabethweiker', 'H9Z1TNFES4TT', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('mattievisher', 'FIGJYF50W', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('robertmcclellan', 'YI6LI2RE5EO', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('andrewgross', 'E36VEAAY3P6', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('christopherdias', 'CXKCEKFH22Y', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('jeannepennington', '4ARN5CCCOS', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('melvinnorris', '6EKU5W553', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('edwardowings', 'FPIBB8PH69V8', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('sontemplin', 'QP79TZ7KJ5R8', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('leonardking', 'QXNMUISV', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('marypujol', 'JYZDKMKM3', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('richardpollack', 'GJGNC24P', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('chrisjohnson', 'XQGM28FI', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('russellziegler', 'AO6JPHMB', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('deborahbuban', 'WLMW3YH9', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('robertjohnson', 'HR1X0KW84V', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('charlesdexter', 'H1EOX99OPH', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('ritastephenson', 'URTMDK1M', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('pearlwilson', '38VLFUNF21', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('amandaking', 'VRKA5KM0XG', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('katinasuomela', 'RESOVCZBEI7', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('ashleyahmadi', 'FJN2E28J3', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('raymondjensen', '9JP9O7XL3F5N', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('robertakille', 'ATQ64VOIN', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('michaelelza', '5P1BJQ40A9', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('leontobin', 'HHZWGT8PH9D', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('alyssalandry', 'WC6KX744', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('vickipanning', 'LYU5PE91IGH', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('jeffzielinski', 'TQXJJQFWVZ', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('coreylloyd', 'VTP21I4HCK3', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('gracemccauley', '0JUI48H4IN71', 'student');
+INSERT INTO "user"(username, password, role) VALUES ('williamcarroll', 'I7MTBQ3RPISM', 'student');
 
-INSERT INTO "staff"(username, name) VALUES ('waltercaldwell', 'Walter Caldwell')
-INSERT INTO "staff"(username, name) VALUES ('reneeramirez', 'Renee Ramirez')
-INSERT INTO "staff"(username, name) VALUES ('janetchristensen', 'Janet Christensen')
-INSERT INTO "staff"(username, name) VALUES ('robertrustrian', 'Robert Rustrian')
-INSERT INTO "staff"(username, name) VALUES ('normasullivan', 'Norma Sullivan')
-INSERT INTO "staff"(username, name) VALUES ('vincentarriaga', 'Vincent Arriaga')
-INSERT INTO "staff"(username, name) VALUES ('sherypyanowski', 'Shery Pyanowski')
-INSERT INTO "staff"(username, name) VALUES ('inezgarcia', 'Inez Garcia')
-INSERT INTO "staff"(username, name) VALUES ('doylemeeks', 'Doyle Meeks')
-INSERT INTO "staff"(username, name) VALUES ('wilburmyers', 'Wilbur Myers')
-INSERT INTO "staff"(username, name) VALUES ('bettycoffman', 'Betty Coffman')
-INSERT INTO "staff"(username, name) VALUES ('ronaldkressler', 'Ronald Kressler')
-INSERT INTO "staff"(username, name) VALUES ('cesaralva', 'Cesar Alva')
-INSERT INTO "staff"(username, name) VALUES ('audreyjarvis', 'Audrey Jarvis')
-INSERT INTO "staff"(username, name) VALUES ('michelechen', 'Michele Chen')
-INSERT INTO "staff"(username, name) VALUES ('karenanderson', 'Karen Anderson')
-INSERT INTO "staff"(username, name) VALUES ('ryanpoole', 'Ryan Poole')
-INSERT INTO "staff"(username, name) VALUES ('coryho', 'Cory Ho')
-INSERT INTO "staff"(username, name) VALUES ('jamesvogler', 'James Vogler')
-INSERT INTO "staff"(username, name) VALUES ('irisstemm', 'Iris Stemm')
+INSERT INTO "staff"(username, name) VALUES ('derekknapchuck', 'Derek Knapchuck');
+INSERT INTO "staff"(username, name) VALUES ('ruthlovell', 'Ruth Lovell');
+INSERT INTO "staff"(username, name) VALUES ('rogerwiley', 'Roger Wiley');
+INSERT INTO "staff"(username, name) VALUES ('nikkihenderson', 'Nikki Henderson');
+INSERT INTO "staff"(username, name) VALUES ('jeremydraper', 'Jeremy Draper');
+INSERT INTO "staff"(username, name) VALUES ('annettehernandez', 'Annette Hernandez');
+INSERT INTO "staff"(username, name) VALUES ('haroldgreb', 'Harold Greb');
+INSERT INTO "staff"(username, name) VALUES ('thomaslarson', 'Thomas Larson');
+INSERT INTO "staff"(username, name) VALUES ('williammcallister', 'William Mcallister');
+INSERT INTO "staff"(username, name) VALUES ('robertleech', 'Robert Leech');
+INSERT INTO "staff"(username, name) VALUES ('ahmaddouglas', 'Ahmad Douglas');
+INSERT INTO "staff"(username, name) VALUES ('ericayoung', 'Erica Young');
+INSERT INTO "staff"(username, name) VALUES ('johnhartsell', 'John Hartsell');
+INSERT INTO "staff"(username, name) VALUES ('joebatte', 'Joe Batte');
+INSERT INTO "staff"(username, name) VALUES ('bethpowers', 'Beth Powers');
+INSERT INTO "staff"(username, name) VALUES ('jeffreycrawford', 'Jeffrey Crawford');
+INSERT INTO "staff"(username, name) VALUES ('juanitawashington', 'Juanita Washington');
+INSERT INTO "staff"(username, name) VALUES ('lancecover', 'Lance Cover');
+INSERT INTO "staff"(username, name) VALUES ('edwardturner', 'Edward Turner');
+INSERT INTO "staff"(username, name) VALUES ('ronaldflannery', 'Ronald Flannery');
+INSERT INTO "staff"(username, name) VALUES ('josephhale', 'Joseph Hale');
+INSERT INTO "staff"(username, name) VALUES ('williebrown', 'Willie Brown');
+INSERT INTO "staff"(username, name) VALUES ('justindavis', 'Justin Davis');
+INSERT INTO "staff"(username, name) VALUES ('timothyfay', 'Timothy Fay');
+INSERT INTO "staff"(username, name) VALUES ('jonathanmcmillan', 'Jonathan Mcmillan');
+INSERT INTO "staff"(username, name) VALUES ('harrietanderson', 'Harriet Anderson');
+INSERT INTO "staff"(username, name) VALUES ('patriciahardage', 'Patricia Hardage');
+INSERT INTO "staff"(username, name) VALUES ('ericawildey', 'Erica Wildey');
+INSERT INTO "staff"(username, name) VALUES ('gordonpetty', 'Gordon Petty');
+INSERT INTO "staff"(username, name) VALUES ('melindabrough', 'Melinda Brough');
 
-INSERT INTO "teacher"(username, name) VALUES ('nathanaustin', 'Nathan Austin')
-INSERT INTO "teacher"(username, name) VALUES ('tracyleach', 'Tracy Leach')
-INSERT INTO "teacher"(username, name) VALUES ('marycurry', 'Mary Curry')
-INSERT INTO "teacher"(username, name) VALUES ('candicescott', 'Candice Scott')
-INSERT INTO "teacher"(username, name) VALUES ('kimberlyjohnston', 'Kimberly Johnston')
-INSERT INTO "teacher"(username, name) VALUES ('michaelparker', 'Michael Parker')
-INSERT INTO "teacher"(username, name) VALUES ('donaldmorris', 'Donald Morris')
-INSERT INTO "teacher"(username, name) VALUES ('craigjensen', 'Craig Jensen')
-INSERT INTO "teacher"(username, name) VALUES ('lanalee', 'Lana Lee')
-INSERT INTO "teacher"(username, name) VALUES ('mikeschmidt', 'Mike Schmidt')
-INSERT INTO "teacher"(username, name) VALUES ('claramartinez', 'Clara Martinez')
-INSERT INTO "teacher"(username, name) VALUES ('lauravalley', 'Laura Valley')
-INSERT INTO "teacher"(username, name) VALUES ('alfredohelmick', 'Alfredo Helmick')
-INSERT INTO "teacher"(username, name) VALUES ('darlenethompson', 'Darlene Thompson')
-INSERT INTO "teacher"(username, name) VALUES ('brucemoran', 'Bruce Moran')
-INSERT INTO "teacher"(username, name) VALUES ('markdome', 'Mark Dome')
-INSERT INTO "teacher"(username, name) VALUES ('williamchristian', 'William Christian')
-INSERT INTO "teacher"(username, name) VALUES ('teresabarnes', 'Teresa Barnes')
-INSERT INTO "teacher"(username, name) VALUES ('jordanburton', 'Jordan Burton')
-INSERT INTO "teacher"(username, name) VALUES ('michaeltaggart', 'Michael Taggart')
-INSERT INTO "teacher"(username, name) VALUES ('alexandriabourbon', 'Alexandria Bourbon')
-INSERT INTO "teacher"(username, name) VALUES ('josephthomas', 'Joseph Thomas')
-INSERT INTO "teacher"(username, name) VALUES ('juliusonusko', 'Julius Onusko')
-INSERT INTO "teacher"(username, name) VALUES ('libbydevoe', 'Libby Devoe')
-INSERT INTO "teacher"(username, name) VALUES ('delbertmartin', 'Delbert Martin')
-INSERT INTO "teacher"(username, name) VALUES ('shellyspencer', 'Shelly Spencer')
-INSERT INTO "teacher"(username, name) VALUES ('kellycovert', 'Kelly Covert')
-INSERT INTO "teacher"(username, name) VALUES ('davidhastie', 'David Hastie')
-INSERT INTO "teacher"(username, name) VALUES ('bettyowens', 'Betty Owens')
-INSERT INTO "teacher"(username, name) VALUES ('deniseluna', 'Denise Luna')
-INSERT INTO "teacher"(username, name) VALUES ('phyllisblecha', 'Phyllis Blecha')
-INSERT INTO "teacher"(username, name) VALUES ('staceycarver', 'Stacey Carver')
-INSERT INTO "teacher"(username, name) VALUES ('charleshoupe', 'Charles Houpe')
-INSERT INTO "teacher"(username, name) VALUES ('ryanmalcolm', 'Ryan Malcolm')
-INSERT INTO "teacher"(username, name) VALUES ('robyndavis', 'Robyn Davis')
-INSERT INTO "teacher"(username, name) VALUES ('karenmontgomery', 'Karen Montgomery')
-INSERT INTO "teacher"(username, name) VALUES ('jamessimmons', 'James Simmons')
-INSERT INTO "teacher"(username, name) VALUES ('charlesosburn', 'Charles Osburn')
-INSERT INTO "teacher"(username, name) VALUES ('laurenbowen', 'Lauren Bowen')
-INSERT INTO "teacher"(username, name) VALUES ('johntew', 'John Tew')
+INSERT INTO "teacher"(username, name) VALUES ('charlespress', 'Charles Press');
+INSERT INTO "teacher"(username, name) VALUES ('kathleenjohnson', 'Kathleen Johnson');
+INSERT INTO "teacher"(username, name) VALUES ('lindaparish', 'Linda Parish');
+INSERT INTO "teacher"(username, name) VALUES ('maryschober', 'Mary Schober');
+INSERT INTO "teacher"(username, name) VALUES ('ashleyortega', 'Ashley Ortega');
+INSERT INTO "teacher"(username, name) VALUES ('chrisjean', 'Chris Jean');
+INSERT INTO "teacher"(username, name) VALUES ('marieprice', 'Marie Price');
+INSERT INTO "teacher"(username, name) VALUES ('jenniferlamb', 'Jennifer Lamb');
+INSERT INTO "teacher"(username, name) VALUES ('jeffreyseidman', 'Jeffrey Seidman');
+INSERT INTO "teacher"(username, name) VALUES ('nancygood', 'Nancy Good');
+INSERT INTO "teacher"(username, name) VALUES ('teresabutts', 'Teresa Butts');
+INSERT INTO "teacher"(username, name) VALUES ('eliahorn', 'Elia Horn');
+INSERT INTO "teacher"(username, name) VALUES ('rickeymercado', 'Rickey Mercado');
+INSERT INTO "teacher"(username, name) VALUES ('jarvisdifranco', 'Jarvis Difranco');
+INSERT INTO "teacher"(username, name) VALUES ('paulsteele', 'Paul Steele');
+INSERT INTO "teacher"(username, name) VALUES ('nataliemessenger', 'Natalie Messenger');
+INSERT INTO "teacher"(username, name) VALUES ('reginacastle', 'Regina Castle');
+INSERT INTO "teacher"(username, name) VALUES ('christiankleinpeter', 'Christian Kleinpeter');
+INSERT INTO "teacher"(username, name) VALUES ('markwillie', 'Mark Willie');
+INSERT INTO "teacher"(username, name) VALUES ('johnavila', 'John Avila');
+INSERT INTO "teacher"(username, name) VALUES ('majorstokes', 'Major Stokes');
+INSERT INTO "teacher"(username, name) VALUES ('lilliansmith', 'Lillian Smith');
+INSERT INTO "teacher"(username, name) VALUES ('donnaduvall', 'Donna Duvall');
+INSERT INTO "teacher"(username, name) VALUES ('miguelroberts', 'Miguel Roberts');
+INSERT INTO "teacher"(username, name) VALUES ('jeffcooper', 'Jeff Cooper');
+INSERT INTO "teacher"(username, name) VALUES ('rafaelparton', 'Rafael Parton');
+INSERT INTO "teacher"(username, name) VALUES ('richardgosnell', 'Richard Gosnell');
+INSERT INTO "teacher"(username, name) VALUES ('aliceward', 'Alice Ward');
+INSERT INTO "teacher"(username, name) VALUES ('michaelgarver', 'Michael Garver');
+INSERT INTO "teacher"(username, name) VALUES ('davidgouldman', 'David Gouldman');
+INSERT INTO "teacher"(username, name) VALUES ('charlesmcbride', 'Charles Mcbride');
+INSERT INTO "teacher"(username, name) VALUES ('jantotten', 'Jan Totten');
+INSERT INTO "teacher"(username, name) VALUES ('ruthballard', 'Ruth Ballard');
+INSERT INTO "teacher"(username, name) VALUES ('jennyneidig', 'Jenny Neidig');
+INSERT INTO "teacher"(username, name) VALUES ('silviapuente', 'Silvia Puente');
+INSERT INTO "teacher"(username, name) VALUES ('matthewhippen', 'Matthew Hippen');
+INSERT INTO "teacher"(username, name) VALUES ('williambrandon', 'William Brandon');
+INSERT INTO "teacher"(username, name) VALUES ('frankboggan', 'Frank Boggan');
+INSERT INTO "teacher"(username, name) VALUES ('robertford', 'Robert Ford');
+INSERT INTO "teacher"(username, name) VALUES ('johnrodriguez', 'John Rodriguez');
+INSERT INTO "teacher"(username, name) VALUES ('daviddailey', 'David Dailey');
+INSERT INTO "teacher"(username, name) VALUES ('louishaskins', 'Louis Haskins');
+INSERT INTO "teacher"(username, name) VALUES ('jeremydiller', 'Jeremy Diller');
+INSERT INTO "teacher"(username, name) VALUES ('davidmartin', 'David Martin');
+INSERT INTO "teacher"(username, name) VALUES ('jasonackland', 'Jason Ackland');
+INSERT INTO "teacher"(username, name) VALUES ('rhondalyles', 'Rhonda Lyles');
+INSERT INTO "teacher"(username, name) VALUES ('helensees', 'Helen Sees');
+INSERT INTO "teacher"(username, name) VALUES ('jackthomas', 'Jack Thomas');
+INSERT INTO "teacher"(username, name) VALUES ('dianestoner', 'Diane Stoner');
+INSERT INTO "teacher"(username, name) VALUES ('leonorton', 'Leo Norton');
+INSERT INTO "teacher"(username, name) VALUES ('wendygibbs', 'Wendy Gibbs');
+INSERT INTO "teacher"(username, name) VALUES ('generaver', 'Gene Raver');
+INSERT INTO "teacher"(username, name) VALUES ('anthonystemple', 'Anthony Stemple');
+INSERT INTO "teacher"(username, name) VALUES ('susiehiggins', 'Susie Higgins');
+INSERT INTO "teacher"(username, name) VALUES ('herbertdenault', 'Herbert Denault');
+INSERT INTO "teacher"(username, name) VALUES ('josephcruz', 'Joseph Cruz');
+INSERT INTO "teacher"(username, name) VALUES ('caseyblue', 'Casey Blue');
+INSERT INTO "teacher"(username, name) VALUES ('elmerhayes', 'Elmer Hayes');
+INSERT INTO "teacher"(username, name) VALUES ('davidwixon', 'David Wixon');
+INSERT INTO "teacher"(username, name) VALUES ('melvinkautz', 'Melvin Kautz');
+INSERT INTO "teacher"(username, name) VALUES ('sonjasievers', 'Sonja Sievers');
+INSERT INTO "teacher"(username, name) VALUES ('adelinafultz', 'Adelina Fultz');
+INSERT INTO "teacher"(username, name) VALUES ('jamesholman', 'James Holman');
+INSERT INTO "teacher"(username, name) VALUES ('earnestinesuarez', 'Earnestine Suarez');
+INSERT INTO "teacher"(username, name) VALUES ('geraldshamapande', 'Gerald Shamapande');
+INSERT INTO "teacher"(username, name) VALUES ('rogerdawson', 'Roger Dawson');
+INSERT INTO "teacher"(username, name) VALUES ('terrawelch', 'Terra Welch');
+INSERT INTO "teacher"(username, name) VALUES ('rodbain', 'Rod Bain');
+INSERT INTO "teacher"(username, name) VALUES ('kristophernasuti', 'Kristopher Nasuti');
+INSERT INTO "teacher"(username, name) VALUES ('michaeloatney', 'Michael Oatney');
 
-INSERT INTO "faculty"(fid, name, noyears, chief) VALUES (1, 'Mathematics and Informatics-Informatica', 3, 'mikeschmidt')
-INSERT INTO "faculty"(fid, name, noyears, chief) VALUES (2, 'Mathematics and Informatics-Matematica', 3, 'phyllisblecha')
-INSERT INTO "faculty"(fid, name, noyears, chief) VALUES (3, 'Mathematics and Informatics-Matematica Informatica', 3, 'brucemoran')
-INSERT INTO "faculty"(fid, name, noyears, chief) VALUES (4, 'Physics-Fizica', 3, 'candicescott')
-INSERT INTO "faculty"(fid, name, noyears, chief) VALUES (5, 'Physics-Fizica Informatica', 3, 'charleshoupe')
-INSERT INTO "faculty"(fid, name, noyears, chief) VALUES (6, 'Physics-Fizica medicala', 3, 'josephthomas')
-INSERT INTO "faculty"(fid, name, noyears, chief) VALUES (7, 'History and Philosophy-Istorie', 3, 'williamchristian')
-INSERT INTO "faculty"(fid, name, noyears, chief) VALUES (8, 'Geography-Geografie', 3, 'claramartinez')
-INSERT INTO "faculty"(fid, name, noyears, chief) VALUES (9, 'Geography-Geografia Turismului', 3, 'nathanaustin')
+INSERT INTO "faculty"(fid, name, noyears, chief) VALUES (1, 'Mathematics and Informatics-Informatica', 3, 'generaver');
+INSERT INTO "faculty"(fid, name, noyears, chief) VALUES (2, 'Mathematics and Informatics-Matematica', 3, 'matthewhippen');
+INSERT INTO "faculty"(fid, name, noyears, chief) VALUES (3, 'Mathematics and Informatics-Matematica Informatica', 3, 'terrawelch');
+INSERT INTO "faculty"(fid, name, noyears, chief) VALUES (4, 'Physics-Fizica', 3, 'charlesmcbride');
+INSERT INTO "faculty"(fid, name, noyears, chief) VALUES (5, 'Physics-Fizica Informatica', 3, 'kristophernasuti');
+INSERT INTO "faculty"(fid, name, noyears, chief) VALUES (6, 'Physics-Fizica medicala', 3, 'chrisjean');
+INSERT INTO "faculty"(fid, name, noyears, chief) VALUES (7, 'History and Philosophy-Istorie', 3, 'elmerhayes');
+INSERT INTO "faculty"(fid, name, noyears, chief) VALUES (8, 'Geography-Geografie', 3, 'michaelgarver');
+INSERT INTO "faculty"(fid, name, noyears, chief) VALUES (9, 'Geography-Geografia Turismului', 3, 'ruthballard');
 
-INSERT INTO "group"(gid, faculty, year) VALUES (1, 1, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (2, 1, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (3, 1, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (4, 1, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (5, 1, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (6, 1, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (7, 1, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (8, 1, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (9, 1, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (10, 1, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (11, 1, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (12, 1, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (13, 1, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (14, 1, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (15, 1, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (16, 2, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (17, 2, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (18, 2, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (19, 2, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (20, 2, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (21, 2, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (22, 2, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (23, 2, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (24, 2, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (25, 2, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (26, 2, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (27, 2, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (28, 2, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (29, 2, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (30, 2, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (31, 3, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (32, 3, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (33, 3, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (34, 3, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (35, 3, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (36, 3, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (37, 3, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (38, 3, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (39, 3, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (40, 3, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (41, 3, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (42, 3, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (43, 3, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (44, 3, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (45, 3, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (46, 4, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (47, 4, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (48, 4, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (49, 4, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (50, 4, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (51, 4, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (52, 4, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (53, 4, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (54, 4, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (55, 4, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (56, 4, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (57, 4, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (58, 4, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (59, 4, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (60, 4, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (61, 5, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (62, 5, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (63, 5, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (64, 5, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (65, 5, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (66, 5, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (67, 5, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (68, 5, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (69, 5, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (70, 5, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (71, 5, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (72, 5, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (73, 5, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (74, 5, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (75, 5, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (76, 6, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (77, 6, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (78, 6, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (79, 6, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (80, 6, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (81, 6, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (82, 6, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (83, 6, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (84, 6, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (85, 6, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (86, 6, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (87, 6, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (88, 6, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (89, 6, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (90, 6, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (91, 7, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (92, 7, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (93, 7, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (94, 7, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (95, 7, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (96, 7, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (97, 7, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (98, 7, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (99, 7, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (100, 7, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (101, 7, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (102, 7, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (103, 7, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (104, 7, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (105, 7, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (106, 8, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (107, 8, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (108, 8, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (109, 8, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (110, 8, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (111, 8, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (112, 8, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (113, 8, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (114, 8, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (115, 8, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (116, 8, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (117, 8, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (118, 8, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (119, 8, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (120, 8, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (121, 9, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (122, 9, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (123, 9, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (124, 9, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (125, 9, 1)
-INSERT INTO "group"(gid, faculty, year) VALUES (126, 9, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (127, 9, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (128, 9, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (129, 9, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (130, 9, 2)
-INSERT INTO "group"(gid, faculty, year) VALUES (131, 9, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (132, 9, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (133, 9, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (134, 9, 3)
-INSERT INTO "group"(gid, faculty, year) VALUES (135, 9, 3)
+INSERT INTO "group"(gid, faculty, year) VALUES (1, 1, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (2, 1, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (3, 1, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (4, 1, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (5, 1, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (6, 1, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (7, 1, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (8, 1, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (9, 1, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (10, 1, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (11, 1, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (12, 1, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (13, 1, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (14, 1, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (15, 1, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (16, 2, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (17, 2, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (18, 2, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (19, 2, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (20, 2, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (21, 2, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (22, 2, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (23, 2, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (24, 2, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (25, 2, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (26, 2, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (27, 2, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (28, 2, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (29, 2, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (30, 2, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (31, 3, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (32, 3, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (33, 3, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (34, 3, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (35, 3, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (36, 3, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (37, 3, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (38, 3, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (39, 3, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (40, 3, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (41, 3, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (42, 3, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (43, 3, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (44, 3, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (45, 3, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (46, 4, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (47, 4, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (48, 4, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (49, 4, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (50, 4, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (51, 4, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (52, 4, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (53, 4, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (54, 4, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (55, 4, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (56, 4, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (57, 4, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (58, 4, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (59, 4, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (60, 4, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (61, 5, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (62, 5, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (63, 5, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (64, 5, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (65, 5, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (66, 5, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (67, 5, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (68, 5, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (69, 5, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (70, 5, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (71, 5, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (72, 5, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (73, 5, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (74, 5, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (75, 5, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (76, 6, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (77, 6, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (78, 6, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (79, 6, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (80, 6, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (81, 6, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (82, 6, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (83, 6, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (84, 6, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (85, 6, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (86, 6, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (87, 6, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (88, 6, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (89, 6, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (90, 6, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (91, 7, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (92, 7, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (93, 7, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (94, 7, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (95, 7, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (96, 7, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (97, 7, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (98, 7, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (99, 7, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (100, 7, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (101, 7, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (102, 7, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (103, 7, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (104, 7, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (105, 7, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (106, 8, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (107, 8, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (108, 8, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (109, 8, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (110, 8, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (111, 8, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (112, 8, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (113, 8, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (114, 8, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (115, 8, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (116, 8, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (117, 8, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (118, 8, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (119, 8, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (120, 8, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (121, 9, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (122, 9, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (123, 9, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (124, 9, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (125, 9, 1);
+INSERT INTO "group"(gid, faculty, year) VALUES (126, 9, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (127, 9, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (128, 9, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (129, 9, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (130, 9, 2);
+INSERT INTO "group"(gid, faculty, year) VALUES (131, 9, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (132, 9, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (133, 9, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (134, 9, 3);
+INSERT INTO "group"(gid, faculty, year) VALUES (135, 9, 3);
 
-INSERT INTO "student"(name, username, group1) VALUES ('Terri Herndon', 'terriherndon', 23)
-INSERT INTO "student"(name, username, group1) VALUES ('Carlos Whittemore', 'carloswhittemore', 79)
-INSERT INTO "student"(name, username, group1) VALUES ('Gloria Banville', 'gloriabanville', 8)
-INSERT INTO "student"(name, username, group1) VALUES ('John Williams', 'johnwilliams', 65)
-INSERT INTO "student"(name, username, group1) VALUES ('James Magnall', 'jamesmagnall', 44)
-INSERT INTO "student"(name, username, group1, group2) VALUES ('Ellis Cain', 'elliscain', 92, 85)
-INSERT INTO "student"(name, username, group1) VALUES ('Lewis Porter', 'lewisporter', 115)
-INSERT INTO "student"(name, username, group1) VALUES ('Johnny Archie', 'johnnyarchie', 29)
-INSERT INTO "student"(name, username, group1) VALUES ('Harold Gowins', 'haroldgowins', 65)
-INSERT INTO "student"(name, username, group1) VALUES ('Robert Bowser', 'robertbowser', 117)
-INSERT INTO "student"(name, username, group1) VALUES ('Philip Stanton', 'philipstanton', 107)
-INSERT INTO "student"(name, username, group1) VALUES ('Bruno Terkelsen', 'brunoterkelsen', 21)
-INSERT INTO "student"(name, username, group1) VALUES ('Winona Mynatt', 'winonamynatt', 53)
-INSERT INTO "student"(name, username, group1) VALUES ('Heather Batchelor', 'heatherbatchelor', 84)
-INSERT INTO "student"(name, username, group1) VALUES ('Emily Huie', 'emilyhuie', 31)
-INSERT INTO "student"(name, username, group1) VALUES ('Angelica Day', 'angelicaday', 39)
-INSERT INTO "student"(name, username, group1) VALUES ('Jake Haas', 'jakehaas', 7)
-INSERT INTO "student"(name, username, group1) VALUES ('Curtis Crowder', 'curtiscrowder', 121)
-INSERT INTO "student"(name, username, group1) VALUES ('Mildred Fuller', 'mildredfuller', 122)
-INSERT INTO "student"(name, username, group1) VALUES ('James Babcock', 'jamesbabcock', 80)
-INSERT INTO "student"(name, username, group1, group2) VALUES ('John Winter', 'johnwinter', 1, 105)
-INSERT INTO "student"(name, username, group1) VALUES ('Teresa Newell', 'teresanewell', 68)
-INSERT INTO "student"(name, username, group1) VALUES ('Kathy Williams', 'kathywilliams', 70)
-INSERT INTO "student"(name, username, group1) VALUES ('Kenneth Banta', 'kennethbanta', 4)
-INSERT INTO "student"(name, username, group1) VALUES ('Leo Mosher', 'leomosher', 89)
-INSERT INTO "student"(name, username, group1) VALUES ('James Heideman', 'jamesheideman', 77)
-INSERT INTO "student"(name, username, group1, group2) VALUES ('Kayla Seaman', 'kaylaseaman', 5, 75)
-INSERT INTO "student"(name, username, group1, group2) VALUES ('Desiree Sullivan', 'desireesullivan', 120, 22)
-INSERT INTO "student"(name, username, group1) VALUES ('Timothy Mclain', 'timothymclain', 80)
-INSERT INTO "student"(name, username, group1) VALUES ('Catalina Lane', 'catalinalane', 102)
-INSERT INTO "student"(name, username, group1) VALUES ('James Reed', 'jamesreed', 87)
-INSERT INTO "student"(name, username, group1) VALUES ('James Campbell', 'jamescampbell', 85)
-INSERT INTO "student"(name, username, group1) VALUES ('Beverly Cruz', 'beverlycruz', 43)
-INSERT INTO "student"(name, username, group1) VALUES ('Pauline Washington', 'paulinewashington', 29)
-INSERT INTO "student"(name, username, group1) VALUES ('Sandra Dodd', 'sandradodd', 58)
-INSERT INTO "student"(name, username, group1) VALUES ('Thomas Nolazco', 'thomasnolazco', 44)
-INSERT INTO "student"(name, username, group1) VALUES ('Vickie Boling', 'vickieboling', 127)
-INSERT INTO "student"(name, username, group1) VALUES ('Jennifer Wheeler', 'jenniferwheeler', 17)
-INSERT INTO "student"(name, username, group1) VALUES ('Chris Williams', 'chriswilliams', 125)
-INSERT INTO "student"(name, username, group1) VALUES ('Scott Rasor', 'scottrasor', 116)
+INSERT INTO "student"(name, username, group1) VALUES ('Margaret Walker', 'margaretwalker', 78);
+INSERT INTO "student"(name, username, group1) VALUES ('Robert Ferenz', 'robertferenz', 119);
+INSERT INTO "student"(name, username, group1) VALUES ('Anna Fisher', 'annafisher', 44);
+INSERT INTO "student"(name, username, group1) VALUES ('Debra Harrington', 'debraharrington', 108);
+INSERT INTO "student"(name, username, group1) VALUES ('Jason Brady', 'jasonbrady', 102);
+INSERT INTO "student"(name, username, group1) VALUES ('Phillip Workman', 'phillipworkman', 15);
+INSERT INTO "student"(name, username, group1) VALUES ('Joseph Damian', 'josephdamian', 102);
+INSERT INTO "student"(name, username, group1) VALUES ('Kevin Degroot', 'kevindegroot', 79);
+INSERT INTO "student"(name, username, group1) VALUES ('Gwenn Dickerson', 'gwenndickerson', 40);
+INSERT INTO "student"(name, username, group1, group2) VALUES ('Emily Lozano', 'emilylozano', 52, 20);
+INSERT INTO "student"(name, username, group1) VALUES ('Michael Haag', 'michaelhaag', 59);
+INSERT INTO "student"(name, username, group1) VALUES ('Mark Figueroa', 'markfigueroa', 33);
+INSERT INTO "student"(name, username, group1) VALUES ('Jose Ruzich', 'joseruzich', 90);
+INSERT INTO "student"(name, username, group1) VALUES ('Mary Gillan', 'marygillan', 111);
+INSERT INTO "student"(name, username, group1) VALUES ('Minnie Hamlin', 'minniehamlin', 118);
+INSERT INTO "student"(name, username, group1) VALUES ('Wendell Helm', 'wendellhelm', 20);
+INSERT INTO "student"(name, username, group1) VALUES ('Kirk Snow', 'kirksnow', 86);
+INSERT INTO "student"(name, username, group1) VALUES ('Evelyn Curry', 'evelyncurry', 78);
+INSERT INTO "student"(name, username, group1, group2) VALUES ('Tracy Bell', 'tracybell', 105, 128);
+INSERT INTO "student"(name, username, group1) VALUES ('Holly Sower', 'hollysower', 121);
+INSERT INTO "student"(name, username, group1) VALUES ('Michael Granby', 'michaelgranby', 31);
+INSERT INTO "student"(name, username, group1) VALUES ('Dawn Williams', 'dawnwilliams', 114);
+INSERT INTO "student"(name, username, group1) VALUES ('Alfred Weinhold', 'alfredweinhold', 49);
+INSERT INTO "student"(name, username, group1) VALUES ('Tony Lee', 'tonylee', 97);
+INSERT INTO "student"(name, username, group1) VALUES ('Caridad Dicks', 'caridaddicks', 38);
+INSERT INTO "student"(name, username, group1, group2) VALUES ('Charles Santarelli', 'charlessantarelli', 106, 60);
+INSERT INTO "student"(name, username, group1) VALUES ('Eva Trujillo', 'evatrujillo', 15);
+INSERT INTO "student"(name, username, group1) VALUES ('Eva Hall', 'evahall', 17);
+INSERT INTO "student"(name, username, group1) VALUES ('Jessica Nolder', 'jessicanolder', 85);
+INSERT INTO "student"(name, username, group1) VALUES ('Ricky Celis', 'rickycelis', 104);
+INSERT INTO "student"(name, username, group1) VALUES ('Hattie Fowler', 'hattiefowler', 75);
+INSERT INTO "student"(name, username, group1) VALUES ('Larry Ruth', 'larryruth', 38);
+INSERT INTO "student"(name, username, group1) VALUES ('Constance Culbertson', 'constanceculbertson', 97);
+INSERT INTO "student"(name, username, group1) VALUES ('Laura Rauch', 'laurarauch', 72);
+INSERT INTO "student"(name, username, group1) VALUES ('Bert Aguilar', 'bertaguilar', 72);
+INSERT INTO "student"(name, username, group1) VALUES ('Diana Edwards', 'dianaedwards', 57);
+INSERT INTO "student"(name, username, group1, group2) VALUES ('Ellen Biros', 'ellenbiros', 61, 43);
+INSERT INTO "student"(name, username, group1) VALUES ('Scott Cooper', 'scottcooper', 18);
+INSERT INTO "student"(name, username, group1) VALUES ('Suzanne Linahan', 'suzannelinahan', 102);
+INSERT INTO "student"(name, username, group1) VALUES ('Susan Vargas', 'susanvargas', 44);
+INSERT INTO "student"(name, username, group1) VALUES ('Edith Brooks', 'edithbrooks', 70);
+INSERT INTO "student"(name, username, group1) VALUES ('Rhonda Elwell', 'rhondaelwell', 115);
+INSERT INTO "student"(name, username, group1) VALUES ('Love Gardiner', 'lovegardiner', 65);
+INSERT INTO "student"(name, username, group1, group2) VALUES ('Rex Penderel', 'rexpenderel', 83, 19);
+INSERT INTO "student"(name, username, group1) VALUES ('Dedra Serviss', 'dedraserviss', 61);
+INSERT INTO "student"(name, username, group1) VALUES ('Randy Schneider', 'randyschneider', 30);
+INSERT INTO "student"(name, username, group1) VALUES ('Kevin Castro', 'kevincastro', 19);
+INSERT INTO "student"(name, username, group1) VALUES ('Billie Aragon', 'billiearagon', 75);
+INSERT INTO "student"(name, username, group1) VALUES ('Gary Davidson', 'garydavidson', 2);
+INSERT INTO "student"(name, username, group1) VALUES ('Mary Hancock', 'maryhancock', 34);
+INSERT INTO "student"(name, username, group1) VALUES ('Shauna Ward', 'shaunaward', 135);
+INSERT INTO "student"(name, username, group1) VALUES ('Brandy Taylor', 'brandytaylor', 86);
+INSERT INTO "student"(name, username, group1) VALUES ('Patsy Caudillo', 'patsycaudillo', 115);
+INSERT INTO "student"(name, username, group1) VALUES ('Young Schweitzer', 'youngschweitzer', 135);
+INSERT INTO "student"(name, username, group1) VALUES ('Christopher Parker', 'christopherparker', 71);
+INSERT INTO "student"(name, username, group1) VALUES ('Jack Owen', 'jackowen', 132);
+INSERT INTO "student"(name, username, group1) VALUES ('Maria Catron', 'mariacatron', 31);
+INSERT INTO "student"(name, username, group1, group2) VALUES ('Sophia Valdes', 'sophiavaldes', 48, 128);
+INSERT INTO "student"(name, username, group1) VALUES ('Dean Fitzgerald', 'deanfitzgerald', 59);
+INSERT INTO "student"(name, username, group1) VALUES ('William Gilliland', 'williamgilliland', 29);
+INSERT INTO "student"(name, username, group1) VALUES ('Anthony Fiore', 'anthonyfiore', 49);
+INSERT INTO "student"(name, username, group1) VALUES ('Kathleen Chisholm', 'kathleenchisholm', 126);
+INSERT INTO "student"(name, username, group1) VALUES ('Mary Bergen', 'marybergen', 117);
+INSERT INTO "student"(name, username, group1) VALUES ('Eldon Hammond', 'eldonhammond', 96);
+INSERT INTO "student"(name, username, group1) VALUES ('Roberto Beeson', 'robertobeeson', 19);
+INSERT INTO "student"(name, username, group1) VALUES ('Monica Jones', 'monicajones', 107);
+INSERT INTO "student"(name, username, group1) VALUES ('Jean Kelso', 'jeankelso', 55);
+INSERT INTO "student"(name, username, group1) VALUES ('Laura Larue', 'lauralarue', 125);
+INSERT INTO "student"(name, username, group1) VALUES ('Elizabeth Weiker', 'elizabethweiker', 111);
+INSERT INTO "student"(name, username, group1) VALUES ('Mattie Visher', 'mattievisher', 7);
+INSERT INTO "student"(name, username, group1) VALUES ('Robert Mcclellan', 'robertmcclellan', 38);
+INSERT INTO "student"(name, username, group1) VALUES ('Andrew Gross', 'andrewgross', 19);
+INSERT INTO "student"(name, username, group1) VALUES ('Christopher Dias', 'christopherdias', 31);
+INSERT INTO "student"(name, username, group1) VALUES ('Jeanne Pennington', 'jeannepennington', 75);
+INSERT INTO "student"(name, username, group1) VALUES ('Melvin Norris', 'melvinnorris', 131);
+INSERT INTO "student"(name, username, group1) VALUES ('Edward Owings', 'edwardowings', 16);
+INSERT INTO "student"(name, username, group1) VALUES ('Son Templin', 'sontemplin', 1);
+INSERT INTO "student"(name, username, group1) VALUES ('Leonard King', 'leonardking', 51);
+INSERT INTO "student"(name, username, group1, group2) VALUES ('Mary Pujol', 'marypujol', 16, 104);
+INSERT INTO "student"(name, username, group1) VALUES ('Richard Pollack', 'richardpollack', 87);
+INSERT INTO "student"(name, username, group1) VALUES ('Chris Johnson', 'chrisjohnson', 66);
+INSERT INTO "student"(name, username, group1) VALUES ('Russell Ziegler', 'russellziegler', 9);
+INSERT INTO "student"(name, username, group1) VALUES ('Deborah Buban', 'deborahbuban', 76);
+INSERT INTO "student"(name, username, group1) VALUES ('Robert Johnson', 'robertjohnson', 63);
+INSERT INTO "student"(name, username, group1) VALUES ('Charles Dexter', 'charlesdexter', 81);
+INSERT INTO "student"(name, username, group1) VALUES ('Rita Stephenson', 'ritastephenson', 63);
+INSERT INTO "student"(name, username, group1) VALUES ('Pearl Wilson', 'pearlwilson', 120);
+INSERT INTO "student"(name, username, group1) VALUES ('Amanda King', 'amandaking', 90);
+INSERT INTO "student"(name, username, group1) VALUES ('Katina Suomela', 'katinasuomela', 102);
+INSERT INTO "student"(name, username, group1) VALUES ('Ashley Ahmadi', 'ashleyahmadi', 115);
+INSERT INTO "student"(name, username, group1) VALUES ('Raymond Jensen', 'raymondjensen', 55);
+INSERT INTO "student"(name, username, group1) VALUES ('Roberta Kille', 'robertakille', 8);
+INSERT INTO "student"(name, username, group1) VALUES ('Michael Elza', 'michaelelza', 10);
+INSERT INTO "student"(name, username, group1) VALUES ('Leon Tobin', 'leontobin', 109);
+INSERT INTO "student"(name, username, group1) VALUES ('Alyssa Landry', 'alyssalandry', 61);
+INSERT INTO "student"(name, username, group1, group2) VALUES ('Vicki Panning', 'vickipanning', 125, 68);
+INSERT INTO "student"(name, username, group1) VALUES ('Jeff Zielinski', 'jeffzielinski', 1);
+INSERT INTO "student"(name, username, group1) VALUES ('Corey Lloyd', 'coreylloyd', 79);
+INSERT INTO "student"(name, username, group1) VALUES ('Grace Mccauley', 'gracemccauley', 36);
+INSERT INTO "student"(name, username, group1) VALUES ('William Carroll', 'williamcarroll', 4);
 
-INSERT INTO "course priority"(pid, priority) VALUES (1, 'mandatory')
-INSERT INTO "course priority"(pid, priority) VALUES (2, 'optional')
-INSERT INTO "course priority"(pid, priority) VALUES (3, 'facultative')
+INSERT INTO "course priority"(pid, priority) VALUES (1, 'mandatory');
+INSERT INTO "course priority"(pid, priority) VALUES (2, 'optional');
+INSERT INTO "course priority"(pid, priority) VALUES (3, 'facultative');
 
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (1, 'Algebra', 1, 1, 'candicescott', 1, 150, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (2, 'Fundamentele programarii', 1, 1, 'markdome', 1, 208, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (3, 'Arhitectura sistemelor de calcul', 1, 1, 'michaelparker', 1, 173, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (4, 'Programare in c', 1, 1, 'bettyowens', 1, 190, 3)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (5, 'Structuri de date si algoritmi', 1, 1, 'michaeltaggart', 2, 198, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (6, 'Geometrie', 1, 1, 'davidhastie', 2, 155, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (7, 'Sisteme dinamice', 1, 1, 'alexandriabourbon', 2, 206, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (8, 'Metode avansate de rezolvare a problemelor de matematica şi informatica', 1, 1, 'libbydevoe', 2, 183, 3)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (9, 'Metode avansate de programare', 1, 2, 'karenmontgomery', 3, 177, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (10, 'Retele de calculatoare', 1, 2, 'staceycarver', 3, 169, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (11, 'Baze de date', 1, 2, 'staceycarver', 3, 170, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (12, 'Programare functionala si logica', 1, 2, 'josephthomas', 3, 160, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (13, 'Inteligenta artificiala', 1, 2, 'ryanmalcolm', 4, 202, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (14, 'Ingineria sistemelor soft', 1, 2, 'libbydevoe', 4, 174, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (15, 'Medii de proiectare si programare', 1, 2, 'delbertmartin', 4, 175, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (16, 'Programare web', 1, 2, 'jordanburton', 4, 193, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (17, 'Programare paralela si distribuita', 1, 3, 'michaelparker', 5, 200, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (18, 'Programare pentru dispozitive mobile', 1, 3, 'donaldmorris', 5, 197, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (19, 'Criptografie cu cheie publica', 1, 3, 'markdome', 5, 203, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (20, 'Protocoale specializate in retele de calculatoare', 1, 3, 'charlesosburn', 5, 211, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (21, 'Proiect de cercetare', 1, 3, 'alexandriabourbon', 5, 184, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (22, 'Automatizarea proceselor de business', 1, 3, 'teresabarnes', 5, 187, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (23, 'Calcul numeric', 1, 3, 'marycurry', 6, 205, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (24, 'Verificarea si validarea sistemelor soft', 1, 3, 'charlesosburn', 6, 205, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (25, 'Programarea orientata pe aspecte', 1, 3, 'darlenethompson', 6, 196, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (26, 'Sabloane de proiectare', 1, 3, 'darlenethompson', 6, 158, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (27, 'Istoria informaticii', 1, 3, 'staceycarver', 6, 213, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (28, 'Invatare interactiva', 1, 3, 'staceycarver', 6, 168, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (29, 'Algebra 1', 2, 1, 'donaldmorris', 1, 156, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (30, 'Algoritmi si programare', 2, 1, 'libbydevoe', 1, 182, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (31, 'Analiza 1', 2, 1, 'markdome', 1, 188, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (32, 'Matematica de baza', 2, 1, 'tracyleach', 1, 185, 3)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (33, 'Algebra 2', 2, 1, 'lauravalley', 2, 170, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (34, 'Analiza 2', 2, 1, 'craigjensen', 2, 182, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (35, 'OOP', 2, 1, 'michaeltaggart', 2, 213, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (36, 'Metode avansate de rezolvare a problemelor de matematica şi informatica', 2, 1, 'alfredohelmick', 2, 199, 3)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (37, 'Topologie', 2, 2, 'delbertmartin', 3, 172, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (38, 'Geometrie 3', 2, 2, 'claramartinez', 3, 160, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (39, 'Ecuatii diferentiale', 2, 2, 'alexandriabourbon', 3, 164, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (40, 'Analiza convexa', 2, 2, 'charleshoupe', 3, 164, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (41, 'Teoria probabilitatilor', 2, 2, 'brucemoran', 4, 157, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (42, 'Analiza numerica', 2, 2, 'williamchristian', 4, 194, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (43, 'Modelare matematica', 2, 2, 'candicescott', 4, 195, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (44, 'Capitole speciale de ecuatii diferentiale', 2, 2, 'josephthomas', 4, 170, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (45, 'Astronomie', 2, 3, 'kellycovert', 5, 172, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (46, 'Analiza functionala', 2, 3, 'markdome', 5, 176, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (47, 'Matematica operatiunilor financiare', 2, 3, 'laurenbowen', 5, 157, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (48, 'Metode numerice cu aplicatii', 2, 3, 'kellycovert', 5, 212, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (49, 'Metode numerice in mecanica', 2, 3, 'markdome', 5, 182, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (50, 'Complemente de algebra', 2, 3, 'staceycarver', 5, 166, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (51, 'Teoria numerelor', 2, 3, 'jamessimmons', 6, 207, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (52, 'Complemente de mecanica si astronomie', 2, 3, 'lanalee', 6, 212, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (53, 'Complemente de geometrie', 2, 3, 'michaelparker', 6, 193, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (54, 'Algebra 1', 3, 1, 'juliusonusko', 1, 152, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (55, 'Algoritmi si programare', 3, 1, 'juliusonusko', 1, 204, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (56, 'Fundamentele programarii', 3, 1, 'robyndavis', 1, 158, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (57, 'Matematica de baza', 3, 1, 'darlenethompson', 1, 176, 3)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (58, 'Algebra 2', 3, 1, 'markdome', 2, 196, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (59, 'Structuri de date si algoritmi', 3, 1, 'ryanmalcolm', 2, 190, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (60, 'OOP', 3, 1, 'brucemoran', 2, 159, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (61, 'Metode avansate de rezolvare a problemelor de matematica şi informatica', 3, 1, 'bettyowens', 2, 185, 3)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (62, 'Topologie', 3, 2, 'karenmontgomery', 3, 157, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (63, 'Baze de date', 3, 2, 'michaelparker', 3, 195, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (64, 'Ecuatii diferentiale', 3, 2, 'phyllisblecha', 3, 157, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (65, 'Medii de proiectare si programare', 3, 2, 'williamchristian', 4, 212, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (66, 'Analiza numerica', 3, 2, 'libbydevoe', 4, 170, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (67, 'Modelare matematica', 3, 2, 'phyllisblecha', 4, 184, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (68, 'Programare paralela si distribuita', 3, 3, 'brucemoran', 5, 208, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (69, 'Analiza functionala', 3, 3, 'laurenbowen', 5, 167, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (70, 'Matematica operatiunilor financiare', 3, 3, 'alexandriabourbon', 5, 183, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (71, 'Protocoale specializate in retele de calculatoare', 3, 3, 'jordanburton', 5, 188, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (72, 'Metode numerice in mecanica', 3, 3, 'jamessimmons', 5, 188, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (73, 'Complemente de algebra', 3, 3, 'delbertmartin', 5, 196, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (74, 'Verificarea si validarea sistemelor soft', 3, 3, 'bettyowens', 6, 203, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (75, 'Complemente de mecanica si astronomie', 3, 3, 'markdome', 6, 173, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (76, 'Invatare interactiva', 3, 3, 'lauravalley', 6, 177, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (77, 'Algebra', 4, 1, 'tracyleach', 1, 211, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (78, 'Analiza', 4, 1, 'kimberlyjohnston', 1, 211, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (79, 'Chimie generala', 4, 1, 'lanalee', 1, 183, 3)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (80, 'Termodinamica', 4, 1, 'kellycovert', 2, 194, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (81, 'Ecuatii diferentiale', 4, 1, 'kimberlyjohnston', 2, 191, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (82, 'Informatica aplicaa in fizica', 4, 1, 'tracyleach', 2, 204, 3)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (83, 'Optica', 4, 2, 'tracyleach', 3, 186, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (84, 'Electronica', 4, 2, 'robyndavis', 3, 196, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (85, 'Mecanica cuantica', 4, 2, 'alexandriabourbon', 3, 204, 3)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (86, 'Fizica nucleara', 4, 2, 'alfredohelmick', 4, 178, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (87, 'Fizica atomului', 4, 2, 'josephthomas', 4, 172, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (88, 'Optia 2', 4, 2, 'claramartinez', 4, 171, 3)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (89, 'Fizica moleculei', 4, 3, 'juliusonusko', 5, 155, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (90, 'Fizica solidului', 4, 3, 'delbertmartin', 5, 168, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (91, 'Spectroscopie si laseri', 4, 3, 'kellycovert', 5, 215, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (92, 'Fizica semiconductorului', 4, 3, 'charleshoupe', 6, 172, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (93, 'Curs optional 1', 4, 3, 'johntew', 6, 176, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (94, 'Curs optional 2', 4, 3, 'bettyowens', 6, 185, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (95, 'Algebra', 5, 1, 'michaelparker', 1, 150, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (96, 'Analiza', 5, 1, 'candicescott', 1, 174, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (97, 'Fundamentele Programarii', 5, 1, 'kellycovert', 1, 156, 3)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (98, 'Termodinamica', 5, 1, 'charleshoupe', 2, 166, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (99, 'Ecuatii diferentiale', 5, 1, 'laurenbowen', 2, 180, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (100, 'OOP', 5, 1, 'karenmontgomery', 2, 150, 3)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (101, 'Optica', 5, 2, 'shellyspencer', 3, 166, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (102, 'Electronica', 5, 2, 'craigjensen', 3, 185, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (103, 'Mecanica cuantica', 5, 2, 'shellyspencer', 3, 196, 3)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (104, 'Fizica nucleara', 5, 2, 'robyndavis', 4, 179, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (105, 'Metode avansate de programare', 5, 2, 'kellycovert', 4, 192, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (106, 'Optia 2', 5, 2, 'shellyspencer', 4, 175, 3)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (107, 'Fizica moleculei', 5, 3, 'mikeschmidt', 5, 205, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (108, 'Sisteme de operare', 5, 3, 'karenmontgomery', 5, 161, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (109, 'Spectroscopie si laseri', 5, 3, 'brucemoran', 5, 179, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (110, 'Fizica semiconductorului', 5, 3, 'craigjensen', 6, 199, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (111, 'Curs optional 1', 5, 3, 'mikeschmidt', 6, 181, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (112, 'Curs optional 2', 5, 3, 'claramartinez', 6, 215, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (113, 'Algebra', 6, 1, 'deniseluna', 1, 191, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (114, 'Analiza', 6, 1, 'jamessimmons', 1, 209, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (115, 'Chimie generala', 6, 1, 'jamessimmons', 1, 200, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (116, 'Termodinamica', 6, 1, 'williamchristian', 2, 175, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (117, 'Ecuatii diferentiale', 6, 1, 'candicescott', 2, 158, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (118, 'Informatica aplicaa in fizica', 6, 1, 'charleshoupe', 2, 193, 3)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (119, 'Biofizica', 6, 2, 'donaldmorris', 3, 214, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (120, 'Biochimie', 6, 2, 'juliusonusko', 3, 183, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (121, 'Optica', 6, 2, 'teresabarnes', 3, 174, 3)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (122, 'Fizica nucleara', 6, 2, 'michaeltaggart', 4, 159, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (123, 'Fizica atomului', 6, 2, 'jordanburton', 4, 212, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (124, 'Optia 2', 6, 2, 'marycurry', 4, 209, 3)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (125, 'Fizica moleculei', 6, 3, 'mikeschmidt', 5, 198, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (126, 'Fizica solidului', 6, 3, 'robyndavis', 5, 172, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (127, 'Medicina nucleara', 6, 3, 'karenmontgomery', 5, 153, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (128, 'Radiologie', 6, 3, 'libbydevoe', 6, 191, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (129, 'Curs optional 1', 6, 3, 'alfredohelmick', 6, 204, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (130, 'Curs optional 2', 6, 3, 'lauravalley', 6, 186, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (131, 'Introducere in istoria veche universala', 7, 1, 'williamchristian', 1, 213, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (132, 'Introducere in istoria veche a României', 7, 1, 'jordanburton', 1, 154, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (133, 'stiintele auxiliare ale istoriei', 7, 1, 'mikeschmidt', 1, 151, 3)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (134, 'Introducere in istoria medie universala', 7, 1, 'kellycovert', 2, 212, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (135, 'Istoria Bizantului', 7, 1, 'kimberlyjohnston', 2, 179, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (136, 'Introducere in metodologia cercetarii stiintifice', 7, 1, 'donaldmorris', 2, 175, 3)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (137, 'Introducere in istoria moderna universala', 7, 2, 'claramartinez', 3, 195, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (138, 'Relaţii internaţionale in secolele XVIII-XIX', 7, 2, 'bettyowens', 3, 177, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (139, 'Istoria mentalitaţilor colective', 7, 2, 'charlesosburn', 3, 194, 3)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (140, 'Introducere in istoria contemporana universala', 7, 2, 'karenmontgomery', 4, 163, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (141, 'Introducere in istoria contemporana a României', 7, 2, 'marycurry', 4, 151, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (142, 'Istoria integrarii europene', 7, 2, 'staceycarver', 4, 173, 3)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (143, 'Istoria si teoria artei', 7, 3, 'karenmontgomery', 5, 158, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (144, 'Paleografii 1', 7, 3, 'alexandriabourbon', 5, 186, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (145, 'Curs special 1', 7, 3, 'brucemoran', 5, 198, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (146, 'Introducere in teoria istoriei', 7, 3, 'staceycarver', 6, 183, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (147, 'Paleografii 2', 7, 3, 'deniseluna', 6, 208, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (148, 'Curs optional 2: Limba izvoarelor II - latina', 7, 3, 'shellyspencer', 6, 211, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (149, 'Geografie generala', 8, 1, 'claramartinez', 1, 155, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (150, 'Geologie generala', 8, 1, 'claramartinez', 1, 197, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (151, 'Fundamente de antreprenoriat', 8, 1, 'brucemoran', 1, 175, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (152, 'Geomorfologie', 8, 1, 'deniseluna', 2, 151, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (153, 'Geografie regionala', 8, 1, 'josephthomas', 2, 162, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (154, 'Fundamente de antreprenoriat 2', 8, 1, 'craigjensen', 2, 157, 3)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (155, 'Geografia asezarilor', 8, 2, 'candicescott', 3, 192, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (156, 'Geografia fizica a romaniei', 8, 2, 'teresabarnes', 3, 188, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (157, 'Toponomie geografica', 8, 2, 'juliusonusko', 3, 160, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (158, 'Geografia umana a romaniei', 8, 2, 'michaeltaggart', 4, 204, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (159, 'Pedogeografie', 8, 2, 'charlesosburn', 4, 183, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (160, 'Geografia uniunii europene', 8, 2, 'bettyowens', 4, 210, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (161, 'Geografia peisajului', 8, 3, 'michaelparker', 5, 172, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (162, 'Organizarea spatiului geografic', 8, 3, 'davidhastie', 5, 181, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (163, 'Geografie sociala', 8, 3, 'nathanaustin', 5, 197, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (164, 'Geografia turismului', 8, 3, 'marycurry', 6, 198, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (165, 'Planificare teritoriala', 8, 3, 'candicescott', 6, 163, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (166, 'Oceanografie', 8, 3, 'nathanaustin', 6, 214, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (167, 'Geografie generala', 9, 1, 'jordanburton', 1, 209, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (168, 'Geografie generala a turismului', 9, 1, 'karenmontgomery', 1, 181, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (169, 'Fundamente de antreprenoriat', 9, 1, 'staceycarver', 1, 189, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (170, 'Geografia regionala a romaniei', 9, 1, 'josephthomas', 2, 198, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (171, 'Arhitectura in turism', 9, 1, 'donaldmorris', 2, 181, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (172, 'Fundamente de antreprenoriat 2', 9, 1, 'johntew', 2, 191, 3)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (173, 'Geografia turismului in Romania', 9, 2, 'jordanburton', 3, 162, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (174, 'Organizarea intreprinderilor si serviciilor in turism', 9, 2, 'robyndavis', 3, 162, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (175, 'Cultura si civilizatie britanica', 9, 2, 'marycurry', 3, 183, 3)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (176, 'Management turistic', 9, 2, 'craigjensen', 4, 214, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (177, 'Comunicare si imagine in turism', 9, 2, 'charleshoupe', 4, 215, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (178, 'Istoria turismului', 9, 2, 'craigjensen', 4, 160, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (179, 'Prospectare si strategii de dezvoltare turistica', 9, 3, 'tracyleach', 5, 155, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (180, 'Ecoturism şi dezvoltare durabila', 9, 3, 'lauravalley', 5, 210, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (181, 'Turism rural', 9, 3, 'alexandriabourbon', 5, 211, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (182, 'Geografie economica', 9, 3, 'charleshoupe', 6, 180, 1)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (183, 'Economia turismului şi intreprinderii de turism', 9, 3, 'michaeltaggart', 6, 158, 2)
-INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (184, 'Geografie sociala', 9, 3, 'juliusonusko', 6, 165, 2)
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (1, 'Algebra', 1, 1, 'rickeymercado', 1, 163, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (2, 'Fundamentele programarii', 1, 1, 'charlesmcbride', 1, 204, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (3, 'Arhitectura sistemelor de calcul', 1, 1, 'jeffcooper', 1, 153, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (4, 'Programare in c', 1, 1, 'johnavila', 1, 178, 3);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (5, 'Structuri de date si algoritmi', 1, 1, 'christiankleinpeter', 2, 175, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (6, 'Geometrie', 1, 1, 'nancygood', 2, 192, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (7, 'Sisteme dinamice', 1, 1, 'daviddailey', 2, 169, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (8, 'Metode avansate de rezolvare a problemelor de matematica şi informatica', 1, 1, 'johnavila', 2, 206, 3);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (9, 'Metode avansate de programare', 1, 2, 'markwillie', 3, 206, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (10, 'Retele de calculatoare', 1, 2, 'davidgouldman', 3, 197, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (11, 'Baze de date', 1, 2, 'sonjasievers', 3, 180, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (12, 'Programare functionala si logica', 1, 2, 'helensees', 3, 204, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (13, 'Inteligenta artificiala', 1, 2, 'rickeymercado', 4, 189, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (14, 'Ingineria sistemelor soft', 1, 2, 'paulsteele', 4, 214, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (15, 'Medii de proiectare si programare', 1, 2, 'lindaparish', 4, 162, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (16, 'Programare web', 1, 2, 'williambrandon', 4, 196, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (17, 'Programare paralela si distribuita', 1, 3, 'jeremydiller', 5, 193, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (18, 'Programare pentru dispozitive mobile', 1, 3, 'rickeymercado', 5, 206, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (19, 'Criptografie cu cheie publica', 1, 3, 'maryschober', 5, 192, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (20, 'Protocoale specializate in retele de calculatoare', 1, 3, 'charlespress', 5, 171, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (21, 'Proiect de cercetare', 1, 3, 'christiankleinpeter', 5, 151, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (22, 'Automatizarea proceselor de business', 1, 3, 'rafaelparton', 5, 194, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (23, 'Calcul numeric', 1, 3, 'terrawelch', 6, 156, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (24, 'Verificarea si validarea sistemelor soft', 1, 3, 'miguelroberts', 6, 186, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (25, 'Programarea orientata pe aspecte', 1, 3, 'jackthomas', 6, 151, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (26, 'Sabloane de proiectare', 1, 3, 'lilliansmith', 6, 166, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (27, 'Istoria informaticii', 1, 3, 'frankboggan', 6, 176, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (28, 'Invatare interactiva', 1, 3, 'davidwixon', 6, 160, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (29, 'Algebra 1', 2, 1, 'nancygood', 1, 166, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (30, 'Algoritmi si programare', 2, 1, 'marieprice', 1, 182, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (31, 'Analiza 1', 2, 1, 'michaelgarver', 1, 212, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (32, 'Matematica de baza', 2, 1, 'dianestoner', 1, 205, 3);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (33, 'Algebra 2', 2, 1, 'jamesholman', 2, 207, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (34, 'Analiza 2', 2, 1, 'sonjasievers', 2, 194, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (35, 'OOP', 2, 1, 'anthonystemple', 2, 212, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (36, 'Metode avansate de rezolvare a problemelor de matematica şi informatica', 2, 1, 'aliceward', 2, 170, 3);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (37, 'Topologie', 2, 2, 'dianestoner', 3, 154, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (38, 'Geometrie 3', 2, 2, 'maryschober', 3, 176, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (39, 'Ecuatii diferentiale', 2, 2, 'wendygibbs', 3, 211, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (40, 'Analiza convexa', 2, 2, 'frankboggan', 3, 200, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (41, 'Teoria probabilitatilor', 2, 2, 'silviapuente', 4, 159, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (42, 'Analiza numerica', 2, 2, 'kristophernasuti', 4, 167, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (43, 'Modelare matematica', 2, 2, 'rickeymercado', 4, 188, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (44, 'Capitole speciale de ecuatii diferentiale', 2, 2, 'elmerhayes', 4, 204, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (45, 'Astronomie', 2, 3, 'jackthomas', 5, 166, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (46, 'Analiza functionala', 2, 3, 'davidwixon', 5, 163, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (47, 'Matematica operatiunilor financiare', 2, 3, 'wendygibbs', 5, 180, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (48, 'Metode numerice cu aplicatii', 2, 3, 'marieprice', 5, 185, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (49, 'Metode numerice in mecanica', 2, 3, 'reginacastle', 5, 165, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (50, 'Complemente de algebra', 2, 3, 'kristophernasuti', 5, 157, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (51, 'Teoria numerelor', 2, 3, 'leonorton', 6, 214, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (52, 'Complemente de mecanica si astronomie', 2, 3, 'elmerhayes', 6, 167, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (53, 'Complemente de geometrie', 2, 3, 'davidwixon', 6, 172, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (54, 'Algebra 1', 3, 1, 'williambrandon', 1, 176, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (55, 'Algoritmi si programare', 3, 1, 'williambrandon', 1, 163, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (56, 'Fundamentele programarii', 3, 1, 'williambrandon', 1, 209, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (57, 'Matematica de baza', 3, 1, 'nancygood', 1, 205, 3);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (58, 'Algebra 2', 3, 1, 'kathleenjohnson', 2, 202, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (59, 'Structuri de date si algoritmi', 3, 1, 'elmerhayes', 2, 184, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (60, 'OOP', 3, 1, 'johnrodriguez', 2, 154, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (61, 'Metode avansate de rezolvare a problemelor de matematica şi informatica', 3, 1, 'daviddailey', 2, 215, 3);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (62, 'Topologie', 3, 2, 'jackthomas', 3, 211, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (63, 'Baze de date', 3, 2, 'wendygibbs', 3, 151, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (64, 'Ecuatii diferentiale', 3, 2, 'jeremydiller', 3, 188, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (65, 'Medii de proiectare si programare', 3, 2, 'melvinkautz', 4, 203, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (66, 'Analiza numerica', 3, 2, 'jantotten', 4, 212, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (67, 'Modelare matematica', 3, 2, 'donnaduvall', 4, 157, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (68, 'Programare paralela si distribuita', 3, 3, 'ruthballard', 5, 210, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (69, 'Analiza functionala', 3, 3, 'jantotten', 5, 183, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (70, 'Matematica operatiunilor financiare', 3, 3, 'chrisjean', 5, 212, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (71, 'Protocoale specializate in retele de calculatoare', 3, 3, 'davidwixon', 5, 163, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (72, 'Metode numerice in mecanica', 3, 3, 'ashleyortega', 5, 197, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (73, 'Complemente de algebra', 3, 3, 'christiankleinpeter', 5, 201, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (74, 'Verificarea si validarea sistemelor soft', 3, 3, 'adelinafultz', 6, 206, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (75, 'Complemente de mecanica si astronomie', 3, 3, 'rhondalyles', 6, 168, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (76, 'Invatare interactiva', 3, 3, 'davidgouldman', 6, 151, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (77, 'Algebra', 4, 1, 'michaelgarver', 1, 202, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (78, 'Analiza', 4, 1, 'generaver', 1, 192, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (79, 'Chimie generala', 4, 1, 'rickeymercado', 1, 201, 3);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (80, 'Termodinamica', 4, 1, 'anthonystemple', 2, 203, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (81, 'Ecuatii diferentiale', 4, 1, 'rhondalyles', 2, 195, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (82, 'Informatica aplicaa in fizica', 4, 1, 'reginacastle', 2, 152, 3);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (83, 'Optica', 4, 2, 'johnavila', 3, 209, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (84, 'Electronica', 4, 2, 'jarvisdifranco', 3, 169, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (85, 'Mecanica cuantica', 4, 2, 'rhondalyles', 3, 171, 3);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (86, 'Fizica nucleara', 4, 2, 'silviapuente', 4, 153, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (87, 'Fizica atomului', 4, 2, 'rhondalyles', 4, 161, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (88, 'Optia 2', 4, 2, 'earnestinesuarez', 4, 152, 3);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (89, 'Fizica moleculei', 4, 3, 'teresabutts', 5, 160, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (90, 'Fizica solidului', 4, 3, 'matthewhippen', 5, 151, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (91, 'Spectroscopie si laseri', 4, 3, 'majorstokes', 5, 182, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (92, 'Fizica semiconductorului', 4, 3, 'lindaparish', 6, 191, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (93, 'Curs optional 1', 4, 3, 'anthonystemple', 6, 155, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (94, 'Curs optional 2', 4, 3, 'lindaparish', 6, 192, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (95, 'Algebra', 5, 1, 'charlespress', 1, 154, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (96, 'Analiza', 5, 1, 'geraldshamapande', 1, 189, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (97, 'Fundamentele Programarii', 5, 1, 'christiankleinpeter', 1, 202, 3);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (98, 'Termodinamica', 5, 1, 'caseyblue', 2, 151, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (99, 'Ecuatii diferentiale', 5, 1, 'davidwixon', 2, 204, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (100, 'OOP', 5, 1, 'rhondalyles', 2, 188, 3);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (101, 'Optica', 5, 2, 'nataliemessenger', 3, 153, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (102, 'Electronica', 5, 2, 'ashleyortega', 3, 157, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (103, 'Mecanica cuantica', 5, 2, 'teresabutts', 3, 168, 3);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (104, 'Fizica nucleara', 5, 2, 'johnrodriguez', 4, 153, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (105, 'Metode avansate de programare', 5, 2, 'maryschober', 4, 210, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (106, 'Optia 2', 5, 2, 'nataliemessenger', 4, 154, 3);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (107, 'Fizica moleculei', 5, 3, 'jenniferlamb', 5, 151, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (108, 'Sisteme de operare', 5, 3, 'jenniferlamb', 5, 187, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (109, 'Spectroscopie si laseri', 5, 3, 'louishaskins', 5, 188, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (110, 'Fizica semiconductorului', 5, 3, 'herbertdenault', 6, 193, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (111, 'Curs optional 1', 5, 3, 'johnrodriguez', 6, 201, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (112, 'Curs optional 2', 5, 3, 'daviddailey', 6, 199, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (113, 'Algebra', 6, 1, 'ashleyortega', 1, 198, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (114, 'Analiza', 6, 1, 'helensees', 1, 161, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (115, 'Chimie generala', 6, 1, 'ashleyortega', 1, 156, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (116, 'Termodinamica', 6, 1, 'wendygibbs', 2, 202, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (117, 'Ecuatii diferentiale', 6, 1, 'jarvisdifranco', 2, 171, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (118, 'Informatica aplicaa in fizica', 6, 1, 'jasonackland', 2, 194, 3);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (119, 'Biofizica', 6, 2, 'rodbain', 3, 183, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (120, 'Biochimie', 6, 2, 'jasonackland', 3, 194, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (121, 'Optica', 6, 2, 'donnaduvall', 3, 207, 3);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (122, 'Fizica nucleara', 6, 2, 'jennyneidig', 4, 214, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (123, 'Fizica atomului', 6, 2, 'charlespress', 4, 211, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (124, 'Optia 2', 6, 2, 'eliahorn', 4, 181, 3);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (125, 'Fizica moleculei', 6, 3, 'jantotten', 5, 193, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (126, 'Fizica solidului', 6, 3, 'markwillie', 5, 173, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (127, 'Medicina nucleara', 6, 3, 'jackthomas', 5, 161, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (128, 'Radiologie', 6, 3, 'davidmartin', 6, 172, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (129, 'Curs optional 1', 6, 3, 'robertford', 6, 153, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (130, 'Curs optional 2', 6, 3, 'davidmartin', 6, 194, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (131, 'Introducere in istoria veche universala', 7, 1, 'jennyneidig', 1, 189, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (132, 'Introducere in istoria veche a României', 7, 1, 'rodbain', 1, 160, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (133, 'stiintele auxiliare ale istoriei', 7, 1, 'charlesmcbride', 1, 155, 3);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (134, 'Introducere in istoria medie universala', 7, 1, 'majorstokes', 2, 179, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (135, 'Istoria Bizantului', 7, 1, 'majorstokes', 2, 156, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (136, 'Introducere in metodologia cercetarii stiintifice', 7, 1, 'jamesholman', 2, 199, 3);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (137, 'Introducere in istoria moderna universala', 7, 2, 'majorstokes', 3, 180, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (138, 'Relaţii internaţionale in secolele XVIII-XIX', 7, 2, 'jennyneidig', 3, 164, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (139, 'Istoria mentalitaţilor colective', 7, 2, 'eliahorn', 3, 201, 3);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (140, 'Introducere in istoria contemporana universala', 7, 2, 'geraldshamapande', 4, 168, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (141, 'Introducere in istoria contemporana a României', 7, 2, 'terrawelch', 4, 166, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (142, 'Istoria integrarii europene', 7, 2, 'generaver', 4, 169, 3);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (143, 'Istoria si teoria artei', 7, 3, 'reginacastle', 5, 158, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (144, 'Paleografii 1', 7, 3, 'williambrandon', 5, 172, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (145, 'Curs special 1', 7, 3, 'susiehiggins', 5, 194, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (146, 'Introducere in teoria istoriei', 7, 3, 'daviddailey', 6, 169, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (147, 'Paleografii 2', 7, 3, 'melvinkautz', 6, 198, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (148, 'Curs optional 2: Limba izvoarelor II - latina', 7, 3, 'lindaparish', 6, 167, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (149, 'Geografie generala', 8, 1, 'reginacastle', 1, 209, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (150, 'Geologie generala', 8, 1, 'herbertdenault', 1, 197, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (151, 'Fundamente de antreprenoriat', 8, 1, 'johnavila', 1, 156, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (152, 'Geomorfologie', 8, 1, 'leonorton', 2, 214, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (153, 'Geografie regionala', 8, 1, 'jennyneidig', 2, 173, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (154, 'Fundamente de antreprenoriat 2', 8, 1, 'jarvisdifranco', 2, 183, 3);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (155, 'Geografia asezarilor', 8, 2, 'wendygibbs', 3, 189, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (156, 'Geografia fizica a romaniei', 8, 2, 'louishaskins', 3, 181, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (157, 'Toponomie geografica', 8, 2, 'charlesmcbride', 3, 157, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (158, 'Geografia umana a romaniei', 8, 2, 'jantotten', 4, 189, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (159, 'Pedogeografie', 8, 2, 'leonorton', 4, 157, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (160, 'Geografia uniunii europene', 8, 2, 'melvinkautz', 4, 185, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (161, 'Geografia peisajului', 8, 3, 'lindaparish', 5, 162, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (162, 'Organizarea spatiului geografic', 8, 3, 'wendygibbs', 5, 207, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (163, 'Geografie sociala', 8, 3, 'kathleenjohnson', 5, 159, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (164, 'Geografia turismului', 8, 3, 'chrisjean', 6, 204, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (165, 'Planificare teritoriala', 8, 3, 'kristophernasuti', 6, 166, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (166, 'Oceanografie', 8, 3, 'charlesmcbride', 6, 169, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (167, 'Geografie generala', 9, 1, 'reginacastle', 1, 157, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (168, 'Geografie generala a turismului', 9, 1, 'charlesmcbride', 1, 215, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (169, 'Fundamente de antreprenoriat', 9, 1, 'marieprice', 1, 203, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (170, 'Geografia regionala a romaniei', 9, 1, 'kristophernasuti', 2, 161, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (171, 'Arhitectura in turism', 9, 1, 'teresabutts', 2, 176, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (172, 'Fundamente de antreprenoriat 2', 9, 1, 'reginacastle', 2, 200, 3);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (173, 'Geografia turismului in Romania', 9, 2, 'jarvisdifranco', 3, 190, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (174, 'Organizarea intreprinderilor si serviciilor in turism', 9, 2, 'caseyblue', 3, 158, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (175, 'Cultura si civilizatie britanica', 9, 2, 'davidgouldman', 3, 185, 3);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (176, 'Management turistic', 9, 2, 'jantotten', 4, 186, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (177, 'Comunicare si imagine in turism', 9, 2, 'charlespress', 4, 173, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (178, 'Istoria turismului', 9, 2, 'leonorton', 4, 178, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (179, 'Prospectare si strategii de dezvoltare turistica', 9, 3, 'eliahorn', 5, 194, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (180, 'Ecoturism şi dezvoltare durabila', 9, 3, 'ashleyortega', 5, 187, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (181, 'Turism rural', 9, 3, 'sonjasievers', 5, 159, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (182, 'Geografie economica', 9, 3, 'rafaelparton', 6, 215, 1);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (183, 'Economia turismului şi intreprinderii de turism', 9, 3, 'dianestoner', 6, 154, 2);
+INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (184, 'Geografie sociala', 9, 3, 'jeremydiller', 6, 201, 2);
 
-INSERT INTO "optional course"(cid, username) VALUES (19, 'markdome')
-INSERT INTO "optional course"(cid, username) VALUES (20, 'charlesosburn')
-INSERT INTO "optional course"(cid, username) VALUES (21, 'alexandriabourbon')
-INSERT INTO "optional course"(cid, username) VALUES (22, 'teresabarnes')
-INSERT INTO "optional course"(cid, username) VALUES (25, 'darlenethompson')
-INSERT INTO "optional course"(cid, username) VALUES (26, 'darlenethompson')
-INSERT INTO "optional course"(cid, username) VALUES (27, 'staceycarver')
-INSERT INTO "optional course"(cid, username) VALUES (28, 'staceycarver')
-INSERT INTO "optional course"(cid, username) VALUES (40, 'charleshoupe')
-INSERT INTO "optional course"(cid, username) VALUES (43, 'candicescott')
-INSERT INTO "optional course"(cid, username) VALUES (44, 'josephthomas')
-INSERT INTO "optional course"(cid, username) VALUES (47, 'laurenbowen')
-INSERT INTO "optional course"(cid, username) VALUES (48, 'kellycovert')
-INSERT INTO "optional course"(cid, username) VALUES (49, 'markdome')
-INSERT INTO "optional course"(cid, username) VALUES (50, 'staceycarver')
-INSERT INTO "optional course"(cid, username) VALUES (52, 'lanalee')
-INSERT INTO "optional course"(cid, username) VALUES (53, 'michaelparker')
-INSERT INTO "optional course"(cid, username) VALUES (67, 'phyllisblecha')
-INSERT INTO "optional course"(cid, username) VALUES (70, 'alexandriabourbon')
-INSERT INTO "optional course"(cid, username) VALUES (71, 'jordanburton')
-INSERT INTO "optional course"(cid, username) VALUES (72, 'jamessimmons')
-INSERT INTO "optional course"(cid, username) VALUES (73, 'delbertmartin')
-INSERT INTO "optional course"(cid, username) VALUES (75, 'markdome')
-INSERT INTO "optional course"(cid, username) VALUES (76, 'lauravalley')
-INSERT INTO "optional course"(cid, username) VALUES (91, 'kellycovert')
-INSERT INTO "optional course"(cid, username) VALUES (93, 'johntew')
-INSERT INTO "optional course"(cid, username) VALUES (94, 'bettyowens')
-INSERT INTO "optional course"(cid, username) VALUES (109, 'brucemoran')
-INSERT INTO "optional course"(cid, username) VALUES (111, 'mikeschmidt')
-INSERT INTO "optional course"(cid, username) VALUES (112, 'claramartinez')
-INSERT INTO "optional course"(cid, username) VALUES (127, 'karenmontgomery')
-INSERT INTO "optional course"(cid, username) VALUES (129, 'alfredohelmick')
-INSERT INTO "optional course"(cid, username) VALUES (130, 'lauravalley')
-INSERT INTO "optional course"(cid, username) VALUES (145, 'brucemoran')
-INSERT INTO "optional course"(cid, username) VALUES (148, 'shellyspencer')
-INSERT INTO "optional course"(cid, username) VALUES (157, 'juliusonusko')
-INSERT INTO "optional course"(cid, username) VALUES (160, 'bettyowens')
-INSERT INTO "optional course"(cid, username) VALUES (163, 'nathanaustin')
-INSERT INTO "optional course"(cid, username) VALUES (165, 'candicescott')
-INSERT INTO "optional course"(cid, username) VALUES (166, 'nathanaustin')
-INSERT INTO "optional course"(cid, username) VALUES (178, 'craigjensen')
-INSERT INTO "optional course"(cid, username) VALUES (181, 'alexandriabourbon')
-INSERT INTO "optional course"(cid, username) VALUES (183, 'michaeltaggart')
-INSERT INTO "optional course"(cid, username) VALUES (184, 'juliusonusko')
+INSERT INTO "optional course"(cid, username) VALUES (19, 'maryschober');
+INSERT INTO "optional course"(cid, username) VALUES (20, 'charlespress');
+INSERT INTO "optional course"(cid, username) VALUES (21, 'christiankleinpeter');
+INSERT INTO "optional course"(cid, username) VALUES (22, 'rafaelparton');
+INSERT INTO "optional course"(cid, username) VALUES (25, 'jackthomas');
+INSERT INTO "optional course"(cid, username) VALUES (26, 'lilliansmith');
+INSERT INTO "optional course"(cid, username) VALUES (27, 'frankboggan');
+INSERT INTO "optional course"(cid, username) VALUES (28, 'davidwixon');
+INSERT INTO "optional course"(cid, username) VALUES (40, 'frankboggan');
+INSERT INTO "optional course"(cid, username) VALUES (43, 'rickeymercado');
+INSERT INTO "optional course"(cid, username) VALUES (44, 'elmerhayes');
+INSERT INTO "optional course"(cid, username) VALUES (47, 'wendygibbs');
+INSERT INTO "optional course"(cid, username) VALUES (48, 'marieprice');
+INSERT INTO "optional course"(cid, username) VALUES (49, 'reginacastle');
+INSERT INTO "optional course"(cid, username) VALUES (50, 'kristophernasuti');
+INSERT INTO "optional course"(cid, username) VALUES (52, 'elmerhayes');
+INSERT INTO "optional course"(cid, username) VALUES (53, 'davidwixon');
+INSERT INTO "optional course"(cid, username) VALUES (67, 'donnaduvall');
+INSERT INTO "optional course"(cid, username) VALUES (70, 'chrisjean');
+INSERT INTO "optional course"(cid, username) VALUES (71, 'davidwixon');
+INSERT INTO "optional course"(cid, username) VALUES (72, 'ashleyortega');
+INSERT INTO "optional course"(cid, username) VALUES (73, 'christiankleinpeter');
+INSERT INTO "optional course"(cid, username) VALUES (75, 'rhondalyles');
+INSERT INTO "optional course"(cid, username) VALUES (76, 'davidgouldman');
+INSERT INTO "optional course"(cid, username) VALUES (91, 'majorstokes');
+INSERT INTO "optional course"(cid, username) VALUES (93, 'anthonystemple');
+INSERT INTO "optional course"(cid, username) VALUES (94, 'lindaparish');
+INSERT INTO "optional course"(cid, username) VALUES (109, 'louishaskins');
+INSERT INTO "optional course"(cid, username) VALUES (111, 'johnrodriguez');
+INSERT INTO "optional course"(cid, username) VALUES (112, 'daviddailey');
+INSERT INTO "optional course"(cid, username) VALUES (127, 'jackthomas');
+INSERT INTO "optional course"(cid, username) VALUES (129, 'robertford');
+INSERT INTO "optional course"(cid, username) VALUES (130, 'davidmartin');
+INSERT INTO "optional course"(cid, username) VALUES (145, 'susiehiggins');
+INSERT INTO "optional course"(cid, username) VALUES (148, 'lindaparish');
+INSERT INTO "optional course"(cid, username) VALUES (157, 'charlesmcbride');
+INSERT INTO "optional course"(cid, username) VALUES (160, 'melvinkautz');
+INSERT INTO "optional course"(cid, username) VALUES (163, 'kathleenjohnson');
+INSERT INTO "optional course"(cid, username) VALUES (165, 'kristophernasuti');
+INSERT INTO "optional course"(cid, username) VALUES (166, 'charlesmcbride');
+INSERT INTO "optional course"(cid, username) VALUES (178, 'leonorton');
+INSERT INTO "optional course"(cid, username) VALUES (181, 'sonjasievers');
+INSERT INTO "optional course"(cid, username) VALUES (183, 'dianestoner');
+INSERT INTO "optional course"(cid, username) VALUES (184, 'jeremydiller');
 
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('terriherndon', 2, 2)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('carloswhittemore', 6, 1)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('gloriabanville', 1, 2)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('johnwilliams', 5, 1)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('jamesmagnall', 3, 3)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('elliscain', 6, 2)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('elliscain', 7, 1)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('lewisporter', 8, 2)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('johnnyarchie', 2, 3)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('haroldgowins', 5, 1)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('robertbowser', 8, 3)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('philipstanton', 8, 1)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('brunoterkelsen', 2, 2)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('winonamynatt', 4, 2)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('heatherbatchelor', 6, 2)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('emilyhuie', 3, 1)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('angelicaday', 3, 2)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('jakehaas', 1, 2)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('curtiscrowder', 9, 1)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('mildredfuller', 9, 1)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('jamesbabcock', 6, 1)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('johnwinter', 1, 1)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('johnwinter', 7, 3)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('teresanewell', 5, 2)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('kathywilliams', 5, 2)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('kennethbanta', 1, 1)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('leomosher', 6, 3)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('jamesheideman', 6, 1)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('kaylaseaman', 1, 1)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('kaylaseaman', 5, 3)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('desireesullivan', 2, 2)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('desireesullivan', 8, 3)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('timothymclain', 6, 1)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('catalinalane', 7, 3)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('jamesreed', 6, 3)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('jamescampbell', 6, 2)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('beverlycruz', 3, 3)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('paulinewashington', 2, 3)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('sandradodd', 4, 3)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('thomasnolazco', 3, 3)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('vickieboling', 9, 2)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('jenniferwheeler', 2, 1)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('chriswilliams', 9, 1)
-INSERT INTO "studentenrollment"(username, fid, year) VALUES ('scottrasor', 8, 3)
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('margaretwalker', 6, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('robertferenz', 8, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('annafisher', 3, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('debraharrington', 8, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('jasonbrady', 7, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('phillipworkman', 1, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('josephdamian', 7, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('kevindegroot', 6, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('gwenndickerson', 3, 2);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('emilylozano', 2, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('emilylozano', 4, 2);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('michaelhaag', 4, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('markfigueroa', 3, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('joseruzich', 6, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('marygillan', 8, 2);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('minniehamlin', 8, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('wendellhelm', 2, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('kirksnow', 6, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('evelyncurry', 6, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('tracybell', 7, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('tracybell', 9, 2);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('hollysower', 9, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('michaelgranby', 3, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('dawnwilliams', 8, 2);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('alfredweinhold', 4, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('tonylee', 7, 2);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('caridaddicks', 3, 2);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('charlessantarelli', 4, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('charlessantarelli', 8, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('evatrujillo', 1, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('evahall', 2, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('jessicanolder', 6, 2);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('rickycelis', 7, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('hattiefowler', 5, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('larryruth', 3, 2);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('constanceculbertson', 7, 2);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('laurarauch', 5, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('bertaguilar', 5, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('dianaedwards', 4, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('ellenbiros', 3, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('ellenbiros', 5, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('scottcooper', 2, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('suzannelinahan', 7, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('susanvargas', 3, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('edithbrooks', 5, 2);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('rhondaelwell', 8, 2);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('lovegardiner', 5, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('rexpenderel', 2, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('rexpenderel', 6, 2);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('dedraserviss', 5, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('randyschneider', 2, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('kevincastro', 2, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('billiearagon', 5, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('garydavidson', 1, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('maryhancock', 3, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('shaunaward', 9, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('brandytaylor', 6, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('patsycaudillo', 8, 2);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('youngschweitzer', 9, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('christopherparker', 5, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('jackowen', 9, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('mariacatron', 3, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('sophiavaldes', 4, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('sophiavaldes', 9, 2);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('deanfitzgerald', 4, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('williamgilliland', 2, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('anthonyfiore', 4, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('kathleenchisholm', 9, 2);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('marybergen', 8, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('eldonhammond', 7, 2);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('robertobeeson', 2, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('monicajones', 8, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('jeankelso', 4, 2);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('lauralarue', 9, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('elizabethweiker', 8, 2);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('mattievisher', 1, 2);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('robertmcclellan', 3, 2);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('andrewgross', 2, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('christopherdias', 3, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('jeannepennington', 5, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('melvinnorris', 9, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('edwardowings', 2, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('sontemplin', 1, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('leonardking', 4, 2);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('marypujol', 2, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('marypujol', 7, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('richardpollack', 6, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('chrisjohnson', 5, 2);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('russellziegler', 1, 2);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('deborahbuban', 6, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('robertjohnson', 5, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('charlesdexter', 6, 2);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('ritastephenson', 5, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('pearlwilson', 8, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('amandaking', 6, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('katinasuomela', 7, 3);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('ashleyahmadi', 8, 2);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('raymondjensen', 4, 2);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('robertakille', 1, 2);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('michaelelza', 1, 2);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('leontobin', 8, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('alyssalandry', 5, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('vickipanning', 5, 2);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('vickipanning', 9, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('jeffzielinski', 1, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('coreylloyd', 6, 1);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('gracemccauley', 3, 2);
+INSERT INTO "studentenrollment"(username, fid, year) VALUES ('williamcarroll', 1, 1);
 
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('winonamynatt', 166)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('winonamynatt', 67)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('winonamynatt', 28)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('winonamynatt', 178)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('winonamynatt', 184)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('leomosher', 163)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('vickieboling', 91)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('vickieboling', 47)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('vickieboling', 20)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('vickieboling', 157)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('vickieboling', 52)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('gloriabanville', 44)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('gloriabanville', 130)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('heatherbatchelor', 67)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('heatherbatchelor', 160)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('terriherndon', 26)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('terriherndon', 163)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('terriherndon', 50)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('terriherndon', 19)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('terriherndon', 165)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('lewisporter', 28)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('lewisporter', 184)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('lewisporter', 145)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('lewisporter', 165)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('lewisporter', 157)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('desireesullivan', 28)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('jamescampbell', 76)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('jamescampbell', 22)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('jamescampbell', 181)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('jamescampbell', 70)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('jamescampbell', 25)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('teresanewell', 93)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('teresanewell', 50)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('teresanewell', 109)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('teresanewell', 130)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('teresanewell', 44)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('beverlycruz', 50)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('brunoterkelsen', 129)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('brunoterkelsen', 49)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('brunoterkelsen', 26)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('brunoterkelsen', 181)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('jakehaas', 178)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('jakehaas', 44)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('jakehaas', 53)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('jamesreed', 183)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('jamesreed', 157)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('jamesreed', 76)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('robertbowser', 47)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('robertbowser', 93)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('robertbowser', 48)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('robertbowser', 160)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('robertbowser', 76)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('angelicaday', 127)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('desireesullivan', 160)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('desireesullivan', 181)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('desireesullivan', 21)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('catalinalane', 67)
-INSERT INTO "optional course enrollment"(username, cid) VALUES ('catalinalane', 148)
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('charlesdexter', 94);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('charlesdexter', 165);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('charlesdexter', 47);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('charlesdexter', 148);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('charlesdexter', 184);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('minniehamlin', 43);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('minniehamlin', 111);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('minniehamlin', 75);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('sophiavaldes', 157);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('sophiavaldes', 52);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('sophiavaldes', 165);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('sophiavaldes', 130);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('youngschweitzer', 129);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('youngschweitzer', 21);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('youngschweitzer', 75);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('youngschweitzer', 27);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('youngschweitzer', 22);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('patsycaudillo', 145);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('patsycaudillo', 43);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('susanvargas', 183);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('susanvargas', 127);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('susanvargas', 112);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('michaelelza', 48);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('michaelelza', 129);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('michaelelza', 26);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('tonylee', 76);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('tonylee', 71);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('dawnwilliams', 67);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('russellziegler', 67);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('russellziegler', 181);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('russellziegler', 48);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('russellziegler', 28);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('russellziegler', 22);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('joseruzich', 111);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('joseruzich', 129);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('joseruzich', 93);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('tracybell', 28);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('annafisher', 178);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('annafisher', 181);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('annafisher', 50);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('annafisher', 160);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('suzannelinahan', 93);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('suzannelinahan', 53);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('suzannelinahan', 163);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('dianaedwards', 71);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('dianaedwards', 130);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('dianaedwards', 75);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('dianaedwards', 163);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('dianaedwards', 50);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('robertferenz', 178);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('robertferenz', 50);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('robertferenz', 71);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('mattievisher', 48);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('mattievisher', 43);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('mattievisher', 67);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('mattievisher', 127);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('larryruth', 19);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('larryruth', 47);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('larryruth', 25);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('josephdamian', 71);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('josephdamian', 145);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('josephdamian', 160);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('josephdamian', 22);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('josephdamian', 49);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('brandytaylor', 160);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('brandytaylor', 53);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('brandytaylor', 43);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('brandytaylor', 183);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('brandytaylor', 165);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('amandaking', 166);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('amandaking', 178);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('amandaking', 94);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('amandaking', 40);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('amandaking', 20);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('rickycelis', 111);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('rickycelis', 163);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('evatrujillo', 43);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('evatrujillo', 67);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('evatrujillo', 20);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('evatrujillo', 129);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('evatrujillo', 72);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('constanceculbertson', 127);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('constanceculbertson', 111);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('constanceculbertson', 165);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('constanceculbertson', 71);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('kirksnow', 112);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('kirksnow', 47);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('kirksnow', 21);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('jeannepennington', 163);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('robertakille', 157);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('robertakille', 165);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('robertakille', 93);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('robertakille', 127);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('robertakille', 160);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('phillipworkman', 94);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('phillipworkman', 127);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('phillipworkman', 91);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('phillipworkman', 183);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('phillipworkman', 184);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('randyschneider', 70);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('randyschneider', 165);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('randyschneider', 53);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('emilylozano', 91);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('emilylozano', 70);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('emilylozano', 49);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('emilylozano', 160);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('emilylozano', 112);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('pearlwilson', 72);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('charlessantarelli', 93);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('charlessantarelli', 48);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('charlessantarelli', 44);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('charlessantarelli', 129);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('charlessantarelli', 181);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('melvinnorris', 40);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('marygillan', 76);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('marygillan', 111);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('marygillan', 93);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('marygillan', 148);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('gracemccauley', 49);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('gracemccauley', 127);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('gracemccauley', 47);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('gracemccauley', 21);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('gracemccauley', 20);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('jackowen', 50);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('jackowen', 22);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('jackowen', 184);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('jackowen', 165);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('gwenndickerson', 70);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('gwenndickerson', 75);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('gwenndickerson', 26);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('gwenndickerson', 129);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('gwenndickerson', 163);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('laurarauch', 148);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('laurarauch', 20);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('laurarauch', 94);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('laurarauch', 49);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('hattiefowler', 47);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('ashleyahmadi', 129);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('ashleyahmadi', 163);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('ashleyahmadi', 166);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('ashleyahmadi', 109);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('ashleyahmadi', 19);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('michaelhaag', 26);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('michaelhaag', 145);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('michaelhaag', 157);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('michaelhaag', 73);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('marybergen', 44);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('marybergen', 28);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('marybergen', 165);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('christopherparker', 163);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('christopherparker', 183);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('christopherparker', 166);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('christopherparker', 22);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('christopherparker', 160);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('ellenbiros', 157);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('ellenbiros', 22);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('ellenbiros', 48);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('leonardking', 160);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('leonardking', 91);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('leonardking', 181);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('vickipanning', 40);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('vickipanning', 53);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('edithbrooks', 145);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('edithbrooks', 160);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('edithbrooks', 70);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('edithbrooks', 94);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('edithbrooks', 20);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('robertmcclellan', 53);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('katinasuomela', 40);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('katinasuomela', 20);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('marypujol', 112);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('marypujol', 160);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('eldonhammond', 71);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('eldonhammond', 48);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('eldonhammond', 163);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('eldonhammond', 43);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('rexpenderel', 181);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('rexpenderel', 183);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('rexpenderel', 129);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('jasonbrady', 111);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('jasonbrady', 130);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('jasonbrady', 183);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('jessicanolder', 127);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('jessicanolder', 71);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('jessicanolder', 53);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('jessicanolder', 52);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('elizabethweiker', 157);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('elizabethweiker', 50);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('elizabethweiker', 111);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('williamgilliland', 43);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('williamgilliland', 160);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('kathleenchisholm', 67);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('kathleenchisholm', 48);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('jeankelso', 71);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('jeankelso', 22);
+INSERT INTO "optional course enrollment"(username, cid) VALUES ('jeankelso', 165);
 
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'terriherndon', 29)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'terriherndon', 29)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'terriherndon', 30)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'terriherndon', 30)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'terriherndon', 30)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'terriherndon', 30)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'terriherndon', 31)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'terriherndon', 32)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'terriherndon', 32)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'terriherndon', 32)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'terriherndon', 32)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'terriherndon', 32)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'terriherndon', 33)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'terriherndon', 33)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'terriherndon', 33)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'terriherndon', 33)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'terriherndon', 34)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'terriherndon', 34)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'terriherndon', 35)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'terriherndon', 35)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'terriherndon', 35)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'terriherndon', 35)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'terriherndon', 36)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'terriherndon', 36)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'terriherndon', 37)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'terriherndon', 37)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'terriherndon', 37)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'terriherndon', 37)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'terriherndon', 38)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'terriherndon', 40)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'terriherndon', 40)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'terriherndon', 40)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'terriherndon', 40)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'terriherndon', 41)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'terriherndon', 41)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'terriherndon', 41)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'terriherndon', 41)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'terriherndon', 42)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'terriherndon', 42)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'terriherndon', 42)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'terriherndon', 42)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'terriherndon', 43)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'terriherndon', 43)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'terriherndon', 43)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'terriherndon', 43)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'terriherndon', 44)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'terriherndon', 45)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'terriherndon', 45)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'terriherndon', 45)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'terriherndon', 45)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'terriherndon', 45)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'terriherndon', 46)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'terriherndon', 47)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'terriherndon', 47)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'terriherndon', 47)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'terriherndon', 47)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'terriherndon', 48)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'terriherndon', 48)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'terriherndon', 48)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'terriherndon', 48)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'terriherndon', 50)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'terriherndon', 50)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'terriherndon', 50)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'terriherndon', 50)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'terriherndon', 51)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'terriherndon', 53)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'terriherndon', 53)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'terriherndon', 53)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'terriherndon', 53)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'carloswhittemore', 113)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'carloswhittemore', 113)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'carloswhittemore', 116)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'carloswhittemore', 117)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'carloswhittemore', 117)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'carloswhittemore', 117)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'carloswhittemore', 117)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'carloswhittemore', 118)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'carloswhittemore', 118)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'carloswhittemore', 118)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'carloswhittemore', 118)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'carloswhittemore', 118)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'carloswhittemore', 120)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'carloswhittemore', 120)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'carloswhittemore', 121)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'carloswhittemore', 121)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'carloswhittemore', 121)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'carloswhittemore', 121)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'carloswhittemore', 122)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'carloswhittemore', 122)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'carloswhittemore', 123)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'carloswhittemore', 124)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'carloswhittemore', 124)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'carloswhittemore', 124)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'carloswhittemore', 124)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'carloswhittemore', 125)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'carloswhittemore', 125)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'carloswhittemore', 125)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'carloswhittemore', 125)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'carloswhittemore', 125)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'carloswhittemore', 126)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'carloswhittemore', 128)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'carloswhittemore', 128)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'carloswhittemore', 128)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'carloswhittemore', 129)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'carloswhittemore', 130)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'carloswhittemore', 130)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'carloswhittemore', 130)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'gloriabanville', 1)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'gloriabanville', 1)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'gloriabanville', 1)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'gloriabanville', 1)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'gloriabanville', 1)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'gloriabanville', 2)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'gloriabanville', 3)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'gloriabanville', 3)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'gloriabanville', 4)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'gloriabanville', 4)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'gloriabanville', 5)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'gloriabanville', 5)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'gloriabanville', 7)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'gloriabanville', 7)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'gloriabanville', 7)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'gloriabanville', 7)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'gloriabanville', 8)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'gloriabanville', 8)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'gloriabanville', 10)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'gloriabanville', 10)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'gloriabanville', 11)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'gloriabanville', 11)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'gloriabanville', 13)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'gloriabanville', 13)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'gloriabanville', 14)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'gloriabanville', 14)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'gloriabanville', 14)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'gloriabanville', 15)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'gloriabanville', 16)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'gloriabanville', 16)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'gloriabanville', 16)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'gloriabanville', 16)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'gloriabanville', 16)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'gloriabanville', 17)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'gloriabanville', 17)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'gloriabanville', 17)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'gloriabanville', 17)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'gloriabanville', 18)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'gloriabanville', 18)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'gloriabanville', 18)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'gloriabanville', 18)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'gloriabanville', 18)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'gloriabanville', 19)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'gloriabanville', 19)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'gloriabanville', 19)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'gloriabanville', 19)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'gloriabanville', 19)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'gloriabanville', 20)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'gloriabanville', 20)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'gloriabanville', 20)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'gloriabanville', 20)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'gloriabanville', 20)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'gloriabanville', 22)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'gloriabanville', 22)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'gloriabanville', 22)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'gloriabanville', 22)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'gloriabanville', 22)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'gloriabanville', 23)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'gloriabanville', 23)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'gloriabanville', 24)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'gloriabanville', 24)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'gloriabanville', 24)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'gloriabanville', 24)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'gloriabanville', 24)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'gloriabanville', 25)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'gloriabanville', 26)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'gloriabanville', 26)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'gloriabanville', 26)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'gloriabanville', 26)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'gloriabanville', 27)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'gloriabanville', 28)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'johnwilliams', 95)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'johnwilliams', 95)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'johnwilliams', 95)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'johnwilliams', 95)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'johnwilliams', 95)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'johnwilliams', 97)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'johnwilliams', 97)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'johnwilliams', 98)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'johnwilliams', 98)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'johnwilliams', 98)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'johnwilliams', 98)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'johnwilliams', 99)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'johnwilliams', 100)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'johnwilliams', 100)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'johnwilliams', 100)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'johnwilliams', 100)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'johnwilliams', 101)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'johnwilliams', 101)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'johnwilliams', 101)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'johnwilliams', 101)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'johnwilliams', 102)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'johnwilliams', 103)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'johnwilliams', 103)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'johnwilliams', 103)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'johnwilliams', 105)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'johnwilliams', 106)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'johnwilliams', 106)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'johnwilliams', 106)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'johnwilliams', 106)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'johnwilliams', 106)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'johnwilliams', 107)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'johnwilliams', 108)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'johnwilliams', 109)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'johnwilliams', 110)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'johnwilliams', 110)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'johnwilliams', 110)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'johnwilliams', 110)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'johnwilliams', 110)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'johnwilliams', 111)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'johnwilliams', 112)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'johnwilliams', 112)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'johnwilliams', 112)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jamesmagnall', 54)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jamesmagnall', 55)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jamesmagnall', 55)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jamesmagnall', 55)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jamesmagnall', 55)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jamesmagnall', 56)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jamesmagnall', 56)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jamesmagnall', 56)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jamesmagnall', 57)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jamesmagnall', 57)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jamesmagnall', 58)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'jamesmagnall', 59)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jamesmagnall', 59)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jamesmagnall', 59)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jamesmagnall', 59)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jamesmagnall', 59)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jamesmagnall', 60)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jamesmagnall', 60)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jamesmagnall', 60)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jamesmagnall', 60)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jamesmagnall', 61)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jamesmagnall', 62)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jamesmagnall', 62)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'jamesmagnall', 62)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jamesmagnall', 62)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jamesmagnall', 62)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jamesmagnall', 63)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jamesmagnall', 64)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jamesmagnall', 64)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jamesmagnall', 65)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jamesmagnall', 65)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jamesmagnall', 65)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jamesmagnall', 66)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jamesmagnall', 66)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jamesmagnall', 67)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jamesmagnall', 67)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jamesmagnall', 67)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'jamesmagnall', 68)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jamesmagnall', 68)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jamesmagnall', 68)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jamesmagnall', 69)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jamesmagnall', 69)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jamesmagnall', 70)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jamesmagnall', 70)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jamesmagnall', 71)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jamesmagnall', 71)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jamesmagnall', 71)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jamesmagnall', 71)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jamesmagnall', 71)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'jamesmagnall', 72)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'jamesmagnall', 72)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jamesmagnall', 72)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jamesmagnall', 72)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jamesmagnall', 72)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jamesmagnall', 74)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jamesmagnall', 74)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jamesmagnall', 75)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jamesmagnall', 76)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'elliscain', 113)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'elliscain', 113)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'elliscain', 113)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'elliscain', 113)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'elliscain', 113)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'elliscain', 117)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'elliscain', 117)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'elliscain', 117)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'elliscain', 118)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'elliscain', 118)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'elliscain', 118)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'elliscain', 119)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'elliscain', 119)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'elliscain', 119)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'elliscain', 119)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'elliscain', 120)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'elliscain', 121)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'elliscain', 123)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'elliscain', 125)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'elliscain', 125)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'elliscain', 125)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'elliscain', 126)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'elliscain', 126)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'elliscain', 126)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'elliscain', 127)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'elliscain', 127)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'elliscain', 127)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'elliscain', 127)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'elliscain', 127)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'elliscain', 128)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'elliscain', 128)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'elliscain', 128)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'elliscain', 129)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'elliscain', 129)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'elliscain', 130)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'elliscain', 130)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'elliscain', 131)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'elliscain', 131)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'elliscain', 131)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'elliscain', 132)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'elliscain', 132)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'elliscain', 133)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'elliscain', 133)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'elliscain', 133)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'elliscain', 133)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'elliscain', 135)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'elliscain', 135)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'elliscain', 135)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'elliscain', 135)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'elliscain', 136)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'elliscain', 136)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'elliscain', 136)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'elliscain', 136)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'elliscain', 136)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'elliscain', 137)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'elliscain', 137)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'elliscain', 137)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'elliscain', 138)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'elliscain', 139)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'elliscain', 139)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'elliscain', 139)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'elliscain', 139)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'elliscain', 139)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'elliscain', 143)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'elliscain', 143)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'elliscain', 143)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'elliscain', 143)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'elliscain', 144)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'elliscain', 144)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'elliscain', 144)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'elliscain', 145)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'elliscain', 145)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'elliscain', 145)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'elliscain', 145)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'elliscain', 145)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'elliscain', 146)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'elliscain', 147)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'elliscain', 147)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'elliscain', 147)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'elliscain', 147)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'elliscain', 147)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'elliscain', 148)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'lewisporter', 149)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'lewisporter', 149)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'lewisporter', 149)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'lewisporter', 149)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'lewisporter', 149)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'lewisporter', 150)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'lewisporter', 150)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'lewisporter', 151)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'lewisporter', 151)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'lewisporter', 151)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'lewisporter', 151)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'lewisporter', 151)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'lewisporter', 153)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'lewisporter', 153)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'lewisporter', 153)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'lewisporter', 154)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'lewisporter', 154)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'lewisporter', 154)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'lewisporter', 154)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'lewisporter', 154)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'lewisporter', 155)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'lewisporter', 155)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'lewisporter', 155)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'lewisporter', 155)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'lewisporter', 156)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'lewisporter', 157)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'lewisporter', 157)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'lewisporter', 158)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'lewisporter', 158)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'lewisporter', 158)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'lewisporter', 158)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'lewisporter', 159)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'lewisporter', 159)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'lewisporter', 159)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'lewisporter', 159)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'lewisporter', 159)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'lewisporter', 160)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'lewisporter', 160)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'lewisporter', 161)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'lewisporter', 161)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'lewisporter', 161)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'lewisporter', 162)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'lewisporter', 162)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'lewisporter', 162)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'lewisporter', 162)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'lewisporter', 163)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'lewisporter', 163)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'lewisporter', 163)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'lewisporter', 163)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'lewisporter', 164)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'lewisporter', 165)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'lewisporter', 165)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'lewisporter', 165)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'lewisporter', 165)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'lewisporter', 165)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'lewisporter', 166)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'lewisporter', 166)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'lewisporter', 166)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'lewisporter', 166)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'johnnyarchie', 29)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'johnnyarchie', 29)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'johnnyarchie', 29)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'johnnyarchie', 29)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'johnnyarchie', 30)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'johnnyarchie', 30)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'johnnyarchie', 31)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'johnnyarchie', 31)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'johnnyarchie', 31)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'johnnyarchie', 31)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'johnnyarchie', 31)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'johnnyarchie', 32)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'johnnyarchie', 32)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'johnnyarchie', 33)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'johnnyarchie', 34)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'johnnyarchie', 34)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'johnnyarchie', 34)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'johnnyarchie', 35)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'johnnyarchie', 35)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'johnnyarchie', 35)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'johnnyarchie', 35)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'johnnyarchie', 35)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'johnnyarchie', 36)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'johnnyarchie', 36)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'johnnyarchie', 37)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'johnnyarchie', 37)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'johnnyarchie', 37)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'johnnyarchie', 38)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'johnnyarchie', 39)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'johnnyarchie', 39)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'johnnyarchie', 41)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'johnnyarchie', 41)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'johnnyarchie', 41)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'johnnyarchie', 43)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'johnnyarchie', 43)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'johnnyarchie', 43)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'johnnyarchie', 43)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'johnnyarchie', 44)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'johnnyarchie', 44)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'johnnyarchie', 44)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'johnnyarchie', 45)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'johnnyarchie', 45)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'johnnyarchie', 45)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'johnnyarchie', 45)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'johnnyarchie', 45)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'johnnyarchie', 46)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'johnnyarchie', 46)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'johnnyarchie', 46)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'johnnyarchie', 46)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'johnnyarchie', 46)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'johnnyarchie', 47)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'johnnyarchie', 47)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'johnnyarchie', 47)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'johnnyarchie', 47)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'johnnyarchie', 48)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'johnnyarchie', 49)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'johnnyarchie', 49)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'johnnyarchie', 49)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'johnnyarchie', 49)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'johnnyarchie', 49)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'johnnyarchie', 50)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'johnnyarchie', 50)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'johnnyarchie', 50)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'johnnyarchie', 51)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'johnnyarchie', 51)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'johnnyarchie', 51)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'johnnyarchie', 51)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'johnnyarchie', 51)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'johnnyarchie', 52)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'johnnyarchie', 52)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'johnnyarchie', 52)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'johnnyarchie', 53)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'johnnyarchie', 53)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'haroldgowins', 95)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'haroldgowins', 95)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'haroldgowins', 96)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'haroldgowins', 96)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'haroldgowins', 96)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'haroldgowins', 96)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'haroldgowins', 96)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'haroldgowins', 97)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'haroldgowins', 97)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'haroldgowins', 98)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'haroldgowins', 98)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'haroldgowins', 98)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'haroldgowins', 98)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'haroldgowins', 98)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'haroldgowins', 99)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'haroldgowins', 100)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'haroldgowins', 101)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'haroldgowins', 102)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'haroldgowins', 102)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'haroldgowins', 102)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'haroldgowins', 102)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'haroldgowins', 103)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'haroldgowins', 104)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'haroldgowins', 105)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'haroldgowins', 106)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'haroldgowins', 107)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'haroldgowins', 107)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'haroldgowins', 107)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'haroldgowins', 107)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'haroldgowins', 107)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'haroldgowins', 108)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'haroldgowins', 108)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'haroldgowins', 108)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'haroldgowins', 108)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'haroldgowins', 109)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'haroldgowins', 109)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'haroldgowins', 109)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'haroldgowins', 109)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'haroldgowins', 109)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'haroldgowins', 110)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'haroldgowins', 110)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'haroldgowins', 110)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'haroldgowins', 111)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'haroldgowins', 111)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'haroldgowins', 111)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'haroldgowins', 111)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'haroldgowins', 111)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'haroldgowins', 112)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'robertbowser', 150)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'robertbowser', 150)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'robertbowser', 151)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'robertbowser', 152)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'robertbowser', 152)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'robertbowser', 152)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'robertbowser', 152)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'robertbowser', 152)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'robertbowser', 154)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'robertbowser', 154)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'robertbowser', 154)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'robertbowser', 154)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'robertbowser', 155)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'robertbowser', 155)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'robertbowser', 157)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'robertbowser', 158)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'robertbowser', 158)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'robertbowser', 158)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'robertbowser', 160)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'robertbowser', 160)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'robertbowser', 162)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'robertbowser', 162)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'robertbowser', 162)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'robertbowser', 162)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'robertbowser', 162)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'robertbowser', 163)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'robertbowser', 163)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'robertbowser', 163)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'robertbowser', 163)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'robertbowser', 163)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'robertbowser', 164)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'robertbowser', 164)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'robertbowser', 165)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'robertbowser', 165)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'robertbowser', 165)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'robertbowser', 165)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'robertbowser', 166)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'robertbowser', 166)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'robertbowser', 166)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'philipstanton', 150)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'philipstanton', 151)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'philipstanton', 151)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'philipstanton', 151)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'philipstanton', 151)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'philipstanton', 151)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'philipstanton', 153)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'philipstanton', 154)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'philipstanton', 154)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'philipstanton', 154)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'philipstanton', 154)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'philipstanton', 155)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'philipstanton', 155)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'philipstanton', 155)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'philipstanton', 155)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'philipstanton', 155)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'philipstanton', 156)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'philipstanton', 156)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'philipstanton', 157)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'philipstanton', 157)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'philipstanton', 157)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'philipstanton', 158)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'philipstanton', 158)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'philipstanton', 159)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'philipstanton', 159)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'philipstanton', 159)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'philipstanton', 159)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'philipstanton', 159)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'philipstanton', 160)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'philipstanton', 160)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'philipstanton', 160)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'philipstanton', 160)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'philipstanton', 160)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'philipstanton', 162)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'philipstanton', 163)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'philipstanton', 163)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'philipstanton', 163)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'philipstanton', 163)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'philipstanton', 164)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'philipstanton', 164)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'philipstanton', 164)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'philipstanton', 165)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'philipstanton', 166)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'philipstanton', 166)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'philipstanton', 166)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'philipstanton', 166)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'brunoterkelsen', 29)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'brunoterkelsen', 29)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'brunoterkelsen', 29)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'brunoterkelsen', 29)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'brunoterkelsen', 29)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'brunoterkelsen', 30)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'brunoterkelsen', 31)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'brunoterkelsen', 31)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'brunoterkelsen', 32)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'brunoterkelsen', 32)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'brunoterkelsen', 32)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'brunoterkelsen', 32)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'brunoterkelsen', 32)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'brunoterkelsen', 33)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'brunoterkelsen', 33)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'brunoterkelsen', 33)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'brunoterkelsen', 33)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'brunoterkelsen', 37)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'brunoterkelsen', 37)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'brunoterkelsen', 37)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'brunoterkelsen', 37)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'brunoterkelsen', 37)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'brunoterkelsen', 38)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'brunoterkelsen', 38)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'brunoterkelsen', 38)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'brunoterkelsen', 38)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'brunoterkelsen', 38)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'brunoterkelsen', 40)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'brunoterkelsen', 40)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'brunoterkelsen', 41)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'brunoterkelsen', 41)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'brunoterkelsen', 41)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'brunoterkelsen', 41)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'brunoterkelsen', 44)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'brunoterkelsen', 44)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'brunoterkelsen', 44)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'brunoterkelsen', 46)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'brunoterkelsen', 46)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'brunoterkelsen', 47)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'brunoterkelsen', 47)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'brunoterkelsen', 47)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'brunoterkelsen', 47)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'brunoterkelsen', 47)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'brunoterkelsen', 48)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'brunoterkelsen', 48)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'brunoterkelsen', 48)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'brunoterkelsen', 48)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'brunoterkelsen', 48)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'brunoterkelsen', 50)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'brunoterkelsen', 50)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'brunoterkelsen', 50)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'brunoterkelsen', 50)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'brunoterkelsen', 50)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'brunoterkelsen', 51)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'brunoterkelsen', 51)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'brunoterkelsen', 51)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'brunoterkelsen', 51)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'brunoterkelsen', 52)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'brunoterkelsen', 52)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'brunoterkelsen', 53)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'brunoterkelsen', 53)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'brunoterkelsen', 53)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'brunoterkelsen', 53)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'winonamynatt', 77)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'winonamynatt', 77)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'winonamynatt', 77)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'winonamynatt', 77)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'winonamynatt', 79)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'winonamynatt', 79)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'winonamynatt', 79)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'winonamynatt', 79)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'winonamynatt', 80)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'winonamynatt', 80)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'winonamynatt', 81)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'winonamynatt', 81)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'winonamynatt', 82)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'winonamynatt', 82)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'winonamynatt', 83)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'winonamynatt', 83)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'winonamynatt', 83)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'winonamynatt', 83)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'winonamynatt', 83)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'winonamynatt', 84)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'winonamynatt', 84)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'winonamynatt', 84)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'winonamynatt', 84)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'winonamynatt', 84)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'winonamynatt', 85)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'winonamynatt', 85)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'winonamynatt', 85)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'winonamynatt', 85)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'winonamynatt', 85)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'winonamynatt', 86)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'winonamynatt', 86)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'winonamynatt', 86)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'winonamynatt', 87)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'winonamynatt', 87)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'winonamynatt', 87)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'winonamynatt', 87)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'winonamynatt', 88)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'winonamynatt', 88)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'winonamynatt', 88)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'winonamynatt', 88)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'winonamynatt', 89)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'winonamynatt', 89)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'winonamynatt', 89)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'winonamynatt', 90)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'winonamynatt', 92)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'winonamynatt', 92)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'winonamynatt', 93)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'winonamynatt', 93)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'winonamynatt', 93)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'heatherbatchelor', 115)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'heatherbatchelor', 115)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'heatherbatchelor', 115)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'heatherbatchelor', 116)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'heatherbatchelor', 116)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'heatherbatchelor', 116)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'heatherbatchelor', 117)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'heatherbatchelor', 118)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'heatherbatchelor', 118)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'heatherbatchelor', 118)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'heatherbatchelor', 118)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'heatherbatchelor', 118)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'heatherbatchelor', 119)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'heatherbatchelor', 119)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'heatherbatchelor', 119)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'heatherbatchelor', 120)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'heatherbatchelor', 120)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'heatherbatchelor', 120)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'heatherbatchelor', 120)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'heatherbatchelor', 120)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'heatherbatchelor', 121)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'heatherbatchelor', 123)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'heatherbatchelor', 123)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'heatherbatchelor', 123)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'heatherbatchelor', 124)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'heatherbatchelor', 124)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'heatherbatchelor', 125)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'heatherbatchelor', 125)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'heatherbatchelor', 126)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'heatherbatchelor', 126)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'heatherbatchelor', 126)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'heatherbatchelor', 126)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'heatherbatchelor', 126)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'heatherbatchelor', 127)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'heatherbatchelor', 127)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'heatherbatchelor', 128)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'heatherbatchelor', 128)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'heatherbatchelor', 128)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'heatherbatchelor', 129)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'heatherbatchelor', 129)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'heatherbatchelor', 129)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'heatherbatchelor', 129)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'heatherbatchelor', 129)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'heatherbatchelor', 130)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'heatherbatchelor', 130)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'heatherbatchelor', 130)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'emilyhuie', 54)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'emilyhuie', 54)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'emilyhuie', 54)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'emilyhuie', 54)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'emilyhuie', 55)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'emilyhuie', 55)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'emilyhuie', 55)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'emilyhuie', 55)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'emilyhuie', 57)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'emilyhuie', 58)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'emilyhuie', 58)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'emilyhuie', 58)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'emilyhuie', 59)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'emilyhuie', 59)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'emilyhuie', 60)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'emilyhuie', 61)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'emilyhuie', 61)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'emilyhuie', 61)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'emilyhuie', 61)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'emilyhuie', 61)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'emilyhuie', 62)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'emilyhuie', 62)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'emilyhuie', 62)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'emilyhuie', 62)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'emilyhuie', 62)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'emilyhuie', 63)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'emilyhuie', 64)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'emilyhuie', 64)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'emilyhuie', 64)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'emilyhuie', 64)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'emilyhuie', 65)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'emilyhuie', 65)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'emilyhuie', 65)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'emilyhuie', 67)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'emilyhuie', 67)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'emilyhuie', 67)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'emilyhuie', 67)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'emilyhuie', 68)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'emilyhuie', 68)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'emilyhuie', 68)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'emilyhuie', 68)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'emilyhuie', 68)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'emilyhuie', 69)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'emilyhuie', 69)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'emilyhuie', 69)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'emilyhuie', 69)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'emilyhuie', 70)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'emilyhuie', 70)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'emilyhuie', 70)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'emilyhuie', 70)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'emilyhuie', 71)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'emilyhuie', 71)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'emilyhuie', 72)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'emilyhuie', 72)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'emilyhuie', 72)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'emilyhuie', 74)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'emilyhuie', 74)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'emilyhuie', 74)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'emilyhuie', 74)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'emilyhuie', 75)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'emilyhuie', 75)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'emilyhuie', 75)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'emilyhuie', 75)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'emilyhuie', 75)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'emilyhuie', 76)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'angelicaday', 56)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'angelicaday', 56)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'angelicaday', 57)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'angelicaday', 57)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'angelicaday', 57)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'angelicaday', 58)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'angelicaday', 58)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'angelicaday', 58)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'angelicaday', 60)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'angelicaday', 60)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'angelicaday', 60)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'angelicaday', 61)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'angelicaday', 61)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'angelicaday', 61)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'angelicaday', 61)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'angelicaday', 62)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'angelicaday', 62)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'angelicaday', 62)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'angelicaday', 63)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'angelicaday', 63)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'angelicaday', 63)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'angelicaday', 63)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'angelicaday', 63)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'angelicaday', 64)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'angelicaday', 64)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'angelicaday', 65)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'angelicaday', 65)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'angelicaday', 65)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'angelicaday', 65)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'angelicaday', 65)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'angelicaday', 66)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'angelicaday', 66)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'angelicaday', 66)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'angelicaday', 66)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'angelicaday', 67)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'angelicaday', 67)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'angelicaday', 68)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'angelicaday', 68)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'angelicaday', 68)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'angelicaday', 68)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'angelicaday', 69)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'angelicaday', 70)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'angelicaday', 70)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'angelicaday', 70)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'angelicaday', 70)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'angelicaday', 71)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'angelicaday', 71)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'angelicaday', 71)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'angelicaday', 71)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'angelicaday', 71)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'angelicaday', 72)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'angelicaday', 73)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'angelicaday', 73)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'angelicaday', 73)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'angelicaday', 73)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'angelicaday', 74)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'angelicaday', 74)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'angelicaday', 74)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'angelicaday', 74)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'angelicaday', 74)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'angelicaday', 75)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'angelicaday', 75)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'angelicaday', 76)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'angelicaday', 76)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jakehaas', 2)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jakehaas', 2)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jakehaas', 2)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jakehaas', 2)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jakehaas', 3)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'jakehaas', 3)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jakehaas', 3)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jakehaas', 3)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jakehaas', 3)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jakehaas', 7)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jakehaas', 7)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jakehaas', 7)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jakehaas', 7)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jakehaas', 7)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jakehaas', 8)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jakehaas', 8)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jakehaas', 8)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jakehaas', 8)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jakehaas', 9)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jakehaas', 9)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jakehaas', 9)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jakehaas', 9)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jakehaas', 9)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jakehaas', 10)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jakehaas', 10)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jakehaas', 10)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jakehaas', 10)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jakehaas', 12)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jakehaas', 13)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jakehaas', 13)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jakehaas', 13)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jakehaas', 13)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jakehaas', 13)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jakehaas', 14)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jakehaas', 14)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jakehaas', 14)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'jakehaas', 14)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jakehaas', 15)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jakehaas', 16)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jakehaas', 17)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jakehaas', 17)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jakehaas', 17)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jakehaas', 17)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jakehaas', 17)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jakehaas', 18)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'jakehaas', 18)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jakehaas', 18)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jakehaas', 18)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jakehaas', 19)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jakehaas', 19)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jakehaas', 20)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jakehaas', 20)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jakehaas', 20)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jakehaas', 22)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jakehaas', 22)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jakehaas', 22)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jakehaas', 22)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jakehaas', 23)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jakehaas', 23)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jakehaas', 23)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jakehaas', 24)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'jakehaas', 24)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jakehaas', 24)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'jakehaas', 24)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jakehaas', 24)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jakehaas', 25)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'jakehaas', 25)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jakehaas', 25)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'jakehaas', 26)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jakehaas', 26)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jakehaas', 26)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jakehaas', 26)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jakehaas', 27)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jakehaas', 27)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jakehaas', 27)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jakehaas', 27)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jakehaas', 27)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jakehaas', 28)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'jakehaas', 28)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jakehaas', 28)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'jakehaas', 28)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'jakehaas', 28)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'curtiscrowder', 167)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'curtiscrowder', 167)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'curtiscrowder', 167)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'curtiscrowder', 167)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'curtiscrowder', 168)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'curtiscrowder', 169)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'curtiscrowder', 169)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'curtiscrowder', 169)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'curtiscrowder', 170)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'curtiscrowder', 171)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'curtiscrowder', 172)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'curtiscrowder', 172)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'curtiscrowder', 172)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'curtiscrowder', 173)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'curtiscrowder', 173)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'curtiscrowder', 175)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'curtiscrowder', 175)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'curtiscrowder', 176)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'curtiscrowder', 176)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'curtiscrowder', 178)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'curtiscrowder', 178)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'curtiscrowder', 180)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'curtiscrowder', 180)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'curtiscrowder', 180)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'curtiscrowder', 181)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'curtiscrowder', 181)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'curtiscrowder', 182)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'curtiscrowder', 182)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'curtiscrowder', 182)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'curtiscrowder', 183)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'curtiscrowder', 183)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'curtiscrowder', 183)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'curtiscrowder', 183)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'curtiscrowder', 184)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'mildredfuller', 167)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'mildredfuller', 167)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'mildredfuller', 168)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'mildredfuller', 168)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'mildredfuller', 168)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'mildredfuller', 173)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'mildredfuller', 173)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'mildredfuller', 173)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'mildredfuller', 174)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'mildredfuller', 174)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'mildredfuller', 174)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'mildredfuller', 175)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'mildredfuller', 176)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'mildredfuller', 176)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'mildredfuller', 176)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'mildredfuller', 176)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'mildredfuller', 177)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'mildredfuller', 178)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'mildredfuller', 178)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'mildredfuller', 178)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'mildredfuller', 178)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'mildredfuller', 180)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'mildredfuller', 180)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'mildredfuller', 180)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'mildredfuller', 180)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'mildredfuller', 180)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'mildredfuller', 182)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'mildredfuller', 183)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jamesbabcock', 113)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jamesbabcock', 113)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'jamesbabcock', 114)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jamesbabcock', 114)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jamesbabcock', 114)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jamesbabcock', 115)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jamesbabcock', 115)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jamesbabcock', 115)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jamesbabcock', 115)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jamesbabcock', 116)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jamesbabcock', 116)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jamesbabcock', 116)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jamesbabcock', 116)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jamesbabcock', 116)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jamesbabcock', 117)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jamesbabcock', 117)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jamesbabcock', 117)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jamesbabcock', 117)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jamesbabcock', 117)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jamesbabcock', 118)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jamesbabcock', 118)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jamesbabcock', 119)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jamesbabcock', 119)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jamesbabcock', 119)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jamesbabcock', 119)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jamesbabcock', 119)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jamesbabcock', 120)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jamesbabcock', 121)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jamesbabcock', 121)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jamesbabcock', 121)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jamesbabcock', 121)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jamesbabcock', 121)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jamesbabcock', 122)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jamesbabcock', 122)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jamesbabcock', 122)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jamesbabcock', 122)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jamesbabcock', 122)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jamesbabcock', 123)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jamesbabcock', 123)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jamesbabcock', 123)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jamesbabcock', 123)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jamesbabcock', 124)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jamesbabcock', 124)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jamesbabcock', 124)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jamesbabcock', 125)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jamesbabcock', 125)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jamesbabcock', 126)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jamesbabcock', 126)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jamesbabcock', 126)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jamesbabcock', 126)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jamesbabcock', 126)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jamesbabcock', 127)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jamesbabcock', 127)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jamesbabcock', 127)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jamesbabcock', 127)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jamesbabcock', 127)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jamesbabcock', 129)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jamesbabcock', 129)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jamesbabcock', 129)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jamesbabcock', 130)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jamesbabcock', 130)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jamesbabcock', 130)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jamesbabcock', 130)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'johnwinter', 1)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'johnwinter', 1)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'johnwinter', 1)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'johnwinter', 1)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'johnwinter', 1)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'johnwinter', 2)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'johnwinter', 5)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'johnwinter', 5)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'johnwinter', 6)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'johnwinter', 6)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'johnwinter', 8)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'johnwinter', 8)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'johnwinter', 8)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'johnwinter', 9)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'johnwinter', 9)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'johnwinter', 10)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'johnwinter', 10)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'johnwinter', 10)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'johnwinter', 10)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'johnwinter', 10)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'johnwinter', 12)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'johnwinter', 12)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'johnwinter', 12)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'johnwinter', 12)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'johnwinter', 13)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'johnwinter', 13)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'johnwinter', 13)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'johnwinter', 13)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'johnwinter', 14)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'johnwinter', 14)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'johnwinter', 14)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'johnwinter', 14)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'johnwinter', 14)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'johnwinter', 16)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'johnwinter', 17)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'johnwinter', 17)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'johnwinter', 17)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'johnwinter', 18)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'johnwinter', 18)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'johnwinter', 19)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'johnwinter', 19)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'johnwinter', 19)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'johnwinter', 19)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'johnwinter', 19)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'johnwinter', 20)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'johnwinter', 20)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'johnwinter', 21)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'johnwinter', 21)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'johnwinter', 21)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'johnwinter', 21)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'johnwinter', 22)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'johnwinter', 23)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'johnwinter', 23)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'johnwinter', 23)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'johnwinter', 23)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'johnwinter', 23)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'johnwinter', 25)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'johnwinter', 26)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'johnwinter', 27)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'johnwinter', 28)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'johnwinter', 133)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'johnwinter', 133)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'johnwinter', 133)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'johnwinter', 133)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'johnwinter', 134)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'johnwinter', 135)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'johnwinter', 135)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'johnwinter', 135)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'johnwinter', 136)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'johnwinter', 136)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'johnwinter', 136)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'johnwinter', 136)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'johnwinter', 138)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'johnwinter', 138)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'johnwinter', 138)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'johnwinter', 138)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'johnwinter', 138)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'johnwinter', 139)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'johnwinter', 139)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'johnwinter', 139)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'johnwinter', 140)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'johnwinter', 140)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'johnwinter', 141)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'johnwinter', 141)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'johnwinter', 141)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'johnwinter', 141)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'johnwinter', 142)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'johnwinter', 142)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'johnwinter', 143)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'johnwinter', 143)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'johnwinter', 144)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'johnwinter', 144)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'johnwinter', 144)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'johnwinter', 144)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'johnwinter', 144)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'johnwinter', 145)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'johnwinter', 145)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'johnwinter', 145)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'johnwinter', 145)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'johnwinter', 146)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'johnwinter', 146)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'johnwinter', 146)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'johnwinter', 147)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'johnwinter', 147)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'johnwinter', 147)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'johnwinter', 148)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'teresanewell', 95)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'teresanewell', 95)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'teresanewell', 95)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'teresanewell', 96)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'teresanewell', 96)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'teresanewell', 96)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'teresanewell', 97)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'teresanewell', 97)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'teresanewell', 97)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'teresanewell', 97)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'teresanewell', 98)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'teresanewell', 98)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'teresanewell', 98)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'teresanewell', 98)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'teresanewell', 98)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'teresanewell', 99)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'teresanewell', 99)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'teresanewell', 99)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'teresanewell', 101)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'teresanewell', 101)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'teresanewell', 101)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'teresanewell', 101)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'teresanewell', 101)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'teresanewell', 103)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'teresanewell', 105)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'teresanewell', 105)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'teresanewell', 105)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'teresanewell', 106)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'teresanewell', 107)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'teresanewell', 109)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'teresanewell', 109)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'teresanewell', 109)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'teresanewell', 109)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'teresanewell', 111)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'teresanewell', 111)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'teresanewell', 112)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'kathywilliams', 95)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'kathywilliams', 95)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'kathywilliams', 95)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'kathywilliams', 95)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'kathywilliams', 96)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'kathywilliams', 96)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'kathywilliams', 97)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'kathywilliams', 97)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'kathywilliams', 97)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'kathywilliams', 97)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'kathywilliams', 98)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'kathywilliams', 98)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'kathywilliams', 98)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'kathywilliams', 99)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'kathywilliams', 99)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'kathywilliams', 99)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'kathywilliams', 99)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'kathywilliams', 99)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'kathywilliams', 100)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'kathywilliams', 100)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'kathywilliams', 100)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'kathywilliams', 100)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'kathywilliams', 100)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'kathywilliams', 103)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'kathywilliams', 103)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kathywilliams', 103)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'kathywilliams', 104)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'kathywilliams', 104)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'kathywilliams', 104)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'kathywilliams', 104)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'kathywilliams', 104)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kathywilliams', 105)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'kathywilliams', 105)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'kathywilliams', 105)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'kathywilliams', 106)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'kathywilliams', 106)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kathywilliams', 106)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kathywilliams', 106)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'kathywilliams', 107)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kathywilliams', 107)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'kathywilliams', 107)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'kathywilliams', 108)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kathywilliams', 108)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kathywilliams', 108)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'kathywilliams', 108)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'kathywilliams', 108)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'kathywilliams', 111)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'kathywilliams', 111)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'kennethbanta', 1)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'kennethbanta', 1)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'kennethbanta', 1)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'kennethbanta', 1)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'kennethbanta', 3)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'kennethbanta', 3)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kennethbanta', 3)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'kennethbanta', 3)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'kennethbanta', 3)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'kennethbanta', 4)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kennethbanta', 5)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'kennethbanta', 6)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kennethbanta', 6)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'kennethbanta', 6)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'kennethbanta', 6)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kennethbanta', 7)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kennethbanta', 8)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'kennethbanta', 8)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'kennethbanta', 8)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kennethbanta', 9)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'kennethbanta', 10)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'kennethbanta', 10)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'kennethbanta', 10)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'kennethbanta', 10)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'kennethbanta', 11)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'kennethbanta', 11)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'kennethbanta', 11)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'kennethbanta', 11)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kennethbanta', 11)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'kennethbanta', 12)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'kennethbanta', 12)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'kennethbanta', 13)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'kennethbanta', 14)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'kennethbanta', 15)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'kennethbanta', 16)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'kennethbanta', 16)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'kennethbanta', 18)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kennethbanta', 18)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'kennethbanta', 18)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'kennethbanta', 18)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'kennethbanta', 18)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'kennethbanta', 19)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kennethbanta', 20)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'kennethbanta', 20)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'kennethbanta', 20)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kennethbanta', 20)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'kennethbanta', 20)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kennethbanta', 21)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'kennethbanta', 21)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'kennethbanta', 22)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kennethbanta', 24)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'kennethbanta', 24)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'kennethbanta', 25)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'kennethbanta', 25)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'kennethbanta', 25)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'kennethbanta', 25)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'kennethbanta', 25)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'kennethbanta', 27)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'kennethbanta', 27)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kennethbanta', 27)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kennethbanta', 27)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'kennethbanta', 27)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'kennethbanta', 28)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'leomosher', 113)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'leomosher', 113)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'leomosher', 113)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'leomosher', 113)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'leomosher', 113)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'leomosher', 114)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'leomosher', 114)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'leomosher', 115)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'leomosher', 115)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'leomosher', 115)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'leomosher', 115)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'leomosher', 116)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'leomosher', 117)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'leomosher', 117)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'leomosher', 117)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'leomosher', 117)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'leomosher', 117)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'leomosher', 118)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'leomosher', 119)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'leomosher', 119)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'leomosher', 120)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'leomosher', 120)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'leomosher', 121)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'leomosher', 121)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'leomosher', 121)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'leomosher', 121)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'leomosher', 122)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'leomosher', 125)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'leomosher', 125)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'leomosher', 126)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'leomosher', 127)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'leomosher', 129)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'leomosher', 129)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'leomosher', 129)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'leomosher', 129)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'leomosher', 129)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'leomosher', 130)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'leomosher', 130)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'leomosher', 130)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'jamesheideman', 113)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jamesheideman', 113)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jamesheideman', 113)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jamesheideman', 113)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jamesheideman', 114)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jamesheideman', 114)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jamesheideman', 114)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jamesheideman', 115)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jamesheideman', 115)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jamesheideman', 117)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jamesheideman', 117)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jamesheideman', 117)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jamesheideman', 117)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jamesheideman', 119)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jamesheideman', 119)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jamesheideman', 119)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jamesheideman', 119)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jamesheideman', 119)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'jamesheideman', 121)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jamesheideman', 121)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jamesheideman', 122)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jamesheideman', 122)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'jamesheideman', 122)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jamesheideman', 122)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jamesheideman', 123)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jamesheideman', 123)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jamesheideman', 123)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jamesheideman', 123)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jamesheideman', 123)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jamesheideman', 124)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jamesheideman', 124)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jamesheideman', 124)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'jamesheideman', 124)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jamesheideman', 125)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jamesheideman', 125)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jamesheideman', 125)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jamesheideman', 125)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jamesheideman', 125)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jamesheideman', 126)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jamesheideman', 126)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jamesheideman', 127)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jamesheideman', 128)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jamesheideman', 128)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jamesheideman', 129)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jamesheideman', 129)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jamesheideman', 129)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jamesheideman', 129)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jamesheideman', 130)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jamesheideman', 130)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'kaylaseaman', 1)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'kaylaseaman', 1)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'kaylaseaman', 1)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'kaylaseaman', 1)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'kaylaseaman', 1)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'kaylaseaman', 2)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'kaylaseaman', 2)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'kaylaseaman', 2)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'kaylaseaman', 2)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'kaylaseaman', 2)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'kaylaseaman', 3)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'kaylaseaman', 3)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'kaylaseaman', 4)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'kaylaseaman', 4)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'kaylaseaman', 4)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'kaylaseaman', 4)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'kaylaseaman', 4)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'kaylaseaman', 5)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'kaylaseaman', 6)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'kaylaseaman', 6)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'kaylaseaman', 6)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'kaylaseaman', 6)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'kaylaseaman', 6)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'kaylaseaman', 7)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'kaylaseaman', 7)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'kaylaseaman', 7)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'kaylaseaman', 7)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'kaylaseaman', 7)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'kaylaseaman', 9)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'kaylaseaman', 9)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'kaylaseaman', 9)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kaylaseaman', 10)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'kaylaseaman', 10)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'kaylaseaman', 10)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'kaylaseaman', 10)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'kaylaseaman', 10)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'kaylaseaman', 11)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'kaylaseaman', 11)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'kaylaseaman', 13)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'kaylaseaman', 13)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kaylaseaman', 13)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'kaylaseaman', 13)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'kaylaseaman', 14)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'kaylaseaman', 14)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'kaylaseaman', 14)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'kaylaseaman', 14)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kaylaseaman', 15)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'kaylaseaman', 15)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kaylaseaman', 15)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kaylaseaman', 15)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kaylaseaman', 15)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'kaylaseaman', 16)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'kaylaseaman', 16)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'kaylaseaman', 16)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'kaylaseaman', 16)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'kaylaseaman', 16)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'kaylaseaman', 17)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'kaylaseaman', 17)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'kaylaseaman', 17)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'kaylaseaman', 17)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'kaylaseaman', 17)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kaylaseaman', 18)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'kaylaseaman', 19)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'kaylaseaman', 21)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'kaylaseaman', 21)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'kaylaseaman', 21)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'kaylaseaman', 21)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'kaylaseaman', 22)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'kaylaseaman', 22)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'kaylaseaman', 24)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'kaylaseaman', 25)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'kaylaseaman', 25)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'kaylaseaman', 26)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'kaylaseaman', 26)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'kaylaseaman', 26)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'kaylaseaman', 27)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'kaylaseaman', 27)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'kaylaseaman', 28)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'kaylaseaman', 28)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'kaylaseaman', 28)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'kaylaseaman', 28)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'kaylaseaman', 28)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'kaylaseaman', 95)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'kaylaseaman', 95)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kaylaseaman', 95)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'kaylaseaman', 98)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'kaylaseaman', 98)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'kaylaseaman', 99)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kaylaseaman', 99)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'kaylaseaman', 99)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'kaylaseaman', 99)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'kaylaseaman', 100)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'kaylaseaman', 100)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'kaylaseaman', 100)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'kaylaseaman', 100)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'kaylaseaman', 101)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'kaylaseaman', 101)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'kaylaseaman', 101)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kaylaseaman', 101)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'kaylaseaman', 101)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'kaylaseaman', 102)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'kaylaseaman', 102)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'kaylaseaman', 103)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'kaylaseaman', 103)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'kaylaseaman', 103)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'kaylaseaman', 104)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'kaylaseaman', 105)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'kaylaseaman', 105)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'kaylaseaman', 105)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kaylaseaman', 105)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'kaylaseaman', 106)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'kaylaseaman', 106)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'kaylaseaman', 106)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'kaylaseaman', 106)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'kaylaseaman', 107)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'kaylaseaman', 107)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'kaylaseaman', 107)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'kaylaseaman', 108)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'kaylaseaman', 108)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'kaylaseaman', 108)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'kaylaseaman', 109)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'kaylaseaman', 109)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'kaylaseaman', 109)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'kaylaseaman', 109)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'kaylaseaman', 109)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kaylaseaman', 110)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'kaylaseaman', 110)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'kaylaseaman', 111)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'kaylaseaman', 111)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'kaylaseaman', 111)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'kaylaseaman', 111)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'kaylaseaman', 111)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'desireesullivan', 29)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'desireesullivan', 29)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'desireesullivan', 29)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'desireesullivan', 29)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'desireesullivan', 29)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'desireesullivan', 30)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'desireesullivan', 31)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'desireesullivan', 31)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'desireesullivan', 33)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'desireesullivan', 34)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'desireesullivan', 34)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'desireesullivan', 35)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'desireesullivan', 35)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'desireesullivan', 37)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'desireesullivan', 37)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'desireesullivan', 37)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'desireesullivan', 39)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'desireesullivan', 39)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'desireesullivan', 39)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'desireesullivan', 39)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'desireesullivan', 40)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'desireesullivan', 41)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'desireesullivan', 41)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'desireesullivan', 41)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'desireesullivan', 42)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'desireesullivan', 42)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'desireesullivan', 42)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'desireesullivan', 42)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'desireesullivan', 44)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'desireesullivan', 44)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'desireesullivan', 44)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'desireesullivan', 44)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'desireesullivan', 44)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'desireesullivan', 45)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'desireesullivan', 45)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'desireesullivan', 45)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'desireesullivan', 46)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'desireesullivan', 46)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'desireesullivan', 47)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'desireesullivan', 47)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'desireesullivan', 49)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'desireesullivan', 49)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'desireesullivan', 49)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'desireesullivan', 49)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'desireesullivan', 49)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'desireesullivan', 50)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'desireesullivan', 50)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'desireesullivan', 50)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'desireesullivan', 50)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'desireesullivan', 50)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'desireesullivan', 51)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'desireesullivan', 51)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'desireesullivan', 51)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'desireesullivan', 51)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'desireesullivan', 51)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'desireesullivan', 52)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'desireesullivan', 52)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'desireesullivan', 52)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'desireesullivan', 53)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'desireesullivan', 53)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'desireesullivan', 149)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'desireesullivan', 150)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'desireesullivan', 150)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'desireesullivan', 150)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'desireesullivan', 150)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'desireesullivan', 151)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'desireesullivan', 151)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'desireesullivan', 151)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'desireesullivan', 152)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'desireesullivan', 153)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'desireesullivan', 153)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'desireesullivan', 156)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'desireesullivan', 156)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'desireesullivan', 156)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'desireesullivan', 156)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'desireesullivan', 157)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'desireesullivan', 157)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'desireesullivan', 158)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'desireesullivan', 158)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'desireesullivan', 158)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'desireesullivan', 158)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'desireesullivan', 158)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'desireesullivan', 159)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'desireesullivan', 159)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'desireesullivan', 160)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'desireesullivan', 161)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'desireesullivan', 161)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'desireesullivan', 161)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'desireesullivan', 161)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'desireesullivan', 161)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'desireesullivan', 164)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'desireesullivan', 164)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'desireesullivan', 164)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'desireesullivan', 165)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'desireesullivan', 165)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'desireesullivan', 166)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'desireesullivan', 166)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'desireesullivan', 166)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'desireesullivan', 166)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'desireesullivan', 166)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'timothymclain', 113)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'timothymclain', 113)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'timothymclain', 113)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'timothymclain', 114)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'timothymclain', 114)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'timothymclain', 114)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'timothymclain', 115)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'timothymclain', 115)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'timothymclain', 115)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'timothymclain', 115)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'timothymclain', 116)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'timothymclain', 116)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'timothymclain', 116)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'timothymclain', 117)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'timothymclain', 117)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'timothymclain', 118)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'timothymclain', 119)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'timothymclain', 119)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'timothymclain', 119)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'timothymclain', 119)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'timothymclain', 119)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'timothymclain', 121)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'timothymclain', 121)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'timothymclain', 121)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'timothymclain', 121)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'timothymclain', 123)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'timothymclain', 123)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'timothymclain', 124)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'timothymclain', 125)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'timothymclain', 125)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'timothymclain', 125)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'timothymclain', 126)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'timothymclain', 126)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'timothymclain', 126)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'timothymclain', 126)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'timothymclain', 127)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'timothymclain', 127)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'timothymclain', 127)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'timothymclain', 127)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'timothymclain', 128)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'timothymclain', 128)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'timothymclain', 128)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'timothymclain', 128)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'timothymclain', 128)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'timothymclain', 129)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'timothymclain', 129)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'timothymclain', 130)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'timothymclain', 130)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'catalinalane', 131)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'catalinalane', 131)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'catalinalane', 133)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'catalinalane', 133)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'catalinalane', 133)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'catalinalane', 133)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'catalinalane', 134)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'catalinalane', 134)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'catalinalane', 134)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'catalinalane', 134)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'catalinalane', 134)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'catalinalane', 135)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'catalinalane', 135)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'catalinalane', 135)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'catalinalane', 135)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'catalinalane', 135)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'catalinalane', 136)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'catalinalane', 136)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'catalinalane', 136)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'catalinalane', 137)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'catalinalane', 137)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'catalinalane', 137)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'catalinalane', 137)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'catalinalane', 137)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'catalinalane', 138)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'catalinalane', 139)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'catalinalane', 140)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'catalinalane', 140)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'catalinalane', 140)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'catalinalane', 140)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'catalinalane', 140)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'catalinalane', 141)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'catalinalane', 141)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'catalinalane', 141)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'catalinalane', 141)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'catalinalane', 141)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'catalinalane', 142)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'catalinalane', 143)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'catalinalane', 143)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'catalinalane', 144)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'catalinalane', 144)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'catalinalane', 145)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'catalinalane', 145)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'catalinalane', 147)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'catalinalane', 147)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'catalinalane', 148)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'catalinalane', 148)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'catalinalane', 148)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jamesreed', 113)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jamesreed', 113)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jamesreed', 113)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jamesreed', 113)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jamesreed', 114)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jamesreed', 114)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jamesreed', 115)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jamesreed', 115)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jamesreed', 115)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jamesreed', 116)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jamesreed', 116)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jamesreed', 116)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jamesreed', 116)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jamesreed', 116)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jamesreed', 117)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jamesreed', 117)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jamesreed', 117)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jamesreed', 117)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jamesreed', 117)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jamesreed', 118)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jamesreed', 118)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jamesreed', 118)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jamesreed', 119)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jamesreed', 119)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jamesreed', 119)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jamesreed', 119)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jamesreed', 121)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'jamesreed', 121)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jamesreed', 121)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jamesreed', 121)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jamesreed', 121)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jamesreed', 122)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jamesreed', 122)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jamesreed', 122)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jamesreed', 123)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jamesreed', 124)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jamesreed', 124)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jamesreed', 124)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jamesreed', 125)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jamesreed', 125)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jamesreed', 125)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jamesreed', 125)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jamesreed', 128)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jamesreed', 128)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jamesreed', 128)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jamesreed', 129)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jamesreed', 129)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jamesreed', 129)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jamesreed', 129)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jamescampbell', 113)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jamescampbell', 114)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jamescampbell', 114)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'jamescampbell', 115)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jamescampbell', 115)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'jamescampbell', 115)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jamescampbell', 118)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jamescampbell', 118)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jamescampbell', 118)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jamescampbell', 118)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jamescampbell', 119)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jamescampbell', 119)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jamescampbell', 120)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'jamescampbell', 120)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jamescampbell', 121)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jamescampbell', 121)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jamescampbell', 122)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jamescampbell', 123)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jamescampbell', 124)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jamescampbell', 124)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jamescampbell', 124)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jamescampbell', 126)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jamescampbell', 126)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jamescampbell', 127)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jamescampbell', 127)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jamescampbell', 127)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jamescampbell', 127)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jamescampbell', 127)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jamescampbell', 129)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'beverlycruz', 56)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'beverlycruz', 56)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'beverlycruz', 56)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'beverlycruz', 56)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'beverlycruz', 56)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'beverlycruz', 58)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'beverlycruz', 58)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'beverlycruz', 59)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'beverlycruz', 59)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'beverlycruz', 59)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'beverlycruz', 61)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'beverlycruz', 61)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'beverlycruz', 61)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'beverlycruz', 63)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'beverlycruz', 64)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'beverlycruz', 64)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'beverlycruz', 64)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'beverlycruz', 64)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'beverlycruz', 65)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'beverlycruz', 66)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'beverlycruz', 66)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'beverlycruz', 66)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'beverlycruz', 66)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'beverlycruz', 66)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'beverlycruz', 69)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'beverlycruz', 69)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'beverlycruz', 69)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'beverlycruz', 69)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'beverlycruz', 69)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'beverlycruz', 70)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'beverlycruz', 70)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'beverlycruz', 70)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'beverlycruz', 70)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'beverlycruz', 70)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'beverlycruz', 71)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'beverlycruz', 71)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'beverlycruz', 71)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'beverlycruz', 71)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'beverlycruz', 71)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'beverlycruz', 72)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'beverlycruz', 73)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'beverlycruz', 73)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'beverlycruz', 73)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'beverlycruz', 73)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'beverlycruz', 76)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'beverlycruz', 76)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'paulinewashington', 29)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'paulinewashington', 29)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'paulinewashington', 30)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'paulinewashington', 31)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'paulinewashington', 31)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'paulinewashington', 32)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'paulinewashington', 32)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'paulinewashington', 32)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'paulinewashington', 32)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'paulinewashington', 32)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'paulinewashington', 33)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'paulinewashington', 33)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'paulinewashington', 33)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'paulinewashington', 33)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'paulinewashington', 33)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'paulinewashington', 36)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'paulinewashington', 38)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'paulinewashington', 38)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'paulinewashington', 38)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'paulinewashington', 39)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'paulinewashington', 39)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'paulinewashington', 39)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'paulinewashington', 40)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'paulinewashington', 41)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'paulinewashington', 42)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'paulinewashington', 42)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'paulinewashington', 43)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'paulinewashington', 43)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'paulinewashington', 43)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'paulinewashington', 45)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'paulinewashington', 45)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'paulinewashington', 45)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'paulinewashington', 45)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'paulinewashington', 45)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'paulinewashington', 46)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'paulinewashington', 46)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'paulinewashington', 47)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'paulinewashington', 47)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'paulinewashington', 47)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'paulinewashington', 47)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'paulinewashington', 48)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'paulinewashington', 49)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'paulinewashington', 51)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'paulinewashington', 51)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'paulinewashington', 51)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'paulinewashington', 51)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'paulinewashington', 52)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'paulinewashington', 52)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'paulinewashington', 52)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'paulinewashington', 52)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'sandradodd', 78)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'sandradodd', 78)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'sandradodd', 79)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'sandradodd', 80)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'sandradodd', 80)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'sandradodd', 80)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'sandradodd', 80)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'sandradodd', 81)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'sandradodd', 81)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'sandradodd', 81)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'sandradodd', 81)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'sandradodd', 81)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'sandradodd', 83)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'sandradodd', 83)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'sandradodd', 84)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'sandradodd', 85)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'sandradodd', 85)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'sandradodd', 86)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'sandradodd', 86)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'sandradodd', 86)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'sandradodd', 86)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'sandradodd', 86)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'sandradodd', 87)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'sandradodd', 87)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'sandradodd', 87)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'sandradodd', 88)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'sandradodd', 88)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'sandradodd', 89)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'sandradodd', 90)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'sandradodd', 90)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'sandradodd', 90)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'sandradodd', 90)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'sandradodd', 91)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'sandradodd', 91)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'sandradodd', 91)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'thomasnolazco', 56)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'thomasnolazco', 56)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'thomasnolazco', 56)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'thomasnolazco', 56)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'thomasnolazco', 56)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'thomasnolazco', 58)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'thomasnolazco', 58)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'thomasnolazco', 58)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'thomasnolazco', 59)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'thomasnolazco', 59)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'thomasnolazco', 59)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'thomasnolazco', 61)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'thomasnolazco', 61)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'thomasnolazco', 61)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'thomasnolazco', 61)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'thomasnolazco', 61)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'thomasnolazco', 63)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'thomasnolazco', 64)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'thomasnolazco', 64)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'thomasnolazco', 64)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'thomasnolazco', 64)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'thomasnolazco', 64)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'thomasnolazco', 66)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'thomasnolazco', 67)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'thomasnolazco', 67)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'thomasnolazco', 67)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'thomasnolazco', 69)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'thomasnolazco', 69)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'thomasnolazco', 69)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'thomasnolazco', 70)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'thomasnolazco', 70)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'thomasnolazco', 70)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'thomasnolazco', 70)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'thomasnolazco', 70)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'thomasnolazco', 71)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'thomasnolazco', 71)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'thomasnolazco', 71)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'thomasnolazco', 72)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'thomasnolazco', 72)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'thomasnolazco', 72)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'thomasnolazco', 73)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'thomasnolazco', 74)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'thomasnolazco', 74)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'thomasnolazco', 74)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'thomasnolazco', 74)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'thomasnolazco', 74)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'thomasnolazco', 75)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'thomasnolazco', 75)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'thomasnolazco', 76)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'thomasnolazco', 76)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'thomasnolazco', 76)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'vickieboling', 167)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'vickieboling', 167)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'vickieboling', 167)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'vickieboling', 167)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'vickieboling', 168)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'vickieboling', 168)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'vickieboling', 169)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'vickieboling', 170)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'vickieboling', 170)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'vickieboling', 171)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'vickieboling', 171)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'vickieboling', 171)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'vickieboling', 171)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'vickieboling', 172)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'vickieboling', 173)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'vickieboling', 173)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'vickieboling', 173)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'vickieboling', 175)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'vickieboling', 175)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'vickieboling', 175)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'vickieboling', 175)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'vickieboling', 175)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'vickieboling', 176)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'vickieboling', 177)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'vickieboling', 177)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'vickieboling', 177)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'vickieboling', 177)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'vickieboling', 178)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'vickieboling', 178)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'vickieboling', 178)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'vickieboling', 178)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'vickieboling', 179)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'vickieboling', 179)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'vickieboling', 179)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'vickieboling', 179)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'vickieboling', 180)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'vickieboling', 180)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'vickieboling', 180)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'vickieboling', 181)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'vickieboling', 182)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'vickieboling', 182)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'vickieboling', 183)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'vickieboling', 184)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'vickieboling', 184)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'vickieboling', 184)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'vickieboling', 184)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jenniferwheeler', 29)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jenniferwheeler', 29)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jenniferwheeler', 29)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jenniferwheeler', 29)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jenniferwheeler', 29)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jenniferwheeler', 30)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'jenniferwheeler', 30)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jenniferwheeler', 30)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'jenniferwheeler', 31)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jenniferwheeler', 31)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jenniferwheeler', 31)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jenniferwheeler', 31)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jenniferwheeler', 32)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jenniferwheeler', 32)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jenniferwheeler', 32)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jenniferwheeler', 32)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jenniferwheeler', 33)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jenniferwheeler', 33)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jenniferwheeler', 33)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'jenniferwheeler', 33)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jenniferwheeler', 34)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jenniferwheeler', 34)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jenniferwheeler', 34)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jenniferwheeler', 34)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jenniferwheeler', 34)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jenniferwheeler', 35)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jenniferwheeler', 35)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jenniferwheeler', 36)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jenniferwheeler', 36)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jenniferwheeler', 37)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jenniferwheeler', 37)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jenniferwheeler', 37)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jenniferwheeler', 38)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jenniferwheeler', 38)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jenniferwheeler', 38)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'jenniferwheeler', 38)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jenniferwheeler', 38)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jenniferwheeler', 39)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jenniferwheeler', 39)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jenniferwheeler', 40)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'jenniferwheeler', 40)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jenniferwheeler', 40)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jenniferwheeler', 40)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jenniferwheeler', 40)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jenniferwheeler', 41)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jenniferwheeler', 41)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jenniferwheeler', 41)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jenniferwheeler', 42)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jenniferwheeler', 42)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jenniferwheeler', 42)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jenniferwheeler', 42)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jenniferwheeler', 43)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'jenniferwheeler', 43)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jenniferwheeler', 43)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jenniferwheeler', 44)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jenniferwheeler', 45)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jenniferwheeler', 47)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jenniferwheeler', 47)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jenniferwheeler', 47)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'jenniferwheeler', 47)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'jenniferwheeler', 47)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'jenniferwheeler', 48)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jenniferwheeler', 48)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jenniferwheeler', 48)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jenniferwheeler', 49)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jenniferwheeler', 49)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jenniferwheeler', 50)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'jenniferwheeler', 50)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'jenniferwheeler', 50)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'jenniferwheeler', 50)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'jenniferwheeler', 51)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jenniferwheeler', 51)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'jenniferwheeler', 53)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'jenniferwheeler', 53)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'jenniferwheeler', 53)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'chriswilliams', 167)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'chriswilliams', 167)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'chriswilliams', 167)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'chriswilliams', 168)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'chriswilliams', 168)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'chriswilliams', 168)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'chriswilliams', 168)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'chriswilliams', 169)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'chriswilliams', 169)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'chriswilliams', 169)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'chriswilliams', 169)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'chriswilliams', 170)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'chriswilliams', 170)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'chriswilliams', 170)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'chriswilliams', 170)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'chriswilliams', 172)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'chriswilliams', 172)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'chriswilliams', 172)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'chriswilliams', 173)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'chriswilliams', 173)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'chriswilliams', 174)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'chriswilliams', 174)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'chriswilliams', 174)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'chriswilliams', 174)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'chriswilliams', 174)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'chriswilliams', 175)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'chriswilliams', 175)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'chriswilliams', 175)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'chriswilliams', 175)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'chriswilliams', 176)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'chriswilliams', 176)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'chriswilliams', 176)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'chriswilliams', 176)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'chriswilliams', 177)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'chriswilliams', 177)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'chriswilliams', 177)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'chriswilliams', 177)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'chriswilliams', 178)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'chriswilliams', 178)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'chriswilliams', 178)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'chriswilliams', 179)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'chriswilliams', 180)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'chriswilliams', 180)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'chriswilliams', 180)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'chriswilliams', 180)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'chriswilliams', 181)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'chriswilliams', 181)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'chriswilliams', 182)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'chriswilliams', 182)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'chriswilliams', 182)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'chriswilliams', 182)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'chriswilliams', 182)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'chriswilliams', 183)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'chriswilliams', 183)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'chriswilliams', 183)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'chriswilliams', 184)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'chriswilliams', 184)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'chriswilliams', 184)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'scottrasor', 149)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'scottrasor', 149)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'scottrasor', 149)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'scottrasor', 149)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'scottrasor', 149)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'scottrasor', 150)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'scottrasor', 150)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'scottrasor', 150)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (9, 'scottrasor', 151)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'scottrasor', 152)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'scottrasor', 152)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'scottrasor', 152)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'scottrasor', 152)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'scottrasor', 153)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'scottrasor', 153)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'scottrasor', 153)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'scottrasor', 153)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'scottrasor', 153)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'scottrasor', 154)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'scottrasor', 154)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'scottrasor', 154)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'scottrasor', 154)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'scottrasor', 154)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'scottrasor', 155)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'scottrasor', 155)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'scottrasor', 155)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'scottrasor', 156)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'scottrasor', 156)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'scottrasor', 156)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'scottrasor', 156)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'scottrasor', 156)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'scottrasor', 157)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'scottrasor', 157)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'scottrasor', 157)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'scottrasor', 157)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'scottrasor', 158)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'scottrasor', 158)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'scottrasor', 158)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'scottrasor', 158)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'scottrasor', 160)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'scottrasor', 162)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'scottrasor', 162)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'scottrasor', 162)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'scottrasor', 162)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'scottrasor', 162)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'scottrasor', 163)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'scottrasor', 163)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'scottrasor', 163)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'scottrasor', 164)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'scottrasor', 164)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (5, 'scottrasor', 164)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'scottrasor', 164)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'scottrasor', 165)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'scottrasor', 165)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'scottrasor', 165)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (3, 'scottrasor', 166)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (6, 'scottrasor', 166)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'scottrasor', 166)
-INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'scottrasor', 166)
+INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'phillipworkman', 3);
+INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'evatrujillo', 3);
+INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'garydavidson', 1);
+INSERT INTO "grade"(gradevalue, username, cid) VALUES (4, 'mattievisher', 2);
+INSERT INTO "grade"(gradevalue, username, cid) VALUES (2, 'sontemplin', 1);
+INSERT INTO "grade"(gradevalue, username, cid) VALUES (7, 'russellziegler', 2);
+INSERT INTO "grade"(gradevalue, username, cid) VALUES (1, 'robertakille', 2);
+INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'michaelelza', 2);
+INSERT INTO "grade"(gradevalue, username, cid) VALUES (8, 'jeffzielinski', 1);
+INSERT INTO "grade"(gradevalue, username, cid) VALUES (10, 'williamcarroll', 1);
 
