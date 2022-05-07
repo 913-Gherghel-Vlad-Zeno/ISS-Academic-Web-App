@@ -2,8 +2,11 @@ package com.example.AcademicWebApp.Controllers.RestAPIs;
 
 
 import com.example.AcademicWebApp.Models.Student;
+import com.example.AcademicWebApp.Models.StudentData;
 import com.example.AcademicWebApp.Repositories.StudentRepo;
 import com.example.AcademicWebApp.Repositories.UsersRepo;
+import com.example.AcademicWebApp.Services.StudentService;
+import lombok.RequiredArgsConstructor;
 import net.bytebuddy.asm.Advice;
 import net.bytebuddy.implementation.bind.annotation.Origin;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,11 +24,14 @@ import java.util.Objects;
 
 
 @RestController
+@RequiredArgsConstructor
 //@RequestMapping("/")
 public class StudentController {
 
     @Autowired
-    StudentRepo studentRepo;
+    private StudentRepo studentRepo;
+    @Autowired
+    private StudentService studentService;
 
     //@CrossOrigin(origins = "http://localhost:4200/")
 
@@ -49,9 +55,9 @@ public class StudentController {
     }
 
     @GetMapping("/student/group1/{group1}")
-    public String getStudentsByFirstGroup(@PathVariable("group1") String group1)
+    public List<Student> getStudentsByFirstGroup(@PathVariable("group1") String group1)
     {
-        return studentRepo.findByFirstGroup(Integer.valueOf(group1)).toString();
+        return studentRepo.findAllByGroup1(Integer.valueOf(group1));
     }
 
     @GetMapping("/student/group2/{group2}")
@@ -61,17 +67,17 @@ public class StudentController {
     }
 
     @GetMapping("/student/name/{name}")
-    public String getStudentByName(@PathVariable("name") String name)
+    public List<Student> getStudentByName(@PathVariable("name") String name)
     {
-        return studentRepo.findByName(name).toString();
+        return studentRepo.findByName(name);
     }
 
     @PostMapping(value = "/student/add",
             consumes = MediaType.APPLICATION_JSON_VALUE)
-    public Student addStudent(@RequestBody Student student)
+    public Student addStudent(@RequestBody StudentData student)
     {
-        studentRepo.save(student);
-        return student;
+
+        return studentService.saveStudent(student);
     }
 
     public String sayHello(UserEntity user)

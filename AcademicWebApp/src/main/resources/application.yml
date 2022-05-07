@@ -12,11 +12,14 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQL82Dialect
         jdbc:
           time_zone: UTC
-    open-in-view: true
+
+        open-in-view: true
+
+        globally_quoted_identifiers: true
   datasource:
-    url: jdbc:postgresql://localhost:5432/iss
+    url: jdbc:postgresql://localhost:5432/ISS
     username: postgres
-    password: Ciufulic1
+    password: hutzu
     platform: postgres
     hikari:
       max-lifetime: 300000
