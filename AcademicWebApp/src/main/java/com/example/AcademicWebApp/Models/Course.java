@@ -37,4 +37,7 @@ public class Course {
     @Column(name="maxstudents")
     private int maxstudents;
 
+    @Column(name= "priority")
+    private int priority;
+
 }

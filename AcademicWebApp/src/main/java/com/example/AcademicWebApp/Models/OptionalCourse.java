@@ -7,7 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Data
-@Entity(name = "optionalcourse")
+@Entity(name = "optional_course")
 @Getter
 @Setter
 @AllArgsConstructor

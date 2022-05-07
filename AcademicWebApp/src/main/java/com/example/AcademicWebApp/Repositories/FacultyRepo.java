@@ -12,4 +12,7 @@ public interface FacultyRepo extends JpaRepository<Faculty, String>
 {
     @Query("Select fid from faculty where name=?1")
     Integer findFidByName(String name);
+
+    @Query("SELECT f FROM faculty f WHERE f.chief = ?1")
+    public List<Faculty> getFacultyForChief(String username);
 }

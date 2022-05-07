@@ -3,6 +3,7 @@ package com.example.AcademicWebApp.Models;
 import lombok.*;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Data
 @Entity(name = "grade")
@@ -10,21 +11,21 @@ import javax.persistence.*;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Grade {
+@IdClass(Grade.class)
+public class Grade implements Serializable {
+
 
     @Column(name = "gradevalue")
     private Integer gradevalue;
+
+    @Id
     @Column(name = "username")
     private String username;
-    @Column
-    private String course;
 
+    @Id
     @Column(name = "cid")
     private Integer cid;
-    @Column
-    @Id
-    @GeneratedValue
-    private Integer gid;
+
     /*
     @Override
     public String toString() {

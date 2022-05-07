@@ -4,10 +4,10 @@ import com.example.AcademicWebApp.Controllers.RestAPIs.Entities.Message;
 import com.example.AcademicWebApp.Models.Course;
 import com.example.AcademicWebApp.Models.Faculty;
 import com.example.AcademicWebApp.Models.OptionalCourse;
-import com.example.AcademicWebApp.Repositories.CoursesRepo;
-import com.example.AcademicWebApp.Repositories.FacultiesRepo;
-import com.example.AcademicWebApp.Repositories.OptionalCoursesRepo;
-import com.example.AcademicWebApp.Repositories.TeachersRepo;
+import com.example.AcademicWebApp.Repositories.CourseRepo;
+import com.example.AcademicWebApp.Repositories.FacultyRepo;
+import com.example.AcademicWebApp.Repositories.OptionalCourseRepo;
+import com.example.AcademicWebApp.Repositories.TeacherRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -20,23 +20,23 @@ import java.util.List;
 public class TeacherController {
 
     @Autowired
-    TeachersRepo teachersRepo;
+    TeacherRepo teacherRepo;
 
     @Autowired
-    CoursesRepo coursesRepo;
+    CourseRepo coursesRepo;
 
     @Autowired
-    OptionalCoursesRepo optionalCoursesRepo;
+    OptionalCourseRepo optionalCourseRepo;
 
     @Autowired
-    FacultiesRepo facultiesRepo;
+    FacultyRepo facultiesRepo;
 
 
     @CrossOrigin(origins = "http://localhost:4200/")
     @GetMapping("/teacher/getOptionalsForTeacher")
     public List<Course> getOptionalCoursesOfTeacher(@CookieValue(name = "username") String username){
         LocalDate cd = LocalDate.now();
-        return optionalCoursesRepo.findOptionalCoursesByUsername(username, cd.getYear() + 1);
+        return optionalCourseRepo.findOptionalCoursesByUsername(username, cd.getYear() + 1);
     }
 
     @CrossOrigin(origins = "http://localhost:4200/")
@@ -47,18 +47,19 @@ public class TeacherController {
 
         List<Faculty> f = facultiesRepo.getFacultyForChief(username);
         if (f.size() >= 1) {
-            return optionalCoursesRepo.getAllOptionalsForApproval(cd.getYear() + 1, f.get(0).getFid());
+            return optionalCourseRepo.getAllOptionalsForApproval(cd.getYear() + 1, f.get(0).getFid());
         }
         else{
             return new ArrayList<Course>();
         }
     }
+
     @CrossOrigin(origins = "http://localhost:4200/")
     @PostMapping("/teacher/proposeOptional")
     public Message proposeOptional(@CookieValue(name = "username") String username, @RequestBody Course course){
         // checking if he can add another optional course (ge can update it tho, and that will be okay)
         LocalDate cd = LocalDate.now();
-        List<Course> optionalCoursesAlreadyAdded = optionalCoursesRepo.findOptionalCoursesByUsername(username, cd.getYear() + 1);
+        List<Course> optionalCoursesAlreadyAdded = optionalCourseRepo.findOptionalCoursesByUsername(username, cd.getYear() + 1);
 
         int nrOfCoursesDifferent = 0;
 
@@ -76,7 +77,7 @@ public class TeacherController {
         try{
             coursesRepo.save(course);
             OptionalCourse oc = new OptionalCourse(course.getCid(), username);
-            optionalCoursesRepo.save(oc);
+            optionalCourseRepo.save(oc);
         }
         catch (Exception e){
             return new Message("Sth bad happened: " + Arrays.toString(e.getStackTrace()));
