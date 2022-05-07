@@ -1,11 +1,11 @@
 package com.example.AcademicWebApp.Models;
 
+
 import lombok.*;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.Table;
 
 @Data
 @Entity(name = "course")
@@ -16,20 +16,25 @@ import javax.persistence.Table;
 public class Course {
 
     @Id
-    @Column(name = "cid")
-    private Integer cid;
-    @Column(name = "name")
-    private String name;
-    @Column(name = "fid")
-    private Integer fid;
-    @Column(name = "semester")
-    private Integer semester;
+    @Column(name="cid")
+    private int cid;
 
-    /*
-    @Override
-    public String toString() {
-        return this.username + ", " + this.name + ", " + this.group1 + ", " + this.group2;
-    }
-    */
+    @Column(name="name")
+    private String name;
+
+    @Column(name="fid")
+    private int fid;
+
+    @Column(name="year")
+    private int year;
+
+    @Column(name="teacher")
+    private String teacher;
+
+    @Column(name="semester")
+    private int semester;
+
+    @Column(name="maxstudents")
+    private int maxstudents;
 
 }

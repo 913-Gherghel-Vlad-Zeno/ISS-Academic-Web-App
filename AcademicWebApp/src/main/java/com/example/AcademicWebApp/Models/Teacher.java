@@ -1,5 +1,6 @@
 package com.example.AcademicWebApp.Models;
 
+
 import lombok.*;
 
 import javax.persistence.Column;
@@ -7,34 +8,25 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Data
-@Entity(name = "faculty")
+@Entity(name = "teacher")
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Faculty {
+public class Teacher {
 
     @Id
-    @Column(name="fid")
-    private int fid;
+    @Column(name = "username")
+    private String username;
 
-    @Column(name="name")
+    @Column(name = "name")
     private String name;
-
-    @Column(name="noyears")
-    private int noyears;
-
-    @Column(name="chief")
-    private String chief;
 
     @Override
     public String toString() {
-        return "Faculty{" +
-                "fid=" + fid +
+        return "Teacher{" +
+                "username='" + username + '\'' +
                 ", name='" + name + '\'' +
-                ", noYears=" + noyears +
-                ", chief='" + chief + '\'' +
                 '}';
     }
 }
-
