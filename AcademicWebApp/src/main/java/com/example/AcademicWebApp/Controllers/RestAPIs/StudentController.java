@@ -1,6 +1,7 @@
 package com.example.AcademicWebApp.Controllers.RestAPIs;
 
 
+import com.example.AcademicWebApp.Models.Faculty;
 import com.example.AcademicWebApp.Models.Student;
 import com.example.AcademicWebApp.Models.StudentData;
 import com.example.AcademicWebApp.Repositories.StudentRepo;
@@ -72,6 +73,7 @@ public class StudentController {
         return studentRepo.findByName(name);
     }
 
+    // (✿◠‿◠)
     @PostMapping(value = "/student/add",
             consumes = MediaType.APPLICATION_JSON_VALUE)
     public Student addStudent(@RequestBody StudentData student)
@@ -79,6 +81,14 @@ public class StudentController {
 
         return studentService.saveStudent(student);
     }
+
+    @GetMapping("/student/getFaculties")
+    public List<Faculty> getFaculties()
+    {
+        return studentService.getFaculties();
+    }
+
+    //(✿◠‿◠)
 
     public String sayHello(UserEntity user)
     {

@@ -1,4 +1,5 @@
 package com.example.AcademicWebApp.Services;
+import com.example.AcademicWebApp.Models.Faculty;
 import com.example.AcademicWebApp.Models.Student;
 import com.example.AcademicWebApp.Models.StudentData;
 import com.example.AcademicWebApp.Repositories.FacultyRepo;
@@ -44,9 +45,13 @@ public class StudentService {
         Student newS = new Student(username, name, group1, group2);
         studentRepository.save(newS);
         return newS;
-
     }
 
+    public List<Faculty> getFaculties()
+    {
+        List<Faculty> listOfFaculties = facultyRepo.findAll();
+        return listOfFaculties;
+    }
 
 
     //we get the username,a name, a faculty and a year, eventually 2 faculties
