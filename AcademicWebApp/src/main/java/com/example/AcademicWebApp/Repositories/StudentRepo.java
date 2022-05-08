@@ -14,6 +14,8 @@ public interface StudentRepo extends JpaRepository<Student, String>
 
     List<Student> findAllByGroup1(Integer group1);
 
+    List<Student> findAllByGroup2(Integer group2);
+
     @Query("from student where group2 = ?1")
     List<Student> findBySecondGroup(Integer group2);
 

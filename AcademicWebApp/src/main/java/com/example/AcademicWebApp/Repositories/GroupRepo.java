@@ -14,6 +14,6 @@ public interface GroupRepo extends JpaRepository<Group, String>
     @Query("Select g.gid from group g where g.faculty=?1 and g.year=?2")
     List<Integer> findAllGidsByFacultyAndYear(Integer faculty, Integer year);
 
-
+    List<Group> findAllByFaculty(Integer faculty);
 
 }
