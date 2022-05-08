@@ -1,7 +1,6 @@
 package com.example.AcademicWebApp.Services;
-import com.example.AcademicWebApp.Models.Faculty;
-import com.example.AcademicWebApp.Models.Student;
-import com.example.AcademicWebApp.Models.StudentData;
+import com.example.AcademicWebApp.Models.*;
+import com.example.AcademicWebApp.Repositories.CourseRepo;
 import com.example.AcademicWebApp.Repositories.FacultyRepo;
 import com.example.AcademicWebApp.Repositories.GroupRepo;
 import com.example.AcademicWebApp.Repositories.StudentRepo;
@@ -10,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.Random;
 
 @NoArgsConstructor
@@ -22,6 +22,8 @@ public class StudentService {
     private FacultyRepo facultyRepo;
     @Autowired
     private GroupRepo groupRepo;
+    @Autowired
+    private CourseRepo courseRepo;
 
     public Student saveStudent(StudentData student)
     {
@@ -53,6 +55,23 @@ public class StudentService {
         return listOfFaculties;
     }
 
+    //getOptionalsForFirstGroup
+    //we initially get the username of the student
+    //we get its first  group
+    //we get the faculty and the year based on the group
+    //we get all courses for that specific group, base on faculty and year
+    //this is for the curricullum, but if we add the priority 2 we get the optionals
+
+    public List<Course> getCoursesForFirstGroup(String username)
+    {
+        Student s = studentRepository.getById(username);
+        Integer firstGroup = s.getGroup1();
+        Group group = groupRepo.getById(firstGroup);
+        Integer fid = group.getFaculty();
+        Integer year = group.getYear();
+        List<Course> courses = courseRepo.findCoursesByFidAndYear(fid, year);
+        return courses;
+    }
 
     //we get the username,a name, a faculty and a year, eventually 2 faculties
     //firstly -> get the group (gid)

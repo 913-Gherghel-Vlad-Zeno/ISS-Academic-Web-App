@@ -10,5 +10,8 @@ import java.util.List;
 @Repository
 public interface CourseRepo extends JpaRepository<Course, String>
 {
+    @Query("from course where fid=?1 and year=?2")
+    List<Course> findCoursesByFidAndYear(Integer fid, Integer year);
+
 
 }

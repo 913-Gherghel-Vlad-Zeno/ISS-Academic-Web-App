@@ -1,6 +1,7 @@
 package com.example.AcademicWebApp.Controllers.RestAPIs;
 
 
+import com.example.AcademicWebApp.Models.Course;
 import com.example.AcademicWebApp.Models.Faculty;
 import com.example.AcademicWebApp.Models.Student;
 import com.example.AcademicWebApp.Models.StudentData;
@@ -83,11 +84,17 @@ public class StudentController {
     }
 
     @GetMapping("/student/getFaculties")
-    public List<Faculty> getFaculties()
+    public List<Faculty> getFacultiesForStudent()
     {
         return studentService.getFaculties();
     }
 
+    @GetMapping("/student/getCoursesFirstGroup")
+    public List<Course> getCoursesForStudentFirstGroup(@CookieValue(name = "username") String username)
+    {
+        return studentService.getCoursesForFirstGroup(username);
+
+    }
     //(✿◠‿◠)
 
     public String sayHello(UserEntity user)
