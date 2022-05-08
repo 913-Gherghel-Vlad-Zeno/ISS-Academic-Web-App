@@ -73,6 +73,20 @@ public class StudentService {
         return courses;
     }
 
+    public List<Course> getCoursesForSecondGroup(String username)
+    {
+        Student s = studentRepository.getById(username);
+        Integer secondGroup = s.getGroup2();
+        if(secondGroup == null)
+            return null;
+        Group group = groupRepo.getById(secondGroup);
+
+        Integer fid = group.getFaculty();
+        Integer year = group.getYear();
+        List<Course> courses = courseRepo.findCoursesByFidAndYear(fid, year);
+        return courses;
+    }
+
     //we get the username,a name, a faculty and a year, eventually 2 faculties
     //firstly -> get the group (gid)
     //we need the fid and the year

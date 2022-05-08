@@ -95,6 +95,13 @@ public class StudentController {
         return studentService.getCoursesForFirstGroup(username);
 
     }
+
+    @GetMapping("/student/getCoursesSecondGroup")
+    public List<Course> getCoursesForStudentSecondGroup(@CookieValue(name = "username") String username)
+    {
+        return studentService.getCoursesForSecondGroup(username);
+
+    }
     //(✿◠‿◠)
 
     public String sayHello(UserEntity user)
