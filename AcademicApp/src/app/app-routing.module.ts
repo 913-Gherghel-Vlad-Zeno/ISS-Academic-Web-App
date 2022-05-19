@@ -12,6 +12,9 @@ import { DocumentsPageComponent } from './components/pages/documents-page/docume
 import { CurriculumGradesPageComponent } from './components/pages/curriculum-grades-page/curriculum-grades-page.component';
 import { ProposedOptionalsPageComponent } from './components/pages/proposed-optionals-page/proposed-optionals-page.component';
 import { EnrollComponent } from './components/pages/enroll/enroll.component';
+import { AddGradeComponent } from './components/pages/add-grade/add-grade.component';
+import { ApproveOptionalsComponent } from './components/pages/approve-optionals/approve-optionals.component';
+import { StatisticsComponent } from './components/pages/statistics/statistics.component';
 
 const routes: Routes = [
   {path:'', redirectTo:'login', pathMatch:'full'},
@@ -29,7 +32,16 @@ const routes: Routes = [
     ]},
   
 
-  {path:'teacher-dashboard', component:TeacherDashboardComponent},
+  {path:'teacher-dashboard', component:TeacherDashboardComponent,
+    children: [
+      {path:'home', component:HomeComponent},
+      {path:'profile', component:ProfilePageComponent},
+      {path:'propose-optionals', component:ProposedOptionalsPageComponent},
+      {path:'add-grade', component:AddGradeComponent},
+      {path:'approve-optional-courses', component:ApproveOptionalsComponent},
+      {path:'statistics', component:StatisticsComponent},
+    ]},
+    
   {path:'staff-dashboard', component:AdminDashboardComponent},
   {path:'testing', component: TestingDashboardComponent},
   
