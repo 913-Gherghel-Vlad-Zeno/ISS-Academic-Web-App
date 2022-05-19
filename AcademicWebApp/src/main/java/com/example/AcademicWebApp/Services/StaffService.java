@@ -11,7 +11,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 @NoArgsConstructor
 @Service
@@ -46,26 +45,12 @@ public class StaffService {
         return facultyGroups;
     }
 
-    private int averageComparator(Student s1, Student s2) {
+    private int averageGradeComparator(Student s1, Student s2) {
         List<Grade> grades1 = new ArrayList<>();
         List<Grade> grades2 = new ArrayList<>();
 
         grades1 = gradeRepo.findAllByUsername(s1.getUsername());
         grades2 = gradeRepo.findAllByUsername(s2.getUsername());
-
-//        try{
-//            grades1 = gradeRepo.findAllByUsername(s1.getUsername());
-//        }
-//        catch (Exception ex) {
-//            return 1;
-//        }
-//
-//        try {
-//            grades2 = gradeRepo.findAllByUsername(s2.getUsername());
-//        }
-//        catch (Exception ex) {
-//            return -1;
-//        }
 
         int avg1 = 0, avg2 = 0;
         for (Grade grade: grades1) {
@@ -100,7 +85,7 @@ public class StaffService {
 
         System.out.println(students);
 
-        students.sort(this::averageComparator);
+        students.sort(this::averageGradeComparator);
 
         System.out.println(students);
 
@@ -137,7 +122,7 @@ public class StaffService {
             students.add(studentRepo.findById(studentEnrollment.getUsername()).get());
         }
 
-        students.sort(this::averageComparator);
+        students.sort(this::averageGradeComparator);
 
         return students;
     }
