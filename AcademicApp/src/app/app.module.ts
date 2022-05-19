@@ -9,6 +9,7 @@ import { LoginComponent } from './login/login.component';
 import { StudentDashboardComponent } from './student-dashboard/student-dashboard.component';
 import { TeacherDashboardComponent } from './teacher-dashboard/teacher-dashboard.component';
 import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
+import { TestingDashboardComponent } from './testing-dashboard/testing-dashboard.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.compo
     StudentDashboardComponent,
     LoginComponent,
     TeacherDashboardComponent,
-    AdminDashboardComponent
+    AdminDashboardComponent,
+    TestingDashboardComponent
   ],
   imports: [
     BrowserModule,
