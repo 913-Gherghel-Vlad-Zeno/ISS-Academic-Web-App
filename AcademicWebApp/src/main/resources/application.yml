@@ -14,9 +14,9 @@ spring:
           time_zone: UTC
     open-in-view: true
   datasource:
-    url: jdbc:postgresql://localhost:5432/iss
+    url: jdbc:postgresql://localhost:5432/ISS2
     username: postgres
-    password: Ciufulic1
+    password: password
     platform: postgres
     hikari:
       max-lifetime: 300000
