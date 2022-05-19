@@ -1,0 +1,1 @@
+export const SIDEMENU_HOVER_COLOR='#99e5ff';
