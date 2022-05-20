@@ -1,9 +1,44 @@
 <div class="container" [style.padding]="pagePadding">
-    <img class="logo-icon" src="assets/logo.svg" [style.width]="logoWidth">
-    <div class="content" [style.padding]="contentPadding">
-        <p>Add grade works!</p>
-        <p>Lorem ipsum dolor sit amet. Ab voluptas illo ut veniam praesentium in nobis saepe. Est soluta veniam non expedita corporis qui harum omnis est voluptas consequatur et veniam corrupti. </p><p>Aut cumque omnis quo voluptas sunt eos voluptatum adipisci non sint cupiditate ut enim nesciunt aut reprehenderit ratione. Non quaerat facilis est molestiae saepe  aspernatur tenetur non consequatur aliquid. Qui atque itaque et quia galisum et quam sunt et similique doloremque aut molestiae quam non fuga autem. </p><p>Sit repudiandae possimus et galisum nulla non tenetur earum est ullam placeat. Est galisum eaque ut sint similique qui enim quis id voluptatem dicta vel voluptatem aliquid qui laboriosam numquam ut delectus magnam? Cum consequuntur dolorum quo sunt odit et magni maxime ut ipsam officiis. Est beatae voluptatum non dolores earum qui quam internos ad ipsa quibusdam. </p>
-
+  <img class="logo-icon" src="assets/logo.svg" [style.width]="logoWidth">
+  <div class="content" [style.padding]="contentPadding">
+    <div class="grid">
+    <div class="course">
+      <p>Course</p>
+      <dropdown [ngClass]="'input-course'" [placeholderText]="'Choose name of the course'"></dropdown>
     </div>
+    <div>
+      <p>Table with students</p>
+      <table>
+        <thead>
+        <tr>
+          <th>Username</th>
+          <th>Name</th>
+          <th>Group</th>
+          <th>Grade</th>
+          <th>...</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>test row</td>
+          <td>test row</td>
+          <td>test row</td>
+          <td>
+            <dropdown [placeholderText]="'1-10'"></dropdown>
+          </td>
+          <td>
+            <button>Change grade</button>
+          </td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        </tbody>
+      </table>
+    </div>
+    <br>
+    <p>*To change a grade, double click on the cell and rewrite it.</p>
+  </div>
 
+  </div>
 </div>

@@ -17,6 +17,8 @@ import { ApproveOptionalsComponent } from './components/pages/approve-optionals/
 import { StatisticsComponent } from './components/pages/statistics/statistics.component';
 import { AskPrintComponent } from './components/pages/ask-print/ask-print.component';
 import { ClassementGrantsComponent } from './components/pages/classement-grants/classement-grants.component';
+import {DropdownComponent} from "./components/dropdown/dropdown.component";
+
 
 const routes: Routes = [
   {path:'', redirectTo:'login', pathMatch:'full'},
@@ -32,7 +34,6 @@ const routes: Routes = [
       {path:'optional-courses', component:ProposedOptionalsPageComponent},
       {path:'enroll', component:EnrollComponent}
     ]},
-  
 
   {path:'teacher-dashboard', component:TeacherDashboardComponent,
     children: [

@@ -20,7 +20,7 @@ export const studentMenuData = [
         label: 'Curriculum & Grades'
     },
     {
-        routeLink: 'proposed-optionals',
+        routeLink: 'optional-courses',
         icon: 'assets/list.svg',
         label: 'Optional Courses'
     },
