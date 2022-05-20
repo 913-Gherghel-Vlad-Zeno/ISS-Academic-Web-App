@@ -25,7 +25,7 @@ class Course:
 
     @property
     def year(self):
-        return self.__id
+        return self.__year
 
     @property
     def teacher(self):

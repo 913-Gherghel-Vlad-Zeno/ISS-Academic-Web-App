@@ -26,5 +26,5 @@ class Student:
 
     def __str__(self):
         if self.__group2 == None:
-            return "'" + self.__name + "', '" + self.__username + "', " + str(self.__group1)
-        return "'" + self.__name + "', '" + self.__username + "', " + str(self.__group1) + ", " + str(self.__group2)
+            return "'" + self.__username + "', " + str(self.__group1)
+        return "'" + self.__username + "', " + str(self.__group1) + ", " + str(self.__group2)

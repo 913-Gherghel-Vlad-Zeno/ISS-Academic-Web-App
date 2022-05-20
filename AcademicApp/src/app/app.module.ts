@@ -25,6 +25,11 @@ import { AskPrintComponent } from './components/pages/ask-print/ask-print.compon
 import { ClassementGrantsComponent } from './components/pages/classement-grants/classement-grants.component';
 import { BodyComponent } from './components/pages/body/body.component';
 import { HomeComponent } from './components/pages/home/home.component';
+import {DragAndDropComponent} from "./components/drag-and-drop/drag-and-drop.component";
+import {DragAndDropDirective} from "./components/drag-and-drop/drag-and-drop.directive";
+import {DragDropModule} from "@angular/cdk/drag-drop";
+import {DropdownComponent} from "./components/dropdown/dropdown.component";
+
 
 @NgModule({
   declarations: [
@@ -48,14 +53,18 @@ import { HomeComponent } from './components/pages/home/home.component';
     AskPrintComponent,
     ClassementGrantsComponent,
     BodyComponent,
-    HomeComponent
+    HomeComponent,
+    DragAndDropComponent,
+    DragAndDropDirective,
+    DropdownComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    DragDropModule
   ],
   providers: [],
   bootstrap: [AppComponent]

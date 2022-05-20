@@ -16,4 +16,7 @@ export class AskPrintComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  print(){
+    window.print();
+  }
 }
