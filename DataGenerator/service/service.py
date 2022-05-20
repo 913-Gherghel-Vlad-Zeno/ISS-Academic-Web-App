@@ -12,6 +12,7 @@ from domain.student import Student
 from domain.studentEnrollment import StudentEnrollment
 from domain.teacher import Teacher
 from domain.user import User
+from domain.userData import UserData
 from utils.faculties import *
 from utils.coursePriorities import *
 
@@ -20,6 +21,7 @@ class Service:
 
     def __init__(self):
         self.__users = []
+        self.__userData = []
         self.__teachers = []
         self.__students = []
         self.__staff = []
@@ -41,14 +43,28 @@ class Service:
 
         return User(username, password, role)
 
+    def __generateUserData(self, fullName):
+        username = fullName.split(' ')
+        name = username[0]
+        surname = username[1]
+        username = (username[0] + username[1]).lower()
+        email = username + '@yahoo.com'
+        phone = ''.join(random.choice('0123456789') for _ in range(10))
+        address = ''.join(random.choice(string.ascii_lowercase) for _ in range(random.randint(10, 15)))
+        cnp = ''.join(random.choice('0123456789') for _ in range(13))
+
+        return UserData(username, name, surname, email, phone, address, cnp)
+
     def __generateTeachers(self, noTeachers):
         for i in range(noTeachers):
             fullName = names.get_full_name()
 
             user = self.__generateUser(fullName, "teacher")
+            userData = self.__generateUserData(fullName)
             teacher = Teacher(user.username, fullName)
 
             self.__users.append(user)
+            self.__userData.append(userData)
             self.__teachers.append(teacher)
 
     def __generateStaff(self, noStaff):
@@ -56,9 +72,11 @@ class Service:
             fullName = names.get_full_name()
 
             user = self.__generateUser(fullName, "staff")
+            userData = self.__generateUserData(fullName)
             staff = Staff(user.username, fullName)
 
             self.__users.append(user)
+            self.__userData.append(userData)
             self.__staff.append(staff)
 
     def __generateFaculties(self):
@@ -106,12 +124,14 @@ class Service:
                 group2 = None
 
             user = self.__generateUser(fullName, "student")
+            userData = self.__generateUserData(fullName)
             if group2 != None:
                 student = Student(fullName, user.username, group1.id, group2.id)
             else:
                 student = Student(fullName, user.username, group1.id)
 
             self.__users.append(user)
+            self.__userData.append(userData)
             self.__students.append(student)
 
     def __generateCourses(self):
@@ -207,6 +227,9 @@ class Service:
 
     def getStaff(self):
         return self.__staff
+
+    def getUserData(self):
+        return self.__userData
 
     def getUsers(self):
         return self.__users

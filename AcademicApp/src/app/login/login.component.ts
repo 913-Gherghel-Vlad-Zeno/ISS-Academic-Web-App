@@ -26,6 +26,8 @@ export class LoginComponent implements OnInit {
     var found = false;
     let newUser;
 
+    // do not delete
+    /*
     this.http.get<IUser>(`http://localhost:8080/user/${this.loginForm.value.username}`)
           .subscribe((v:IUser) => {
             if (v.role == "null") {
@@ -37,6 +39,21 @@ export class LoginComponent implements OnInit {
               this.router.navigate([`${v.role.toLocaleLowerCase()}-dashboard`]);
             }
           })
+          */
+    // only temporary
+    var role = null;
+
+    if(this.loginForm.value.username === 'a'){
+      role = 'student';
+    }
+    else if(this.loginForm.value.username === 'b'){
+      role = 'teacher';
+    } else {
+      role = 'staff';
+    }
+
+    this.loginForm.reset();
+    this.router.navigate([`${role}-dashboard`]);
   }
 
 }
