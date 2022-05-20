@@ -19,5 +19,4 @@ export class AskPrintComponent implements OnInit {
   print(){
     window.print();
   }
-
 }

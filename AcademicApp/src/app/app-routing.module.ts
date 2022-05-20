@@ -19,12 +19,13 @@ import { AskPrintComponent } from './components/pages/ask-print/ask-print.compon
 import { ClassementGrantsComponent } from './components/pages/classement-grants/classement-grants.component';
 import {DropdownComponent} from "./components/dropdown/dropdown.component";
 
+
 const routes: Routes = [
   {path:'', redirectTo:'login', pathMatch:'full'},
   {path:'login', component:LoginComponent},
 
   //{path:'student-dashboard', component:StudentDashboardComponent},
-  {path:'student-dashboard', component:StudentDashboardComponent,
+  {path:'student-dashboard', component:StudentDashboardComponent, 
     children: [
       {path:'home', component:HomeComponent},
       {path:'profile', component:ProfilePageComponent},
@@ -33,7 +34,6 @@ const routes: Routes = [
       {path:'optional-courses', component:ProposedOptionalsPageComponent},
       {path:'enroll', component:EnrollComponent}
     ]},
-
 
   {path:'teacher-dashboard', component:TeacherDashboardComponent,
     children: [
@@ -52,9 +52,9 @@ const routes: Routes = [
       {path:'ask-print', component:AskPrintComponent},
       {path:'classement-grants', component:ClassementGrantsComponent},
     ]},
-
-  {path:'testing', component: DropdownComponent},
-
+    
+  {path:'testing', component: TestingDashboardComponent},
+  
 ];
 
 @NgModule({
