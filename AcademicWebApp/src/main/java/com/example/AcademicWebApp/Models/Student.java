@@ -22,6 +22,8 @@ public class Student {
     private Integer group1;
     @Column(name = "group2")
     private Integer group2;
+    @Column(name = "scholarship")
+    private Integer scholarship;
 
     /*
     @Override

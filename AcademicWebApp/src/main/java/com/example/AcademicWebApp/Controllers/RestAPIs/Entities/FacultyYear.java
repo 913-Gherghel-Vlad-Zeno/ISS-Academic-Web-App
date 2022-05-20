@@ -9,7 +9,7 @@ import lombok.*;
 @AllArgsConstructor
 public class FacultyYear {
 
-    private String facultyName;
-    private Integer year;
+    private String faculty;
+    private String year;
 
 }

@@ -14,6 +14,6 @@ public class StudentAverage {
     private int year;
     private int group;
     private int finalGrade;
-    private int bursier;
+    private int scholarship;
 
 }

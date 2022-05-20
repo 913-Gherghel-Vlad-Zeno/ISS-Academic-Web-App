@@ -27,6 +27,9 @@ public class StaffService {
     private GroupRepo groupRepo;
 
     @Autowired
+    private UserDataRepo userDataRepo;
+
+    @Autowired
     private StudentEnrollmentRepo studentEnrollmentRepo;
 
     public List<FacultyGroups> getFacultiesWithGroups() {
@@ -43,23 +46,22 @@ public class StaffService {
         return facultyGroups;
     }
 
-    private int averageGradeComparator(Student s1, Student s2) {
-        List<Grade> grades1 = new ArrayList<>();
-        List<Grade> grades2 = new ArrayList<>();
+    private int calculateAverageGrade(StudentEnrollment s) {
+        List<Grade> grades = gradeRepo.findAllByUsernameAndFaculty(s.getUsername(), s.getFid());
 
-        grades1 = gradeRepo.findAllByUsername(s1.getUsername());
-        grades2 = gradeRepo.findAllByUsername(s2.getUsername());
+        int avg = 0;
 
-        int avg1 = 0, avg2 = 0;
-        for (Grade grade: grades1) {
-            avg1 += grade.getGradevalue();
+        for (Grade grade: grades) {
+            avg += grade.getGradevalue();
         }
-        avg1 /= grades1.size();
+        avg /= grades.size();
 
-        for (Grade grade: grades2) {
-            avg2 += grade.getGradevalue();
-        }
-        avg2 /= grades2.size();
+        return avg;
+    }
+
+    private int averageGradeComparator(StudentEnrollment s1, StudentEnrollment s2) {
+        int avg1 = calculateAverageGrade(s1);
+        int avg2 = calculateAverageGrade(s2);
 
         if (avg1 == avg2) {
             return 0;
@@ -72,58 +74,58 @@ public class StaffService {
         }
     }
 
-    public List<Student> getStudentsFromGroup(Group group) {
-        List<Student> students = new ArrayList<>();
-
-        List<Student> fromGroup1 = studentRepo.findAllByGroup1(group.getGid());
-        List<Student> fromGroup2 = studentRepo.findAllByGroup2(group.getGid());
-
-        students.addAll(fromGroup1);
-        students.addAll(fromGroup2);
-
-        System.out.println(students);
-
-        students.sort(this::averageGradeComparator);
-
-        System.out.println(students);
-
-        return students;
-    }
-
-    public List<FacultyYears> getFacultiesWithYears() {
-        List<FacultyYears> facultyYears = new ArrayList<>();
-        List<Faculty> faculties = facultyRepo.findAll();
-
-        for (Faculty faculty: faculties){
-            FacultyYears facultyYears1 = new FacultyYears();
-            facultyYears1.setFacultyName(faculty.getName());
-
-            List<Integer> years = new ArrayList<>();
-            for (int i = 1; i <= faculty.getNoyears(); i++) {
-                years.add(i);
-            }
-            facultyYears1.setYears(years);
-
-            facultyYears.add(facultyYears1);
-        }
-
-        return facultyYears;
-    }
-
-    public List<Student> getStudentsFromFacultyYear(FacultyYear facultyYear) {
-        List<Student> students = new ArrayList<>();
-
-         List<StudentEnrollment> studentEnrollments = studentEnrollmentRepo.findAllByFidAndYear(
-                facultyRepo.findFidByName(facultyYear.getFacultyName()), facultyYear.getYear());
-
-        for (StudentEnrollment studentEnrollment: studentEnrollments) {
-            students.add(studentRepo.findById(studentEnrollment.getUsername()).get());
-        }
-
-        students.sort(this::averageGradeComparator);
-
-        return students;
-    }
+//    public List<Student> getStudentsFromGroup(Group group) {
+//        List<Student> students = new ArrayList<>();
+//
+//        List<Student> fromGroup1 = studentRepo.findAllByGroup1(group.getGid());
+//        List<Student> fromGroup2 = studentRepo.findAllByGroup2(group.getGid());
+//
+//        students.addAll(fromGroup1);
+//        students.addAll(fromGroup2);
+//
+//        System.out.println(students);
+//
+//        students.sort(this::averageGradeComparator);
+//
+//        System.out.println(students);
+//
+//        return students;
+//    }
+//
+//    public List<FacultyYears> getFacultiesWithYears() {
+//        List<FacultyYears> facultyYears = new ArrayList<>();
+//        List<Faculty> faculties = facultyRepo.findAll();
+//
+//        for (Faculty faculty: faculties){
+//            FacultyYears facultyYears1 = new FacultyYears();
+//            facultyYears1.setFacultyName(faculty.getName());
+//
+//            List<Integer> years = new ArrayList<>();
+//            for (int i = 1; i <= faculty.getNoyears(); i++) {
+//                years.add(i);
+//            }
+//            facultyYears1.setYears(years);
+//
+//            facultyYears.add(facultyYears1);
+//        }
+//
+//        return facultyYears;
+//    }
+//
+//    public List<Student> getStudentsFromFacultyYear(FacultyYear facultyYear) {
+//        List<Student> students = new ArrayList<>();
+//
+//         List<StudentEnrollment> studentEnrollments = studentEnrollmentRepo.findAllByFidAndYear(
+//                facultyRepo.findFidByName(facultyYear.getFacultyName()), facultyYear.getYear());
+//
+//        for (StudentEnrollment studentEnrollment: studentEnrollments) {
+//            students.add(studentRepo.findById(studentEnrollment.getUsername()).get());
+//        }
+//
+//        students.sort(this::averageGradeComparator);
+//
+//        return students;
+//    }
 
     public List<StudentAverage> getStudentsFromFacultyYearGroup(StaffFilter staffFilter) {
         List<StudentAverage> students = new ArrayList<>();
@@ -132,38 +134,47 @@ public class StaffService {
         String sYear = staffFilter.getYear();
         String sGroup = staffFilter.getGroup();
 
-//        if (faculty != "" && sYear != "" && sGroup != "") {
-//            int year = Integer.parseInt(sYear);
-//            int group = Integer.parseInt(sGroup);
-//
-//            List<StudentEnrollment> studentsFiltered = studentEnrollmentRepo.findAllByFidAndYear(
-//                    facultyRepo.findFidByName(faculty),
-//                    year
-//            );
-//        }
-//        else if (faculty == "" && sYear != "" && sGroup != "") {
-//
-//        }
-//        else if (faculty != "" && sYear == "" && sGroup != "") {
-//
-//        }
-//        else if (faculty == "" && sYear == "" && sGroup != "") {
-//
-//        }
-//        else if (faculty != "" && sYear != "" && sGroup == "") {
-//
-//        }
-//        else if (faculty == "" && sYear != "" && sGroup == "") {
-//
-//        }
-//        else if (faculty != "" && sYear == "" && sGroup == "") {
-//
-//        }
-//        else if (faculty == "" && sYear == "" && sGroup == "") {
-//
-//        }
+        int year = -1, group = -1;
+        if (sYear != "")
+            year = Integer.parseInt(sYear);
+        if (sGroup != "")
+            group = Integer.parseInt(sGroup);
+
+        List<StudentEnrollment> filteredStudents = studentEnrollmentRepo.findAllByFacultyYearGroup(faculty, year, group);
+
+        filteredStudents.sort(this::averageGradeComparator);
+
+        for (StudentEnrollment student: filteredStudents) {
+            students.add(new StudentAverage(
+                    student.getUsername(),
+                    userDataRepo.findAllByUsername(student.getUsername()).getName() + " " + userDataRepo.findAllByUsername(student.getUsername()).getSurname(),
+                    student.getYear(),
+                    groupRepo.findByUsernameFidYear(student.getUsername(), student.getFid(), student.getYear()).getGid(),
+                    calculateAverageGrade(student),
+                    studentRepo.findByUsername(student.getUsername()).getScholarship()
+            ));
+        }
 
         return students;
+    }
+
+    public List<Integer> getGroupsByFaculty(FacultyYear facultyYear) {
+        List<Integer> groups = new ArrayList<>();
+
+        String faculty = facultyYear.getFaculty();
+        String sYear = facultyYear.getYear();
+
+        int year = -1;
+        if (sYear != "")
+            year = Integer.parseInt(sYear);
+
+        List<Group> groupList = groupRepo.findAllByYearAndFaculty(faculty, year);
+
+        for (Group gr: groupList) {
+            groups.add(gr.getGid());
+        }
+
+        return groups;
     }
 
 }

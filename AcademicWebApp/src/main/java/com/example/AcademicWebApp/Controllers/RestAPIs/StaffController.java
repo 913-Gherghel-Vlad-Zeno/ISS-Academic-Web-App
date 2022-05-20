@@ -28,39 +28,41 @@ public class StaffController  {
     @Autowired
     private StaffService staffService;
 
-    @CrossOrigin(origins = "http://localhost:4200/")
-    @GetMapping("/staff/facultyGroups")
-    public List<FacultyGroups> getFacultyGroups(@CookieValue(name="username") String username) {
-        return staffService.getFacultiesWithGroups();
-    }
+//    @CrossOrigin(origins = "http://localhost:4200/")
+//    @GetMapping("/staff/facultyGroups")
+//    public List<FacultyGroups> getFacultyGroups(@CookieValue(name="username") String username) {
+//        return staffService.getFacultiesWithGroups();
+//    }
+//
+//    @CrossOrigin(origins = "http://localhost:4200/")
+//    @GetMapping("/staff/facultyGroups/students")
+//    public List<Student> getStudentsInGroup(@CookieValue(name="username") String username, @RequestBody Group group) {
+//        return staffService.getStudentsFromGroup(group);
+//    }
 
-    @CrossOrigin(origins = "http://localhost:4200/")
-    @GetMapping("/staff/facultyGroups/students")
-    public List<Student> getStudentsInGroup(@CookieValue(name="username") String username, @RequestBody Group group) {
-        return staffService.getStudentsFromGroup(group);
-    }
-
-    @CrossOrigin(origins = "http://localhost:4200/")
-    @GetMapping("/staff/facultyYears")
-    public List<FacultyYears> getFacultyYears(@CookieValue(name="username") String username) {
-        return staffService.getFacultiesWithYears();
-    }
-
-    @CrossOrigin(origins = "http://localhost:4200/")
-    @GetMapping("/staff/facultyYears/students")
-    public List<Student> getFacultyYears(@CookieValue(name="username") String username, @RequestBody FacultyYear facultyYear) {
-        return staffService.getStudentsFromFacultyYear(facultyYear);
-    }
+//    @CrossOrigin(origins = "http://localhost:4200/")
+//    @GetMapping("/staff/facultyYears")
+//    public List<FacultyYears> getFacultyYears(@CookieValue(name="username") String username) {
+//        return staffService.getFacultiesWithYears();
+//    }
+//
+//    @CrossOrigin(origins = "http://localhost:4200/")
+//    @GetMapping("/staff/facultyYears/students")
+//    public List<Student> getFacultyYears(@CookieValue(name="username") String username, @RequestBody FacultyYear facultyYear) {
+//        return staffService.getStudentsFromFacultyYear(facultyYear);
+//    }
 
     @CrossOrigin(origins = "http://localhost:4200/")
     @GetMapping("/staff/faculty/students")
-    public List<StudentAverage> getStudentsFromFacultyYearGroup(@RequestBody StaffFilter staffFilter) {
+    public List<StudentAverage> getStudentsFromFacultyYearGroup(@CookieValue(name="username") String username, @RequestBody StaffFilter staffFilter) {
         return staffService.getStudentsFromFacultyYearGroup(staffFilter);
     }
 
-//    @CrossOrigin(origins = "http://localhost:4200/")
-//    @GetMapping("/staff/facultyYears/students")
-    //TODO Between two grades (min set | max set, min set | max not set, min not set | max set)
+    @CrossOrigin(origins = "http://localhost:4200/")
+    @GetMapping("/staff/faculty/getGroups")
+    public List<Integer> getGroupsFromFaculties(@CookieValue(name="username") String username, @RequestBody FacultyYear facultyYear) {
+        return staffService.getGroupsByFaculty(facultyYear);
+    }
 
     /*TODO !!!!!!!!!!!!!!!BUDGET!!!!!!!!!!!!!!!!!!!*/
 
