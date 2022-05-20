@@ -1,10 +1,8 @@
-<form class="center-form" #dropdownForm="ngForm" novalidate>
-
-  <label class="boxes-home">
-    <select class="box-input placeholder" name="id">
+<form class="automatic-opt" #dropdownForm="ngForm" novalidate>
+  <label class="automatic-opt">
+    <select class="placeholder-select automatic-opt" name="id">
       <option value="" disabled selected hidden >{{placeholderText}}</option>
       <option *ngFor="let entity of entities">{{entity.id}}</option>
     </select>
   </label>
-
 </form>

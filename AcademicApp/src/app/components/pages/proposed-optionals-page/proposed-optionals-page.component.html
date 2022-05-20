@@ -1,0 +1,18 @@
+<div class="container" [style.padding]="pagePadding">
+  <img class="logo-icon" src="assets/logo.svg" [style.width]="logoWidth">
+  <div class="content" [style.padding]="contentPadding">
+    <div class="grid">
+      <div cdkDropList class="example-list" (cdkDropListDropped)="drop($event)">
+        <div class="example-box" *ngFor="let optional of optionals" cdkDrag>{{optional}}</div>
+      </div>
+      <button class="send-button">Send</button>
+    </div>
+    <br>
+    <div class="text-padding">
+      <p><span class="text-color">Attention!</span> You can only send the list once. After that, no modifications are
+        allowed.</p>
+      <p>*you can achieve the ranking by <span class="text-color">drag and drop</span></p>
+    </div>
+  </div>
+
+</div>

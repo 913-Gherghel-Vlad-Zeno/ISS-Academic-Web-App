@@ -1,7 +1,12 @@
-.placeholder{
+.placeholder-select{
   color: #7b7b7b;
 }
 
 option {
   color: black;
+}
+
+.automatic-opt{
+  width: inherit;
+  height: inherit;
 }
