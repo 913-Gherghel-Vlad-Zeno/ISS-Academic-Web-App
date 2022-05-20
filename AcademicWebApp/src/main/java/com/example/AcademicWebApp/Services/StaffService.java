@@ -1,8 +1,6 @@
 package com.example.AcademicWebApp.Services;
 
-import com.example.AcademicWebApp.Controllers.RestAPIs.Entities.FacultyGroups;
-import com.example.AcademicWebApp.Controllers.RestAPIs.Entities.FacultyYear;
-import com.example.AcademicWebApp.Controllers.RestAPIs.Entities.FacultyYears;
+import com.example.AcademicWebApp.Controllers.RestAPIs.Entities.*;
 import com.example.AcademicWebApp.Models.*;
 import com.example.AcademicWebApp.Repositories.*;
 import lombok.NoArgsConstructor;
@@ -123,6 +121,47 @@ public class StaffService {
         }
 
         students.sort(this::averageGradeComparator);
+
+        return students;
+    }
+
+    public List<StudentAverage> getStudentsFromFacultyYearGroup(StaffFilter staffFilter) {
+        List<StudentAverage> students = new ArrayList<>();
+
+        String faculty = staffFilter.getFaculty();
+        String sYear = staffFilter.getYear();
+        String sGroup = staffFilter.getGroup();
+
+//        if (faculty != "" && sYear != "" && sGroup != "") {
+//            int year = Integer.parseInt(sYear);
+//            int group = Integer.parseInt(sGroup);
+//
+//            List<StudentEnrollment> studentsFiltered = studentEnrollmentRepo.findAllByFidAndYear(
+//                    facultyRepo.findFidByName(faculty),
+//                    year
+//            );
+//        }
+//        else if (faculty == "" && sYear != "" && sGroup != "") {
+//
+//        }
+//        else if (faculty != "" && sYear == "" && sGroup != "") {
+//
+//        }
+//        else if (faculty == "" && sYear == "" && sGroup != "") {
+//
+//        }
+//        else if (faculty != "" && sYear != "" && sGroup == "") {
+//
+//        }
+//        else if (faculty == "" && sYear != "" && sGroup == "") {
+//
+//        }
+//        else if (faculty != "" && sYear == "" && sGroup == "") {
+//
+//        }
+//        else if (faculty == "" && sYear == "" && sGroup == "") {
+//
+//        }
 
         return students;
     }

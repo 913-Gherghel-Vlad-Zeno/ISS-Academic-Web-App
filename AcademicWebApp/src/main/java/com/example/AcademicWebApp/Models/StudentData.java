@@ -12,7 +12,7 @@ import javax.persistence.Id;
 public class StudentData {
 
     private String username;
-    private String name;
+    //private String name;
     private String faculty1;
     private Integer year1;
     private String faculty2;

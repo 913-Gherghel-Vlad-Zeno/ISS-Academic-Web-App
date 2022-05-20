@@ -1,9 +1,7 @@
 package com.example.AcademicWebApp.Controllers.RestAPIs;
 
 
-import com.example.AcademicWebApp.Controllers.RestAPIs.Entities.FacultyGroups;
-import com.example.AcademicWebApp.Controllers.RestAPIs.Entities.FacultyYear;
-import com.example.AcademicWebApp.Controllers.RestAPIs.Entities.FacultyYears;
+import com.example.AcademicWebApp.Controllers.RestAPIs.Entities.*;
 import com.example.AcademicWebApp.Models.Faculty;
 import com.example.AcademicWebApp.Models.Group;
 import com.example.AcademicWebApp.Models.Student;
@@ -53,5 +51,17 @@ public class StaffController  {
     public List<Student> getFacultyYears(@CookieValue(name="username") String username, @RequestBody FacultyYear facultyYear) {
         return staffService.getStudentsFromFacultyYear(facultyYear);
     }
+
+    @CrossOrigin(origins = "http://localhost:4200/")
+    @GetMapping("/staff/faculty/students")
+    public List<StudentAverage> getStudentsFromFacultyYearGroup(@RequestBody StaffFilter staffFilter) {
+        return staffService.getStudentsFromFacultyYearGroup(staffFilter);
+    }
+
+//    @CrossOrigin(origins = "http://localhost:4200/")
+//    @GetMapping("/staff/facultyYears/students")
+    //TODO Between two grades (min set | max set, min set | max not set, min not set | max set)
+
+    /*TODO !!!!!!!!!!!!!!!BUDGET!!!!!!!!!!!!!!!!!!!*/
 
 }

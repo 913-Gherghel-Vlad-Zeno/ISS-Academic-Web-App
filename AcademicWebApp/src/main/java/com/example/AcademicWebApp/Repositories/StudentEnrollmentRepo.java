@@ -11,4 +11,6 @@ import java.util.List;
 public interface StudentEnrollmentRepo extends JpaRepository<StudentEnrollment, StudentEnrollmentId> {
 
     List<StudentEnrollment> findAllByFidAndYear(Integer fid, Integer year);
+
+    List<StudentEnrollment> findAllByFid(Integer fid);
 }

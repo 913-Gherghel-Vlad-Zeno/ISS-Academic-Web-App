@@ -18,8 +18,6 @@ public class Student {
     @Id
     @Column(name = "username")
     private String username;
-    @Column(name = "name")
-    private String name;
     @Column(name = "group1")
     private Integer group1;
     @Column(name = "group2")
