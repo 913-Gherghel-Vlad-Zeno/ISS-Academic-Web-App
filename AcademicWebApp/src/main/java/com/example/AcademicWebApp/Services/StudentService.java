@@ -1,13 +1,11 @@
 package com.example.AcademicWebApp.Services;
 import com.example.AcademicWebApp.Models.*;
-import com.example.AcademicWebApp.Repositories.CourseRepo;
-import com.example.AcademicWebApp.Repositories.FacultyRepo;
-import com.example.AcademicWebApp.Repositories.GroupRepo;
-import com.example.AcademicWebApp.Repositories.StudentRepo;
+import com.example.AcademicWebApp.Repositories.*;
 import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.Random;
@@ -24,6 +22,8 @@ public class StudentService {
     private GroupRepo groupRepo;
     @Autowired
     private CourseRepo courseRepo;
+    @Autowired
+    private OptionalCourseEnrollmentRepo optionalCourseEnrollmentRepo;
 
     public Student saveStudent(StudentData student)
     {
@@ -32,7 +32,6 @@ public class StudentService {
         Integer fid2 = facultyRepo.findFidByName(student.getFaculty2());
         Integer year2 = student.getYear2();
         String username = student.getUsername();
-        String name = student.getName();
         //we must get the groups
         List<Integer> groups1 = groupRepo.findAllGidsByFacultyAndYear(fid1, year1);
         List<Integer> groups2 = groupRepo.findAllGidsByFacultyAndYear(fid2, year2);
@@ -44,7 +43,7 @@ public class StudentService {
         else
             group2 = groups2.get(rand.nextInt(groups2.size()));
 
-        Student newS = new Student(username, name, group1, group2);
+        Student newS = new Student(username, group1, group2);
         studentRepository.save(newS);
         return newS;
     }
@@ -54,6 +53,15 @@ public class StudentService {
         List<Faculty> listOfFaculties = facultyRepo.findAll();
         return listOfFaculties;
     }
+    //make api to get optionals based on faculty, year
+    public List<Course> getOptionalsBasedOnFacultyAndYear(OptionalCourseData data)
+    {
+        String facultyName = data.getFaculty();
+        Integer year = data.getYear();
+        Integer fid = facultyRepo.findFidByName(facultyName);
+        return courseRepo.findOptionalsByFidAndYear(fid, year);
+    }
+
 
     //getOptionalsForFirstGroup
     //we initially get the username of the student
@@ -87,6 +95,48 @@ public class StudentService {
         return courses;
     }
 
+    public List<FacultyAndYearData> getFacultiesAndYears(String username)
+    {
+        List<FacultyAndYearData> listF = new ArrayList<>();
+        Student s = studentRepository.getById(username);
+        Integer group1id = s.getGroup1();
+        Integer group2id = s.getGroup2();
+
+        Group group1 = groupRepo.getById(group1id);
+        Faculty faculty1 = facultyRepo.getById(group1.getFaculty());
+        String faculty1name = faculty1.getName();
+        int faculty1years = faculty1.getNoyears();
+        FacultyAndYearData f1data = new FacultyAndYearData(faculty1name, faculty1years);
+        listF.add(f1data);
+
+        if(group2id != null)
+        {
+            Group group2 = groupRepo.getById(group2id);
+            Faculty faculty2 = facultyRepo.getById(group2.getFaculty());
+            String faculty2name = faculty2.getName();
+            int faculty2years = faculty2.getNoyears();
+            FacultyAndYearData f2data = new FacultyAndYearData(faculty2name, faculty2years);
+            listF.add(f2data);
+        }
+
+        return listF;
+
+    }
+
+
+    public List<OptionalCourseEnrollment> sendOptionalsPreferences(List<Course> courses, String username)
+    {
+        Student s = studentRepository.getById(username);
+
+        for(Course course: courses)
+        {
+            OptionalCourseEnrollment oc = new OptionalCourseEnrollment(username, course.getCid());
+            optionalCourseEnrollmentRepo.save(oc);
+        }
+
+        return optionalCourseEnrollmentRepo.getAllByUsername(username);
+
+    }
     //we get the username,a name, a faculty and a year, eventually 2 faculties
     //firstly -> get the group (gid)
     //we need the fid and the year

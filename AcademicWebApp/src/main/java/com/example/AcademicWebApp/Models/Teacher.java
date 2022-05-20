@@ -19,14 +19,11 @@ public class Teacher {
     @Column(name = "username")
     private String username;
 
-    @Column(name = "name")
-    private String name;
 
     @Override
     public String toString() {
         return "Teacher{" +
                 "username='" + username + '\'' +
-                ", name='" + name + '\'' +
                 '}';
     }
 }

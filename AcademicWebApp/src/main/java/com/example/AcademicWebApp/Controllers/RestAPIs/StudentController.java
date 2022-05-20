@@ -1,10 +1,7 @@
 package com.example.AcademicWebApp.Controllers.RestAPIs;
 
 
-import com.example.AcademicWebApp.Models.Course;
-import com.example.AcademicWebApp.Models.Faculty;
-import com.example.AcademicWebApp.Models.Student;
-import com.example.AcademicWebApp.Models.StudentData;
+import com.example.AcademicWebApp.Models.*;
 import com.example.AcademicWebApp.Repositories.StudentRepo;
 import com.example.AcademicWebApp.Repositories.UsersRepo;
 import com.example.AcademicWebApp.Services.StudentService;
@@ -83,11 +80,7 @@ public class StudentController {
         return studentService.saveStudent(student);
     }
 
-    @GetMapping("/student/getFaculties")
-    public List<Faculty> getFacultiesForStudent()
-    {
-        return studentService.getFaculties();
-    }
+
 
     @GetMapping("/student/getCoursesFirstGroup")
     public List<Course> getCoursesForStudentFirstGroup(@CookieValue(name = "username") String username)
@@ -102,7 +95,49 @@ public class StudentController {
         return studentService.getCoursesForSecondGroup(username);
 
     }
+
+    //DONE TODO #1 get api -  make api to get optionals based on faculty, year
+    @GetMapping("/student/getOptionalsByFacultyAndYear")
+    public List<Course> getOptionalsByFacultyAndYear(@RequestBody OptionalCourseData data)
+    {
+        return studentService.getOptionalsBasedOnFacultyAndYear(data);
+    }
+
+    //DONE TODO #2 get api - make api to get all faculties (as faculties)
+    @GetMapping("/student/getFaculties")
+    public List<Faculty> getFacultiesForStudent()
+    {
+        return studentService.getFaculties();
+    }
+
+
+    //DONE TODO #3 post api - list of courses, 100% optionals
+    //DONE TODO #4 service stuff - insert in optional_course_enrollment data based on the student and the list from #3
+    @PostMapping(value="/student/sendOptionalsPreferences",
+            consumes = "application/json",
+            produces = "application/json")
+    public List<OptionalCourseEnrollment> sendOptionalsPreferences(@RequestBody List<Course> courses, @CookieValue(name = "username") String username)
+    {
+        return studentService.sendOptionalsPreferences(courses, username);
+    }
+
+
+    //TODO #5 get api - return list of all courses in which the student is enrolled (the first part is already implemented above these TODOS, hutsu) , including the optional one
+
+
+
+
+    //DONE TODO #n get api - get faculties+years that the student is enrolled in, based on username(cookie)
+    @GetMapping("/student/getFacultiesAndYears")
+    public List<FacultyAndYearData> getFacultiesAndYears(@CookieValue(name = "username") String username)
+    {
+        return studentService.getFacultiesAndYears(username);
+
+    }
+    //TODO #n+1 get api - get courses+grades based on faculty and year (plus username from cookie) + (optional course + grade)
+    //TODO DEADLINE 21 MAY 13:00
     //(✿◠‿◠)
+
 
     public String sayHello(UserEntity user)
     {
