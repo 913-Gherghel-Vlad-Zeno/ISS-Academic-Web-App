@@ -29,6 +29,7 @@ import {DragAndDropComponent} from "./components/drag-and-drop/drag-and-drop.com
 import {DragAndDropDirective} from "./components/drag-and-drop/drag-and-drop.directive";
 import {DragDropModule} from "@angular/cdk/drag-drop";
 import {DropdownComponent} from "./components/dropdown/dropdown.component";
+import { AddOptionalsComponent } from './components/pages/add-optionals/add-optionals.component';
 
 
 @NgModule({
@@ -56,7 +57,8 @@ import {DropdownComponent} from "./components/dropdown/dropdown.component";
     HomeComponent,
     DragAndDropComponent,
     DragAndDropDirective,
-    DropdownComponent
+    DropdownComponent,
+    AddOptionalsComponent
   ],
   imports: [
     BrowserModule,
