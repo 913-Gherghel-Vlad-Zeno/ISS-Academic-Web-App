@@ -15,6 +15,8 @@ import { EnrollComponent } from './components/pages/enroll/enroll.component';
 import { AddGradeComponent } from './components/pages/add-grade/add-grade.component';
 import { ApproveOptionalsComponent } from './components/pages/approve-optionals/approve-optionals.component';
 import { StatisticsComponent } from './components/pages/statistics/statistics.component';
+import { AskPrintComponent } from './components/pages/ask-print/ask-print.component';
+import { ClassementGrantsComponent } from './components/pages/classement-grants/classement-grants.component';
 
 const routes: Routes = [
   {path:'', redirectTo:'login', pathMatch:'full'},
@@ -41,8 +43,15 @@ const routes: Routes = [
       {path:'approve-optional-courses', component:ApproveOptionalsComponent},
       {path:'statistics', component:StatisticsComponent},
     ]},
+
+  {path:'staff-dashboard', component:AdminDashboardComponent,
+    children: [
+      {path:'home', component:HomeComponent},
+      {path:'profile', component:ProfilePageComponent},
+      {path:'ask-print', component:AskPrintComponent},
+      {path:'classement-grants', component:ClassementGrantsComponent},
+    ]},
     
-  {path:'staff-dashboard', component:AdminDashboardComponent},
   {path:'testing', component: TestingDashboardComponent},
   
 ];
