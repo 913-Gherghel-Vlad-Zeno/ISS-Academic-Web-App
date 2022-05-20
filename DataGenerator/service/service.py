@@ -136,9 +136,9 @@ class Service:
                 return
             userData = self.__generateUserData(fullName)
             if group2 != None:
-                student = Student(fullName, user.username, group1.id, group2.id)
+                student = Student(fullName, user.username, 0, group1.id, group2.id)
             else:
-                student = Student(fullName, user.username, group1.id)
+                student = Student(fullName, user.username, 0, group1.id)
 
             self.__users.append(user)
             self.__userData.append(userData)
@@ -156,8 +156,9 @@ class Service:
                 semester = course[2]
                 maxStud = random.randint(150, 215)
                 priority = course[1]
+                credit = random.randint(1, 7)
 
-                c = Course(id, name, fid, year, teacehr, semester, maxStud, priority)
+                c = Course(id, name, fid, year, teacehr, semester, maxStud, priority, credit)
                 self.__courses.append(c)
 
                 id += 1
