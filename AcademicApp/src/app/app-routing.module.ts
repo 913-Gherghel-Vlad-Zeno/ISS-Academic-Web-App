@@ -18,6 +18,7 @@ import { StatisticsComponent } from './components/pages/statistics/statistics.co
 import { AskPrintComponent } from './components/pages/ask-print/ask-print.component';
 import { ClassementGrantsComponent } from './components/pages/classement-grants/classement-grants.component';
 import {DropdownComponent} from "./components/dropdown/dropdown.component";
+import { AddOptionalsComponent } from './components/pages/add-optionals/add-optionals.component';
 
 
 const routes: Routes = [
@@ -39,8 +40,8 @@ const routes: Routes = [
     children: [
       {path:'home', component:HomeComponent},
       {path:'profile', component:ProfilePageComponent},
-      {path:'propose-optionals', component:ProposedOptionalsPageComponent},
       {path:'add-grade', component:AddGradeComponent},
+      {path:'add-optional-courses', component: AddOptionalsComponent},
       {path:'approve-optional-courses', component:ApproveOptionalsComponent},
       {path:'statistics', component:StatisticsComponent},
     ]},
