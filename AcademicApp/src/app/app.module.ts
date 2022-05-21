@@ -25,6 +25,7 @@ import { AskPrintComponent } from './components/pages/ask-print/ask-print.compon
 import { ClassementGrantsComponent } from './components/pages/classement-grants/classement-grants.component';
 import { BodyComponent } from './components/pages/body/body.component';
 import { HomeComponent } from './components/pages/home/home.component';
+import { ButtonComponent } from './components/basic-components/button/button.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { HomeComponent } from './components/pages/home/home.component';
     AskPrintComponent,
     ClassementGrantsComponent,
     BodyComponent,
-    HomeComponent
+    HomeComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,
