@@ -94,4 +94,3 @@ export async function http(request: RequestInfo): Promise<any> {
   const body = await response.json();
   return body;
 }
-
