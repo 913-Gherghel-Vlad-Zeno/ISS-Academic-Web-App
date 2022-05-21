@@ -25,6 +25,7 @@ import { AskPrintComponent } from './components/pages/ask-print/ask-print.compon
 import { ClassementGrantsComponent } from './components/pages/classement-grants/classement-grants.component';
 import { BodyComponent } from './components/pages/body/body.component';
 import { HomeComponent } from './components/pages/home/home.component';
+import { ButtonComponent } from './components/basic-components/button/button.component';
 import {DragAndDropComponent} from "./components/drag-and-drop/drag-and-drop.component";
 import {DragAndDropDirective} from "./components/drag-and-drop/drag-and-drop.directive";
 import {DragDropModule} from "@angular/cdk/drag-drop";
@@ -69,6 +70,7 @@ import {ApisService} from "./apis/apis.service";
     ClassementGrantsComponent,
     BodyComponent,
     HomeComponent,
+    ButtonComponent,
     DragAndDropComponent,
     DragAndDropDirective,
     DropdownComponent,
