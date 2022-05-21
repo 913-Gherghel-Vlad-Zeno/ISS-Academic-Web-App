@@ -2,9 +2,11 @@ import { Component, Input, OnInit } from '@angular/core';
 import { studentMenuData } from './studentMenuData';
 import { SIDEMENU_WIDTH, SIDEMENU_PADDING } from 'src/app/constants/sizes';
 import {CookieService} from "ngx-cookie-service";
-import {HttpClient} from "@angular/common/http";
+import {HttpClient, HttpHeaders} from "@angular/common/http";
 import {STUDENT_FULL_NAME_URL} from "../../../constants/url";
-import {Observable} from "rxjs";
+import {map, Observable} from "rxjs";
+import {FullName} from "../../../entities/fullName";
+import {UserData} from "../../../entities/userData";
 
 @Component({
   selector: 'app-student-menu',
@@ -18,21 +20,22 @@ export class StudentMenuComponent implements OnInit {
   sidemenuPadding = SIDEMENU_PADDING;
   name : string = '';
 
+
+
   constructor(private cookieService: CookieService, private http: HttpClient) { }
 
   ngOnInit(): void {
-    this.http.get(STUDENT_FULL_NAME_URL + this.cookieService.get("username"), {responseType: 'text'})
-      .subscribe(result => {
-        console.log(result);
-        })
+    this.getFullName();
 
   }
 
   getFullName(){
-    return this.http.get<Object>(STUDENT_FULL_NAME_URL + this.cookieService.get("username"))
-      .subscribe((name: Object) => {
-        console.log(name);
-      })
+    this.http.get<FullName>("http://localhost:8080/userdata/" + this.cookieService.get("username") + "/" +
+      this.cookieService.get("username"))
+      .subscribe((response:FullName) => {
+        console.log(response.fullname);
+        this.name = response.fullname;
+      });
   }
 
 

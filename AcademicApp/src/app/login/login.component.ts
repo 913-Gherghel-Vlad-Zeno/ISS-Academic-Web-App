@@ -54,6 +54,7 @@ export class LoginComponent implements OnInit {
     if(this.loginForm.value.username === 'a'){
       role = 'student';
       this.cookieService.set("username", this.STUDENT_USERNAME);
+
     }
     else if(this.loginForm.value.username === 'b'){
       role = 'teacher';
