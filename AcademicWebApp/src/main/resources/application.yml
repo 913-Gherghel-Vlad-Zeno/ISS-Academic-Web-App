@@ -17,9 +17,9 @@ spring:
 
         globally_quoted_identifiers: true
   datasource:
-    url: jdbc:postgresql://localhost:5432/iss2
+    url: jdbc:postgresql://localhost:5432/iss
     username: postgres
-    password: admin
+    password: Ciufulic1
     platform: postgres
     hikari:
       max-lifetime: 300000
