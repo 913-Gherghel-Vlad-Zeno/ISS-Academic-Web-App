@@ -10,3 +10,15 @@ option {
   width: inherit;
   height: inherit;
 }
+
+.dropdown-label {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.dropdown-container{
+  border: 1px solid #000000;
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+}

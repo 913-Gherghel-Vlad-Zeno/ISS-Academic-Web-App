@@ -128,4 +128,8 @@ export class TableComponent implements OnInit {
       return value.cid != row_obj.cid;
     });
   }
+
+  changeRowsData(newRows: any){
+    this.dataSource.data = newRows;
+  }
 }
