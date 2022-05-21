@@ -45,6 +45,7 @@ import { DialogBoxComponent } from './components/dialog-box/dialog-box.component
 import { MatSelectModule } from '@angular/material/select';
 import {CookieService} from "ngx-cookie-service";
 import {ApisService} from "./apis/apis.service";
+import { ScrollingModule } from '@angular/cdk/scrolling';
 
 
 @NgModule({
@@ -95,7 +96,8 @@ import {ApisService} from "./apis/apis.service";
     MatInputModule,
     MatButtonModule,
     MatInputModule,
-    MatSelectModule
+    MatSelectModule,
+    ScrollingModule
   ],
   providers: [CookieService, ApisService],
   bootstrap: [AppComponent]

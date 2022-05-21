@@ -11,5 +11,5 @@ import lombok.Setter;
 @NoArgsConstructor
 public class StudentGradeStaff {
     private String username;
-    private int gradeValue;
+    private double gradeValue;
 }

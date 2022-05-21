@@ -13,7 +13,7 @@ public class StudentAverage {
     private String name;
     private int year;
     private int group;
-    private int finalGrade;
+    private double finalGrade;
     private int scholarship;
 
 }

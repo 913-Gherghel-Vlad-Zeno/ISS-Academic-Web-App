@@ -1,17 +1,24 @@
 <div class="container" [style.padding]="pagePadding">
   <img class="logo-icon" src="assets/logo.svg" [style.width]="logoWidth">
   <div class="content" [style.padding]="contentPadding">
-    <div class="grid">
-      <div cdkDropList class="example-list" (cdkDropListDropped)="drop($event)">
-        <div class="example-box" *ngFor="let optional of optionals" cdkDrag>{{optional}}</div>
-      </div>
-      <button class="send-button">Send</button>
-    </div>
-    <br>
+
+    <cdk-virtual-scroll-viewport itemSize="50" class="example-viewport">
+      <mat-chip-list
+        class="mat-chip-list-stacked"
+        cdkDropList
+        [cdkDropListData]="optionals"
+        (cdkDropListDropped)="drop($event)">
+        <mat-chip *cdkVirtualFor="let optional of optionals"  class="example-item" cdkDrag>
+          {{ optional.name }}
+        </mat-chip>
+      </mat-chip-list>
+    </cdk-virtual-scroll-viewport>
+
+    <button class="send-button" (click)="sendOptionals()">Send</button>
     <div class="text-padding">
-      <p><span class="text-color">Attention!</span> You can only send the list once. After that, no modifications are
-        allowed.</p>
+      <p><span class="text-color">Attention!</span> You can only send the list once. After that, no modifications are allowed.</p>
       <p>*you can achieve the ranking by <span class="text-color">drag and drop</span></p>
     </div>
+
   </div>
 </div>
