@@ -59,17 +59,23 @@ tr:last-child{
 }
 
 .text-padding{
-    padding-left: 200px;
-    padding-right: 200px;
+    /*padding-left: 200px;
+    padding-right: 200px;*/
     position: absolute;
-    top: 600px;
+    /*top: 600px;*/
+    top: 650px;
+    left: 20%;
+    margin-left: -100px;
+    margin-right: 100px;
 }
 
 .btn {
-    position: absolute;
-    top: 500px;
-    padding-left: 45%;
-    color: #50ACF9 !important;
+    position: fixed;
+    /*top: 50%;*/
+    top: 550px;
+    left: 59%;
+    /*margin-top: -50px;*/
+    margin-left: -100px;
 }
 
 .text-color{
