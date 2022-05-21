@@ -3,3 +3,22 @@
     display: block;
     margin: auto;
 }
+
+.btn {
+    position: fixed;
+    /*top: 50%;*/
+    /*top: 550px;*/
+    left: 59%;
+    /*margin-top: -50px;*/
+    margin-left: -100px;
+}
+
+p {
+    position: absolute;
+    top: 600px;
+}
+
+.text-color{
+    color: #50ACF9;
+    font-weight: bold;
+}
