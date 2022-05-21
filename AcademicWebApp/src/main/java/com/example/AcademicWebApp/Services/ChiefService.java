@@ -229,6 +229,10 @@ public class ChiefService {
                         break;
                     }
                 }
+
+                if(ableToFitInChoices){
+                    break;
+                }
             }
 
             if(ableToFitInChoices == false){
