@@ -39,9 +39,9 @@ public class StudentController {
     }
 
     @GetMapping("/student/{username}")
-    public String getStudentByUsername(@PathVariable("username") String username)
+    public Student getStudentByUsername(@PathVariable("username") String username)
     {
-        return studentRepo.findById(username).toString();
+        return studentRepo.getById(username);
     }
 
     @GetMapping("/student/group1/{group1}")
