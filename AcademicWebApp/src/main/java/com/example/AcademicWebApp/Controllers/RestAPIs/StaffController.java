@@ -64,11 +64,16 @@ public class StaffController  {
         return staffService.getGroupsByFaculty(facultyYear);
     }
 
-    /*TODO !!!!!!!!!!!!!!!BUDGET!!!!!!!!!!!!!!!!!!!*/
     @CrossOrigin(origins = "http://localhost:4200/")
-    @PostMapping(value="/staff/founding")
-    public List<StudentGrade> getStudentGrades(@CookieValue(name="username") String username, @RequestBody FoundingData foundingData) {
-        return staffService.getStudentFounding(foundingData);
+    @PostMapping(value="/staff/founding/set")
+    public Integer setScholarships(@CookieValue(name="username") String username, @RequestBody FoundingData foundingData) {
+        return staffService.setScholarships(foundingData);
+    }
+
+    @CrossOrigin(origins = "http://localhost:4200/")
+    @GetMapping(value="/staff/founding")
+    public List<StudentGrade> getStudentGrades(@CookieValue(name="username") String username) {
+        return staffService.getStudentFounding();
     }
 
 }
