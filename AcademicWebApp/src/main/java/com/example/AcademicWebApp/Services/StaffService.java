@@ -197,15 +197,15 @@ public class StaffService {
         return totalFounding;
     }
 
-    public List<StudentGrade> getStudentFounding() {
-        List<StudentGrade> studentGrades = new ArrayList<>();
+    public List<StudentGradeStaff> getStudentFounding() {
+        List<StudentGradeStaff> studentGrades = new ArrayList<>();
 
         List<StudentEnrollment> studentEnrollments = studentEnrollmentRepo.findAll();
         studentEnrollments.sort(this::averageGradeComparator);
 
         for (StudentEnrollment se: studentEnrollments) {
             int grade = calculateAverageGrade(se);
-            studentGrades.add(new StudentGrade(
+            studentGrades.add(new StudentGradeStaff(
                     se.getUsername(),
                     grade
             ));

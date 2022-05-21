@@ -72,7 +72,7 @@ public class StaffController  {
 
     @CrossOrigin(origins = "http://localhost:4200/")
     @GetMapping(value="/staff/founding")
-    public List<StudentGrade> getStudentGrades(@CookieValue(name="username") String username) {
+    public List<StudentGradeStaff> getStudentGrades(@CookieValue(name="username") String username) {
         return staffService.getStudentFounding();
     }
 
