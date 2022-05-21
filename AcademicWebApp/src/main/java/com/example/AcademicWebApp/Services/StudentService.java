@@ -5,10 +5,7 @@ import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
-import java.util.Random;
+import java.util.*;
 
 @NoArgsConstructor
 @Service("studentService")
@@ -24,6 +21,9 @@ public class StudentService {
     private CourseRepo courseRepo;
     @Autowired
     private OptionalCourseEnrollmentRepo optionalCourseEnrollmentRepo;
+    @Autowired
+    private GradeRepo gradeRepo;
+
 
     public Student saveStudent(StudentData student)
     {
@@ -43,7 +43,7 @@ public class StudentService {
         else
             group2 = groups2.get(rand.nextInt(groups2.size()));
 
-        Student newS = new Student(username, group1, group2);
+        Student newS = new Student(username, group1, group2, 0);
         studentRepository.save(newS);
         return newS;
     }
@@ -95,9 +95,9 @@ public class StudentService {
         return courses;
     }
 
-    public List<FacultyAndYearData> getFacultiesAndYears(String username)
+    public List<FacultyAndYearsData> getFacultiesAndYears(String username)
     {
-        List<FacultyAndYearData> listF = new ArrayList<>();
+        List<FacultyAndYearsData> listF = new ArrayList<>();
         Student s = studentRepository.getById(username);
         Integer group1id = s.getGroup1();
         Integer group2id = s.getGroup2();
@@ -106,7 +106,7 @@ public class StudentService {
         Faculty faculty1 = facultyRepo.getById(group1.getFaculty());
         String faculty1name = faculty1.getName();
         int faculty1years = faculty1.getNoyears();
-        FacultyAndYearData f1data = new FacultyAndYearData(faculty1name, faculty1years);
+        FacultyAndYearsData f1data = new FacultyAndYearsData(faculty1name, faculty1years);
         listF.add(f1data);
 
         if(group2id != null)
@@ -115,7 +115,7 @@ public class StudentService {
             Faculty faculty2 = facultyRepo.getById(group2.getFaculty());
             String faculty2name = faculty2.getName();
             int faculty2years = faculty2.getNoyears();
-            FacultyAndYearData f2data = new FacultyAndYearData(faculty2name, faculty2years);
+            FacultyAndYearsData f2data = new FacultyAndYearsData(faculty2name, faculty2years);
             listF.add(f2data);
         }
 
@@ -135,6 +135,44 @@ public class StudentService {
         }
 
         return optionalCourseEnrollmentRepo.getAllByUsername(username);
+
+    }
+
+    public List<Course> getAllCoursesForWhichEnrolled(String username) {
+
+        List<Course> all = new ArrayList<>(getCoursesForFirstGroup(username));
+        List<Course> cgroup2 = getCoursesForSecondGroup(username);
+        if(cgroup2 != null)
+            all.addAll(cgroup2);
+        List<OptionalCourseEnrollment> listOp = optionalCourseEnrollmentRepo.getAllByUsername(username);
+        System.out.printf(String.valueOf(listOp));
+        OptionalCourseEnrollment op = listOp.get(0);
+        Integer cid = op.getCid();
+        Course opc = courseRepo.findById(cid).get();
+        System.out.printf(String.valueOf(opc));
+        all.add(opc);
+        return all;
+    }
+
+    public List<CourseGradeData> getGrades(String username, FacultyAndYearData data) {
+
+        Student s = studentRepository.getById(username);
+        List<Grade> grades = gradeRepo.getAllGradesByUsername(username);
+        List<CourseGradeData> dataList = new ArrayList<>();
+        System.out.printf(data.getName());
+        System.out.println(data.getYear());
+        for(Grade g: grades)
+        {
+            int cid = g.getCid();
+            Course course = courseRepo.getById(cid);
+            int fid = facultyRepo.findFidByName(data.getName());
+            if(course.getFid() == fid && course.getYear() == data.getYear())
+            {
+                dataList.add(new CourseGradeData(course.getName(), g.getGradevalue()));
+            }
+        }
+
+        return dataList;
 
     }
     //we get the username,a name, a faculty and a year, eventually 2 faculties

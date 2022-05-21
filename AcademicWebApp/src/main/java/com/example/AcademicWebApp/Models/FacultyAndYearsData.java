@@ -9,7 +9,7 @@ import javax.persistence.Id;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class FacultyAndYearData {
+public class FacultyAndYearsData {
     String name;
-    int year;
+    int noYears;
 }

@@ -3,23 +3,14 @@ package com.example.AcademicWebApp.Controllers.RestAPIs;
 
 import com.example.AcademicWebApp.Models.*;
 import com.example.AcademicWebApp.Repositories.StudentRepo;
-import com.example.AcademicWebApp.Repositories.UsersRepo;
 import com.example.AcademicWebApp.Services.StudentService;
 import lombok.RequiredArgsConstructor;
-import net.bytebuddy.asm.Advice;
-import net.bytebuddy.implementation.bind.annotation.Origin;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.mvc.support.RedirectAttributes;
-import org.springframework.web.servlet.view.RedirectView;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
-import java.util.Locale;
-import java.util.Objects;
 
 
 @RestController
@@ -122,20 +113,30 @@ public class StudentController {
     }
 
 
-    //TODO #5 get api - return list of all courses in which the student is enrolled (the first part is already implemented above these TODOS, hutsu) , including the optional one
-
+    //DONE TODO #5 get api - return list of all courses in which the student is enrolled (the first part is already implemented above these TODOS, hutsu) , including the optional one
+    @GetMapping("/student/getAllCoursesForWhichEnrolled")
+    public List<Course> getAllCoursesForWhichEnrolled(@CookieValue(name = "username") String username)
+    {
+        return studentService.getAllCoursesForWhichEnrolled(username);
+    }
 
 
 
     //DONE TODO #n get api - get faculties+years that the student is enrolled in, based on username(cookie)
     @GetMapping("/student/getFacultiesAndYears")
-    public List<FacultyAndYearData> getFacultiesAndYears(@CookieValue(name = "username") String username)
+    public List<FacultyAndYearsData> getFacultiesAndYears(@CookieValue(name = "username") String username)
     {
         return studentService.getFacultiesAndYears(username);
 
     }
-    //TODO #n+1 get api - get courses+grades based on faculty and year (plus username from cookie) + (optional course + grade)
-    //TODO DEADLINE 21 MAY 13:00
+
+    //DONE TODO #n+1 get api - get courses+grades based on faculty and year (plus username from cookie) + (optional course + grade)
+    @GetMapping("/student/getGrades")
+    public List<CourseGradeData> getGrades(@CookieValue(name = "username") String username,@RequestBody FacultyAndYearData data)
+    {
+        return studentService.getGrades(username, data);
+    }
+    //TODO DEADLINE 21 MAY 13:00 (all done at 3:26)
     //(✿◠‿◠)
 
 
