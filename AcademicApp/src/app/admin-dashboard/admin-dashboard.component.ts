@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SIDEMENU_WIDTH } from '../constants/sizes';
 
 @Component({
   selector: 'app-admin-dashboard',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./admin-dashboard.component.css']
 })
 export class AdminDashboardComponent implements OnInit {
+
+  leftMargin = SIDEMENU_WIDTH;
 
   constructor() { }
 
