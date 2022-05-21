@@ -12,11 +12,14 @@ import java.util.Objects;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class GradeId implements Serializable {
+public class StudentEnrollmentId implements Serializable{
+
 
     private String username;
 
-    private Integer cid;
+    private Integer fid;
+
+    private Integer year;
 
     @Override
     public int hashCode() {
@@ -25,9 +28,10 @@ public class GradeId implements Serializable {
 
     @Override
     public boolean equals(Object obj) {
-        GradeId gradeId = (GradeId) obj;
+        com.example.AcademicWebApp.Models.StudentEnrollmentId model = (com.example.AcademicWebApp.Models.StudentEnrollmentId) obj;
 
-        return Objects.equals(gradeId.getCid(), this.getCid()) && Objects.equals(gradeId.getUsername(), this.getUsername());
+        return Objects.equals(model.getUsername(), this.getUsername()) && Objects.equals(model.getYear(), this.getYear()) &&  Objects.equals(model.getFid(), this.getFid());
 
     }
+
 }
