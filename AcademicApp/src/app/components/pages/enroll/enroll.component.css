@@ -3,3 +3,72 @@
     display: block;
     margin: auto;
 }
+
+.tables p {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.tables {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 54px;
+  
+    width: 661px;
+    height: 63px;
+}
+
+.select-faculty {
+    margin-right: 100px;
+}
+
+.table-faculties {
+    margin-right: 100px;
+}
+
+.table-years {
+    margin-right: 50px;
+}
+
+.table {
+    border-spacing:0;
+    width: 400px;
+    border: 1px inset #B9B9B9;
+}
+
+tr{
+    border: 1px inset #B9B9B9;
+    height: 50px;
+}
+
+td{
+    border-right: 1px inset #B9B9B9;
+    padding: 0 !important;
+
+}
+
+tr:last-child{
+    border:none;
+}
+
+.text-padding{
+    padding-left: 200px;
+    padding-right: 200px;
+    position: absolute;
+    top: 600px;
+}
+
+.btn {
+    position: absolute;
+    top: 500px;
+    padding-left: 45%;
+    color: #50ACF9 !important;
+
+}
+
+.text-color{
+    color: #50ACF9;
+    font-weight: bold;
+  }
