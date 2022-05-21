@@ -95,9 +95,9 @@ public class StudentService {
         return courses;
     }
 
-    public List<FacultyAndYearsData> getFacultiesAndYears(String username)
+    public List<FacultyAndYearData> getFacultiesAndYears(String username)
     {
-        List<FacultyAndYearsData> listF = new ArrayList<>();
+        List<FacultyAndYearData> listF = new ArrayList<>();
         Student s = studentRepository.getById(username);
         Integer group1id = s.getGroup1();
         Integer group2id = s.getGroup2();
@@ -105,8 +105,8 @@ public class StudentService {
         Group group1 = groupRepo.getById(group1id);
         Faculty faculty1 = facultyRepo.getById(group1.getFaculty());
         String faculty1name = faculty1.getName();
-        int faculty1years = faculty1.getNoyears();
-        FacultyAndYearsData f1data = new FacultyAndYearsData(faculty1name, faculty1years);
+        int faculty1years = group1.getYear();
+        FacultyAndYearData f1data = new FacultyAndYearData(faculty1name, faculty1years);
         listF.add(f1data);
 
         if(group2id != null)
@@ -114,8 +114,8 @@ public class StudentService {
             Group group2 = groupRepo.getById(group2id);
             Faculty faculty2 = facultyRepo.getById(group2.getFaculty());
             String faculty2name = faculty2.getName();
-            int faculty2years = faculty2.getNoyears();
-            FacultyAndYearsData f2data = new FacultyAndYearsData(faculty2name, faculty2years);
+            int faculty2years = group2.getYear();
+            FacultyAndYearData f2data = new FacultyAndYearData(faculty2name, faculty2years);
             listF.add(f2data);
         }
 

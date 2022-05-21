@@ -20,23 +20,23 @@ public class ChiefController {
     @Autowired
     ChiefService chiefService;
 
-    @GetMapping("/chief/getAllOptionalsForApproval")
-    public List<Course> getAllOptionalsForApproval(@CookieValue(name = "username") String username) {
+    @GetMapping("/chief/getAllOptionalsForApproval/{username}")
+    public List<Course> getAllOptionalsForApproval(@PathVariable(name = "username") String username) {
         return chiefService.getAllOptionalsForApproval(username);
     }
 
-    @GetMapping("/chief/getTeacherStatistics")
-    public List<TeacherStatistics> getTeacherStatistics(@CookieValue(name = "username") String username) {
+    @GetMapping("/chief/getTeacherStatistics/{username}")
+    public List<TeacherStatistics> getTeacherStatistics(@PathVariable(name = "username") String username) {
         return chiefService.getTeacherStatistics(username);
     }
 
-    @PostMapping("/chief/approveOptionals")
-    public Message approvedOptionals(@CookieValue(name = "username") String username, @RequestBody List<Course> approvedOptionals){
+    @PostMapping("/chief/approveOptionals/{username}")
+    public Message approvedOptionals(@PathVariable(name = "username") String username, @RequestBody List<Course> approvedOptionals){
         return chiefService.approveOptionals(username, approvedOptionals);
     }
 
-    @PostMapping("/assignStudentsToOptionals")
-    public Message assignStudentsToOptionals(@CookieValue(name = "username") String username){
+    @PostMapping("/assignStudentsToOptionals/{username}")
+    public Message assignStudentsToOptionals(@PathVariable(name = "username") String username){
         return chiefService.assignStudentsToOptionals();
     }
 
