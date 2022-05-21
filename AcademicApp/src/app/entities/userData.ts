@@ -1,9 +1,11 @@
-export interface UserData{
-  username: string,
-  name: string,
-  surname: string,
-  email: string,
-  phone_number: string,
-  home_address: string,
-  cnp: string
+export class UserData{
+  constructor(
+   public username: string,
+   public name: string,
+   public surname: string,
+   public email: string,
+   public phone_number: string,
+   public home_address: string,
+   public cnp: string
+  ) {}
 }

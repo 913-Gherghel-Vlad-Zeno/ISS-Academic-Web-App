@@ -43,6 +43,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { DialogBoxComponent } from './components/dialog-box/dialog-box.component';
 import { MatSelectModule } from '@angular/material/select';
 import {CookieService} from "ngx-cookie-service";
+import {ApisService} from "./apis/apis.service";
 
 
 @NgModule({
@@ -94,7 +95,7 @@ import {CookieService} from "ngx-cookie-service";
     MatInputModule,
     MatSelectModule
   ],
-  providers: [CookieService],
+  providers: [CookieService, ApisService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
