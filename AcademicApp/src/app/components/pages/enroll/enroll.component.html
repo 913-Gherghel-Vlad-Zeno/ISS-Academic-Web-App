@@ -4,24 +4,28 @@
         <div class="tables">
             <div class="select-faculty">
             <h2>Select Faculty</h2>
-            <table class="table table-faculties">
+            <!--<table class="table table-faculties">
                 <tbody>
                     <tr *ngFor="let faculty of facultyData">
                         <td>{{faculty}}</td>
                      </tr>
                 </tbody>
-              </table>
+              </table>-->
+              <app-table [headers]="headers" [objectsFromDb]="facultyData" [hasCheckbox]="true" [hasAction]="false"></app-table>
+
             </div>
 
             <div class="select-year">
             <h2>Select Year</h2>
-            <table class="table table-years">
+            <!--<table class="table table-years">
                 <tbody>
                     <tr *ngFor="let year of yearData">
                         <td>{{year}}</td>
                      </tr>
                 </tbody>
-              </table>
+              </table>-->
+              <app-table [headers]="headers" [objectsFromDb]="yearData" [hasCheckbox]="true" [hasAction]="false"></app-table>
+
             </div>
         </div>  
         <br>

@@ -7,6 +7,9 @@ import { TABLE_TEST_CURRICULUM_DATA } from 'src/app/testing-dashboard/testingDat
   templateUrl: './enroll.component.html',
   styleUrls: ['./enroll.component.css']
 })
+
+
+
 export class EnrollComponent implements OnInit {
   logoWidth = LOGO_WIDTH
   pagePadding = PAGE_PADDING
