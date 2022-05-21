@@ -102,9 +102,9 @@ class ConsoleUi:
 
         for f in students:
             if f.group2 == None:
-                studentString += 'INSERT INTO "student"(username, group1) VALUES (' + str(f) + ');'
+                studentString += 'INSERT INTO "student"(username, group1, scholarship) VALUES (' + str(f) + ');'
             else:
-                studentString += 'INSERT INTO "student"(username, group1, group2) VALUES (' + str(f) + ');'
+                studentString += 'INSERT INTO "student"(username, group1, group2, scholarship) VALUES (' + str(f) + ');'
             studentString += "\n"
 
         return studentString
@@ -123,7 +123,7 @@ class ConsoleUi:
         courseString = ''
 
         for f in courses:
-            courseString += 'INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority) VALUES (' + str(f) + ');'
+            courseString += 'INSERT INTO "course"(cid, name, fid, year, teacher, semester, maxstudents, priority, credits) VALUES (' + str(f) + ');'
             courseString += "\n"
 
         return courseString

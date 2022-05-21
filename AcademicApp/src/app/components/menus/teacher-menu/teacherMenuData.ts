@@ -10,9 +10,9 @@ export const teacherMenuData = [
         label: 'Profile'
     },
     {
-        routeLink: 'propose-optionals',
+        routeLink: 'add-optional-courses',
         icon: 'assets/file-text.svg',
-        label: 'Propose optionals'
+        label: 'Add optionals'
     },
     {
         routeLink: 'add-grade',
@@ -25,7 +25,7 @@ export const chiefMenuData = [
     {
         routeLink: 'approve-optional-courses',
         icon: 'assets/check.svg',
-        label: 'Optional Courses'
+        label: 'Approve optionals'
     },
     {
         routeLink: 'statistics',
