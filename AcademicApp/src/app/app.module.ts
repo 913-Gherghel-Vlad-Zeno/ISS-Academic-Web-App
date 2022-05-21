@@ -30,6 +30,18 @@ import {DragAndDropDirective} from "./components/drag-and-drop/drag-and-drop.dir
 import {DragDropModule} from "@angular/cdk/drag-drop";
 import {DropdownComponent} from "./components/dropdown/dropdown.component";
 import { AddOptionalsComponent } from './components/pages/add-optionals/add-optionals.component';
+import { TableComponent } from './components/table/table.component';
+
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatButtonModule } from '@angular/material/button';
+import { DialogBoxComponent } from './components/dialog-box/dialog-box.component';
+import { MatSelectModule } from '@angular/material/select';
 
 
 @NgModule({
@@ -58,7 +70,10 @@ import { AddOptionalsComponent } from './components/pages/add-optionals/add-opti
     DragAndDropComponent,
     DragAndDropDirective,
     DropdownComponent,
-    AddOptionalsComponent
+    AddOptionalsComponent,
+    TableComponent,
+    DialogBoxComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -66,7 +81,17 @@ import { AddOptionalsComponent } from './components/pages/add-optionals/add-opti
     ReactiveFormsModule,
     HttpClientModule,
     FormsModule,
-    DragDropModule
+    DragDropModule,
+    MatTableModule,
+    MatPaginatorModule,
+    BrowserAnimationsModule,
+    MatCheckboxModule,
+    MatDialogModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatButtonModule,
+    MatInputModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]
