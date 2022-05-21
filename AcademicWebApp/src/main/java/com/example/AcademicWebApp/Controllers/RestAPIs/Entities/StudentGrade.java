@@ -1,3 +1,4 @@
+
 package com.example.AcademicWebApp.Controllers.RestAPIs.Entities;
 
 import lombok.AllArgsConstructor;

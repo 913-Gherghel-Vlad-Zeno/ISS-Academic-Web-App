@@ -1,3 +1,4 @@
+
 package com.example.AcademicWebApp.Models;
 
 import lombok.*;

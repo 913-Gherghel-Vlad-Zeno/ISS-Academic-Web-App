@@ -20,7 +20,7 @@ public class GradeId implements Serializable {
 
     @Override
     public int hashCode() {
-        return 1;
+        return Objects.hash(username, cid);
     }
 
     @Override

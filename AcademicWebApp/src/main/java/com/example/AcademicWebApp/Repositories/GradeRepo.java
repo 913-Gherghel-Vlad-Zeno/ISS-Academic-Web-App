@@ -11,7 +11,16 @@ import java.util.List;
 @Repository
 public interface GradeRepo extends JpaRepository<Grade, GradeId> {
 
-    //@Query()
-    //List<Grade> getAllGradesByCourse(int cid);
+    @Query("from grade where username = ?1")
+    List<Grade> getAllGradesByUsername(String username);
+
+
+    List<Grade> findAllByUsername(String username);
+
+    @Query("FROM grade AS g " +
+            "INNER JOIN course AS c ON g.cid = c.cid " +
+            "WHERE g.username = ?1 AND c.fid = ?2")
+    List<Grade> findAllByUsernameAndFaculty(String username, int faculty);
 
 }
+

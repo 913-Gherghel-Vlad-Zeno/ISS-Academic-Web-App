@@ -37,6 +37,10 @@ class Service:
         username = fullName.split(' ')
         username = (username[0] + username[1]).lower()
 
+        for us in self.__users:
+            if us.username == username:
+                return None
+
         S = random.randint(8, 12)
 
         password = ''.join(random.choices(string.ascii_uppercase + string.digits, k=S))
@@ -60,6 +64,8 @@ class Service:
             fullName = names.get_full_name()
 
             user = self.__generateUser(fullName, "teacher")
+            if user == None:
+                return
             userData = self.__generateUserData(fullName)
             teacher = Teacher(user.username, fullName)
 
@@ -72,6 +78,8 @@ class Service:
             fullName = names.get_full_name()
 
             user = self.__generateUser(fullName, "staff")
+            if user == None:
+                return
             userData = self.__generateUserData(fullName)
             staff = Staff(user.username, fullName)
 
@@ -124,11 +132,13 @@ class Service:
                 group2 = None
 
             user = self.__generateUser(fullName, "student")
+            if user == None:
+                return
             userData = self.__generateUserData(fullName)
             if group2 != None:
-                student = Student(fullName, user.username, group1.id, group2.id)
+                student = Student(fullName, user.username, 0, group1.id, group2.id)
             else:
-                student = Student(fullName, user.username, group1.id)
+                student = Student(fullName, user.username, 0, group1.id)
 
             self.__users.append(user)
             self.__userData.append(userData)
@@ -146,8 +156,9 @@ class Service:
                 semester = course[2]
                 maxStud = random.randint(150, 215)
                 priority = course[1]
+                credit = random.randint(1, 7)
 
-                c = Course(id, name, fid, year, teacehr, semester, maxStud, priority)
+                c = Course(id, name, fid, year, teacehr, semester, maxStud, priority, credit)
                 self.__courses.append(c)
 
                 id += 1
@@ -188,7 +199,12 @@ class Service:
 
             for cid in cids:
                 opEnr = OptionalEnrollment(enrollment.username, cid)
-                self.__optionalEnrollments.append(opEnr)
+                ok = True
+                for oE in self.__optionalEnrollments:
+                    if oE.username == opEnr.username and oE.cid == opEnr.cid:
+                        ok = False
+                if ok:
+                    self.__optionalEnrollments.append(opEnr)
 
     def __generateGrades(self):
         for enrollment in self.__studentEnrollments:

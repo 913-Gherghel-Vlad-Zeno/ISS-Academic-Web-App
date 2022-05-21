@@ -1,3 +1,4 @@
+
 package com.example.AcademicWebApp.Models;
 
 import lombok.AllArgsConstructor;
@@ -35,3 +36,4 @@ public class StudentEnrollmentId implements Serializable{
     }
 
 }
+

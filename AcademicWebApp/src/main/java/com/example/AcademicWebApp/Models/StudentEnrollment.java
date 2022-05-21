@@ -1,3 +1,4 @@
+
 package com.example.AcademicWebApp.Models;
 
 import lombok.*;
@@ -6,7 +7,6 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.IdClass;
-import java.io.Serializable;
 
 @Data
 @Entity(name = "studentenrollment")
@@ -14,20 +14,19 @@ import java.io.Serializable;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@ToString
+@EqualsAndHashCode
 @IdClass(StudentEnrollmentId.class)
-public class StudentEnrollment implements Serializable {
+public class StudentEnrollment {
 
     @Id
-    @Column(name = "username")
+    @Column(name="username")
     private String username;
-
     @Id
-    @Column(name = "fid")
+    @Column(name="fid")
     private Integer fid;
-
     @Id
-    @Column(name = "year")
+    @Column(name="year")
     private Integer year;
-
 
 }

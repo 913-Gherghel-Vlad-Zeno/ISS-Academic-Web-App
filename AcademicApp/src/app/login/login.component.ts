@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import {FormGroup, FormBuilder} from '@angular/forms'
 import { Router } from '@angular/router';
+import {LOGO_WIDTH} from "../constants/sizes";
 
 @Component({
   selector: 'app-login',
@@ -10,6 +11,8 @@ import { Router } from '@angular/router';
 })
 
 export class LoginComponent implements OnInit {
+
+  logoWidth = 325;
 
   public loginForm !: FormGroup;
   constructor(private formBuilder : FormBuilder, private http : HttpClient, private router : Router) { }
@@ -21,7 +24,7 @@ export class LoginComponent implements OnInit {
     })
   }
 
-  async login() { 
+  async login() {
     const typeUser = ["student", "teacher", "admin"];
     var found = false;
     let newUser;

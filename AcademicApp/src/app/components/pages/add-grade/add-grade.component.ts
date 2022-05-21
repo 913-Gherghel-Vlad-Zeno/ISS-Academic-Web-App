@@ -10,6 +10,7 @@ export class AddGradeComponent implements OnInit {
   logoWidth = LOGO_WIDTH
   pagePadding = PAGE_PADDING
   contentPadding = CONTENT_PADDING
+  entities : any = [];
 
   constructor() { }
 
