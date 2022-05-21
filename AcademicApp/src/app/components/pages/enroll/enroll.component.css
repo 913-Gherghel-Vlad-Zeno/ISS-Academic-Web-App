@@ -21,7 +21,7 @@
 }
 
 .select-faculty {
-    margin-right: 100px;
+    margin-right: 500px;
 }
 
 .table-faculties {
@@ -30,6 +30,11 @@
 
 .table-years {
     margin-right: 50px;
+}
+
+.btn-primary {
+    background-color: #50ACF9 !important;
+
 }
 
 .table {
@@ -71,4 +76,29 @@ tr:last-child{
 .text-color{
     color: #50ACF9;
     font-weight: bold;
+  }
+
+  .input-option{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+  }
+  
+  .input-faculty{
+    width: 300px;
+    height: 43px;
+  }
+  
+  .input-year{
+    width: 300px;
+    height: 43px;
+  }
+
+  .content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 34px;
   }
