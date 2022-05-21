@@ -53,13 +53,13 @@ public class StaffController  {
 //    }
 
     @CrossOrigin(origins = "http://localhost:4200/")
-    @GetMapping("/staff/faculty/students/{username}")
+    @PostMapping("/staff/faculty/students/{username}")
     public List<StudentAverage> getStudentsFromFacultyYearGroup(@PathVariable(name="username") String username, @RequestBody StaffFilter staffFilter) {
         return staffService.getStudentsFromFacultyYearGroup(staffFilter);
     }
 
     @CrossOrigin(origins = "http://localhost:4200/")
-    @GetMapping("/staff/faculty/getGroups/{username}")
+    @PostMapping("/staff/faculty/getGroups/{username}")
     public List<Integer> getGroupsFromFaculties(@PathVariable(name="username") String username, @RequestBody FacultyYear facultyYear) {
         return staffService.getGroupsByFaculty(facultyYear);
     }

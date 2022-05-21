@@ -46,13 +46,13 @@ public class StaffService {
         return facultyGroups;
     }
 
-    private int calculateAverageGrade(StudentEnrollment s) {
+    private double calculateAverageGrade(StudentEnrollment s) {
         List<Grade> grades = gradeRepo.findAllByUsernameAndFaculty(s.getUsername(), s.getFid());
 
-        int avg = 0;
+        double avg = 0;
 
         for (Grade grade: grades) {
-            avg += grade.getGradevalue();
+            avg += (double) grade.getGradevalue();
         }
         avg /= grades.size();
 
@@ -60,8 +60,8 @@ public class StaffService {
     }
 
     private int averageGradeComparator(StudentEnrollment s1, StudentEnrollment s2) {
-        int avg1 = calculateAverageGrade(s1);
-        int avg2 = calculateAverageGrade(s2);
+        double avg1 = calculateAverageGrade(s1);
+        double avg2 = calculateAverageGrade(s2);
 
         if (avg1 == avg2) {
             return 0;
@@ -187,7 +187,7 @@ public class StaffService {
         int totalFounding = 0;
 
         for (StudentEnrollment se: studentEnrollments) {
-            int grade = calculateAverageGrade(se);
+            double grade = calculateAverageGrade(se);
             if (grade > minimumGrade) {
                 studentRepo.setScholarship(se.getUsername(), moneyPerPerson);
                 totalFounding += moneyPerPerson;
@@ -204,7 +204,7 @@ public class StaffService {
         studentEnrollments.sort(this::averageGradeComparator);
 
         for (StudentEnrollment se: studentEnrollments) {
-            int grade = calculateAverageGrade(se);
+            double grade = calculateAverageGrade(se);
             studentGrades.add(new StudentGradeStaff(
                     se.getUsername(),
                     grade

@@ -28,7 +28,6 @@ public class ErrorController {
     @RequestMapping ("/invalid-user")
     public String InvalidUserError()
     {
-
         return "This user does not exist.";
     }
 
