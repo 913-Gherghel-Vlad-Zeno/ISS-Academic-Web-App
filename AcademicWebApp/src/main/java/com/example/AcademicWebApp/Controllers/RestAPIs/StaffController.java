@@ -65,5 +65,10 @@ public class StaffController  {
     }
 
     /*TODO !!!!!!!!!!!!!!!BUDGET!!!!!!!!!!!!!!!!!!!*/
+    @CrossOrigin(origins = "http://localhost:4200/")
+    @PostMapping(value="/staff/founding")
+    public List<StudentGrade> getStudentGrades(@CookieValue(name="username") String username, @RequestBody FoundingData foundingData) {
+        return staffService.getStudentFounding(foundingData);
+    }
 
 }

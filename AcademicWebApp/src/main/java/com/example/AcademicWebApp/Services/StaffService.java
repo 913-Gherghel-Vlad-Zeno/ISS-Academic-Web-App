@@ -177,4 +177,27 @@ public class StaffService {
         return groups;
     }
 
+    public List<StudentGrade> getStudentFounding(FoundingData foundingData) {
+        List<StudentGrade> studentGrades = new ArrayList<>();
+
+        int minimumGrade = foundingData.getMinimumGrade();
+        int moneyPerPerson = foundingData.getMoneyPerPerson();
+
+        List<StudentEnrollment> studentEnrollments = studentEnrollmentRepo.findAll();
+        studentEnrollments.sort(this::averageGradeComparator);
+
+        for (StudentEnrollment se: studentEnrollments) {
+            int grade = calculateAverageGrade(se);
+            if (grade > minimumGrade) {
+                studentRepo.setScholarship(se.getUsername(), moneyPerPerson);
+            }
+            studentGrades.add(new StudentGrade(
+                    se.getUsername(),
+                    grade
+            ));
+        }
+
+        return studentGrades;
+    }
+
 }
