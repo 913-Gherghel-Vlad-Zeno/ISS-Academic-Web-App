@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import {FormGroup, FormBuilder} from '@angular/forms'
 import { Router } from '@angular/router';
 import {LOGO_WIDTH} from "../constants/sizes";
+import {CookieService} from "ngx-cookie-service";
 
 @Component({
   selector: 'app-login',
@@ -15,13 +16,17 @@ export class LoginComponent implements OnInit {
   logoWidth = 325;
 
   public loginForm !: FormGroup;
-  constructor(private formBuilder : FormBuilder, private http : HttpClient, private router : Router) { }
+  STUDENT_USERNAME = "stephenmitchell";
+  TEACHER_USERNAME = "johnordway";
+  STAFF_USERNAME = "brittanybrown";
+  constructor(private formBuilder : FormBuilder, private http : HttpClient, private router : Router,
+              private cookieService:CookieService) { }
 
   ngOnInit(): void {
     this.loginForm = this.formBuilder.group ({
       username: [''],
       password: ['']
-    })
+    });
   }
 
   async login() {
@@ -48,16 +53,21 @@ export class LoginComponent implements OnInit {
 
     if(this.loginForm.value.username === 'a'){
       role = 'student';
+      this.cookieService.set("username", this.STUDENT_USERNAME);
     }
     else if(this.loginForm.value.username === 'b'){
       role = 'teacher';
+      this.cookieService.set("username", this.TEACHER_USERNAME);
     } else {
       role = 'staff';
+      this.cookieService.set("username", this.STAFF_USERNAME);
     }
 
     this.loginForm.reset();
     this.router.navigate([`${role}-dashboard`]);
   }
+
+
 
 }
 

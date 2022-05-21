@@ -1,6 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { adminMenuData } from './adminMenuData';
 import { SIDEMENU_WIDTH, SIDEMENU_PADDING } from 'src/app/constants/sizes';
+import {CookieService} from "ngx-cookie-service";
 
 @Component({
   selector: 'app-admin-menu',
@@ -15,9 +16,14 @@ export class AdminMenuComponent implements OnInit {
   @Input() name : string = 'Name Surnameeeeeeeeeeeeeeeee';
 
 
-  constructor() { }
+  constructor(private cookieService: CookieService) { }
 
   ngOnInit(): void {
+  }
+
+  logout(){
+    console.log("button pressed");
+    this.cookieService.delete('username');
   }
 
 }
