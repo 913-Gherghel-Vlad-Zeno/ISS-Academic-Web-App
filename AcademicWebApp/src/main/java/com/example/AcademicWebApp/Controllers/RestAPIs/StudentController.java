@@ -56,11 +56,11 @@ public class StudentController {
         return studentRepo.findBySecondGroup(Integer.valueOf(group2)).toString();
     }
 
-    @GetMapping("/student/name/{name}")
-    public List<Student> getStudentByName(@PathVariable("name") String name)
-    {
-        return studentRepo.findByName(name);
-    }
+//    @GetMapping("/student/name/{name}")
+//    public List<Student> getStudentByName(@PathVariable("name") String name)
+//    {
+//        return studentRepo.findByName(name);
+//    }
 
     // (✿◠‿◠)
     @PostMapping(value = "/student/add",

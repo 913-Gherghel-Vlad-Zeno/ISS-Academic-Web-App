@@ -1,0 +1,8 @@
+<div class="container" [style.padding]="pagePadding">
+    <img class="logo-icon" src="assets/logo.svg" [style.width]="logoWidth">
+    <div class="content" [style.padding]="contentPadding">
+        <p>Curriculum grades page works!</p>
+        <app-table [headers]="headers" [objectsFromDb]="tableData" [hasCheckbox]="false" [hasAction]="false"></app-table>
+    </div>
+
+</div>

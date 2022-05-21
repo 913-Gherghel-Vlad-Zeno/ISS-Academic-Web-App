@@ -19,7 +19,6 @@ public class Teacher {
     @Column(name = "username")
     private String username;
 
-
     @Override
     public String toString() {
         return "Teacher{" +

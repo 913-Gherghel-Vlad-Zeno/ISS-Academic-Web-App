@@ -19,7 +19,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/iss2
     username: postgres
-    password: hutzu
+    password: password
     platform: postgres
     hikari:
       max-lifetime: 300000
