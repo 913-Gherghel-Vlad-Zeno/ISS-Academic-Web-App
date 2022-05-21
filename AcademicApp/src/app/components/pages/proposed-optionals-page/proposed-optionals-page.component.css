@@ -84,6 +84,32 @@
   font-weight: bold;
 }
 
-.text-padding{
-  padding-left: 150px;
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* for scrolling */
+
+.example-viewport {
+  height: 300px;
+  width: 75%;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.example-item {
+  box-shadow: 1px 1px 1px 1px #d3d3d3;
+  text-align: center;
+  height: 50px;
+  cursor: move;
+}
+
+.mat-chip-list-stacked{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  cursor: grabbing;
 }
