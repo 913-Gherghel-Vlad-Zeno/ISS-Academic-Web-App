@@ -1,3 +1,4 @@
+
 package com.example.AcademicWebApp.Repositories;
 
 import com.example.AcademicWebApp.Models.Student;
@@ -22,4 +23,8 @@ public interface StudentEnrollmentRepo extends JpaRepository<StudentEnrollment, 
             "INNER JOIN faculty as f ON f.fid = se.fid " +
             "WHERE (f.name = ?1 OR ?1 = '') AND (se.year = ?2 OR ?2 = -1) AND (s.group1 = ?3 OR s.group2 = ?3 OR ?3 = -1)")
     List<StudentEnrollment> findAllByFacultyYearGroup(String faculty, int year, int group);
+ 
+  
+    @Query("SELECT s from studentenrollment s where s.fid = ?1 and s.year = ?2")
+    List<StudentEnrollment> getAllStudentEnrollmentsForFidAndYear(int fid, int year);
 }

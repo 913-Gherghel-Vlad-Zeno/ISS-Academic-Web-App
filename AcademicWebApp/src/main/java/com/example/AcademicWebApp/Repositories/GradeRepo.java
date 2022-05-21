@@ -11,6 +11,10 @@ import java.util.List;
 @Repository
 public interface GradeRepo extends JpaRepository<Grade, GradeId> {
 
+    @Query("from grade where username = ?1")
+    List<Grade> getAllGradesByUsername(String username);
+
+
     List<Grade> findAllByUsername(String username);
 
     @Query("FROM grade AS g " +
@@ -19,3 +23,4 @@ public interface GradeRepo extends JpaRepository<Grade, GradeId> {
     List<Grade> findAllByUsernameAndFaculty(String username, int faculty);
 
 }
+

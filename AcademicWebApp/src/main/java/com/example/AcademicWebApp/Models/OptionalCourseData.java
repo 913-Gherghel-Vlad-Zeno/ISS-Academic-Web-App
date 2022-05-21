@@ -9,13 +9,10 @@ import javax.persistence.Id;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class StudentData {
+public class OptionalCourseData {
 
-    private String username;
-    private String faculty1;
-    private Integer year1;
-    private String faculty2;
-    private Integer year2;
+    private String faculty;
+    private Integer year;
 
 
 }

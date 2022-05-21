@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 @Repository
-public interface GroupRepo extends JpaRepository<Group, String>
+public interface GroupRepo extends JpaRepository<Group, Integer>
 {
     @Query("Select g.gid from group g where g.faculty=?1 and g.year=?2")
     List<Integer> findAllGidsByFacultyAndYear(Integer faculty, Integer year);
