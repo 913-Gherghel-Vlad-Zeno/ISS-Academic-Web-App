@@ -42,28 +42,28 @@ public class TeacherController {
     ChiefService chiefService;
 
     // TEACHER APIS
-    @GetMapping("/teacher/getOptionalsForTeacher")
-    public List<Course> getOptionalCoursesOfTeacher(@CookieValue(name = "username") String username){
+    @GetMapping("/teacher/getOptionalsForTeacher/{username}")
+    public List<Course> getOptionalCoursesOfTeacher(@PathVariable(name = "username") String username){
         return teacherService.getOptionalCoursesOfTeacher(username);
     }
 
-    @GetMapping("/teacher/getAllCourses")
-    public List<Course> getAllCourses(@CookieValue(name = "username") String username){
+    @GetMapping("/teacher/getAllCourses/{username}")
+    public List<Course> getAllCourses(@PathVariable(name = "username") String username){
         return this.teacherService.getCoursesOfTeacher(username);
     }
 
-    @GetMapping("/teacher/getStudentsGradesForCourse")
-    public List<StudentGrade> getAllCourses(@CookieValue(name = "username") String username, @RequestBody Course course){
+    @GetMapping("/teacher/getStudentsGradesForCourse/{username}")
+    public List<StudentGrade> getAllCourses(@PathVariable(name = "username") String username, @RequestBody Course course){
         return this.teacherService.getStudentsGrades(course);
     }
 
-    @PostMapping("/teacher/proposeOptional")
-    public Message proposeOptional(@CookieValue(name = "username") String username, @RequestBody Course course){
+    @PostMapping("/teacher/proposeOptional/{username}")
+    public Message proposeOptional(@PathVariable(name = "username") String username, @RequestBody Course course){
         return teacherService.proposeOptional(username, course);
     }
 
-    @PostMapping("/teacher/addStudentsGrades")
-    public Message addStudentsGrades(@CookieValue(name = "username") String username, @RequestBody List<StudentGrade> studentGrades){
+    @PostMapping("/teacher/addStudentsGrades/{username}")
+    public Message addStudentsGrades(@PathVariable(name = "username") String username, @RequestBody List<StudentGrade> studentGrades){
         return teacherService.saveStudentsGrades(studentGrades);
     }
 

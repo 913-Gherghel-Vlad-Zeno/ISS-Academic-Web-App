@@ -14,20 +14,20 @@ public class UserDataController {
     @Autowired
     UserDataService userDataService;
 
-    @GetMapping("/userdata/{name}")
-    public String getFullName(@CookieValue(name = "username") String username, @PathVariable(name="name") String name){
+    @GetMapping("/userdata/{username}/{name}")
+    public String getFullName(@PathVariable(name = "username") String username, @PathVariable(name="name") String name){
         JSONObject obj = new JSONObject();
         obj.put("fullname", userDataService.getNameByUsername(name));
         return obj.toString();
     }
 
-    @GetMapping("/userdata")
-    public UserData getUserData(@CookieValue(name = "username") String username){
+    @GetMapping("/userdata/{username}")
+    public UserData getUserData(@PathVariable(name = "username") String username){
         return userDataService.getUserDataByUsername(username);
     }
 
-    @PostMapping("/userdata")
-    public Message getUserData(@CookieValue(name = "username") String username, @RequestBody UserData userData){
+    @PostMapping("/userdata/{username}")
+    public Message getUserData(@PathVariable(name = "username") String username, @RequestBody UserData userData){
         return userDataService.saveUserData(userData);
     }
 

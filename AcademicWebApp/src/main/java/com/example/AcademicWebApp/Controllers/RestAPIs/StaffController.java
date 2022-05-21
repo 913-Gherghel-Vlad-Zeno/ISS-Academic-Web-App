@@ -53,26 +53,26 @@ public class StaffController  {
 //    }
 
     @CrossOrigin(origins = "http://localhost:4200/")
-    @GetMapping("/staff/faculty/students")
-    public List<StudentAverage> getStudentsFromFacultyYearGroup(@CookieValue(name="username") String username, @RequestBody StaffFilter staffFilter) {
+    @GetMapping("/staff/faculty/students/{username}")
+    public List<StudentAverage> getStudentsFromFacultyYearGroup(@PathVariable(name="username") String username, @RequestBody StaffFilter staffFilter) {
         return staffService.getStudentsFromFacultyYearGroup(staffFilter);
     }
 
     @CrossOrigin(origins = "http://localhost:4200/")
-    @GetMapping("/staff/faculty/getGroups")
-    public List<Integer> getGroupsFromFaculties(@CookieValue(name="username") String username, @RequestBody FacultyYear facultyYear) {
+    @GetMapping("/staff/faculty/getGroups/{username}")
+    public List<Integer> getGroupsFromFaculties(@PathVariable(name="username") String username, @RequestBody FacultyYear facultyYear) {
         return staffService.getGroupsByFaculty(facultyYear);
     }
 
     @CrossOrigin(origins = "http://localhost:4200/")
-    @PostMapping(value="/staff/founding/set")
-    public Integer setScholarships(@CookieValue(name="username") String username, @RequestBody FoundingData foundingData) {
+    @PostMapping(value="/staff/founding/set/{username}")
+    public Integer setScholarships(@PathVariable(name="username") String username, @RequestBody FoundingData foundingData) {
         return staffService.setScholarships(foundingData);
     }
 
     @CrossOrigin(origins = "http://localhost:4200/")
-    @GetMapping(value="/staff/founding")
-    public List<StudentGradeStaff> getStudentGrades(@CookieValue(name="username") String username) {
+    @GetMapping(value="/staff/founding/{username}")
+    public List<StudentGradeStaff> getStudentGrades(@PathVariable(name="username") String username) {
         return staffService.getStudentFounding();
     }
 

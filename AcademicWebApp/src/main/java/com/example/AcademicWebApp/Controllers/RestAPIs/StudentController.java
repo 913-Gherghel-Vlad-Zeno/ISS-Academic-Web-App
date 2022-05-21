@@ -73,15 +73,15 @@ public class StudentController {
 
 
 
-    @GetMapping("/student/getCoursesFirstGroup")
-    public List<Course> getCoursesForStudentFirstGroup(@CookieValue(name = "username") String username)
+    @GetMapping("/student/getCoursesFirstGroup/{username}")
+    public List<Course> getCoursesForStudentFirstGroup(@PathVariable(name = "username") String username)
     {
         return studentService.getCoursesForFirstGroup(username);
 
     }
 
-    @GetMapping("/student/getCoursesSecondGroup")
-    public List<Course> getCoursesForStudentSecondGroup(@CookieValue(name = "username") String username)
+    @GetMapping("/student/getCoursesSecondGroup/{username}")
+    public List<Course> getCoursesForStudentSecondGroup(@PathVariable(name = "username") String username)
     {
         return studentService.getCoursesForSecondGroup(username);
 
@@ -104,18 +104,18 @@ public class StudentController {
 
     //DONE TODO #3 post api - list of courses, 100% optionals
     //DONE TODO #4 service stuff - insert in optional_course_enrollment data based on the student and the list from #3
-    @PostMapping(value="/student/sendOptionalsPreferences",
+    @PostMapping(value="/student/sendOptionalsPreferences/{username}",
             consumes = "application/json",
             produces = "application/json")
-    public List<OptionalCourseEnrollment> sendOptionalsPreferences(@RequestBody List<Course> courses, @CookieValue(name = "username") String username)
+    public List<OptionalCourseEnrollment> sendOptionalsPreferences(@RequestBody List<Course> courses, @PathVariable(name = "username") String username)
     {
         return studentService.sendOptionalsPreferences(courses, username);
     }
 
 
     //DONE TODO #5 get api - return list of all courses in which the student is enrolled (the first part is already implemented above these TODOS, hutsu) , including the optional one
-    @GetMapping("/student/getAllCoursesForWhichEnrolled")
-    public List<Course> getAllCoursesForWhichEnrolled(@CookieValue(name = "username") String username)
+    @GetMapping("/student/getAllCoursesForWhichEnrolled/{username}")
+    public List<Course> getAllCoursesForWhichEnrolled(@PathVariable(name = "username") String username)
     {
         return studentService.getAllCoursesForWhichEnrolled(username);
     }
@@ -123,16 +123,16 @@ public class StudentController {
 
 
     //DONE TODO #n get api - get faculties+years that the student is enrolled in, based on username(cookie)
-    @GetMapping("/student/getFacultiesAndYears")
-    public List<FacultyAndYearsData> getFacultiesAndYears(@CookieValue(name = "username") String username)
+    @GetMapping("/student/getFacultiesAndYears/{username}")
+    public List<FacultyAndYearsData> getFacultiesAndYears(@PathVariable(name = "username") String username)
     {
         return studentService.getFacultiesAndYears(username);
 
     }
 
     //DONE TODO #n+1 get api - get courses+grades based on faculty and year (plus username from cookie) + (optional course + grade)
-    @GetMapping("/student/getGrades")
-    public List<CourseGradeData> getGrades(@CookieValue(name = "username") String username,@RequestBody FacultyAndYearData data)
+    @GetMapping("/student/getGrades/{username}")
+    public List<CourseGradeData> getGrades(@PathVariable(name = "username") String username,@RequestBody FacultyAndYearData data)
     {
         return studentService.getGrades(username, data);
     }
