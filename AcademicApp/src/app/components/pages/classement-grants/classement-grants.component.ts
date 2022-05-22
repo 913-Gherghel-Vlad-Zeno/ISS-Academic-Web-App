@@ -27,7 +27,7 @@ export class ClassementGrantsComponent implements OnInit {
   gradeValue = 0;
   moneyValue = 0;
 
-  disabledButton: boolean = false;
+  hiddenButton: boolean = false;
 
   constructor(private apisService: ApisService) { }
 
@@ -43,7 +43,7 @@ export class ClassementGrantsComponent implements OnInit {
     this.apisService.checkIfAssignEnabled()
       .subscribe((n) => {
         if (n == 0){
-          this.disabledButton = true;
+          this.hiddenButton = true;
         }
       })
   }
@@ -63,7 +63,7 @@ export class ClassementGrantsComponent implements OnInit {
         this.apisService.checkIfAssignEnabled()
           .subscribe((n) => {
             if (n == 0){
-              this.disabledButton = true;
+              this.hiddenButton = true;
             }
           })
       })
