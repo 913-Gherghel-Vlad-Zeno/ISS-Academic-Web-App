@@ -1,40 +1,35 @@
 <div class="container" [style.padding]="pagePadding">
     <img class="logo-icon" src="assets/logo.svg" [style.width]="logoWidth">
-    <div class="content" style="text-align: center;" [style.padding]="contentPadding">
-        <div class="tables" style="width: 500px;">
-            <div class="select-faculty" style="width: 500px;">
-            <h2>Select Faculty</h2>
-            <!--<table class="table table-faculties">
-                <tbody>
-                    <tr *ngFor="let faculty of facultyData">
-                        <td>{{faculty}}</td>
-                     </tr>
-                </tbody>
-              </table>-->
-              <app-table style="width: 500px;" [headers]="facultiesHeader" [objectsFromDb]="facultyData" [hasCheckbox]="true" [hasAction]="false"></app-table>
-              <!--<dropdown [ngClass]="'input-faculty'" [placeholderText]="'Choose name of faculty'"></dropdown>-->
+    <div class="content"  [style.padding]="contentPadding">
+        <div class="same-row">
+            <dropdown #facultyDd 
+                [options]="facultiesOptions" 
+                labelText="Faculty"
+                [shownProperty] = "nameOfFPropertyToShow"
+                [idProperty]="idFPropery"
+                (change)='onFacultyOptionChanged()'>
+            </dropdown>
+            <dropdown #yearDd 
+                [options]="yearsOptions" 
+                labelText="Year"
+                [shownProperty] = "nameOfYPropertyToShow"
+                [idProperty]="idYPropery">
+            </dropdown>
+        </div>
+        <button (click)="onClickAddFacultyToTable()">Add to enrollment table</button>
+        <app-table 
+                #facultyTable
+                [headers]="enrollmentsHeader" [objectsFromDb]="tableData" [hasCheckbox]="false" [hasAction]="false"
+        ></app-table>
 
+        <div class="same-row">
+            <button (click)="onClickClear()">Clear</button>
+            <button (click)="onClickSend()">Send</button>
+        </div>
+            
 
-            </div>
-
-            <div class="select-year">
-            <h2>Select Year</h2>
-            <!--<table class="table table-years">
-                <tbody>
-                    <tr *ngFor="let year of yearData">
-                        <td>{{year}}</td>
-                     </tr>
-                </tbody>
-              </table>-->
-              <app-table [headers]="yearsHeader" [objectsFromDb]="yearData" [hasCheckbox]="true" [hasAction]="false"></app-table>
-              <!--<dropdown [ngClass]="'input-year'" [placeholderText]="'Choose year of study'"></dropdown>-->
-            </div>
-        </div>  
-        <br>
-        <app-button class="btn" [text]="'Enroll'"></app-button>
-        <div class="text-padding">
-            <p>If you want to enroll at the same faculty for 2 years or you want to enroll into 2 faculties at the same time, please <span class="text-color">select the two options</span> and then press Enroll. If you only want to enroll in a year/a faculty, select only one option.</p>
-        </div>   
+        <p>If you want to enroll at the same faculty for 2 years or you want to enroll into 2 faculties at the same time, please <span class="text-color">select the two options</span> and then press Enroll. If you only want to enroll in a year/a faculty, select only one option.</p>
+        
      </div>
 
 </div>
