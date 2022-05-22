@@ -40,6 +40,12 @@ export class ClassementGrantsComponent implements OnInit {
           this.table.changeRowsData(this.studentsData);
         })
       })
+    this.apisService.checkIfAssignEnabled()
+      .subscribe((n) => {
+        if (n == 0){
+          this.disabledButton = true;
+        }
+      })
   }
 
   fillForm() {
@@ -54,7 +60,12 @@ export class ClassementGrantsComponent implements OnInit {
     this.apisService.postAssignStudentToOptionals()
       .subscribe((m: Message) => {
         alert("All students were assigned to optionals!");
-        this.disabledButton = true;
+        this.apisService.checkIfAssignEnabled()
+          .subscribe((n) => {
+            if (n == 0){
+              this.disabledButton = true;
+            }
+          })
       })
   }
 }
