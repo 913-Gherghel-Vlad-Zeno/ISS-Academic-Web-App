@@ -289,4 +289,5 @@ exportAsPDF(divId: any) {
         this.name = response.fullname;
       });
   }
+
 }
