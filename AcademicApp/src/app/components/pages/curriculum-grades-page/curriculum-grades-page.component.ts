@@ -27,12 +27,12 @@ export class CurriculumGradesPageComponent implements OnInit {
   @ViewChild('table') table!: TableComponent; // reference to dropdown
 
   headers = ['course', 'grade'];
-  tableData = TABLE_TEST_CURRICULUM_DATA;
-  tableDataAfter = TABLE_TEST_CURRICULUM_DATA_AFTER;
+  tableData = [];
+  tableDataAfter = [];
 
   constructor(private apisService: ApisService) {
 
-   }
+  }
 
   ngOnInit(): void {
     facultyAndYear: Array<FacultyAndYearData>();
@@ -85,7 +85,7 @@ export class CurriculumGradesPageComponent implements OnInit {
 
     for(var value of facultiesAttended){
       index = index + 1;
-      if(value.name == model.name){
+      if(value.name == model.name && value.year == model.year){
         indexOfGroup = index;
       }
 
