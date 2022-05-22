@@ -183,6 +183,19 @@ public class StudentService {
     public List<Course> getAllOptionals() {
         return this.courseRepo.getOptionals();
     }
+
+
+    public Integer checkIfAssignEnabled() {
+
+        Integer response = 0;
+        for(Student s: this.studentRepository.findAll())
+        {
+            List<OptionalCourseEnrollment> oces = this.optionalCourseEnrollmentRepo.getAllByUsername(s.getUsername());
+            if(oces.size() != 1)
+                response = 1;
+        }
+        return response;
+    }
     //we get the username,a name, a faculty and a year, eventually 2 faculties
     //firstly -> get the group (gid)
     //we need the fid and the year
