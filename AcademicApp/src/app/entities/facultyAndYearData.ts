@@ -1,4 +1,6 @@
-export interface FacultyAndYearData{
-  name: string,
-  year: number
+export class FacultyAndYearData{
+  constructor(
+    public name: string,
+    public year: number
+   ) {}
 }

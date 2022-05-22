@@ -36,10 +36,11 @@ export class DropdownComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  // selected(){
-  //   console.log(this.getSelectedValue());
-  //   console.log(this.getSelectedObject());
-  // }
+   selected(){
+     console.log(this.getSelectedValue());
+     console.log(this.getSelectedObject());
+     
+   }
 
   getSelectedValue(){
     return this.selectedOption;
@@ -48,9 +49,14 @@ export class DropdownComponent implements OnInit {
   getSelectedObject(){
     // here it works if the client doesn't choose all...check in parent this condition.
     const id = this.getSelectedValue();
-    return this.options.filter((my_option:any) => {
+    let ceva = this.options.filter((my_option:any) => {
       return my_option[this.idProperty] == id;
     });
+    return ceva;
+  }
+
+  setOptions(newOptions: any){
+    this.options = newOptions
   }
   
 

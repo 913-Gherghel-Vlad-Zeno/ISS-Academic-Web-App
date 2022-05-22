@@ -4,6 +4,8 @@ import { TABLE_TEST_CURRICULUM_DATA, TABLE_TEST_CURRICULUM_DATA_AFTER } from 'sr
 import { BLUE_TEXT } from 'src/app/constants/colors';
 import { DropdownComponent } from '../../dropdown/dropdown.component';
 import { TableComponent, } from '../../table/table.component';
+import { ApisService } from 'src/app/apis/apis.service';
+import { FacultyAndYearData } from 'src/app/entities/facultyAndYearData';
 
 @Component({
   selector: 'app-curriculum-grades-page',
@@ -15,49 +17,53 @@ export class CurriculumGradesPageComponent implements OnInit {
   pagePadding = PAGE_PADDING
   contentPadding = CONTENT_PADDING
   blueText = BLUE_TEXT
-  options: any = [
-    {
-      myId: 1,
-      text: 'Faculty-1',
-      otherStuff: 'vvdvvdf',
-      value: 1
-    },
-    {
-      myId: 2,
-      text: 'Faculty-2',
-      otherStuff: 'aaaaaa',
-      value: 2
-    },
-    {
-      myId: 3,
-      text: 'Faculty-3',
-      otherStuff: 'bbbbbb',
-      value: 3
-    },
-  ];
+  options: FacultyAndYearData[] = [];
+  nameOfPropertyToShow: string = "name";
 
   @ViewChild('facultyDd') facultyDropdown!: DropdownComponent; // reference to dropdown
   @ViewChild('table') table!: TableComponent; // reference to dropdown
 
-  headers = ['name', 'grade', 'credits'];
+  headers = ['course', 'grade'];
   tableData = TABLE_TEST_CURRICULUM_DATA;
   tableDataAfter = TABLE_TEST_CURRICULUM_DATA_AFTER;
 
-  constructor() { }
+  constructor(private apisService: ApisService) {
+
+   }
 
   ngOnInit(): void {
+    facultyAndYear: Array<FacultyAndYearData>();
+
+    this.apisService.getFacultiesAndYearsForStudent().subscribe((result) => {
+      let array : any = [];
+      result.forEach((value, index) =>{
+        let obj = {"id":index, "name": value.name + " - Year " + value.year, "actualName": value.name, "actualYear": value.year};
+        array.push(obj);
+      })
+      this.options = array;
+      this.apisService.getGrades(result[0]).subscribe((result) =>{
+        this.table.changeRowsData(result); // this is how you change it.
+        this.facultyDropdown.setOptions(this.options);
+      });
+
+    });
   }
+
 
   onOptionChanged() {
     /**
      * @TO_DO - when the dropdown selected option is changed, send request to backend to update the table.
      */
-    console.log(this.facultyDropdown.getSelectedObject()); // to get whole object
-    console.log((this.facultyDropdown.getSelectedValue())); // to get the id(index in list) of object
+    //console.log(this.facultyDropdown.getSelectedObject()); // to get whole object
+    //console.log((this.facultyDropdown.getSelectedValue())); // to get the id(index in list) of object
 
     // here we should send from dropdown and get the rows (replace this.tableDataAfter with your variables) 
-
-    this.table.changeRowsData(this.tableDataAfter); // this is how you change it.
+    let obj = this.facultyDropdown.getSelectedObject()[0];
+    let model : FacultyAndYearData = new FacultyAndYearData(obj["actualName"], obj["actualYear"]);
+    this.apisService.getGrades(model).subscribe((result) =>{
+      this.table.changeRowsData(result); // this is how you change it.
+    });
+  // this.table.changeRowsData(this.apisService.getGrades()); // this is how you change it.
 
   }
 

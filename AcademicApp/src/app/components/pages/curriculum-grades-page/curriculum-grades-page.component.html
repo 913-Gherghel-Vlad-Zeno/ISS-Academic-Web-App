@@ -5,8 +5,8 @@
             [options]="options" 
             placeholderText="All faculties" 
             labelText="Faculty"
-            shownProperty="text"
-            idProperty="myId"
+            [shownProperty] = "nameOfPropertyToShow"
+            idProperty="id"
             (change)='onOptionChanged()'>
         </dropdown>
         <app-table #table [headers]="headers" [objectsFromDb]="tableData" [hasCheckbox]="false" [hasAction]="false"></app-table>

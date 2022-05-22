@@ -1,11 +1,14 @@
-export interface Course{
-  cid: number,
-  name: string,
-  fid: number,
-  year: number,
-  teacher: string,
-  semester: number,
-  maxstudents: number,
-  priority: number,
-  credits: number
+export class Course{
+  
+  constructor(
+    public cid: number,
+    public name: string,
+    public fid: number,
+    public year: number,
+    public teacher: string,
+    public semester: number,
+    public maxstudents: number,
+    public priority: number,
+    public credits: number
+   ) {}
 }

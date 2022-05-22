@@ -10,7 +10,7 @@
 -->
 
 <label class="dropdown-label" for="sites">{{labelText}}</label><br>
-<select id="sites" class="dropdown-container" [(ngModel)]="selectedOption" required>
+<select id="sites" class="dropdown-container" [(ngModel)]="selectedOption" required (ngModelChange)="selected()">
     <option [ngValue]="" selected>{{placeholderText}}</option>
     <option *ngFor="let option of options" [ngValue]="option[idProperty]">{{option[shownProperty]}}</option>
 </select>
