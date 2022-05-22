@@ -19,7 +19,7 @@ export class LoginComponent implements OnInit {
   logoWidth = 325;
 
   public loginForm !: FormGroup;
-  STUDENT_USERNAME = "michaelwilliams";
+  STUDENT_USERNAME = "kathyprado";
   TEACHER_USERNAME = "erincraft";
   STAFF_USERNAME = "donnakubinski";
   constructor(private formBuilder : FormBuilder, private http : HttpClient, private router : Router,
