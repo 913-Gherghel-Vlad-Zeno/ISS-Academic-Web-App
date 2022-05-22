@@ -195,10 +195,13 @@ class Service:
             if enrollment.year == 1:
                 continue
 
+            i = 1
+
             cids = random.sample([optional[0] for optional in self.__optionalCourses], r)
 
             for cid in cids:
-                opEnr = OptionalEnrollment(enrollment.username, cid)
+                opEnr = OptionalEnrollment(enrollment.username, cid, i)
+                i += 1
                 ok = True
                 for oE in self.__optionalEnrollments:
                     if oE.username == opEnr.username and oE.cid == opEnr.cid:
