@@ -16,4 +16,7 @@ public interface CourseRepo extends JpaRepository<Course, Integer>
 
     @Query("from course where fid=?1 and year=?2 and priority=2")
     List<Course> findOptionalsByFidAndYear(Integer fid, Integer year);
+
+    @Query("from course where priority=2")
+    List<Course> getOptionals();
 }

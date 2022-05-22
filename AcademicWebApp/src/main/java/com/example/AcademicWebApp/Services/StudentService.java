@@ -179,6 +179,10 @@ public class StudentService {
         return dataList;
 
     }
+
+    public List<Course> getAllOptionals() {
+        return this.courseRepo.getOptionals();
+    }
     //we get the username,a name, a faculty and a year, eventually 2 faculties
     //firstly -> get the group (gid)
     //we need the fid and the year
