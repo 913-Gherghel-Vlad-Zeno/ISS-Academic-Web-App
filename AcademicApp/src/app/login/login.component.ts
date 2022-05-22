@@ -20,7 +20,7 @@ export class LoginComponent implements OnInit {
 
   public loginForm !: FormGroup;
   STUDENT_USERNAME = "michaelwilliams";
-  TEACHER_USERNAME = "eileenwimberly";
+  TEACHER_USERNAME = "francesparker";
   STAFF_USERNAME = "donnakubinski";
   constructor(private formBuilder : FormBuilder, private http : HttpClient, private router : Router,
               private cookieService:CookieService, private apisService: ApisService) { }
