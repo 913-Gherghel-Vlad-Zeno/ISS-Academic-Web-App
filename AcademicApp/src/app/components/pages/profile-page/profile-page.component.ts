@@ -1,6 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import { ApisService } from 'src/app/apis/apis.service';
 import { LOGO_WIDTH, PAGE_PADDING, CONTENT_PADDING } from 'src/app/constants/sizes';
+import { UserData } from 'src/app/entities/userData';
+import { StudentDashboardComponent } from 'src/app/student-dashboard/student-dashboard.component';
+import { Student } from 'src/app/entities/student';
+import { CookieService } from 'ngx-cookie-service';
+import { Message } from 'src/app/entities/message';
 
 @Component({
   selector: 'app-profile-page',
@@ -14,14 +20,24 @@ export class ProfilePageComponent implements OnInit {
   contentPadding = CONTENT_PADDING
 
   namePlaceholder = 'Name...';
+  surnamePlaceholder = 'Surname...';
   phonePlaceholder = 'Phone...';
   emailPlaceholder = 'Email...';
   cnpPlaceholder = 'Cnp...';
   homePlaceholder = 'Home...';
   bursierText: string = 'Not yet decided';
 
+  nameValue = 'Name...';
+  surnameValue = 'Surname...';
+  phoneValue = 'Phone...';
+  emailValue = 'Email...';
+  cnpValue = 'Cnp...';
+  homeValue= 'Home...';
 
-  constructor() { }
+
+
+
+  constructor(private apiService: ApisService, private cookieService: CookieService) { }
 
   ngOnInit(): void {
     this.fillForm();
@@ -31,8 +47,16 @@ export class ProfilePageComponent implements OnInit {
     /**
      * @TO_DO - add validations + backend
      */
-    console.log(f.value);  // here you get the values from the from
-    console.log(f.valid);  // check if form is valid
+    //console.log(f.value);  // here you get the values from the from
+    //console.log(f.valid);  // check if form is valid
+
+    let userdata: UserData = new UserData(this.cookieService.get("username"), this.nameValue, this.surnameValue, this.emailValue, this.phoneValue, this.homeValue, this.cnpValue)
+    this.apiService.postUserData(userdata).subscribe( (message: Message) => {
+        console.log(message.message)
+    })
+
+
+
 
     // here send data to backend
 
@@ -44,8 +68,23 @@ export class ProfilePageComponent implements OnInit {
      * @TO_DO - Here get from backend to fill the profile.
      */
 
-    let test_input = "Let's see if it fills..."
-    this.namePlaceholder = test_input;
+    this.apiService.getUserData().subscribe((userData: UserData) => {
+      this.nameValue = userData.name
+      this.surnameValue = userData.surname
+      this.phoneValue = userData.phone_number
+      this.emailValue = userData.email
+      this.cnpValue = userData.cnp
+      this.homeValue = userData.home_address
+    })
+
+    this.apiService.getStudentByUsername().subscribe((student: Student) => {
+      if(student.scholarship == 0){
+        this.bursierText = "Not yet decided";
+      }
+      else{
+        this.bursierText = "You got a scholarship. It is: " + student.scholarship.toString();
+      }
+    })
   }
 
 }

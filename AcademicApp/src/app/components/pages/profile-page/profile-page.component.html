@@ -11,14 +11,21 @@
               <label>
                 Name
                 <br>
-                <input #nameInput="ngModel" ngModel name="nameInput" class="list-box-small" type="text" [placeholder]="namePlaceholder" required>
+                <input #nameInput="ngModel" [(ngModel)]="nameValue" ngModel name="nameInput" class="list-box-small" type="text" [placeholder]="namePlaceholder" required>
+              </label>
+            </div>
+            <div>
+              <label>
+                Surname
+                <br>
+                <input #surnameInput="ngModel" [(ngModel)]="surnameValue" ngModel name="surnameInput" class="list-box-small" type="text" [placeholder]="surnamePlaceholder" required>
               </label>
             </div>
             <div>
               <label>
                 Phone
                 <br>
-                <input #phoneInput="ngModel" ngModel name="phoneInput" class="list-box-small" type="text" [placeholder]="phonePlaceholder" required>
+                <input #phoneInput="ngModel" [(ngModel)]="phoneValue" ngModel name="phoneInput" class="list-box-small" type="text" [placeholder]="phonePlaceholder" required>
               </label>
             </div>
           </div>
@@ -28,27 +35,28 @@
               <label>
                 Email
                 <br>
-                <input #emailInput="ngModel" ngModel name="emailInput" class="list-box-small" type="text" [placeholder]="emailPlaceholder" required>
+                <input #emailInput="ngModel" [(ngModel)]="emailValue" ngModel name="emailInput" class="list-box-small" type="text" [placeholder]="emailPlaceholder" required>
               </label>
             </div>
             <div>
               <label>
                 CNP
                 <br>
-                <input #cnpInput="ngModel" ngModel name="cnpInput" class="list-box-small" type="text" [placeholder]="cnpPlaceholder" required>
+                <input #cnpInput="ngModel" [(ngModel)]="cnpValue" ngModel name="cnpInput" class="list-box-small" type="text" [placeholder]="cnpPlaceholder" required>
               </label>
             </div>
           </div>
         </div>
+        <br>
         <div class="home-address">
           <label>
             Home address
             <br>
-            <input #homeInput="ngModel" ngModel name="homeInput" class="list-box-home-address" type="text" [placeholder]="homePlaceholder" required>
+            <input #homeInput="ngModel" [(ngModel)]="homeValue" ngModel  name="homeInput" class="list-box-home-address" type="text" [placeholder]="homePlaceholder" required>
           </label>
         </div>
         <h6>Bursier: {{bursierText}}</h6>
-        <app-button text="Submit"></app-button>
+        <app-button text="Submit" ></app-button>
       </div>
     </form>
   </div>

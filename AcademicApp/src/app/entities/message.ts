@@ -1,4 +1,7 @@
-export interface Message {
-    message: string
+export class Message {
+    constructor(
+        
+        public message: string
+    ){}
 }
   

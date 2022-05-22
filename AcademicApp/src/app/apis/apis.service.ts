@@ -103,7 +103,7 @@ export class ApisService {
   }
 
   getStudentByUsername(): Observable<Student>{
-    return this.http.get<Student>("http://localhost:8080/students");
+    return this.http.get<Student>("http://localhost:8080/student/" + this.cookieService.get("username"));
   }
 
 

@@ -34,17 +34,24 @@ export class CurriculumGradesPageComponent implements OnInit {
   ngOnInit(): void {
     facultyAndYear: Array<FacultyAndYearData>();
 
+    // getting the faculties and years that the student is enrolled in
     this.apisService.getFacultiesAndYearsForStudent().subscribe((result) => {
       let array : any = [];
+      // creating the array for the dropdown element
       result.forEach((value, index) =>{
         let obj = {"id":index, "name": value.name + " - Year " + value.year, "actualName": value.name, "actualYear": value.year};
         array.push(obj);
       })
+      // setting the options for the dropdown
       this.options = array;
-      this.apisService.getGrades(result[0]).subscribe((result) =>{
-        this.table.changeRowsData(result); // this is how you change it.
-        this.facultyDropdown.setOptions(this.options);
-      });
+      // putting the data into the table for the first faculty that the guy/girl/non binary/etc is in
+      if(result.length > 0){ // checking if the guy is enrolled at least in a faculty in the first place
+        this.apisService.getGrades(result[0]).subscribe((result) =>{
+          this.table.changeRowsData(result); // this is how you change it.
+          this.facultyDropdown.setOptions(this.options); // updating the options for the dropdown list
+        });
+
+      }
 
     });
   }
@@ -58,8 +65,12 @@ export class CurriculumGradesPageComponent implements OnInit {
     //console.log((this.facultyDropdown.getSelectedValue())); // to get the id(index in list) of object
 
     // here we should send from dropdown and get the rows (replace this.tableDataAfter with your variables) 
+
+    // selecting the full object from the drop down list
     let obj = this.facultyDropdown.getSelectedObject()[0];
+    // creating the data to send for the api 
     let model : FacultyAndYearData = new FacultyAndYearData(obj["actualName"], obj["actualYear"]);
+    // getting the courses and grades that the student is enrolled in
     this.apisService.getGrades(model).subscribe((result) =>{
       this.table.changeRowsData(result); // this is how you change it.
     });
