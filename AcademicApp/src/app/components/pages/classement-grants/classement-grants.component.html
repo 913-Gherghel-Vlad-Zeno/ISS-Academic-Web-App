@@ -25,6 +25,8 @@
             <app-button class="btn" [text]="'Send'" (click)="fillForm()"></app-button>
             <br><br>
             <p>*Everyone from each faculty will receive<br> the same sum and has the =e same<br> minimum grade</p>
+            <br>
+             <button class="btn-pr" (click)="assignStudents()" [disabled]="disabledButton">Assign students to optionals</button>
        </div>
     </div>
 
