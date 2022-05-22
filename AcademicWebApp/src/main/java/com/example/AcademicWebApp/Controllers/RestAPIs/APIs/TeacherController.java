@@ -47,6 +47,11 @@ public class TeacherController {
         return teacherService.getOptionalCoursesOfTeacher(username);
     }
 
+    @GetMapping("/teacher/getFaculty/{username}/{fid}")
+    public Faculty getFacultyByFid(@PathVariable(name = "username") String username, @PathVariable(name = "fid") String fid){
+        return teacherService.getFacultyByFid(Integer.parseInt(fid));
+    }
+
     @GetMapping("/teacher/getAllCourses/{username}")
     public List<Course> getAllCourses(@PathVariable(name = "username") String username){
         return this.teacherService.getCoursesOfTeacher(username);
@@ -55,6 +60,11 @@ public class TeacherController {
     @GetMapping("/teacher/getStudentsGradesForCourse/{username}")
     public List<StudentGrade> getAllCourses(@PathVariable(name = "username") String username, @RequestBody Course course){
         return this.teacherService.getStudentsGrades(course);
+    }
+
+    @GetMapping("/teacher/deleteOptionalCourse/{username}/{cid}")
+    public Message getAllCourses(@PathVariable(name = "username") String username, @PathVariable(name = "cid") String cid){
+        return this.teacherService.deleteOptionalCourse(Integer.parseInt(cid));
     }
 
     @PostMapping("/teacher/proposeOptional/{username}")

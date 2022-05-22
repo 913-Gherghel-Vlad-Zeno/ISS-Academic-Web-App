@@ -6,6 +6,7 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatDialog } from '@angular/material/dialog';
 import { DialogBoxComponent } from '../dialog-box/dialog-box.component';
 import { TABLE_WIDTH } from 'src/app/constants/sizes';
+import { ApisService } from 'src/app/apis/apis.service';
 
 @Component({
   selector: 'app-table',
@@ -32,7 +33,7 @@ export class TableComponent implements OnInit {
   @ViewChild(MatTableDataSource,{static:true}) table!: MatTableDataSource<any>; // reference to table
   @ViewChild(MatPaginator) paginator!: MatPaginator;  // reference to paginator
 
-  constructor(public dialog: MatDialog) {}
+  constructor(public dialog: MatDialog, private apiService: ApisService) {}
 
   ngOnInit(): void {
     // our table data will be the objects from db
@@ -64,7 +65,6 @@ export class TableComponent implements OnInit {
     this.isAllSelected() ?
         this.selection.clear() :
         this.dataSource.data.forEach(row => this.selection.select(row));
-    console.log(this.getSelectedRowsData());
   }
 
   /* get all oobjects from table */
@@ -86,11 +86,8 @@ export class TableComponent implements OnInit {
     });
 
     dialogRef.afterClosed().subscribe(result => {
-      if(result.event == 'Add'){
-        this.addRowData(result.data);
-      }else if(result.event == 'Update'){
+      if(result.event == 'Update'){
         this.updateRowData(result.data);
-        console.log(this.getSelectedRowsData());
       }else if(result.event == 'Delete'){
         this.deleteRowData(result.data);
       }
@@ -98,7 +95,6 @@ export class TableComponent implements OnInit {
   }
 
   addRowData(row_obj:any){
-    console.log(row_obj);
     this.dataSource.data.push(row_obj);
     this.dataSource.data = [...this.dataSource.data]; //refresh the dataSource
     
@@ -106,20 +102,42 @@ export class TableComponent implements OnInit {
 
   updateRowData(row_obj:any){
     this.dataSource.data = this.dataSource.data.filter((value:any,key:any)=>{
+      
       if(value.cid == row_obj.cid){
+        console.log("BEFORE HERE IS THE VALUEEE OBJEECT: ", value, row_obj)
         for(let attribute of Object.keys(value)){
           value[attribute] = row_obj[attribute];
         }
+        
+        this.apiService.getFacultyByFid(value.fid).subscribe((fac)=>{
+          value["facultyName"] = fac.name;
+          console.log("AFTER HERE IS THE VALUEEE OBJEECT: ", value)
+        })
+        
       }
       return true;
-    });
+    }
+    
+    );
 
   }
 
   deleteRowData(row_obj:any){
     this.dataSource.data = this.dataSource.data.filter((value,key)=>{
-      return value.cid != row_obj.cid;
+      if(value.cid == row_obj.cid){
+        
+          if(value.cid != -1){
+            this.apiService.deleteOptionalCourseByCid(value.cid).subscribe((message)=>{
+              alert(message.message);
+            })
+          }
+          return false;
+      }
+      else{
+        return true;
+      }
     });
+
   }
 
   changeRowsData(newRows: any){

@@ -1,5 +1,6 @@
 import { Component, Inject, OnInit, Optional } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
+import { ApisService } from 'src/app/apis/apis.service';
 
 
 @Component({
@@ -12,24 +13,25 @@ export class DialogBoxComponent implements OnInit{
   local_data: any;
 
   // for adding new course modal
-  facultyOptionsDd = [{'value':1,'viewValue':'Facultate1'}, {'value':2,'viewValue':'Facultate2'}];
-  yearOptionsDd = [1,2,3];
-  semesterOptionsDd = [1,2,3,4,5,6];
-  creditsOptionsDd = [1,2,3,4,5,6,7,8];
+  facultyOptionsDd : any[] = [];
+  yearOptionsDd: number[] = [];
+  semesterOptionsDd: number[] = [];
+  creditsOptionsDd = [1, 2, 3, 4, 5, 6, 7];
 
   dropdownData = {
     'facultyOptions': this.facultyOptionsDd,
     'yearOptions': this.yearOptionsDd,
     'semesterOptions': this.semesterOptionsDd,
-    'creditsOptions': this.semesterOptionsDd,
+    'creditsOptions': this.creditsOptionsDd,
   }
 
   ngOnInit(): void {
-    this.facultyOptionsDd = this.getFaculties();
+    this.getFaculties();
   }
 
   constructor(
     public dialogRef: MatDialogRef<DialogBoxComponent>,
+    private apiService: ApisService,
     @Optional() @Inject(MAT_DIALOG_DATA) public data: any,) {
         console.log(data);
         this.local_data = {...data};
@@ -40,6 +42,12 @@ export class DialogBoxComponent implements OnInit{
     /**
      * @TO_DO
      */
+    this.apiService.getAllFaculties().subscribe((faculties) =>{
+        for(let faculty of faculties){
+          let obj = {"value": faculty.fid, "viewValue": faculty.name}
+          this.facultyOptionsDd.push(obj);
+        }
+    })
 
   }
 
@@ -47,12 +55,32 @@ export class DialogBoxComponent implements OnInit{
     /**
      * @TO_DO
      */
-    let fid = data.value; // faculty id
-    
 
-    // here you get the years 
-    let years = [1,2,3,4,5];
-    this.dropdownData['yearOptions'] = years;
+    let facId : number = data.value;
+    if(facId!=null){
+      
+      this.apiService.getFacultyByFid(facId).subscribe((fac) =>{
+        let noOfYears = fac.noyears; // faculty id
+        
+        // here you get the years 
+        let years:number[] = [];
+    
+        for(let i=1;i<=noOfYears;i++){
+          years.push(i)
+        }
+    
+        this.dropdownData['yearOptions'] = years;
+  
+      })
+  
+    }
+  }
+
+  getSemesters(year:any){
+
+    let semesters : number[] = [2*(year)-1, 2*(year)];
+
+    this.dropdownData['semesterOptions'] = semesters;
   }
 
   doAction(){
