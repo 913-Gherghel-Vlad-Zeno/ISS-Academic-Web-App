@@ -181,8 +181,7 @@ export class ApisService {
   postApproveOptionals(approvedOptionals: Course[]){
     const headers = { 'content-type': 'application/json'}
     const body=JSON.stringify(approvedOptionals);
-    console.log(body);
-    return this.http.post<Message>("http://localhost:8080/teacher/approveOptionals/" + this.cookieService.get("username"), body,{'headers':headers})
+    return this.http.post<Message>("http://localhost:8080/chief/approveOptionals/" + this.cookieService.get("username"), body,{'headers':headers})
       .pipe(
         map((message: Message) => {
           return message;
@@ -194,7 +193,6 @@ export class ApisService {
   postAssignStudentToOptionals(){
     const headers = { 'content-type': 'application/json'}
     const body = JSON.stringify('');
-    console.log(body);
     return this.http.post<Message>("http://localhost:8080/assignStudentsToOptionals/" + this.cookieService.get("username"), body,{'headers':headers})
       .pipe(
         map((message: Message) => {
@@ -207,7 +205,6 @@ export class ApisService {
   getStudentsFromFacultyYearGroup(staffFilter: StaffFilter): Observable<StudentAverage[]>{
     const headers = { 'content-type': 'application/json'}
     const body = JSON.stringify(staffFilter);
-    console.log(body);
     return this.http.post<StudentAverage[]>("http://localhost:8080/staff/faculty/students/" + this.cookieService.get("username"), body,{'headers':headers})
       .pipe(
         map((studentAverage: StudentAverage[]) => {
@@ -219,7 +216,6 @@ export class ApisService {
   getGroupsFromFaculties(facultyYear: FacultyYear): Observable<number[]>{
     const headers = { 'content-type': 'application/json'}
     const body = JSON.stringify(facultyYear);
-    console.log(body);
     return this.http.post<number[]>("http://localhost:8080/staff/faculty/getGroups/" + this.cookieService.get("username"), body,{'headers':headers})
       .pipe(
         map((nrList: number[]) => {
@@ -231,7 +227,6 @@ export class ApisService {
   postSetScholarships(foundingData: FoundingData): Observable<number>{
     const headers = { 'content-type': 'application/json'}
     const body = JSON.stringify(foundingData);
-    console.log(body);
     return this.http.post<number>("http://localhost:8080/staff/founding/set/" + this.cookieService.get("username"), body,{'headers':headers})
       .pipe(
         map((nr: number) => {

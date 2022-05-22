@@ -10,8 +10,15 @@
         <div class="generate-contract-component" style="text-align: center;">
             <h2>Generate contract</h2>
             <h3>Faculty</h3>
-            <dropdown [ngClass]="'input-faculty'" [placeholderText]="'Select faculty - year'"></dropdown>
-            <app-button class="btn" [text]="'Generate'" (click)="exportAsPDF($event)"></app-button>
+            <dropdown #facultyDd 
+                [options]="facultiesOptions" 
+                labelText="Faculty"
+                [shownProperty] = "nameOfFPropertyToShow"
+                [idProperty]="idFPropery"
+                (change)='onOptionChanged()'>
+                
+            </dropdown>            
+        <app-button class="btn" [text]="'Generate'" (click)="exportAsPDF($event)"></app-button>
 
         </div>
     </div>

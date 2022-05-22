@@ -47,6 +47,7 @@ import {CookieService} from "ngx-cookie-service";
 import {ApisService} from "./apis/apis.service";
 import { ScrollingModule } from '@angular/cdk/scrolling';
 import {MatChipsModule} from "@angular/material/chips";
+import { DialogBoxMaxstudentsComponent } from './components/dialog-box-maxstudents/dialog-box-maxstudents.component';
 
 
 @NgModule({
@@ -79,6 +80,7 @@ import {MatChipsModule} from "@angular/material/chips";
     AddOptionalsComponent,
     TableComponent,
     DialogBoxComponent,
+    DialogBoxMaxstudentsComponent,
 
   ],
   imports: [
