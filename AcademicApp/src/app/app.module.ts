@@ -46,6 +46,7 @@ import { MatSelectModule } from '@angular/material/select';
 import {CookieService} from "ngx-cookie-service";
 import {ApisService} from "./apis/apis.service";
 import { ScrollingModule } from '@angular/cdk/scrolling';
+import {MatChipsModule} from "@angular/material/chips";
 
 
 @NgModule({
@@ -97,7 +98,8 @@ import { ScrollingModule } from '@angular/cdk/scrolling';
     MatButtonModule,
     MatInputModule,
     MatSelectModule,
-    ScrollingModule
+    ScrollingModule,
+    MatChipsModule
   ],
   providers: [CookieService, ApisService],
   bootstrap: [AppComponent]
