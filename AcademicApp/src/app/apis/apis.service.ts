@@ -107,6 +107,7 @@ export class ApisService {
     return this.http.get<Course[]>("http://localhost:8080/student/getOptionalsByFacultyAndYear/" + this.cookieService.get("username"));
   }
 
+
   getCoursesForStudentSecondGroup(): Observable<Course[]>{
     return this.http.get<Course[]>("http://localhost:8080/student/getCoursesSecondGroup/" + this.cookieService.get("username"));
   }
@@ -125,6 +126,10 @@ export class ApisService {
     return this.http.get<Course[]>("http://localhost:8080/teacher/getOptionalsForTeacher/" + this.cookieService.get("username"));
   }
 
+  getFacultyByFid(fid : number): Observable<Faculty>{
+    return this.http.get<Faculty>("http://localhost:8080/teacher/getFaculty/" + this.cookieService.get("username") + "/" + fid);
+  }
+
   //gets courses that belong to teacher
   getCoursesOfTeacher(): Observable<Course[]>{
     return this.http.get<Course[]>("http://localhost:8080/teacher/getAllCourses/" + this.cookieService.get("username"));
@@ -133,6 +138,11 @@ export class ApisService {
   //gets student grades for course that belongs to teacher
   getStudentGradesForCourse(): Observable<StudentGrade[]>{
     return this.http.get<StudentGrade[]>("http://localhost:8080/teacher/getStudentsGradesForCourse/" + this.cookieService.get("username"));
+  }
+
+  // deletes the optional course with that cid
+  deleteOptionalCourseByCid(cid:number): Observable<Message>{
+    return this.http.get<Message>("http://localhost:8080/teacher/deleteOptionalCourse/" + this.cookieService.get("username") + "/" + cid);
   }
 
   postProposeOptional(course: Course){

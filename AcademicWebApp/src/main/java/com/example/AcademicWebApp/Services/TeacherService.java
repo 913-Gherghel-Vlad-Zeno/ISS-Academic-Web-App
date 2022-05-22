@@ -87,6 +87,13 @@ public class TeacherService {
         return new Message("All g. Optional course added/updated successfully.");
     }
 
+    public Message deleteOptionalCourse(int cid){
+        this.optionalCourseRepo.deleteById(cid);
+        this.coursesRepo.deleteById(cid);
+
+        return new Message("Delete successfully.");
+    }
+
     public List<Course> getCoursesOfTeacher(String username){
         return this.teacherRepo.getAllCoursesForTeacher(username);
     }
@@ -143,6 +150,10 @@ public class TeacherService {
         return new Message("Every student's grade was updated successfully.");
     }
 
+    public Faculty getFacultyByFid(int fid){
+        return this.facultiesRepo.findById(fid).get();
+    }
+
     private int generateCid(){
         List<Course> courses = coursesRepo.findAll();
 
@@ -168,5 +179,7 @@ public class TeacherService {
         Course course = coursesRepo.getById(cid);
         return studentEnrollmentRepo.getAllStudentEnrollmentsForFidAndYear(course.getFid(), course.getYear());
     }
+
+
 
 }
