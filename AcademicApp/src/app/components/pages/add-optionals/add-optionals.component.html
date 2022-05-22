@@ -6,7 +6,7 @@
             <p>Sending the optionals is not a reversable action. Once you send the optionals, you can't change you mind. </p>
             <p>You can add <span [style]="blueText">at most 2 optionals</span>.</p>
         </div>
-        <app-table [headers]="headers" [objectsFromDb]="tableData" [hasCheckbox]="false" [hasAction]="true"></app-table>
+        <app-table [headers]="headers" [objectsFromDb]="tableData" [hasCheckbox]="false" [hasAction]="true" [hasSee]="false" [hasDelete]="true" [hasUpdate]="true"></app-table>
         <div class="buttons">
             <app-button #addOptionalBtn mat-button text="Add Optional" 
                 (click)="openDialog('Add', {})" 
