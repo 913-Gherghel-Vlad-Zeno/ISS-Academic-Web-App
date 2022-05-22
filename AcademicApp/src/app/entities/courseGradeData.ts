@@ -1,4 +1,6 @@
-export interface CourseGradeData{
-  course: string,
-  grade: number
+export class CourseGradeData{
+  constructor(
+    public course: string,
+    public grade: number
+    ){}
 }

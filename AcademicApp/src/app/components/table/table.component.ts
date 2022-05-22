@@ -23,8 +23,11 @@ export class TableComponent implements OnInit {
   @Input() headers: string[] = [];  // headers of table
   @Input() objectsFromDb: any[] = [];  // the objects that are shown in table and are taken from the db
   @Input() pageSize: number = 5;  // how many objects per page
-  @Input() hasCheckbox: boolean = true;  // you specify if the table can have a checkbox option
-  @Input() hasAction: boolean = true;   // if you want to add/update/delete
+  @Input() hasCheckbox: boolean = false;  // you specify if the table can have a checkbox option
+  @Input() hasAction: boolean = false;   // if you want to add/update/delete
+  @Input() hasUpdate: boolean = false;
+  @Input() hasSee: boolean = false;
+  @Input() hasDelete: boolean = false;
 
   @ViewChild(MatTableDataSource,{static:true}) table!: MatTableDataSource<any>; // reference to table
   @ViewChild(MatPaginator) paginator!: MatPaginator;  // reference to paginator
@@ -95,32 +98,22 @@ export class TableComponent implements OnInit {
   }
 
   addRowData(row_obj:any){
-    this.dataSource.data.push({
-      cid: row_obj.cid,
-      name: row_obj.name,
-      fid: row_obj.fid,
-      year: row_obj.year,
-      semester: row_obj.semester,
-      priority: row_obj.priority,
-      // add credits here
-    });
+    console.log(row_obj);
+    this.dataSource.data.push(row_obj);
     this.dataSource.data = [...this.dataSource.data]; //refresh the dataSource
     
   }
 
   updateRowData(row_obj:any){
     this.dataSource.data = this.dataSource.data.filter((value:any,key:any)=>{
-      console.log(value, row_obj);
       if(value.cid == row_obj.cid){
-        value.name = row_obj.name;
-        value.fid = row_obj.fid;
-        value.year = row_obj.year;
-        value.semester = row_obj.semester;
-        value.priority = row_obj.priority;
-        // don't forget to add here credits
+        for(let attribute of Object.keys(value)){
+          value[attribute] = row_obj[attribute];
+        }
       }
       return true;
     });
+
   }
 
   deleteRowData(row_obj:any){
