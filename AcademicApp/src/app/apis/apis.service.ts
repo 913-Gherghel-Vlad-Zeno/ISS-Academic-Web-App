@@ -245,6 +245,10 @@ export class ApisService {
     return this.http.get<StudentGradeStaff[]>("http://localhost:8080/staff/founding/" + this.cookieService.get("username"));
   }
 
+  getAllOptionals(): Observable<Course[]>{
+    return this.http.get<Course[]>("http://localhost:8080/student/getAllOptionals");
+  }
+
 
 
 
