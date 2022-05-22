@@ -1,4 +1,4 @@
-<div class="container" [style.padding]="pagePadding">
+<div class="container" id="" [style.padding]="pagePadding">
     <img class="logo-icon" src="assets/logo.svg" [style.width]="logoWidth">
     <div class="content" [style.padding]="contentPadding">
         <div class="drop-component" style="text-align: center;">
@@ -11,7 +11,7 @@
             <h2>Generate contract</h2>
             <h3>Faculty</h3>
             <dropdown [ngClass]="'input-faculty'" [placeholderText]="'Select faculty - year'"></dropdown>
-            <app-button class="btn" [text]="'Generate'"></app-button>
+            <app-button class="btn" [text]="'Generate'" (click)="exportAsPDF($event)"></app-button>
 
         </div>
     </div>
