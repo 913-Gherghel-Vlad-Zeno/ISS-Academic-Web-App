@@ -68,7 +68,9 @@ export class StatisticsComponent implements OnInit {
     if (this.chartExists){
       this.grade = [];
       this.frequency = [];
+      this.numberOfStudents = [];
       this.chart.destroy();
+      this.chart2.destroy();
     }
     let objTeacher = this.teacherDd.getSelectedObject()[0];
     let objCourse = this.courseDd.getSelectedObject()[0];
