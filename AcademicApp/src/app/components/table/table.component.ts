@@ -23,8 +23,11 @@ export class TableComponent implements OnInit {
   @Input() headers: string[] = [];  // headers of table
   @Input() objectsFromDb: any[] = [];  // the objects that are shown in table and are taken from the db
   @Input() pageSize: number = 5;  // how many objects per page
-  @Input() hasCheckbox: boolean = true;  // you specify if the table can have a checkbox option
-  @Input() hasAction: boolean = true;   // if you want to add/update/delete
+  @Input() hasCheckbox: boolean = false;  // you specify if the table can have a checkbox option
+  @Input() hasAction: boolean = false;   // if you want to add/update/delete
+  @Input() hasUpdate: boolean = false;
+  @Input() hasSee: boolean = false;
+  @Input() hasDelete: boolean = false;
 
   @ViewChild(MatTableDataSource,{static:true}) table!: MatTableDataSource<any>; // reference to table
   @ViewChild(MatPaginator) paginator!: MatPaginator;  // reference to paginator
