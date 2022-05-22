@@ -7,6 +7,7 @@ import { MatDialog } from '@angular/material/dialog';
 import { DialogBoxComponent } from '../dialog-box/dialog-box.component';
 import { TABLE_WIDTH } from 'src/app/constants/sizes';
 import { ApisService } from 'src/app/apis/apis.service';
+import { DialogBoxMaxstudentsComponent } from '../dialog-box-maxstudents/dialog-box-maxstudents.component';
 
 @Component({
   selector: 'app-table',
@@ -29,6 +30,7 @@ export class TableComponent implements OnInit {
   @Input() hasUpdate: boolean = false;
   @Input() hasSee: boolean = false;
   @Input() hasDelete: boolean = false;
+  @Input() hasMaximum: boolean = false;
 
   @ViewChild(MatTableDataSource,{static:true}) table!: MatTableDataSource<any>; // reference to table
   @ViewChild(MatPaginator) paginator!: MatPaginator;  // reference to paginator
@@ -94,6 +96,23 @@ export class TableComponent implements OnInit {
     });
   }
 
+  /** for edit/show -> opens a dialog with what we want to update/see */
+  openDialogMaxStudents(action: string, obj:any) {
+    obj.action = action;
+    const dialogRef = this.dialog.open(DialogBoxMaxstudentsComponent, {
+      width: '650px',
+      data:obj
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      if(result.event == 'SetMaxStudents'){
+        //this.updateRowData(result.data);
+        
+        this.setMaxStudents(result.data, obj)
+      }
+    });
+  }
+
   addRowData(row_obj:any){
     this.dataSource.data.push(row_obj);
     this.dataSource.data = [...this.dataSource.data]; //refresh the dataSource
@@ -104,14 +123,12 @@ export class TableComponent implements OnInit {
     this.dataSource.data = this.dataSource.data.filter((value:any,key:any)=>{
       
       if(value.cid == row_obj.cid){
-        console.log("BEFORE HERE IS THE VALUEEE OBJEECT: ", value, row_obj)
         for(let attribute of Object.keys(value)){
           value[attribute] = row_obj[attribute];
         }
         
         this.apiService.getFacultyByFid(value.fid).subscribe((fac)=>{
           value["facultyName"] = fac.name;
-          console.log("AFTER HERE IS THE VALUEEE OBJEECT: ", value)
         })
         
       }
@@ -121,6 +138,19 @@ export class TableComponent implements OnInit {
     );
 
   }
+
+  setMaxStudents(max: any, course : any) {
+    this.dataSource.data = this.dataSource.data.filter((value:any,key:any)=>{
+      
+      if(value.cid == course.cid){
+        course["Max students"] = max;
+      }
+      return true;
+    }
+    
+    );
+  }
+
 
   deleteRowData(row_obj:any){
     this.dataSource.data = this.dataSource.data.filter((value,key)=>{
