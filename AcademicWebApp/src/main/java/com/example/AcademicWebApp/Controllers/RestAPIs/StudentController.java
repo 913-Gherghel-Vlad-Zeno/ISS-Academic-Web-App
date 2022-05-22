@@ -128,7 +128,6 @@ public class StudentController {
     public List<FacultyAndYearData> getFacultiesAndYears(@PathVariable(name = "username") String username)
     {
         return studentService.getFacultiesAndYears(username);
-
     }
 
     //DONE TODO #n+1 get api - get courses+grades based on faculty and year (plus username from cookie) + (optional course + grade)
