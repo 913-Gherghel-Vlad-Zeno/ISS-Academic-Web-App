@@ -7,7 +7,7 @@
         <br>
         <mat-form-field *ngIf="action != 'Delete'">
             <mat-label>Faculty</mat-label>
-            <mat-select [disabled]="action=='See'" [(ngModel)]="local_data.fid" name="Faculty" (selectionChange)="getYears(local_data.fid)">
+            <mat-select [disabled]="action=='See'" [(ngModel)]="local_data.fid" name="Faculty">
                 <mat-option #matOption *ngFor="let faculty_option of dropdownData['facultyOptions']" [value]="faculty_option.value" (click)="getYears(matOption)">
                 {{faculty_option.viewValue}}
                 </mat-option>
@@ -16,7 +16,7 @@
         <br>
         <mat-form-field *ngIf="action != 'Delete'">
             <mat-label>Year</mat-label>
-            <mat-select [disabled]="action=='See'" [(ngModel)]="local_data.year" name="Year">
+            <mat-select [disabled]="action=='See'" [(ngModel)]="local_data.year" name="Year" (selectionChange)="getSemesters(local_data.year)">
                 <mat-option *ngFor="let year_option of dropdownData['yearOptions']" [value]="year_option">
                 {{year_option}}
                 </mat-option>
