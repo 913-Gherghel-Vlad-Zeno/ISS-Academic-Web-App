@@ -127,7 +127,10 @@ public class StudentService {
     public List<OptionalCourseEnrollment> sendOptionalsPreferences(List<Course> courses, String username)
     {
         Student s = studentRepository.getById(username);
-
+        List<OptionalCourseEnrollment> oce = optionalCourseEnrollmentRepo.getAllByUsername(username);
+        if (oce.size() >= 5){
+            return null;
+        }
         int preference = 1;
         for(Course course: courses)
         {

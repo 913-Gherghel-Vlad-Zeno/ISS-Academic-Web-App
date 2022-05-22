@@ -37,7 +37,7 @@
         </cdk-virtual-scroll-viewport>
       </div>
     </div>
-    <button class="send-button" (click)="sendOptionals()">Send</button>
+    <button class="send-button" (click)="sendOptionals()" [disabled]="disabledButton">Send</button>
     <div class="text-padding">
       <p><span class="text-color">Attention!</span> You can only send the list once. After that, no modifications are
         allowed.</p>

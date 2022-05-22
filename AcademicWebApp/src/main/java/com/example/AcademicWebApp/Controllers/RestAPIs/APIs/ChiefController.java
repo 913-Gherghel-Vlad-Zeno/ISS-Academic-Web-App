@@ -39,6 +39,4 @@ public class ChiefController {
     public Message assignStudentsToOptionals(@PathVariable(name = "username") String username){
         return chiefService.assignStudentsToOptionals();
     }
-
-
 }
