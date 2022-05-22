@@ -27,4 +27,7 @@ public class OptionalCourseEnrollment implements Serializable {
     @Column(name="cid")
     private int cid;
 
+    @Column(name="preference")
+    private int preference;
+
 }

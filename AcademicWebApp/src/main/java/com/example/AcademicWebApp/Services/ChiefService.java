@@ -201,7 +201,6 @@ public class ChiefService {
 
         for(String username : usernamesForEnrollment){
             List<OptionalCourseEnrollment> oceList = optionalCourseEnrollmentRepo.getAllByUsername(username);
-
             // trying to fit him in one of his choices
             boolean ableToFitInChoices = false;
             for(OptionalCourseEnrollment oce : oceList){
@@ -223,7 +222,7 @@ public class ChiefService {
                         if(c.getMaxstudents() > courseNumbers.get(c)){
                             courseNumbers.put(c, courseNumbers.get(c) + 1);
 
-                            oceFinalList.add(new OptionalCourseEnrollment(username, c.getCid()));
+                            oceFinalList.add(new OptionalCourseEnrollment(username, c.getCid(), 0));
                             ableToFitInChoices = true;
                         }
                         break;
@@ -245,7 +244,7 @@ public class ChiefService {
                     if(c.getMaxstudents() > courseNumbers.get(c)){
                         courseNumbers.put(c, courseNumbers.get(c) + 1);
 
-                        oceFinalList.add(new OptionalCourseEnrollment(username, c.getCid()));
+                        oceFinalList.add(new OptionalCourseEnrollment(username, c.getCid(), 0));
                         done = true;
                     }
                 }

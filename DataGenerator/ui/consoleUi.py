@@ -156,7 +156,7 @@ class ConsoleUi:
         optEnrollString = ''
 
         for o in optEnroll:
-            optEnrollString += 'INSERT INTO "optional_course_enrollment"(username, cid) VALUES (' + str(o) + ");"
+            optEnrollString += 'INSERT INTO "optional_course_enrollment"(username, cid, preference) VALUES (' + str(o) + ");"
             optEnrollString += '\n'
 
         return optEnrollString

@@ -128,9 +128,11 @@ public class StudentService {
     {
         Student s = studentRepository.getById(username);
 
+        int preference = 1;
         for(Course course: courses)
         {
-            OptionalCourseEnrollment oc = new OptionalCourseEnrollment(username, course.getCid());
+            OptionalCourseEnrollment oc = new OptionalCourseEnrollment(username, course.getCid(), preference);
+            preference++;
             optionalCourseEnrollmentRepo.save(oc);
         }
 

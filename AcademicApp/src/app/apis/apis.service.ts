@@ -18,6 +18,7 @@ import {StudentAverage} from "../entities/studentAverage";
 import {FacultyYear} from "../entities/facultyYear";
 import {FoundingData} from "../entities/foundingData";
 import {StudentGradeStaff} from "../entities/studentGradeStaff";
+import { StudentData } from '../entities/studentData';
 
 @Injectable({
   providedIn: 'root'
@@ -56,6 +57,18 @@ export class ApisService {
     return this.http.get<Faculty[]>("http://localhost:8080/student/getFaculties");
   }
 
+
+  postEnrollStudent(studentData: StudentData): Observable<Student>{
+    const headers = { 'content-type': 'application/json'}
+    const body=JSON.stringify(studentData);
+    console.log(body);
+    return this.http.post<Student>("http://localhost:8080/student/add", body,{'headers':headers})
+      .pipe(
+        map((student: Student) => {
+          return student;
+        })
+      )
+  }
 
   //view grades page
   getGrades(facultyAndYearData: FacultyAndYearData): Observable<CourseGradeData[]>{
