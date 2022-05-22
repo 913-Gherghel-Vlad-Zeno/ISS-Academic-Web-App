@@ -1,6 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { LOGO_WIDTH, PAGE_PADDING, CONTENT_PADDING } from 'src/app/constants/sizes';
+import { FacultyAndYearData } from 'src/app/entities/facultyAndYearData';
 import { TABLE_TEST_CURRICULUM_DATA } from 'src/app/testing-dashboard/testingData';
+import { DropdownComponent } from '../../dropdown/dropdown.component';
+import { TableComponent } from '../../table/table.component';
 
 @Component({
   selector: 'app-enroll',
@@ -15,37 +18,75 @@ export class EnrollComponent implements OnInit {
   pagePadding = PAGE_PADDING
   contentPadding = CONTENT_PADDING
 
-facultiesHeader = ['faculties'];
-yearsHeader = ['years']
-/*facultyData = [
-    'Faculty_1',
-    'Faculty_2',
-    'Faculty_3',
-    'Faculty_4',
-    'Faculty_5'
-  ]*/
+  facultiesOptions: any = [
+    {
+      "fid": 1,
+      "name": "Faculty_1",
+      "max_years": 2
+    },
+    {
+      "fid": 2,
+      "name": "Faculty_2",
+      "max_years": 4
+    },
+    {
+      "fid": 3,
+      "name": "Faculty_3",
+      "max_years": 5
+    },
+  ];
 
-facultyData = [
-  {"faculties": "Faculty_1"},
-  {"faculties": "Faculty_2"},
-  {"faculties": "Faculty_3"},
-  {"faculties": "Faculty_4"},
-  {"faculties": "Faculty_5"},
-]
+  nameOfFPropertyToShow: string = "name";
+  idFPropery: string = "fid";
 
-yearData = [
-    {"years": "Year_1"},
-    {"years": "Year_2"},
-    {"years": "Year_3"},
-  ]
+  yearsOptions: any = [
+    { "year": 1 },
+    { "year": 2 },
+    { "year": 3 },
+    { "year": 4 },
+    { "year": 5 },
+  ];
+
+  nameOfYPropertyToShow: string = "year";
+  idYPropery: string = "year";
+
+  @ViewChild('facultyTable') table!: TableComponent;
+  @ViewChild('facultyDd ') facultyDd!: DropdownComponent;
+  @ViewChild('yearDd ') yearDd!: DropdownComponent;
+
+  enrollmentsHeader: any = [];
+  tableData: any = [];
 
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
-  enrollButtonHandler(list: any) {
-    console.log("in function");
-    console.log(list);
+  onFacultyOptionChanged(){
+    /**  
+     * @TO_DO 
+     * */
   }
+
+  onClickAddFacultyToTable(){
+    /**  
+     * @TO_DO 
+     * */
+
+  }
+
+  onClickClear(){
+    this.table.changeRowsData([]);
+  }
+
+  onClickSend(){
+    /**  
+     * @TO_DO 
+     * */
+    let data = this.table.getAllRowsData();
+
+  }
+
+
 }
