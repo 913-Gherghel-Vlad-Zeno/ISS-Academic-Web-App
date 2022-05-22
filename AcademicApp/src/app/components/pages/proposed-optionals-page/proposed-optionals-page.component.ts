@@ -5,6 +5,7 @@ import {CdkDragDrop, moveItemInArray, transferArrayItem} from "@angular/cdk/drag
 import { ScrollingModule } from '@angular/cdk/scrolling';
 import { TABLE_TEST_DATA } from 'src/app/testing-dashboard/testingData';
 import {Course} from "../../../entities/course";
+import {ApisService} from "../../../apis/apis.service";
 
 @Component({
   selector: 'app-proposed-optionals-page',
@@ -16,7 +17,7 @@ export class ProposedOptionalsPageComponent implements OnInit {
   pagePadding = PAGE_PADDING
   contentPadding = CONTENT_PADDING
 
-  constructor() { }
+  constructor(private apisService: ApisService) { }
 
   ngOnInit(): void {
   }
@@ -78,10 +79,14 @@ optionalsPredicate = (): boolean => {
      * @TO_DO - send to backend the list of optionals
      * */
 
-    console.log(this.optionals);  // you get them in the right order (based on what the student wanted)
+    // you get them in the right order (based on what the student wanted)
 
     // decide what you exactly need to send to db..if you only send the first one or idk
 
     // TO DO: disable the button... + modal to confirm that the optionals were send.
+    this.apisService.postOptionalsPreferences(this.chosenOptionals)
+      .subscribe(() => {
+          alert("Your optionals have been set!");
+      })
   }
 }

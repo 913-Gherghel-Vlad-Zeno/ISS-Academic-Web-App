@@ -26,7 +26,8 @@ const routes: Routes = [
   {path:'login', component:LoginComponent},
 
   //{path:'student-dashboard', component:StudentDashboardComponent},
-  {path:'student-dashboard', component:StudentDashboardComponent, 
+  {path:'student-dashboard', redirectTo:'student-dashboard/home', pathMatch:'full'},
+  {path:'student-dashboard', component:StudentDashboardComponent,
     children: [
       {path:'home', component:HomeComponent},
       {path:'profile', component:ProfilePageComponent},
@@ -36,6 +37,7 @@ const routes: Routes = [
       {path:'enroll', component:EnrollComponent}
     ]},
 
+  {path:'teacher-dashboard', redirectTo:'teacher-dashboard/home', pathMatch:'full'},
   {path:'teacher-dashboard', component:TeacherDashboardComponent,
     children: [
       {path:'home', component:HomeComponent},
@@ -46,6 +48,7 @@ const routes: Routes = [
       {path:'statistics', component:StatisticsComponent},
     ]},
 
+  {path:'staff-dashboard', redirectTo:'staff-dashboard/home', pathMatch:'full'},
   {path:'staff-dashboard', component:AdminDashboardComponent,
     children: [
       {path:'home', component:HomeComponent},
@@ -53,9 +56,9 @@ const routes: Routes = [
       {path:'ask-print', component:AskPrintComponent},
       {path:'classement-grants', component:ClassementGrantsComponent},
     ]},
-    
+
   {path:'testing', component: TestingDashboardComponent},
-  
+
 ];
 
 @NgModule({
