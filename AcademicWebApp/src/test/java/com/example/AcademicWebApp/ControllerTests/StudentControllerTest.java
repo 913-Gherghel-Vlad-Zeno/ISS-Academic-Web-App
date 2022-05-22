@@ -34,22 +34,22 @@ class StudentControllerTest {
 
     @Test
     void getStudentByUsername() {
-        Student s = studentController.getStudentByUsername("robertrobertson");
-        assert s.getGroup1() == 6;
+        Student s = studentController.getStudentByUsername("johnroberts");
+        assert s.getGroup1() == 95;
     }
 
     @Test
     void getStudentsByFirstGroup() {
-        List<Student> s = studentController.getStudentsByFirstGroup("6");
-        Student st = studentController.getStudentByUsername("robertrobertson");
+        List<Student> s = studentController.getStudentsByFirstGroup("95");
+        Student st = studentController.getStudentByUsername("johnroberts");
         assert s.contains(st);
 
     }
 
     @Test
     void getStudentsBySecondGroup() {
-        List<Student> s = studentController.getStudentsBySecondGroup("13");
-        assert s.size() == 3;
+        List<Student> s = studentController.getStudentsBySecondGroup("40");
+        assert s.size() != 0;
 
     }
 
