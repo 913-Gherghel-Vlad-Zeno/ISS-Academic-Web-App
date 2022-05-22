@@ -128,9 +128,11 @@ public class StudentService {
     {
         Student s = studentRepository.getById(username);
 
+        int preference = 1;
         for(Course course: courses)
         {
-            OptionalCourseEnrollment oc = new OptionalCourseEnrollment(username, course.getCid());
+            OptionalCourseEnrollment oc = new OptionalCourseEnrollment(username, course.getCid(), preference);
+            preference++;
             optionalCourseEnrollmentRepo.save(oc);
         }
 
@@ -146,11 +148,13 @@ public class StudentService {
             all.addAll(cgroup2);
         List<OptionalCourseEnrollment> listOp = optionalCourseEnrollmentRepo.getAllByUsername(username);
         System.out.printf(String.valueOf(listOp));
-        OptionalCourseEnrollment op = listOp.get(0);
-        Integer cid = op.getCid();
-        Course opc = courseRepo.findById(cid).get();
-        System.out.printf(String.valueOf(opc));
-        all.add(opc);
+        if(listOp.size() > 0){
+            OptionalCourseEnrollment op = listOp.get(0);
+            Integer cid = op.getCid();
+            Course opc = courseRepo.findById(cid).get();
+            System.out.printf(String.valueOf(opc));
+            all.add(opc);
+        }
         return all;
     }
 

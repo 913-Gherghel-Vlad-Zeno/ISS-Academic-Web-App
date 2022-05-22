@@ -19,9 +19,9 @@ export class LoginComponent implements OnInit {
   logoWidth = 325;
 
   public loginForm !: FormGroup;
-  STUDENT_USERNAME = "lorihartung";
-  TEACHER_USERNAME = "johnordway";
-  STAFF_USERNAME = "brittanybrown";
+  STUDENT_USERNAME = "michaelwilliams";
+  TEACHER_USERNAME = "francesparker";
+  STAFF_USERNAME = "donnakubinski";
   constructor(private formBuilder : FormBuilder, private http : HttpClient, private router : Router,
               private cookieService:CookieService, private apisService: ApisService) { }
 
@@ -67,18 +67,9 @@ export class LoginComponent implements OnInit {
       role = 'staff';
       this.cookieService.set("username", this.STAFF_USERNAME);
     }
-    this.testFunction();
 
     this.loginForm.reset();
     this.router.navigate([`${role}-dashboard`]);
-  }
-
-  testFunction(){
-    this.apisService.postUserData(new UserData('brittanybrown', 'Brittany',
-      'Brown', 'brit@email.com', '2', 'tarlalalal', '0000'))
-      .subscribe( (response:Message) => {
-        console.log(response.message);
-      });
   }
 
 }

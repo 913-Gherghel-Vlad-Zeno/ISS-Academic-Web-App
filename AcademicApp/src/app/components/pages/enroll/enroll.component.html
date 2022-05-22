@@ -16,15 +16,15 @@
                 [idProperty]="idYPropery">
             </dropdown>
         </div>
-        <button (click)="onClickAddFacultyToTable()">Add to enrollment table</button>
+        <button [disabled]="disableButtons" (click)="onClickAddFacultyToTable()">Add to enrollment table</button>
         <app-table 
                 #facultyTable
                 [headers]="enrollmentsHeader" [objectsFromDb]="tableData" [hasCheckbox]="false" [hasAction]="false"
         ></app-table>
 
         <div class="same-row">
-            <button (click)="onClickClear()">Clear</button>
-            <button (click)="onClickSend()">Send</button>
+            <button [disabled]="disableButtons" (click)="onClickClear()">Clear</button>
+            <button [disabled]="disableButtons" (click)="onClickSend()">Send</button>
         </div>
             
 

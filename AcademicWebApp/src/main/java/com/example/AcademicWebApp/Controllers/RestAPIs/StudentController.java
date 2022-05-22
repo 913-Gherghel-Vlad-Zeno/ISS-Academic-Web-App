@@ -52,9 +52,9 @@ public class StudentController {
     }
 
     @GetMapping("/student/group2/{group2}")
-    public String getStudentsBySecondGroup(@PathVariable("group2") String group2)
+    public List<Student> getStudentsBySecondGroup(@PathVariable("group2") String group2)
     {
-        return studentRepo.findBySecondGroup(Integer.valueOf(group2)).toString();
+        return studentRepo.findBySecondGroup(Integer.valueOf(group2));
     }
 
 //    @GetMapping("/student/name/{name}")
@@ -128,7 +128,6 @@ public class StudentController {
     public List<FacultyAndYearData> getFacultiesAndYears(@PathVariable(name = "username") String username)
     {
         return studentService.getFacultiesAndYears(username);
-
     }
 
     //DONE TODO #n+1 get api - get courses+grades based on faculty and year (plus username from cookie) + (optional course + grade)
