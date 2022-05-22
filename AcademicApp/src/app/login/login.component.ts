@@ -67,18 +67,9 @@ export class LoginComponent implements OnInit {
       role = 'staff';
       this.cookieService.set("username", this.STAFF_USERNAME);
     }
-    this.testFunction();
 
     this.loginForm.reset();
     this.router.navigate([`${role}-dashboard`]);
-  }
-
-  testFunction(){
-    this.apisService.postUserData(new UserData('brittanybrown', 'Brittany',
-      'Brown', 'brit@email.com', '2', 'tarlalalal', '0000'))
-      .subscribe( (response:Message) => {
-        console.log(response.message);
-      });
   }
 
 }
