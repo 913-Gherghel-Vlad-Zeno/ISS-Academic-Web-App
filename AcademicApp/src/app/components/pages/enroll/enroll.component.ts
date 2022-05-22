@@ -44,4 +44,8 @@ yearData = [
   ngOnInit(): void {
   }
 
+  enrollButtonHandler(list: any) {
+    console.log("in function");
+    console.log(list);
+  }
 }
