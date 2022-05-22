@@ -97,3 +97,9 @@ td{
   border-radius: 7px;
 }
 
+.same-row{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+

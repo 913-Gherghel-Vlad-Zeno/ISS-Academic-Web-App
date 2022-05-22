@@ -4,41 +4,38 @@
     <div class="grid">
       <div class="filter">
         <div class="input-option">
-          <label>Faculty</label>
-          <dropdown [ngClass]="'input-faculty-size'" [placeholderText]="'Choose name of faculty'"></dropdown>
+          <div class="same-row">
+          <dropdown #facultyDd
+                    [options]="facultiesOptions"
+                    labelText="Faculty"
+                    [placeholderText]="'All faculties'"
+                    [shownProperty] = "nameOfFPropertyToShow"
+                    [idProperty]="idFProperty"
+                    (change)='onFacultyOptionChanged()'>
+          </dropdown>
+          <dropdown #yearDd
+                    [options]="yearsOptions"
+                    labelText="Year"
+                    [placeholderText]="'All years'"
+                    [shownProperty] = "nameOfYPropertyToShow"
+                    [idProperty]="idYProperty"
+                    (change)='onYearOptionChanged()'>
+          </dropdown>
+          <dropdown #groupDd
+                    [options]="groupsOptions"
+                    labelText="Group"
+                    [placeholderText]="'All groups'"
+                    [shownProperty] = "nameOfGPropertyToShow"
+                    [idProperty]="idGProperty"
+                    (change)='onGroupOptionChanged()'>
+          </dropdown>
         </div>
-        <div class="input-option">
-          <label>Year</label>
-          <dropdown [ngClass]="'input-year-size'" [placeholderText]="'1-6'"></dropdown>
-        </div>
-        <div class="input-option">
-          <label>Group</label>
-          <dropdown [ngClass]="'input-group-size'" [placeholderText]="'All groups'"></dropdown>
         </div>
       </div>
-      <div>
-        <p>Table with students</p>
-        <table>
-          <thead>
-          <th>Username</th>
-          <th>Name</th>
-          <th>Year</th>
-          <th>Group</th>
-          <th>Final grade</th>
-          <th>Scholarship</th>
-          </thead>
-          <tbody>
-          <tr>
-            <td>.</td>
-            <td>.</td>
-            <td>.</td>
-            <td>.</td>
-            <td>.</td>
-            <td>.</td>
-          </tr>
-          </tbody>
-        </table>
-      </div>
+      <app-table
+        #groupTable
+        [headers]="groupsHeader" [objectsFromDb]="tableData" [hasCheckbox]="false" [hasAction]="false"
+      ></app-table>
       <button class="print-button" (click)="print()">Print</button>
     </div>
   </div>

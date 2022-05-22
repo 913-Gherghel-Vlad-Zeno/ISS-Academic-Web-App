@@ -1,5 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, ViewChild} from '@angular/core';
 import { LOGO_WIDTH, PAGE_PADDING, CONTENT_PADDING } from 'src/app/constants/sizes';
+import {ApisService} from "../../../apis/apis.service";
+import {FoundingData} from "../../../entities/foundingData";
+import {TableComponent} from "../../table/table.component";
+import {StudentAverage} from "../../../entities/studentAverage";
+import {StudentGradeStaff} from "../../../entities/studentGradeStaff";
 
 @Component({
   selector: 'app-classement-grants',
@@ -11,37 +16,34 @@ export class ClassementGrantsComponent implements OnInit {
   pagePadding = PAGE_PADDING
   contentPadding = CONTENT_PADDING
 
-  tableHeaders = ['Username', 'Final grade']
+  @ViewChild('groupTable') table!: TableComponent;
 
-  studentsData = [
-    {
-      'Username': 'username_1',
-      'Final grade': 1
-    },
-    {
-      'Username': 'username_2',
-      'Final grade': 2
-    },
-    {
-      'Username': 'username_3',
-      'Final grade': 3
-    },
-    {
-      'Username': 'username_4',
-      'Final grade': 4
-    },
-    {
-      'Username': 'username_5',
-      'Final grade': 5
-    }
-  ]
+  tableHeaders: any = ["username", "gradeValue"];
+  studentsData: StudentGradeStaff[] = [];
 
   gradePlaceholder = 'Input value';
   moneyPlaceholder = 'Input value';
+  gradeValue = 0;
+  moneyValue = 0;
 
-  constructor() { }
+  constructor(private apisService: ApisService) { }
 
   ngOnInit(): void {
+    this.apisService.getStudentGrades()
+      .subscribe((sgs) => {
+        sgs.forEach((value, index) =>{
+          console.log(value)
+          this.studentsData.push(value);
+          this.table.changeRowsData(this.studentsData);
+        })
+      })
   }
 
+  fillForm() {
+    let obj = new FoundingData(this.gradeValue, this.moneyValue)
+    this.apisService.postSetScholarships(obj)
+      .subscribe((result: number) => {
+        alert("The scholarship fund was set to " + result + "!");
+      })
+  }
 }

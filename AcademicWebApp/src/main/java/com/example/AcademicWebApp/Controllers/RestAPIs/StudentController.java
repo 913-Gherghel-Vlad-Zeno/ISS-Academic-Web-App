@@ -95,6 +95,12 @@ public class StudentController {
         return studentService.getOptionalsBasedOnFacultyAndYear(data);
     }
 
+    @GetMapping("/student/getAllOptionals")
+    public List<Course> getAllOptionals()
+    {
+        return studentService.getAllOptionals();
+    }
+
     //DONE TODO #2 get api - make api to get all faculties (as faculties)
     @GetMapping("/student/getFaculties")
     public List<Faculty> getFacultiesForStudent()
