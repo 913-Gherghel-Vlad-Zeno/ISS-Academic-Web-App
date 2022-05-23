@@ -5,6 +5,7 @@ import {FoundingData} from "../../../entities/foundingData";
 import {TableComponent} from "../../table/table.component";
 import {StudentAverage} from "../../../entities/studentAverage";
 import {StudentGradeStaff} from "../../../entities/studentGradeStaff";
+import {Message} from "../../../entities/message";
 
 @Component({
   selector: 'app-classement-grants',
@@ -26,6 +27,8 @@ export class ClassementGrantsComponent implements OnInit {
   gradeValue = 0;
   moneyValue = 0;
 
+  hiddenButton: boolean = false;
+
   constructor(private apisService: ApisService) { }
 
   ngOnInit(): void {
@@ -37,6 +40,12 @@ export class ClassementGrantsComponent implements OnInit {
           this.table.changeRowsData(this.studentsData);
         })
       })
+    this.apisService.checkIfAssignEnabled()
+      .subscribe((n) => {
+        if (n == 0){
+          this.hiddenButton = true;
+        }
+      })
   }
 
   fillForm() {
@@ -44,6 +53,19 @@ export class ClassementGrantsComponent implements OnInit {
     this.apisService.postSetScholarships(obj)
       .subscribe((result: number) => {
         alert("The scholarship fund was set to " + result + "!");
+      })
+  }
+
+  assignStudents() {
+    this.apisService.postAssignStudentToOptionals()
+      .subscribe((m: Message) => {
+        alert("All students were assigned to optionals!");
+        this.apisService.checkIfAssignEnabled()
+          .subscribe((n) => {
+            if (n == 0){
+              this.hiddenButton = true;
+            }
+          })
       })
   }
 }

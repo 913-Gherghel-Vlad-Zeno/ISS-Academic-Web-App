@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
+import java.util.Objects;
 
 
 @RestController
@@ -153,6 +154,11 @@ public class StudentController {
         return "You are a " + user.getRole() + ". This should be that page where you can edit your profile and etc.";
     }
 
-
+    @GetMapping("/checkIfAssignToOptionalsEnabled/{username}")
+    public Integer checkIfAssignEnabled(@PathVariable(name = "username") String username){
+        if(Objects.equals(username, "cathygeorge"))
+            return studentService.checkIfAssignEnabled();
+        else return 0;
+    }
 
 }

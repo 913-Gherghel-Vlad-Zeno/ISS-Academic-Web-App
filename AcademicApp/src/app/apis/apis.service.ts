@@ -251,6 +251,12 @@ export class ApisService {
     return this.http.get<Course[]>("http://localhost:8080/student/getAllOptionals");
   }
 
+  checkIfAssignEnabled(): Observable<number> {
+    return this.http.get<number>("http://localhost:8080/checkIfAssignToOptionalsEnabled/" + this.cookieService.get("username"));
+  }
+
+
+
 
 
 
