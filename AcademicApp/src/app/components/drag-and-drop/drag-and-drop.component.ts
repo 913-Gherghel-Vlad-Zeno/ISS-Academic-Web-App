@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-
 @Component({
   selector: 'drag-and-drop',
   templateUrl: './drag-and-drop.component.html',
@@ -20,5 +19,9 @@ export class DragAndDropComponent implements OnInit {
       const file = allFiles[i];
       this.allFiles.push(file);
     }
+  }
+
+  deleteAllFiles(){
+      this.allFiles = [];
   }
 }

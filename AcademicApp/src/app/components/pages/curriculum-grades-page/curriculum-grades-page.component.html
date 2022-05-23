@@ -3,10 +3,10 @@
     <div class="content" [style.padding]="contentPadding">
         <dropdown #facultyDd 
             [options]="options" 
-            placeholderText="All faculties" 
             labelText="Faculty"
             [shownProperty] = "nameOfPropertyToShow"
             idProperty="id"
+            [hasAll]="false"
             (change)='onOptionChanged()'>
         </dropdown>
         <app-table #table [headers]="headers" [objectsFromDb]="tableData" [hasCheckbox]="false" [hasAction]="false"></app-table>

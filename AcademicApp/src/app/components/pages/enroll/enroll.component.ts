@@ -53,9 +53,10 @@ export class EnrollComponent implements OnInit {
             })
           })
           this.disableButtons = true;
+          this.alertUserThatHeIsDone();
+
       }
     })
-
 
     this.apiService.getAllFaculties().subscribe((result) => {
       let array : any = [];
@@ -67,6 +68,10 @@ export class EnrollComponent implements OnInit {
       // setting the options for the dropdown faculty
       this.facultiesOptions = array;
     });
+  }
+
+  alertUserThatHeIsDone(){
+    alert("You have already chosen your enrollments. If you want to change them, contact administration.")
   }
 
   onFacultyOptionChanged(){
@@ -147,7 +152,7 @@ export class EnrollComponent implements OnInit {
       }
     }
     this.apiService.postEnrollStudent(studentData).subscribe();
-    alert("Faculties sent for enrollment!")
+    alert("Faculties sent for enrollment! If you want to change them, contact administration.")
     this.disableButtons = true;
   }
 

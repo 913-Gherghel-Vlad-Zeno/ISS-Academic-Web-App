@@ -1,19 +1,18 @@
 package com.example.AcademicWebApp.Controllers.RestAPIs;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class UserEntity {
 
     private String role;
 
-    public UserEntity(String role) {
-        this.role = role;
-    }
+    private String message;
 
-    public String getRole() {
-        return role;
-    }
-
-    public void setRole(String role) {
-        this.role = role;
-    }
 }

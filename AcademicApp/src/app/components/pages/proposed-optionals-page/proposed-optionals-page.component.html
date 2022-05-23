@@ -37,11 +37,10 @@
         </cdk-virtual-scroll-viewport>
       </div>
     </div>
-    <button class="send-button" (click)="sendOptionals()" [disabled]="disabledButton">Send</button>
+    <button [disabled]="disabled" class="send-button" (click)="sendOptionals()">Send</button>
     <div class="text-padding">
-      <p><span class="text-color">Attention!</span> You can only send the list once. After that, no modifications are
-        allowed.</p>
-      <p>*you can achieve the ranking by <span class="text-color">drag and drop</span></p>
+      <p><span class="text-color">Attention!</span> Sending the optionals will update your preferences everytime.</p>
+      <p>*You can achieve the ranking by <span class="text-color">drag and drop</span></p>
     </div>
 
   </div>

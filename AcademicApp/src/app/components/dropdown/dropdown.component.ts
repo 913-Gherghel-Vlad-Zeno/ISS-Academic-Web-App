@@ -30,7 +30,7 @@ export class DropdownComponent implements OnInit {
   @Input() placeholderText: string = 'All';
   @Input() shownProperty: any = 'text';  // when you receive an array of objects with multiple attributes, this is the name of the atribute that is shown in the dropdown options
   @Input() idProperty: any = 'value';  // this is the name of the atribute that is supposed to be the id 
-  
+  @Input() hasAll: boolean = true;
   constructor() { }
 
   ngOnInit(): void {

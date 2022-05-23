@@ -43,5 +43,6 @@ export class StudentMenuComponent implements OnInit {
   logout(){
     console.log("button pressed");
     this.cookieService.delete('username');
+    this.cookieService.delete('role');
   }
 }

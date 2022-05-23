@@ -10,6 +10,7 @@ import { ApisService } from 'src/app/apis/apis.service';
 import { DropdownComponent } from '../../dropdown/dropdown.component';
 import { Course } from 'src/app/entities/course';
 import { CourseGradeData } from 'src/app/entities/courseGradeData';
+import { DragAndDropComponent } from '../../drag-and-drop/drag-and-drop.component';
 
 
 @Component({
@@ -23,10 +24,13 @@ export class DocumentsPageComponent implements OnInit {
   contentPadding = CONTENT_PADDING
   coursesList : Course[] = [];
   @ViewChild('facultyDd') facultyDropdown!: DropdownComponent; // reference to dropdown
+  @ViewChild('fileTable') fileTable!: DragAndDropComponent; // reference to dropdown
 
   facultiesOptions: any = [];
   options: FacultyAndYearData[] = [];
   name: string = '';
+  faculty: string = '';
+  yearOfStudy: string = '';
   courses = [
 
   ]
@@ -51,6 +55,8 @@ exportAsPDF(divId: any) {
     <h1>STUDIES KONTRACT</h1>
     <br>
     <p>Name of student: ${this.name}</p>
+    <p>Faculty: ${this.faculty}</p>
+    <p>Year of study: ${this.yearOfStudy}</p>
     <!--<app-table #table [headers]=headers [objectsFromDb]="coursesList" [hasCheckbox]="false" [hasAction]="false"></app-table>-->
     <!--<table>
       <tr>
@@ -168,6 +174,9 @@ exportAsPDF(divId: any) {
     let obj = this.facultyDropdown.getSelectedObject()[0];
     // creating the data to send for the api 
     let model : FacultyAndYearData = new FacultyAndYearData(obj["actualName"], obj["actualYear"]);
+    
+    this.faculty = model.name;
+    this.yearOfStudy =`${model.year}`;
 
     // getting the faculties for student
     let facultiesAttended: FacultyAndYearData[] = [];
@@ -257,5 +266,8 @@ exportAsPDF(divId: any) {
     })
   }
 
-
+  onUpdateClicked(){
+    this.fileTable.deleteAllFiles();
+    alert("Uploaded successfully!");
+  }
 }

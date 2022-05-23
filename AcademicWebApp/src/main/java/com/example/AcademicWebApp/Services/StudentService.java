@@ -126,6 +126,9 @@ public class StudentService {
 
     public List<OptionalCourseEnrollment> sendOptionalsPreferences(List<Course> courses, String username)
     {
+
+        optionalCourseEnrollmentRepo.deleteOptionalCourseEnrollmentsByUsername(username);
+
         Student s = studentRepository.getById(username);
         List<OptionalCourseEnrollment> oce = optionalCourseEnrollmentRepo.getAllByUsername(username);
         if (oce.size() >= 5){
@@ -191,7 +194,7 @@ public class StudentService {
     public Integer checkIfAssignEnabled() {
 
         Integer response = 0;
-        for(Student s: this.studentRepository.findAll())
+        for(OptionalCourseEnrollment s: this.optionalCourseEnrollmentRepo.findAll())
         {
             List<OptionalCourseEnrollment> oces = this.optionalCourseEnrollmentRepo.getAllByUsername(s.getUsername());
             if(oces.size() != 1)

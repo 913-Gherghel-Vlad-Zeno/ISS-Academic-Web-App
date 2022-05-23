@@ -1,8 +1,8 @@
-<div class="sidemenu" [style.width]="sidemenuWidth" [style.padding]="sidemenuPadding">
+<div class="sidemenu" [style.width]="sidemenuWidth" [style.padding]="sidemenuPadding" [style]="style">
     <div class="profile-container">
         <p class="profile-name">{{name}}</p>
 
-        <div class="profile-picture"></div>
+        <img class="profile-picture" [src]="'assets/' + role + '.png'" />
 
         <div class="profile-type">Teacher Profile</div>
 
@@ -20,11 +20,11 @@
         </ul>
     </div>
 
-    <div class="mini-nav-container">
+    <div class="mini-nav-container" [hidden]="chiefHidden">
         <p class="sidemenu-nav-list-text">chief of department</p>
         <ul class="sidemenu-nav-list-items">
             <li class="sidemenu-nav-item" *ngFor="let data of chiefData">
-                <a class="sidemenu-nav-link" routerLinkActive="active" [routerLink]="data.routeLink">
+                <a class="sidemenu-nav-link" routerLinkActive="active" [routerLink]="data.routeLink" >
                     <img class="sidemenu-link-icon" [src]="data.icon">
                     <span class="sidemenu-link-text">{{data.label}}</span>
                 </a>

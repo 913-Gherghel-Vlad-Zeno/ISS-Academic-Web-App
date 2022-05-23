@@ -33,14 +33,18 @@ export class ProfilePageComponent implements OnInit {
   emailValue = 'Email...';
   cnpValue = 'Cnp...';
   homeValue= 'Home...';
-
-
-
+  role : string = "";
+  forScholarship: boolean = true;
 
   constructor(private apiService: ApisService, private cookieService: CookieService) { }
 
   ngOnInit(): void {
     this.fillForm();
+    this.role = this.cookieService.get("role");
+
+    if(this.role == "student"){
+      this.forScholarship = false;
+    }
   }
 
   onSubmit(f: NgForm) {
@@ -54,9 +58,6 @@ export class ProfilePageComponent implements OnInit {
     this.apiService.postUserData(userdata).subscribe( (message: Message) => {
         console.log(message.message)
     })
-
-
-
 
     // here send data to backend
 

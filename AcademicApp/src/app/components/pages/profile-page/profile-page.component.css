@@ -22,6 +22,17 @@
   height: 155px;
 }
 
+.profile-picture{
+  border-radius: 50%;
+  background-color: #ffffff;
+  width: 131px;
+  height: 131px;
+  border: 1px solid black;
+
+  display: flex;
+  box-sizing: border-box;
+}
+
 .second-column{
   display: flex;
   flex-direction: column;

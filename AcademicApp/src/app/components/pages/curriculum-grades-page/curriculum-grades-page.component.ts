@@ -47,27 +47,11 @@ export class CurriculumGradesPageComponent implements OnInit {
       })
       // setting the options for the dropdown
       this.options = array;
-      // putting the data into the table for the first faculty that the guy/girl/non binary/etc is in
-      if(result.length > 0){ // checking if the guy is enrolled at least in a faculty in the first place
-        this.apisService.getGrades(result[0]).subscribe((result) =>{
-          this.table.changeRowsData(result); // this is how you change it.
-          this.facultyDropdown.setOptions(this.options); // updating the options for the dropdown list
-        });
-
-      }
-
     });
   }
 
 
   onOptionChanged() {
-    /**
-     * @TO_DO - when the dropdown selected option is changed, send request to backend to update the table.
-     */
-    //console.log(this.facultyDropdown.getSelectedObject()); // to get whole object
-    //console.log((this.facultyDropdown.getSelectedValue())); // to get the id(index in list) of object
-
-    // here we should send from dropdown and get the rows (replace this.tableDataAfter with your variables) 
     // selecting the full object from the drop down list
     let obj = this.facultyDropdown.getSelectedObject()[0];
     // creating the data to send for the api 
@@ -139,6 +123,11 @@ export class CurriculumGradesPageComponent implements OnInit {
         for(var courseMust of coursesMust){
           if(course.cid == courseMust.cid){
             exists = true;
+          }
+          else{
+            if(course.priority == 2){
+              exists = true;
+            }
           }
         }
 

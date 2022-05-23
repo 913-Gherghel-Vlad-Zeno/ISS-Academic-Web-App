@@ -3,8 +3,8 @@
     <div class="content" [style.padding]="contentPadding">
         <div class="drop-component" style="text-align: center;">
             <h2 class="file-upload-position">File upload</h2>
-            <drag-and-drop></drag-and-drop>
-            <app-button class="btn" [text]="'Upload'"></app-button>
+            <drag-and-drop #fileTable></drag-and-drop>
+            <app-button class="btn" [text]="'Upload'" (click)="onUpdateClicked()"></app-button>
 
         </div>
         <div class="generate-contract-component" style="text-align: center;">
@@ -15,6 +15,7 @@
                 labelText="Faculty"
                 [shownProperty] = "nameOfFPropertyToShow"
                 [idProperty]="idFPropery"
+                [hasAll]="false"
                 (change)='onOptionChanged()'>
                 
             </dropdown>            

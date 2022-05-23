@@ -15,13 +15,24 @@ export class TeacherMenuComponent implements OnInit {
   chiefData = chiefMenuData;
   sidemenuWidth = SIDEMENU_WIDTH;
   sidemenuPadding = SIDEMENU_PADDING;
-
+  style: string = ''
   name : string = '';
-
+  role: string = '';
+  chiefHidden: boolean = false;
   constructor(private cookieService: CookieService, private http: HttpClient) { }
 
   ngOnInit(): void {
     this.getFullName();
+
+    if(this.cookieService.get("role") == 'teacher'){
+       this.chiefHidden = true;
+       this.style = "gap: 6rem"
+    }
+    else{
+      this.style = "gap: 1.6rem"
+    }
+
+    this.role = this.cookieService.get("role");
   }
 
   getFullName(){
@@ -36,6 +47,7 @@ export class TeacherMenuComponent implements OnInit {
   logout(){
     console.log("button pressed");
     this.cookieService.delete('username');
+    this.cookieService.delete('role');
   }
 
 }

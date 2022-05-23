@@ -22,6 +22,7 @@ export class ProposedOptionalsPageComponent implements OnInit {
 
   ngOnInit(): void {
     this.getOptionals();
+    this.checkIfBtnGottaBeDisabled();
   }
 
   optionals: Course[] = []
@@ -29,6 +30,7 @@ export class ProposedOptionalsPageComponent implements OnInit {
 
   entities: any = [];
   disabledButton: boolean = false;
+  disabled: boolean = false;
 
   // drop(event: CdkDragDrop<string[]>) {
   //   moveItemInArray(this.optionals, event.previousIndex, event.currentIndex);
@@ -96,7 +98,18 @@ export class ProposedOptionalsPageComponent implements OnInit {
         else{
           alert("Your optionals have been set!");
         }
-        this.disabledButton = true;
       })
   }
+
+  checkIfBtnGottaBeDisabled() {
+    this.apisService.checkIfAssignEnabledForEveryone()
+      .subscribe((n) => {
+        if (n == 0){
+          this.disabled = true;
+          alert("You have been assigned to an optional! You cannot send anymore.")
+        }
+      })
+}
+
+
 }
