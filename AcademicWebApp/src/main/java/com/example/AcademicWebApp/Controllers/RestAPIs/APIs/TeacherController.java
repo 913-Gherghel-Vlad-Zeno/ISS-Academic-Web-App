@@ -57,7 +57,7 @@ public class TeacherController {
         return this.teacherService.getCoursesOfTeacher(username);
     }
 
-    @GetMapping("/teacher/getStudentsGradesForCourse/{username}")
+    @PostMapping("/teacher/getStudentsGradesForCourse/{username}")
     public List<StudentGrade> getAllCourses(@PathVariable(name = "username") String username, @RequestBody Course course){
         return this.teacherService.getStudentsGrades(course);
     }

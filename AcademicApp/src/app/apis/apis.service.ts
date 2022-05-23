@@ -136,8 +136,15 @@ export class ApisService {
   }
 
   //gets student grades for course that belongs to teacher
-  getStudentGradesForCourse(): Observable<StudentGrade[]>{
-    return this.http.get<StudentGrade[]>("http://localhost:8080/teacher/getStudentsGradesForCourse/" + this.cookieService.get("username"));
+  getStudentGradesForCourse(course: Course): Observable<StudentGrade[]>{
+    const headers = { 'content-type': 'application/json'}
+    const body=JSON.stringify(course);
+    return this.http.post<StudentGrade[]>("http://localhost:8080/teacher/getStudentsGradesForCourse/" + this.cookieService.get("username"), body,{'headers':headers})
+      .pipe(
+        map((stud: StudentGrade[]) => {
+          return stud;
+        })
+      )
   }
 
   // deletes the optional course with that cid

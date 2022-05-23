@@ -2,11 +2,11 @@
     <h1 mat-dialog-title>{{action}} Optional</h1>
     <div mat-dialog-content>
         <mat-form-field>
-            <input placeholder="Max students" matInput [(ngModel)]="local_data_maxstudents">
+            <input placeholder="Value" matInput [(ngModel)]="local_data_maxstudents">
         </mat-form-field>
     </div>
     <div mat-dialog-actions>
-        <app-button text="Set maximum" mat-button (click)="setMaxStudents()"></app-button>
+        <app-button text="Set value" mat-button (click)="setMaxStudents()"></app-button>
         <button mat-button (click)="closeDialog()">Cancel</button>
     </div>
 </div>

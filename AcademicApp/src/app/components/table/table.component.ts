@@ -8,6 +8,7 @@ import { DialogBoxComponent } from '../dialog-box/dialog-box.component';
 import { TABLE_WIDTH } from 'src/app/constants/sizes';
 import { ApisService } from 'src/app/apis/apis.service';
 import { DialogBoxMaxstudentsComponent } from '../dialog-box-maxstudents/dialog-box-maxstudents.component';
+import { Message } from 'src/app/entities/message';
 
 @Component({
   selector: 'app-table',
@@ -31,6 +32,7 @@ export class TableComponent implements OnInit {
   @Input() hasSee: boolean = false;
   @Input() hasDelete: boolean = false;
   @Input() hasMaximum: boolean = false;
+  @Input() hasGrade: boolean = false;
 
   @ViewChild(MatTableDataSource,{static:true}) table!: MatTableDataSource<any>; // reference to table
   @ViewChild(MatPaginator) paginator!: MatPaginator;  // reference to paginator
@@ -110,9 +112,12 @@ export class TableComponent implements OnInit {
         
         this.setMaxStudents(result.data, obj)
       }
+      else if(result.event == "SetGrade") {
+        this.setGrades(result.data, obj)
+      }
     });
   }
-
+  
   addRowData(row_obj:any){
     this.dataSource.data.push(row_obj);
     this.dataSource.data = [...this.dataSource.data]; //refresh the dataSource
@@ -151,6 +156,31 @@ export class TableComponent implements OnInit {
     );
   }
 
+  setGrades(grade: any, course : any) {
+    this.dataSource.data = this.dataSource.data.filter((value:any,key:any)=>{
+      
+      if(value["Username"] == course["Username"]){
+        if(Number(grade)){
+            if(Number(grade) >= 1 && Number(grade) <= 10){
+              course["Grade"] = grade;
+              course["studentGrade"].gradeValue = grade;
+              this.apiService.postStudentsGrades([course["studentGrade"]]).subscribe((message: Message)=>{
+                console.log(message.message)
+              })
+            }
+            else{
+              alert("Please enter a grade between 1 and 10.")
+            }
+        }
+        else{
+          alert("Please enter a number.")
+        }
+      }
+      return true;
+    }
+    
+    );
+  }
 
   deleteRowData(row_obj:any){
     this.dataSource.data = this.dataSource.data.filter((value,key)=>{
@@ -173,4 +203,5 @@ export class TableComponent implements OnInit {
   changeRowsData(newRows: any){
     this.dataSource.data = newRows;
   }
+
 }

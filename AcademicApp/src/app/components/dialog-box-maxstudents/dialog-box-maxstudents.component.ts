@@ -30,4 +30,5 @@ export class DialogBoxMaxstudentsComponent implements OnInit {
   closeDialog(){
     this.dialogRef.close({event:'Cancel'});
   }
+
 }

@@ -127,10 +127,10 @@ public class TeacherService {
 
 
             if(g != null){
-                studentGrades.add(new StudentGrade(se.getUsername(), this.getFullName(se.getUsername()), group, course.getCid(), g.getGradevalue()));
+                studentGrades.add(new StudentGrade(se.getUsername(), this.getFullName(se.getUsername()), group, course.getName(), course.getCid(), g.getGradevalue()));
             }
             else{
-                studentGrades.add(new StudentGrade(se.getUsername(), this.getFullName(se.getUsername()), group, course.getCid(), -1));
+                studentGrades.add(new StudentGrade(se.getUsername(), this.getFullName(se.getUsername()), group, course.getName(), course.getCid(), -1));
             }
         }
 
