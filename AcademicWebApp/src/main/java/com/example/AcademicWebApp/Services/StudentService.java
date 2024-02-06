@@ -23,6 +23,8 @@ public class StudentService {
     private OptionalCourseEnrollmentRepo optionalCourseEnrollmentRepo;
     @Autowired
     private GradeRepo gradeRepo;
+    @Autowired
+    private StudentEnrollmentRepo studentEnrollmentRepo;
 
 
     public Student saveStudent(StudentData student)
@@ -38,13 +40,21 @@ public class StudentService {
         Random rand = new Random();
         Integer group1 = groups1.get(rand.nextInt(groups1.size()));
         Integer group2;
+
         if(groups2.size() == 0)
             group2 = null;
-        else
+        else {
             group2 = groups2.get(rand.nextInt(groups2.size()));
-
+        }
         Student newS = new Student(username, group1, group2, 0);
+        StudentEnrollment newSE1 = new StudentEnrollment(username, fid1, year1);
+
         studentRepository.save(newS);
+        studentEnrollmentRepo.save(newSE1);
+        if (groups2.size() != 0) {
+            StudentEnrollment newSE2 = new StudentEnrollment(username, fid2, year2);
+            studentEnrollmentRepo.save(newSE2);
+        }
         return newS;
     }
 
@@ -53,7 +63,7 @@ public class StudentService {
         List<Faculty> listOfFaculties = facultyRepo.findAll();
         return listOfFaculties;
     }
-    //make api to get optionals based on faculty, year
+
     public List<Course> getOptionalsBasedOnFacultyAndYear(OptionalCourseData data)
     {
         String facultyName = data.getFaculty();
@@ -61,14 +71,6 @@ public class StudentService {
         Integer fid = facultyRepo.findFidByName(facultyName);
         return courseRepo.findOptionalsByFidAndYear(fid, year);
     }
-
-
-    //getOptionalsForFirstGroup
-    //we initially get the username of the student
-    //we get its first  group
-    //we get the faculty and the year based on the group
-    //we get all courses for that specific group, base on faculty and year
-    //this is for the curricullum, but if we add the priority 2 we get the optionals
 
     public List<Course> getCoursesForFirstGroup(String username)
     {
@@ -153,12 +155,10 @@ public class StudentService {
         if(cgroup2 != null)
             all.addAll(cgroup2);
         List<OptionalCourseEnrollment> listOp = optionalCourseEnrollmentRepo.getAllByUsername(username);
-        System.out.printf(String.valueOf(listOp));
         if(listOp.size() > 0){
             OptionalCourseEnrollment op = listOp.get(0);
             Integer cid = op.getCid();
             Course opc = courseRepo.findById(cid).get();
-            System.out.printf(String.valueOf(opc));
             all.add(opc);
         }
         return all;
@@ -169,17 +169,11 @@ public class StudentService {
         Student s = studentRepository.getById(username);
         List<Grade> grades = gradeRepo.getAllGradesByUsername(username);
         List<CourseGradeData> dataList = new ArrayList<>();
-        System.out.printf(data.getName());
-        System.out.println(data.getYear());
         for(Grade g: grades)
         {
             int cid = g.getCid();
             Course course = courseRepo.getById(cid);
-            int fid = facultyRepo.findFidByName(data.getName());
-            if(course.getFid() == fid && course.getYear() == data.getYear())
-            {
-                dataList.add(new CourseGradeData(course.getName(), g.getGradevalue()));
-            }
+            dataList.add(new CourseGradeData(course.getName(), g.getGradevalue()));
         }
 
         return dataList;
@@ -202,10 +196,5 @@ public class StudentService {
         }
         return response;
     }
-    //we get the username,a name, a faculty and a year, eventually 2 faculties
-    //firstly -> get the group (gid)
-    //we need the fid and the year
-    //we get fid by Select fid from faculty where name = facultyName
-    //we return a student entity?
 
 }

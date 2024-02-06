@@ -41,7 +41,6 @@ public class TeacherController {
     @Autowired
     ChiefService chiefService;
 
-    // TEACHER APIS
     @GetMapping("/teacher/getOptionalsForTeacher/{username}")
     public List<Course> getOptionalCoursesOfTeacher(@PathVariable(name = "username") String username){
         return teacherService.getOptionalCoursesOfTeacher(username);

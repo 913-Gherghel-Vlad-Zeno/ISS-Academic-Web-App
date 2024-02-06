@@ -18,4 +18,12 @@ public interface OptionalCourseEnrollmentRepo extends JpaRepository<OptionalCour
     @Transactional
     @Query("delete from optional_course_enrollment as s where s.username=?1")
     public void deleteOptionalCourseEnrollmentsByUsername(String username);
+
+    @Modifying
+    @Transactional
+    @Query("delete from optional_course_enrollment as c where c.cid=?1")
+    public void deleteOptionalCourseEnrollmentsByCid(int cid);
+
+    @Query("from optional_course_enrollment where cid=?1")
+    List<OptionalCourseEnrollment> getAllByCid(int cid);
 }

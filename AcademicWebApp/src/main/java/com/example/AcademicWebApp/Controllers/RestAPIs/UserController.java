@@ -23,51 +23,9 @@ public class UserController {
     @Autowired
     UserService userService;
 
-
-//    @GetMapping("/user/{username}")
-//    public ModelAndView redirectToRole(HttpServletRequest request, @PathVariable("username") String username) {
-//
-//        UserEntity userEntity = getUser(username);
-//        if(Objects.equals(userEntity.getRole(), "null"))
-//            return new ModelAndView("forward:/invalid-user");
-//
-//        String role = userEntity.getRole();
-//        //model.addAttribute("role", user.getRole());
-//        //request.setAttribute("username", username);
-//        //request.setAttribute("role", role);
-//        request.setAttribute("userEntity", userEntity);
-//        request.setAttribute("user", usersRepo.getById(username));
-//
-//
-//        return new ModelAndView("forward:/{username}/" + role);
-//    }
-
-
-//    //@GetMapping("/user/{username}")
-//    public UserEntity getUser(String username){
-//
-//        if(usersRepo.existsById(username)){
-//
-//            return new UserEntity(usersRepo.getById(username).getRole().toString());
-//        }
-//        else{
-//
-//            return new UserEntity("null");
-//        }
-//
-//    }
-
     @GetMapping("/user/{username}")
     public UserEntity getUser(@PathVariable("username") String username, @RequestParam("password") String pass){
-        //String hash = Utils.hashPassword("asd");
-        //usersRepo.save(new User("aa", hash, "teacher"));
         return userService.logIn(username, pass);
-        //return new UserEntity("", "");
-    }
-
-    @PostMapping("/user/hashPasswords")
-    public Message hashAllPasswords(){
-        return userService.hashAllPasswords();
     }
 
 

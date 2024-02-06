@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Objects;
 
 @Service("userService")
 public class UserService {
@@ -66,7 +67,7 @@ public class UserService {
                 return new UserEntity("null", "Password or username is not correct.");
             }
             User user = usersRepo.getById(username);
-            if(Utils.verifyHash(pass, user.getPassword())){
+            if(Objects.equals(user.getUsername(), username) && Objects.equals(user.getPassword(), pass)){
                 return new UserEntity(user.getRole().toString().toLowerCase(), "Logged in successfully.");
             }
             else{
@@ -76,17 +77,6 @@ public class UserService {
         else{
             return new UserEntity("null", "Username is wrong.");
         }
-    }
-
-    public Message hashAllPasswords(){
-
-        List<User> userList = usersRepo.findAll();
-
-        for (User u : userList){
-            usersRepo.save(new User(u.getUsername(), Utils.hashPassword(u.getPassword()), u.getRole()));
-        }
-
-        return new Message("Every password is hashed now.");
     }
 
 }

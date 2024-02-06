@@ -76,6 +76,8 @@ public class ChiefService {
             }
             else{
                 //gets deleted
+                gradeRepo.deleteGradesByCid(optional.getCid());
+                optionalCourseEnrollmentRepo.deleteOptionalCourseEnrollmentsByCid(optional.getCid());
                 optionalCourseRepo.delete(new OptionalCourse(optional.getCid(), username));
                 coursesRepo.delete(optional);
             }
@@ -120,7 +122,12 @@ public class ChiefService {
                 List<StudentEnrollment> studentEnrollments = this.getAllStudentEnrollmentsEnrolledToCid(course.getCid());
 
                 for(StudentEnrollment se : studentEnrollments){
-                    Grade g = gradeRepo.getById(new GradeId(se.getUsername(), course.getCid()));
+                    Grade g = new Grade();
+                    if (gradeRepo.existsById(new GradeId(se.getUsername(), course.getCid()))) {
+                        g = gradeRepo.getById(new GradeId(se.getUsername(), course.getCid()));
+                    } else {
+                        g = new Grade(0, se.getUsername(), course.getCid());
+                    }
                     marks[g.getGradevalue()]++;
                     if(g.getGradevalue() >= 5){
                         passedStudents++;

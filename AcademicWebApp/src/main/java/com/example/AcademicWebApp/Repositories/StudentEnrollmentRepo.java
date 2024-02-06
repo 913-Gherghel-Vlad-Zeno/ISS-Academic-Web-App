@@ -27,4 +27,7 @@ public interface StudentEnrollmentRepo extends JpaRepository<StudentEnrollment, 
   
     @Query("SELECT s from studentenrollment s where s.fid = ?1 and s.year = ?2")
     List<StudentEnrollment> getAllStudentEnrollmentsForFidAndYear(int fid, int year);
+
+    @Query("SELECT s from studentenrollment s where s.username = ?1 ")
+    List<StudentEnrollment> getStudentEnrollmentsByUsername(String username);
 }

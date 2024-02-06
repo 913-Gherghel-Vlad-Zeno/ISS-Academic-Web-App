@@ -20,11 +20,6 @@ import java.util.Objects;
 @RequestMapping("/")
 public class ErrorController {
 
-    //@Autowired
-    //UsersRepo usersRepo;
-
-    //@CrossOrigin(origins = "http://localhost:4200/")
-
     @RequestMapping ("/invalid-user")
     public String InvalidUserError()
     {

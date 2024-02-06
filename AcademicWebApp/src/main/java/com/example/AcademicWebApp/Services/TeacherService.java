@@ -46,13 +46,15 @@ public class TeacherService {
     @Autowired
     UserDataService userDataService;
 
+    @Autowired
+    OptionalCourseEnrollmentRepo optionalCourseEnrollmentRepo;
+
     public List<Course> getOptionalCoursesOfTeacher(String username){
         return optionalCourseRepo.findOptionalCoursesByUsername(username);
     }
 
     public Message proposeOptional(String username, Course course){
-        // checking if he can add another optional course (ge can update it tho, and that will be okay)
-        List<Course> optionalCoursesAlreadyAdded = this.getOptionalCoursesOfTeacher(username);
+       List<Course> optionalCoursesAlreadyAdded = this.getOptionalCoursesOfTeacher(username);
 
         int nrOfCoursesDifferent = 0;
         boolean updateCourse = false;
@@ -100,6 +102,22 @@ public class TeacherService {
 
     public List<StudentGrade> getStudentsGrades(Course course){
         List<StudentEnrollment> studentEnrollments = this.getAllStudentEnrollmentsEnrolledToCid(course.getCid());
+        List<OptionalCourseEnrollment> optionalCourseEnrollments = optionalCourseEnrollmentRepo.getAllByCid(course.getCid());
+
+        for (OptionalCourseEnrollment oce : optionalCourseEnrollments) {
+            boolean found = false;
+            for (StudentEnrollment se : studentEnrollments) {
+                if (Objects.equals(oce.getUsername(), se.getUsername())) {
+                    found = true;
+                }
+            }
+            //if student enrolled in optional course but is not at that faculty, add them as well
+            if (found == false) {
+                List<StudentEnrollment> se = studentEnrollmentRepo.getStudentEnrollmentsByUsername(oce.getUsername());
+                studentEnrollments.add(se.get(0));
+            }
+        }
+
         List<StudentGrade> studentGrades = new ArrayList<>();
 
 
